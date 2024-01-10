@@ -1,0 +1,4 @@
+[submodule "Data"]
+	path = Data
+	url = https://github.com/wolfcomp/DeepDungeonDex.git
+	branch = data
