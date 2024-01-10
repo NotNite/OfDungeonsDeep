@@ -3,3 +3,6 @@
 obj/
 bin/
 *.user
+
+# TODO: submodule this once the non-NTFS filename is fixed
+/compendium

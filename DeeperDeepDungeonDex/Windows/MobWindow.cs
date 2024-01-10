@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Linq;
 using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
+using DeeperDeepDungeonDex.Common;
 using DeeperDeepDungeonDex.Storage;
 using ImGuiNET;
 
@@ -10,7 +12,7 @@ namespace DeeperDeepDungeonDex.Windows;
 
 public class MobWindow : Window, IDisposable {
     private GameObject? target;
-    private Mob? targetInfo;
+    private Enemy? targetInfo;
 
     public MobWindow() : base("##DDDD_MobWindow") {
         this.IsOpen = true;
@@ -28,9 +30,9 @@ public class MobWindow : Window, IDisposable {
         if (Services.TargetManager.Target is BattleNpc {BattleNpcKind: BattleNpcSubKind.Enemy} bnpc
             && bnpc.IsValid()
             && Plugin.InDeepDungeon()
-            && Plugin.StorageManager.Mobs.TryGetValue(bnpc.NameId, out var mob)) {
+            && Plugin.StorageManager.Enemies.TryGetValue(bnpc.NameId, out var enemy)) {
             this.target = bnpc;
-            this.targetInfo = mob;
+            this.targetInfo = enemy;
         } else {
             this.target = null;
             this.targetInfo = null;
@@ -42,8 +44,14 @@ public class MobWindow : Window, IDisposable {
     public override void Draw() {
         if (this.target == null || this.targetInfo == null) return;
         ImGui.TextUnformatted($"Name: {this.target.Name.TextValue}");
-        ImGui.TextUnformatted($"Threat: {this.targetInfo.Threat}");
-        ImGui.TextUnformatted($"Aggro: {this.targetInfo.Aggro}");
-        ImGui.TextUnformatted($"Weakness: {string.Join(", ", this.targetInfo.Weakness)}");
+        ImGui.TextUnformatted($"Aggro: {this.targetInfo.Agro}");
+
+        if (this.targetInfo.AttackType is not null)
+            ImGui.TextUnformatted($"Attack type: {this.targetInfo.AttackType}");
+
+        var vulns = this.targetInfo.Vulnerabilities
+            .Where(x => x.Value == "true")
+            .Select(x => x.Key);
+        ImGui.TextUnformatted($"Weakness: {string.Join(", ", vulns)}");
     }
 }
