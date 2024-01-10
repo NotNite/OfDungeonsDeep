@@ -2,6 +2,8 @@
 
 Rewrite of DeepDungeonDex.
 
+This plugin uses a modified version of [the Deep Dungeon Compendium website](https://github.com/djcooke/compendium) as its data source, with permission.
+
 ## Why?
 
 Spite.
