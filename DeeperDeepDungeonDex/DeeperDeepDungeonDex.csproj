@@ -12,8 +12,4 @@
                  CopyToOutputDirectory="PreserveNewest"
                  Link="Data/%(RecursiveDir)%(Filename)%(Extension)"/>
     </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\DeeperDeepDungeonDex.Common\DeeperDeepDungeonDex.Common.csproj" />
-    </ItemGroup>
 </Project>

@@ -13,7 +13,8 @@ Spite.
 To update mob/floor information:
 
 ```sh
-dotnet run --project DeeperDeepDungeonDex.MarkdownMania -- "F:\games\standalone\xiv\game\sqpack"
+dotnet run --project DeeperDeepDungeonDex.ExcelExporter -- "F:\games\standalone\xiv\game\sqpack"
+node processor.js
 ```
 
 ## TODO

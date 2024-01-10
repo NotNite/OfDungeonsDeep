@@ -8,37 +8,15 @@
         "resolved": "2.1.12",
         "contentHash": "Sc0PVxvgg4NQjcI8n10/VfUQBAS4O+Fw2pZrAqBdRMbthYGeogzu5+xmIGCGmsEZ/ukMOBuAqiNiB5qA3MRalg=="
       },
-      "VYaml": {
+      "YamlDotNet": {
         "type": "Transitive",
-        "resolved": "0.20.0",
-        "contentHash": "RYY8Si7MiO+9KrkDv0uSdE56Vb8+oBiBuQCpxz901XTdTqgS3UgGUYVFXBn7Wfnj7/nAE9TBs5D2hOw69pUJ5Q==",
-        "dependencies": {
-          "VYaml.Core": "0.20.0",
-          "VYaml.SourceGenerator": "0.20.0"
-        }
-      },
-      "VYaml.Annotations": {
-        "type": "Transitive",
-        "resolved": "0.20.0",
-        "contentHash": "Oq0lzRXO6BSYTffM+eNdnbeAoF6iSXmFgvuNytn8p6W/Ak58OsFstp+2wVfPHyW8LXkltMt3NHauVViFXwa4gA=="
-      },
-      "VYaml.Core": {
-        "type": "Transitive",
-        "resolved": "0.20.0",
-        "contentHash": "1VoWHKBduENRh58oy6YIPrnyKKxSO2a7ddBdsbp8RuW0X3SeEDKARqrWmiur/uqr/9SR9LyTXDLVlgXJeL0LoQ==",
-        "dependencies": {
-          "VYaml.Annotations": "0.20.0"
-        }
-      },
-      "VYaml.SourceGenerator": {
-        "type": "Transitive",
-        "resolved": "0.20.0",
-        "contentHash": "IAH65rkLalbVxTtGr9RDoG95VytcxJbh1OXF41Om0qcsRUfWVJidlmqW9kv/1l1X8uUjZG+imKuOlf3yYffkzQ=="
+        "resolved": "13.7.1",
+        "contentHash": "X4m1PnFcJwvAj1sCDMntg/eZcX96CJLrWMiYnq41KqhFVZPuw63ZTSxIGqgdCwHWHvCAyTxheELC/VDf1HsU2A=="
       },
       "deeperdeepdungeondex.common": {
         "type": "Project",
         "dependencies": {
-          "VYaml": "[0.20.0, )"
+          "YamlDotNet": "[13.7.1, )"
         }
       }
     }

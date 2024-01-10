@@ -3,13 +3,20 @@ using System.Text.Json;
 using DeeperDeepDungeonDex.Common;
 using Lumina;
 using Lumina.Excel.GeneratedSheets2;
-using VYaml.Serialization;
+using YamlDotNet.Serialization;
+using YamlDotNet.Serialization.NamingConventions;
 
 var lumina = new GameData(args[0]);
 var bnpcName = lumina.Excel.GetSheet<BNpcName>()!;
 var compendium = "./compendium";
 
 var enemies = new Dictionary<uint, Enemy>();
+var floorsets = new Dictionary<DeepDungeonType, Dictionary<uint, Floorset>>();
+
+var deserializer = new DeserializerBuilder()
+    .WithNamingConvention(UnderscoredNamingConvention.Instance)
+    .IgnoreUnmatchedProperties()
+    .Build();
 
 uint? ResolveId(string file, string name) {
     try {
@@ -33,15 +40,20 @@ foreach (var dir in enemiesDirs) {
         //Console.WriteLine(file);
         try {
             var frontmatter = File.ReadAllText(file).Split("---")[1];
-            var enemy = YamlSerializer.Deserialize<Enemy>(Encoding.UTF8.GetBytes(frontmatter));
+            var enemy = deserializer.Deserialize<Enemy>(frontmatter);
             var id = ResolveId(file, enemy.Name);
             if (id is not null) enemies[id.Value] = enemy;
         } catch (Exception e) {
             Console.WriteLine($"Failed to parse {file}");
-            //Console.WriteLine(e);
+            Console.WriteLine(e);
         }
     }
 }
+
+var floorsetDirs = Directory.GetFileSystemEntries(
+    compendium,
+    "*_floorset");
+foreach (var dir in floorsetDirs) { }
 
 if (!Directory.Exists("./Data")) Directory.CreateDirectory("./Data");
 File.WriteAllText(

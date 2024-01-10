@@ -1,4 +1,6 @@
-﻿namespace DeeperDeepDungeonDex.Common;
+﻿using System.Collections.Generic;
+
+namespace DeeperDeepDungeonDex.Storage;
 
 public class Enemy {
     public required string Name;
@@ -9,11 +11,11 @@ public class Enemy {
     public required int EndFloor;
     public int? Hp;
 
-    public bool Patrol = false;
-    public required Aggro Agro; // Wish this wasn't misspelled in the markdown lmao
+    public required Aggro Aggro;
     public string? AttackName;
     public AttackType? AttackType;
 
-    public Dictionary<Status, string> Vulnerabilities = new();    // true | false | unknown
+    public List<NoteData> Notes = new();
+    public Dictionary<Status, bool> Vulnerabilities = new();    // true | false | unknown
     public Dictionary<string, JobSpecifics> JobSpecifics = new(); // key is job code (MCH etc
 }

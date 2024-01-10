@@ -4,7 +4,6 @@ using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
-using DeeperDeepDungeonDex.Common;
 using DeeperDeepDungeonDex.Storage;
 using ImGuiNET;
 
@@ -44,13 +43,13 @@ public class MobWindow : Window, IDisposable {
     public override void Draw() {
         if (this.target == null || this.targetInfo == null) return;
         ImGui.TextUnformatted($"Name: {this.target.Name.TextValue}");
-        ImGui.TextUnformatted($"Aggro: {this.targetInfo.Agro}");
+        ImGui.TextUnformatted($"Aggro: {this.targetInfo.Aggro}");
 
         if (this.targetInfo.AttackType is not null)
             ImGui.TextUnformatted($"Attack type: {this.targetInfo.AttackType}");
 
         var vulns = this.targetInfo.Vulnerabilities
-            .Where(x => x.Value == "true")
+            .Where(x => x.Value)
             .Select(x => x.Key);
         ImGui.TextUnformatted($"Weakness: {string.Join(", ", vulns)}");
     }
