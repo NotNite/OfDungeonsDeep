@@ -1788,4 +1788,3301 @@
 - You gain the title for soloing once you touch the ending. To set it for your screenshots while still inside, use this text command: /title set "The Necromancer"
 </value>
   </data>
+  <data name="AbilityNote_EurekaOrthos_1_12109_773" xml:space="preserve">
+    <value>inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12109_776" xml:space="preserve">
+    <value>huge pointblank AoE enrage with long cast time; can be LoSed. Used at 40% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12116_1661" xml:space="preserve">
+    <value>inflicts disease (20s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12117_609" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12111_583" xml:space="preserve">
+    <value>telegraphed wide conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12113_911" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12113_912" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12106_559" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts stacking poison (magic DoT potency 40 per stack, max 8 stacks, 18s); cannot be LoSed</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12106_563" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts stacking poison (magic DoT potency 40 per stack, max 8 stacks, 18s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12114_513" xml:space="preserve">
+    <value>conal gaze inflicting paralysis (22s) - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12110_1936" xml:space="preserve">
+    <value>pointblank AoE with late telegraph - get away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12322_1963" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12322_1969" xml:space="preserve">
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12323_38" xml:space="preserve">
+    <value>probably grants damage up to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12323_12280" xml:space="preserve">
+    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12108_1610" xml:space="preserve">
+    <value>instant; absorbs 73.7% of damage dealt</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12107_356" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12115_624" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12115_621" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12131_5219" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12131_6200" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12124_4455" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12124_4457" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12119_4543" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12125_6877" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12322_1963" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12322_1969" xml:space="preserve">
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12323_38" xml:space="preserve">
+    <value>probably grants damage up to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12323_12280" xml:space="preserve">
+    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12121_1227" xml:space="preserve">
+    <value>telegraphed line AoE; cannot be LoSed</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12130_606" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12130_604" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts various debuffs</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12128_27717" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts stacking poison (magic DoT potency 40 per stack, max 8 stacks, 24s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12126_1943" xml:space="preserve">
+    <value>instant (conal AoE?)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12126_1033" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts stacking poison (magic DoT potency 40 per stack, max 8 stacks, 24s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12127_2776" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12127_1279" xml:space="preserve">
+    <value>backward conal AoE with late telegraph; used after Dissever if anyone is behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12122_1231" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12129_5354" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12120_1220" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts heavy (15s). Diminishing returns do NOT apply to this heavy (it is always 15s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12123_8595" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts heavy (20s). Diminishing returns do NOT apply to this heavy (it is always 20s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12137_995" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12140_12621" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts frostbite (magic DoT potency 40, 20s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12142_498" xml:space="preserve">
+    <value>conal gaze attack; inflicts paralysis (20s) - look away, get behind, or get away. Diminishing returns do NOT apply to this paralysis (it is always 20s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12142_497" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts knockback. Used immediately after Cold Gaze</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12132_1191" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12132_2618" xml:space="preserve">
+    <value>huge pointblank AoE sacrificial enrage; can be LoSed. Used at 30% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12134_4549" xml:space="preserve">
+    <value>telegraphed circle AoE; also used out of combat</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12135_534" xml:space="preserve">
+    <value>instant (conal AoE?)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12135_539" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12136_2924" xml:space="preserve">
+    <value>telegraphed wide conal AoE; inflicts heavy (20s). Diminishing returns do NOT apply to this heavy (it is always 20s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12133_673" xml:space="preserve">
+    <value>large pointblank AoE with late telegraph; draws players in - get away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12133_1231" xml:space="preserve">
+    <value>untelegraphed pointblank AoE; used immediately after Electromagnetism</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12322_1963" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12322_1969" xml:space="preserve">
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12138_903" xml:space="preserve">
+    <value>huge conal AoE with late telegraph - get behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12323_38" xml:space="preserve">
+    <value>probably grants damage up to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12323_12280" xml:space="preserve">
+    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12144_2300" xml:space="preserve">
+    <value>grants permanent vulnerability down (40%) to self; can be interrupted. Usually (but NOT always!) used immediately after pull</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12144_417" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12143_7697" xml:space="preserve">
+    <value>pointblank AoE with late telegraph; inflicts stun (4s) and knockback - get away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12141_415" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12141_414" xml:space="preserve">
+    <value>huge pointblank AoE with late telegraph; inflicts vulnerability up (15% per stack, 30s); only used out of combat</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12139_1018" xml:space="preserve">
+    <value>inflicts stacking poison (physical DoT potency 100 per stack, max 8 stacks, 30s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12145_1230" xml:space="preserve">
+    <value>instant; absorbs 74.8% of damage dealt</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12156_940" xml:space="preserve">
+    <value>Inflicts knockback; if the target is close, runs behind the target to use this</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12154_15806" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12154_33167" xml:space="preserve">
+    <value>grants damage up (100%, 1m) to another enemy</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12157_1963" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12322_1963" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12322_1969" xml:space="preserve">
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12323_38" xml:space="preserve">
+    <value>probably grants damage up to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12323_12280" xml:space="preserve">
+    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12149_10852" xml:space="preserve">
+    <value>360 degree gaze inflicting stun (20s) - look away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12149_10853" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12155_512" xml:space="preserve">
+    <value>telegraphed conal gaze; inflicts slow (100%, 1m) - look away, get behind, or get away. This slow cannot be removed with Esuna</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12148_33171" xml:space="preserve">
+    <value>huge frontal 180 degree AoE with late telegraph - get behind; can also be LoSed</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12148_3966" xml:space="preserve">
+    <value>pointblank AoE with late telegraph - get away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12148_3962" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12147_4543" xml:space="preserve">
+    <value>instant; spams this under haste</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12147_309" xml:space="preserve">
+    <value>grants haste to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12151_3675" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12151_38" xml:space="preserve">
+    <value>grants physical damage up (200%, 12s) to self; only used out of combat</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12153_1260" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12153_1259" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12146_3668" xml:space="preserve">
+    <value>pointblank AoE with late telegraph; inflicts minimum (20s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12146_3667" xml:space="preserve">
+    <value>instant death to players with minimum debuff; cannot be outranged</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12150_3970" xml:space="preserve">
+    <value>pointblank AoE with late telegraph inflicting knockback - get away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12150_3969" xml:space="preserve">
+    <value>conal AoE with late telegraph - get behind or get away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12167_2447" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12166_17165" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12166_1745" xml:space="preserve">
+    <value>huge pointblank AoE; can be interrupted or LoSed</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12161_5831" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12160_4486" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12160_613" xml:space="preserve">
+    <value>untelegraphed backward conal AoE with quick cast; only used when someone is behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12158_943" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12158_3409" xml:space="preserve">
+    <value>huge untelegraphed sacrificial AoE enrage; can be LoSed. Used at 30% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12168_576" xml:space="preserve">
+    <value>untelegraphed conal AoE draw-in; knockback immunity does not work</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12168_580" xml:space="preserve">
+    <value>untelegraphed conal AoE; used immediately after draw-in - get behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12169_327" xml:space="preserve">
+    <value>instant ranged attack; inflicts stacking slow+ (5% per stack, max 16 stacks, 30s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12169_12692" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12164_5197" xml:space="preserve">
+    <value>huge untelegraphed pointblank AoE; inflicts stun (5s); can be LoSed. Fully shielding damage will NOT block the stun</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12164_3102" xml:space="preserve">
+    <value>used on players stunned by Abyssal Cry; explicit instant death (150% of max HP) if still stunned when it lands</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12165_9883" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12165_9884" xml:space="preserve">
+    <value>telegraphed conal AoE on random player</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12162_5777" xml:space="preserve">
+    <value>charge attack on marked player; can be LoSed</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12162_9812" xml:space="preserve">
+    <value>untelegraphed large pointblank AoE; used after Gallop if Gallop was not stunned/slept/LoSed</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12162_9807" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12163_12939" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12163_415" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12163_414" xml:space="preserve">
+    <value>huge pointblank AoE with late telegraph; inflicts vulnerability up (10% per stack, 30s); only used out of combat; can be LoSed</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12322_1963" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12322_1969" xml:space="preserve">
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12323_38" xml:space="preserve">
+    <value>probably grants damage up to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12323_12280" xml:space="preserve">
+    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12170_8664" xml:space="preserve">
+    <value>instant pointblank AoE; inflicts heavy (8s) which cannot be removed with Esuna</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12159_401" xml:space="preserve">
+    <value>instant; spams this under haste</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12159_309" xml:space="preserve">
+    <value>grants haste (1m30s) to self; used 20 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12171_27421" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12175_566" xml:space="preserve">
+    <value>telegraphed large conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12175_569" xml:space="preserve">
+    <value>small backward conal AoE with late telegraph - get in front or away; used after Bubble Shower if someone is close behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12181_8183" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12318_8611" xml:space="preserve">
+    <value>instant 3-hit attack</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12318_8612" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12322_1963" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12322_1969" xml:space="preserve">
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12178_364" xml:space="preserve">
+    <value>instant pointblank AoE; inflicts vulnerability up (10% per stack, 20s); 12 second cooldown</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12323_38" xml:space="preserve">
+    <value>probably grants damage up to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12323_12280" xml:space="preserve">
+    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12172_5829" xml:space="preserve">
+    <value>huge untelegraphed pointblank draw-in</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12172_5831" xml:space="preserve">
+    <value>telegraphed pointblank AoE; used immediately after Sucker</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12174_4544" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12174_2335" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12174_2333" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12177_2479" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12182_5165" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12182_17156" xml:space="preserve">
+    <value>telegraphed charge attack; can be LoSed (and will otherwise kill you)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12180_3085" xml:space="preserve">
+    <value>untelegraphed pointblank AoE used AFTER DEATH - get away after it dies</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12173_497" xml:space="preserve">
+    <value>instant pointblank AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12173_5160" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12173_5161" xml:space="preserve">
+    <value>telegraphed donut AoE; CANNOT be LoSed</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12176_33182" xml:space="preserve">
+    <value>instant; inflicts heavy (4s) which cannot be removed with Esuna</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12176_3060" xml:space="preserve">
+    <value>telegraphed circle AoE; reduces players' HP to 1% of max. Used immediately after Scuttling Skewer if any players are heavied</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12183_1284" xml:space="preserve">
+    <value>grants counterattack (magic potency 4000, 6s) - disengage IMMEDIATELY or the counterattacks WILL kill you</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12179_17296" xml:space="preserve">
+    <value>telegraphed large frontal 180 degree AoE, immediately followed by an untelegraphed large backward 180 degree AoE - get behind, then quickly in front</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12188_7243" xml:space="preserve">
+    <value>instant 4-hit attack</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12188_7244" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12190_410" xml:space="preserve">
+    <value>conal gaze AoE - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12190_497" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12186_1210" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12186_1209" xml:space="preserve">
+    <value>untelegraphed backward conal AoE; used after Regorge if someone is behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12186_1212" xml:space="preserve">
+    <value>instant used on death; inflicts vulnerability up (50% per stack, 20s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12189_450" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts vulnerability up (200%, 3m) on players, and grants evasion up (3m) to any other enemies it hits</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12185_632" xml:space="preserve">
+    <value>grants counterattack (magic potency 2500, 6s) - disengage IMMEDIATELY or the counterattacks WILL kill you</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12193_3889" xml:space="preserve">
+    <value>untelegraphed donut AoE; only used if someone is far</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12194_2310" xml:space="preserve">
+    <value>untelegraphed conal AoE with no cast bar - get behind when he brings his arm back</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12194_2132" xml:space="preserve">
+    <value>untelegraphed backward conal AoE with no cast bar - get in front when he raises his tail</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12196_561" xml:space="preserve">
+    <value>instant pointblank AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12322_1963" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12322_1969" xml:space="preserve">
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12191_8613" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12191_8614" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12323_38" xml:space="preserve">
+    <value>probably grants damage up to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12323_12280" xml:space="preserve">
+    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12187_10327" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12187_1856" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12195_2262" xml:space="preserve">
+    <value>instant gap closer</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12195_2254" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12195_2246" xml:space="preserve">
+    <value>used on players with less than 20% of max HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12192_347" xml:space="preserve">
+    <value>instant draw-in</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12192_16224" xml:space="preserve">
+    <value>untelegraphed pointblank AoE used immediately after Sticky Tongue; will keep trying to use this if you stun it</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12184_411" xml:space="preserve">
+    <value>instant; inflicts stacking poison (physical DoT potency 30 per stack, 12s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12206_7949" xml:space="preserve">
+    <value>360 degree gaze AoE; inflicts confusion (30s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12206_2951" xml:space="preserve">
+    <value>untelegraphed circle AoE; used on confused players</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12200_8148" xml:space="preserve">
+    <value>telegraphed huge conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12200_7222" xml:space="preserve">
+    <value>long backward conal AoE with late telegraph; used immediately after Wide Blaster if someone is behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12208_15010" xml:space="preserve">
+    <value>huge, wide line AoE on random player with late telegraph - get behind; cannot be LoSed</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12202_4536" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12202_2183" xml:space="preserve">
+    <value>untelegraphed instant conal AoE used immediately after The Killing Paw - make sure to stay behind/away until the second swipe</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12209_3693" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts stun</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12209_3692" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12209_3696" xml:space="preserve">
+    <value>untelegraphed huge pointblank AoE; can be LoSed</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12205_2262" xml:space="preserve">
+    <value>instant gap closer</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12205_6250" xml:space="preserve">
+    <value>instant 3-hit attack</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12205_2246" xml:space="preserve">
+    <value>used on players with less than 20% of max HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12322_1963" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12322_1969" xml:space="preserve">
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12323_38" xml:space="preserve">
+    <value>probably grants damage up to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12323_12280" xml:space="preserve">
+    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12204_3674" xml:space="preserve">
+    <value>instant gap closer</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12204_3675" xml:space="preserve">
+    <value>quick pointblank AoE with late telegraph; used immediately after Rout, so make sure to get away quickly</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12203_2204" xml:space="preserve">
+    <value>grants damage up (100%, 15s) to self and heals ~10% of max HP; only used out of combat. After using this, it will use Chest Thump once</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12203_2207" xml:space="preserve">
+    <value>huge pointblank AoE with late telegraph; only used after Ripe Banana; can be LoSed. Be VERY careful around Sasquatches as this WILL kill you</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12203_2208" xml:space="preserve">
+    <value>instant gap closer; inflicts knockback; used immediately on pull</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12203_2205" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12203_2206" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12198_4523" xml:space="preserve">
+    <value>untelegraphed pointblank AoE; inflicts sleep (15s); can be LoSed</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12198_900" xml:space="preserve">
+    <value>telegraphed circle AoE; used shortly after Chirp</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12207_7697" xml:space="preserve">
+    <value>untelegraphed pointblank AoE with no cast bar; pauses in place for a moment before using this - get away!</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12197_923" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12197_924" xml:space="preserve">
+    <value>conal AoE with late telegraph; inflicts slow (100%, 1m) which cannot be cured with Esuna</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12199_5777" xml:space="preserve">
+    <value>instant charge attack</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12199_7703" xml:space="preserve">
+    <value>instant; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12199_1195" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12201_975" xml:space="preserve">
+    <value>instant; inflicts flesh wound (physical DoT potency 30, 30s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12201_509" xml:space="preserve">
+    <value>grants physical damage up (40%, 1m) to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12222_17166" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12222_32779" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12218_2099" xml:space="preserve">
+    <value>huge 360 degree gaze AoE inflicting petrify (20s) - look away; also used out of combat</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12218_6536" xml:space="preserve">
+    <value>instant gap closer; used immediately on pull</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12210_4528" xml:space="preserve">
+    <value>360 degree gaze AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12210_2626" xml:space="preserve">
+    <value>instant untelegraphed pointblank AoE; inflicts vulnerability up (5% per stack, 25s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12215_576" xml:space="preserve">
+    <value>untelegraphed conal draw-in</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12215_579" xml:space="preserve">
+    <value>very quick conal AoE with late telegraph; used immediately after Inhale - get behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12215_941" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12212_1914" xml:space="preserve">
+    <value>360 degree gaze AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12212_1913" xml:space="preserve">
+    <value>instant; probably instant death to players hit by Hex Eye</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12212_2660" xml:space="preserve">
+    <value>huge pointblank AoE; there's enough time to run from melee to out of range before it goes off</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12217_6879" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12217_6877" xml:space="preserve">
+    <value>conal AoE with late telegraph - get behind or away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12217_595" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12322_1963" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12322_1969" xml:space="preserve">
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12323_38" xml:space="preserve">
+    <value>probably grants damage up to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12323_12280" xml:space="preserve">
+    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12219_5777" xml:space="preserve">
+    <value>instant gap closer</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12219_7757" xml:space="preserve">
+    <value>pointblank AoE with late telegraph - get away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12219_6013" xml:space="preserve">
+    <value>instant; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12214_1915" xml:space="preserve">
+    <value>instant gap closer</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12214_3424" xml:space="preserve">
+    <value>telegraphed large conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12214_2450" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12213_3424" xml:space="preserve">
+    <value>telegraphed huge conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12213_6374" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12211_12628" xml:space="preserve">
+    <value>telegraphed large circle AoE gap closer on random player</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12211_5478" xml:space="preserve">
+    <value>conal AoE on random player with late telegraph - get behind or far; used immediately after Umbra Smash</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12221_31076" xml:space="preserve">
+    <value>huge 210-degree AoE to the left with late telegraph</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12221_31075" xml:space="preserve">
+    <value>huge 210-degree AoE to the right with late telegraph</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12221_32775" xml:space="preserve">
+    <value>donut AoE with late telegraph - get in</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12221_32774" xml:space="preserve">
+    <value>large pointblank AoE with late telegraph - get out</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12220_594" xml:space="preserve">
+    <value>large pointblank AoE with late telegraph inflicting terror (16s) - get far</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12220_4355" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12233_1484" xml:space="preserve">
+    <value>instant gap closer</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12233_1104" xml:space="preserve">
+    <value>untelegraphed pointblank AoE - get out</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12233_1105" xml:space="preserve">
+    <value>untelegraphed donut AoE - get in</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12233_446" xml:space="preserve">
+    <value>conal AoE to the front and left with late telegraph - get behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12233_32906" xml:space="preserve">
+    <value>conal AoE to the front and right with late telegraph - get behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12223_2617" xml:space="preserve">
+    <value>telegraphed huge line AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12223_2618" xml:space="preserve">
+    <value>untelegraphed pointblank AoE used AFTER DEATH - get away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12235_1986" xml:space="preserve">
+    <value>telegraphed huge conal AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12235_1987" xml:space="preserve">
+    <value>inflicts confused (3s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12235_8366" xml:space="preserve">
+    <value>telegraphed circle AoE; used immediately after Brainjack, but there's plenty of time to escape after confused wears off</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12227_12281" xml:space="preserve">
+    <value>360 degree gaze AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12227_2319" xml:space="preserve">
+    <value>untelegraphed huge pointblank AoE; only used out of combat</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12322_1963" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12322_1969" xml:space="preserve">
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12323_38" xml:space="preserve">
+    <value>probably grants damage up to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12323_12280" xml:space="preserve">
+    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12231_500" xml:space="preserve">
+    <value>instant; inflicts knockback; used 4 times in a row</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12231_33200" xml:space="preserve">
+    <value>huge 180 degree AoE with late telegraph - get behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12225_15851" xml:space="preserve">
+    <value>huge 270 degree frontal AoE with late telegraph - get behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12225_15853" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12232_10150" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12232_6554" xml:space="preserve">
+    <value>line AoE with late telegraph - get to side or behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12226_1238" xml:space="preserve">
+    <value>conal AoE with late telegraph - get behind or away</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12226_1264" xml:space="preserve">
+    <value>grants physical damage up to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12228_4493" xml:space="preserve">
+    <value>conal gaze AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12228_903" xml:space="preserve">
+    <value>huge conal AoE with late telegraph - get to side or behind; used immediately after Naked Soul</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12229_31451" xml:space="preserve">
+    <value>huge conal AoE with late telegraph - get behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12224_1216" xml:space="preserve">
+    <value>huge pointblank AoE with late telegraph - get out; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12224_1217" xml:space="preserve">
+    <value>pointblank AoE with late telegraph - get out</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12224_32876" xml:space="preserve">
+    <value>donut AoE with late telegraph - get in</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12234_12293" xml:space="preserve">
+    <value>large conal AoE with late telegraph - get to side or behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12234_3974" xml:space="preserve">
+    <value>instant gap closer</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12234_10980" xml:space="preserve">
+    <value>pointblank AoE with late telegraph - get out</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12230_15716" xml:space="preserve">
+    <value>huge pointblank AoE with late telegraph; only used out of combat</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12230_15711" xml:space="preserve">
+    <value>circle AoE gap closer on marked player</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7273_8053" xml:space="preserve">
+    <value>tankbuster; inflicts concussion (physical DoT potency 50, 30s); possible to outrange</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7270_2479" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7264_8183" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7266_568" xml:space="preserve">
+    <value>instant conal AoE; inflicts sleep (9s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7266_566" xml:space="preserve">
+    <value>telegraphed conal AoE; used immediately after Bubble Bath (order can change after the first time)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7267_8610" xml:space="preserve">
+    <value>large telegraphed conal AoE; inflicts dropsy (magic DoT potency 50, 15s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7269_5831" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7271_8613" xml:space="preserve">
+    <value>inflicts burns (magic DoT potency 50, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7271_8614" xml:space="preserve">
+    <value>inflicts knockback; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7263_542" xml:space="preserve">
+    <value>instant; inflicts physical vulnerability up (50%, 9s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7265_3135" xml:space="preserve">
+    <value>instant; inflicts concussion (physical DoT potency 50, 15s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7272_5165" xml:space="preserve">
+    <value>tankbuster; possible to outrange</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7268_410" xml:space="preserve">
+    <value>360 degree gaze inflicting petrify (15s) - look away!</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7274_1283" xml:space="preserve">
+    <value>grants counterattack (magic potency 100, 6s) to self</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_7274_6124" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7284_417" xml:space="preserve">
+    <value>large telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7284_418" xml:space="preserve">
+    <value>grants physical vulnerability down (90%, 20s) to self</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7287_9880" xml:space="preserve">
+    <value>instant; inflicts poison (physical DoT potency 50, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7287_5155" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7280_5831" xml:space="preserve">
+    <value>telegraphed circle AoE (follows targeted player position)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7278_2335" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7286_3845" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7286_3847" xml:space="preserve">
+    <value>huge pointblank AoE enrage used after 25s; inflicts knockback; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7275_5354" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7275_5355" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts dropsy (magic DoT potency 50, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7285_8596" xml:space="preserve">
+    <value>instant 3-hit attack</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7285_8597" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts paralysis (30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7281_2729" xml:space="preserve">
+    <value>huge 360 degree gaze inflicting seduced (6s), which will cause you to walk into Garish Light</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7281_8195" xml:space="preserve">
+    <value>telegraphed pointblank AoE inflicting minimum (damage dealt -90%, damage taken +50%, 6s); used immediately after Nightmarish Light</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7277_516" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7283_8670" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7283_8671" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts accuracy down (30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7282_8500" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7279_8611" xml:space="preserve">
+    <value>instant 3-hit attack</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_7279_8612" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7290_8496" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts bleeding (magic DoT potency 70, 15s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7290_900" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7289_120" xml:space="preserve">
+    <value>heals self for 30% max HP; only used when HP under 35%</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7292_7488" xml:space="preserve">
+    <value>untelegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7292_7480" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7292_7481" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7292_7482" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7292_7487" xml:space="preserve">
+    <value>enrage</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7298_12099" xml:space="preserve">
+    <value>telegraphed cross line AoE; inflicts stacking suppuration (max HP -15% and damage taken +15% per stack, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7294_9886" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts accuracy down (30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7297_8608" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7297_8600" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts bleeding (physical DoT potency 150, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7299_1662" xml:space="preserve">
+    <value>huge untelegraphed pointblank AoE inflicting paralysis (15s); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7288_393" xml:space="preserve">
+    <value>360 degree gaze inflicting accuracy down (20s) - look away</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7291_11266" xml:space="preserve">
+    <value>grants damage up (30%, 30s) to self</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7293_8595" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts heavy (30s). Diminishing returns do NOT apply to this heavy (it is always 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7296_9009" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7296_11159" xml:space="preserve">
+    <value>360 degree gaze inflicting hysteria (3s) - look away</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7300_12100" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts burns (magic DoT potency 50, 15s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7295_8032" xml:space="preserve">
+    <value>draws players in; cannot be LoSed, but walls will block movement as usual</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7295_2257" xml:space="preserve">
+    <value>instant conal AoE; used immediately after Enter Night</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_7295_8028" xml:space="preserve">
+    <value>huge untelegraphed AoE enrage; used 55 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7309_9138" xml:space="preserve">
+    <value>instant 3-hit attack</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7313_9818" xml:space="preserve">
+    <value>360 degree gaze that turns you into an otter (30s) - look away! If you are already an otter, this will actually change you back</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7301_511" xml:space="preserve">
+    <value>instant; absorbs 95.5% of damage dealt</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7303_9010" xml:space="preserve">
+    <value>instant; inflicts concussion (physical DoT potency 10, 15s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7303_9011" xml:space="preserve">
+    <value>large telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7304_7830" xml:space="preserve">
+    <value>large untelegraphed AoE enrage (smaller than Onmitsu); long cast; can be LoSed. Used at 20% HP or 26 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7302_6626" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7302_637" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts windburn (magic DoT potency 50, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7308_7828" xml:space="preserve">
+    <value>shared damage AoE and gap closer; can be LoSed. Fairly weak for a shared damage AoE (can be taken solo even by DPS/healers)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7307_333" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts bind (10s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7307_332" xml:space="preserve">
+    <value>telegraphed pointblank AoE; reduces the remaining time on all buffs (including food) by half</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7306_4538" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7310_6111" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7310_6980" xml:space="preserve">
+    <value>large telegraphed pointblank AoE; can be LoSed</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7312_7654" xml:space="preserve">
+    <value>untelegraphed conal AoE; it raises a hand to indicate it's going to do this</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_7312_7699" xml:space="preserve">
+    <value>untelegraphed conal AoE immediately following Butcher (so don't move back in front right away)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7321_773" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7316_612" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7316_4487" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7324_483" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7324_1683" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts burns (magic DoT potency 100, 15s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7326_533" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7326_1112" xml:space="preserve">
+    <value>quick huge pointblank AoE; draws players in and inflicts stun (5s). Used 30 seconds after pull and then at 60-second intervals. Knockback immunity does not work, but fully shielding the damage will also block the draw-in</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7322_9883" xml:space="preserve">
+    <value>ranged attack; used 3 times in a row on the same player</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7318_6226" xml:space="preserve">
+    <value>telegraphed long line AoE; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7318_6229" xml:space="preserve">
+    <value>huge AoE enrage; can be interrupted; used 25 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7339_453" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts stacking suppuration (max HP -15% and damage taken +15% per stack, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7339_1265" xml:space="preserve">
+    <value>telegraphed circle AoE; used immediately after Incinerate</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7335_673" xml:space="preserve">
+    <value>short-range draw-in; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7335_1231" xml:space="preserve">
+    <value>instant pointblank AoE; used immediately after Electromagnetism</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7328_939" xml:space="preserve">
+    <value>instant; inflicts flesh wound (physical DoT potency 20, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7330_1191" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7332_2617" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7337_3027" xml:space="preserve">
+    <value>untelegraphed conal AoE gaze; inflicts stone curse (15s) - look away, get behind, or get away. This is the same debuff as the petrification pomander, so any direct damage is instant death</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7337_3028" xml:space="preserve">
+    <value>untelegraphed huge pointblank AoE; can be interrupted or LoSed</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7336_4549" xml:space="preserve">
+    <value>instant circle AoE; also used out of combat</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7331_608" xml:space="preserve">
+    <value>instant; inflicts stab wound (physical DoT potency 60, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7331_609" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7338_535" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7338_537" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts burns (magic DoT potency 100, 15s). Used immediately after Grand Strike</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7329_38" xml:space="preserve">
+    <value>grants attack up (50%, 20s) to self</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_7329_3675" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7351_8665" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts heavy (5s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7351_8666" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7344_344" xml:space="preserve">
+    <value>instant ranged attack</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7344_346" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7347_5215" xml:space="preserve">
+    <value>telegraphed huge donut AoE; inflicts reduced immunity</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7347_5216" xml:space="preserve">
+    <value>360 degree gaze inflicting seduced (5s) - look away</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7347_5221" xml:space="preserve">
+    <value>untelegraphed huge pointblank AoE; instant death if you got hit by Frond Fatale</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7342_516" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7343_589" xml:space="preserve">
+    <value>telegraphed short line AoE; inflicts stun (3s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7343_588" xml:space="preserve">
+    <value>telegraphed short line AoE; inflicts paralysis (30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7349_5353" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7349_129" xml:space="preserve">
+    <value>grants stoneskin (5% of max HP, 30m); only used on other nearby enemies</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7345_4449" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts paralysis (30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7341_4502" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7341_4504" xml:space="preserve">
+    <value>instant; inflicts vulnerability up (5%? per stack, 10s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7350_4531" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts heavy (20s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7350_4532" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts many debuffs</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7265_3135" xml:space="preserve">
+    <value>instant; inflicts concussion (physical DoT potency 50, 15s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7265_8557" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts reduced immunity (30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7348_1033" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts stacking poison (magic DoT potency 50 per stack, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7346_1943" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_7346_364" xml:space="preserve">
+    <value>instant pointblank AoE; inflicts stacking poison (unique DoT potency 50 per stack, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7362_2460" xml:space="preserve">
+    <value>telegraphed huge conal AoE; inflicts deep freeze (magic DoT potency 10, 9s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7362_7651" xml:space="preserve">
+    <value>360 degree gaze inflicting deep freeze (magic DoT potency 50, 15s) - look away</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7363_3084" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7353_594" xml:space="preserve">
+    <value>huge telegraphed pointblank AoE; inflicts terror (10s); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7353_6434" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts disease (30s). Used immediately after Scream, and also used out of combat</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7359_3693" xml:space="preserve">
+    <value>telegraphed circle AoE jump attack - can also auto-attack during the jump</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7359_3692" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7359_3696" xml:space="preserve">
+    <value>telegraphed huge pointblank AoE; inflicts windburn (magic DoT potency 20, 30s); can be LoSed. If this attack hits, it grants haste (25s) to the Jujishi, making Freefall an almost instant cast</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7357_3672" xml:space="preserve">
+    <value>telegraphed narrow but long conal AoE draw-in; inflicts stun (2s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7357_3673" xml:space="preserve">
+    <value>untelegraphed conal AoE; used instantly after draw-in, but is a wider cone than the draw-in - get behind!</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7357_3676" xml:space="preserve">
+    <value>huge untelegraphed pointblank AoE; only used out of combat</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7354_319" xml:space="preserve">
+    <value>instant knockback used on anyone standing behind it</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7355_511" xml:space="preserve">
+    <value>instant; inflicts frostbite (physical DoT potency 50, 12s); absorbs 95.5% of damage dealt</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7352_3085" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts frostbite (magic DoT potency 100, 21s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7364_6111" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7364_6980" xml:space="preserve">
+    <value>large telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7358_142" xml:space="preserve">
+    <value>used frequently in addition to melee auto-attacks</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7358_416" xml:space="preserve">
+    <value>grants magic damage up (50%, 30s) to self</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7361_548" xml:space="preserve">
+    <value>draws players in and inflicts an extreme heavy debuff (10s); used 30 seconds after pull; can use knockback immunity</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7361_2817" xml:space="preserve">
+    <value>large telegraphed pointblank AoE; inflicts paralysis (30s); can be interrupted. Used immediately after Khoomii</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7360_3087" xml:space="preserve">
+    <value>telegraphed huge conal AoE; inflicts deep freeze (magic DoT potency 10, 10s). Deals double damage to frozen players</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7360_3089" xml:space="preserve">
+    <value>telegraphed huge pointblank AoE; inflicts deep freeze (magic DoT potency 10, 10s); can be interrupted or LoSed. Used 21 seconds after pull, then at 50-second intervals</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7356_3704" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts deep freeze (magic DoT potency 70, 10s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7356_4485" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts slow (15s); also used out of combat</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7373_942" xml:space="preserve">
+    <value>untelegraphed pointblank AoE; inflicts stacking poison (magic DoT potency 15 per stack, 30s); used frequently; can be LoSed</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7373_941" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts disease</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7373_576" xml:space="preserve">
+    <value>instant conal AoE draw-in</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7373_579" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts disease. Used immediately after Inhale; actual AoE may be wider than the telegraph - get behind!</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7372_612" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7372_4487" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7372_4489" xml:space="preserve">
+    <value>enrage; grants physical damage up (200%, 1m) to self; used about 1 minute after pull</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7375_7929" xml:space="preserve">
+    <value>instant gap closer; used immediately on pull</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7375_1261" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7375_3972" xml:space="preserve">
+    <value>telegraphed large pointblank AoE; inflicts vulnerability up (25%, 30s); can be LoSed</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7375_532" xml:space="preserve">
+    <value>stands in place and does 6 stomps, each an untelegraphed huge pointblank AoE; can be LoSed</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7371_629" xml:space="preserve">
+    <value>untelegraphed wide line AoE inflicting paralysis - get to the side or behind</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7371_628" xml:space="preserve">
+    <value>untelegraphed pointblank AoE inflicting knockback - get away; can also be LoSed</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7374_2408" xml:space="preserve">
+    <value>telegraphed donut AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7374_2353" xml:space="preserve">
+    <value>telegraphed narrow but long conal AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7374_2349" xml:space="preserve">
+    <value>untelegraphed huge pointblank AoE; inflicts vulnerability up (5%? per stack, 30s). Can be LoSed, and fully shielding the damage also blocks the vulnerability up</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7367_3088" xml:space="preserve">
+    <value>instant gap closer; used immediately on pull</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7367_5357" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7367_2216" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7365_1105" xml:space="preserve">
+    <value>untelegraphed donut AoE - get IN. Inflicts electrocution (magic DoT potency 50, 30s) and paralysis (30s). Can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7365_1104" xml:space="preserve">
+    <value>untelegraphed pointblank AoE - get OUT. Inflicts frostbite (magic DoT potency 50?) and deep freeze. Can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7365_446" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7365_902" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts burns (unique DoT potency 50, 21s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7365_1102" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts heavy (10s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7377_2134" xml:space="preserve">
+    <value>instant gap closer; used immediately on pull, and again when its damage down debuff (see next ability) wears off</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7377_2315" xml:space="preserve">
+    <value>grants damage up (20%, 30s) to self; used immediately after Wild Charge. When the buff expires, it changes to a physical damage down debuff (60%, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7377_2310" xml:space="preserve">
+    <value>untelegraphed conal AoE - get away or behind</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7377_413" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7366_2205" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7366_2204" xml:space="preserve">
+    <value>grants physical damage up (100%, 15s) to self and heals ~15% of max HP; only used out of combat. After using this, it will use Chest Thump every few seconds until the buff expires</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7366_2207" xml:space="preserve">
+    <value>huge 1.5 room instant AoE that inflicts physical vulnerability up (5% per stack, max 8 stacks, 8s). Only used out of combat during Ripe Banana</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7370_612" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7370_954" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts burns</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7370_613" xml:space="preserve">
+    <value>untelegraphed backward conal AoE; inflicts stun (6s); used if someone is behind</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7369_3671" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts stun (6s); also used out of combat</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7376_8661" xml:space="preserve">
+    <value>instant; inflicts concussion (physical DoT potency 20, 15s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7376_8662" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7376_148" xml:space="preserve">
+    <value>circle AoE on marked target hitting 3 times after the initial cast; inflicts electrocution (magic DoT potency 10, 30s) on each hit; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7391_570" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7391_571" xml:space="preserve">
+    <value>instant; inflicts sleep (10s); used when HP drops below 60%. Diminishing returns do NOT apply to this sleep (it is always 10s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7391_4517" xml:space="preserve">
+    <value>grants haste (25s) to self; used immediately after Fowl Stench</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7382_998" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7382_771" xml:space="preserve">
+    <value>circle AoE on marked player; drops you to 1 HP; can be interrupted or LoSed</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7584_4518" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7584_12281" xml:space="preserve">
+    <value>360 degree gaze - look away</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7584_12280" xml:space="preserve">
+    <value>huge circle AoE; can LoS (from centre of circle)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7389_356" xml:space="preserve">
+    <value>cleave</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7389_2397" xml:space="preserve">
+    <value>telegraphed circle AoE; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7389_2398" xml:space="preserve">
+    <value>untelegraphed enrage; used about 1 minute after pull; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7385_5193" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7385_5194" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7384_637" xml:space="preserve">
+    <value>telegraphed circle AoE; also used out of combat</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7384_916" xml:space="preserve">
+    <value>grants vulnerability down (50%, 15s) to self and other nearby enemies; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7381_3167" xml:space="preserve">
+    <value>telegraphed charge AoE; can be LoSed</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7390_6013" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7390_6011" xml:space="preserve">
+    <value>untelegraphed long line AoE - get to the side or behind</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7390_7757" xml:space="preserve">
+    <value>telegraphed large pointblank AoE; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7387_1701" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_91_7387_1702" xml:space="preserve">
+    <value>instant ranged attack; does NOT paralyze like in PotD</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4977_378" xml:space="preserve">
+    <value>pierces Steel; absorbs 50% of damage dealt</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4977_379" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts accuracy down (12s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4980_372" xml:space="preserve">
+    <value>inflicts poison (unique DoT potency 20, 15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4978_516" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4975_377" xml:space="preserve">
+    <value>grants haste (30s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4985_5825" xml:space="preserve">
+    <value>gap closer (can be LoSed)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4984_405" xml:space="preserve">
+    <value>either a telegraphed circle AoE, or an untelegraphed pointblank AoE which also damages the goblin itself</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4979_603" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts stun (6s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4981_919" xml:space="preserve">
+    <value>sacrifial enrage; possible to outrange. Used every 22 seconds</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4982_388" xml:space="preserve">
+    <value>instant; inflicts physical vulnerability up (50%, 20s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4983_508" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts sleep (20s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4998_5353" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4997_410" xml:space="preserve">
+    <value>360 degree gaze inflicting petrify (15s) - look away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4997_1454" xml:space="preserve">
+    <value>instant death; only used if you are a toad</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4995_604" xml:space="preserve">
+    <value>large telegraphed conal AoE on random player; inflicts many debuffs</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4991_2476" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4993_364" xml:space="preserve">
+    <value>instant pointblank AoE; inflicts slow (12s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4996_416" xml:space="preserve">
+    <value>grants magic damage up (50%, 15s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4990_724" xml:space="preserve">
+    <value>absorbs 100% of damage dealt</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4990_1213" xml:space="preserve">
+    <value>instant AoE sacrificial enrage; used 20 seconds after pull (immediately after the second Digest)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4989_347" xml:space="preserve">
+    <value>instant; draws the target in</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4989_1006" xml:space="preserve">
+    <value>telegraphed pointblank AoE; used immediately after Sticky Tongue</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4988_914" xml:space="preserve">
+    <value>inflicts poison (unique DoT potency 30, 12s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4987_1653" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5002_417" xml:space="preserve">
+    <value>large telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5006_38" xml:space="preserve">
+    <value>grants physical damage up (50%, 20s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5006_3675" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5001_632" xml:space="preserve">
+    <value>grants counterattack (magic potency 200, 5s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5009_356" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5007_773" xml:space="preserve">
+    <value>large telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5008_1304" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5010_3970" xml:space="preserve">
+    <value>untelegraphed pointblank AoE; inflicts knockback. Fully shielding the damage does NOT block the knockback</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5003_410" xml:space="preserve">
+    <value>telegraphed conal gaze AoE inflicting petrify (15s) - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5000_413" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5011_4523" xml:space="preserve">
+    <value>untelegraphed large pointblank AoE; inflicts sleep (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5005_309" xml:space="preserve">
+    <value>grants haste (30s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_5004_5363" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5013_585" xml:space="preserve">
+    <value>telegraphed pointblank AoE; also deals 500 MP damage</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5023_4492" xml:space="preserve">
+    <value>telegraphed conal gaze AoE inflicting petrify (15s) - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5017_681" xml:space="preserve">
+    <value>untelegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5024_575" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5021_932" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5014_1914" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5019_5829" xml:space="preserve">
+    <value>large untelegraphed pointblank AoE; draws players in</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5019_5830" xml:space="preserve">
+    <value>telegraphed pointblank AoE; used immediately after Sucker</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5016_2895" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts stun (6s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5015_614" xml:space="preserve">
+    <value>large telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5022_705" xml:space="preserve">
+    <value>large telegraphed pointblank AoE; inflicts terror (10s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5022_855" xml:space="preserve">
+    <value>telegraphed circle AoE; used immediately after Dark Mist</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5030_1662" xml:space="preserve">
+    <value>huge untelegraphed pointblank AoE inflicting paralysis (15s); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5033_5193" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5033_5194" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5027_998" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5034_745" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5028_6384" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5026_325" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5037_6411" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5031_5196" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5029_2893" xml:space="preserve">
+    <value>grants physical damage up (100%, 8s) to self; used 41 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5035_2310" xml:space="preserve">
+    <value>untelegraphed conal AoE - don't stand in front!</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5035_413" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5032_1662" xml:space="preserve">
+    <value>huge untelegraphed pointblank AoE inflicting paralysis (15s); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_5036_594" xml:space="preserve">
+    <value>huge telegraphed pointblank AoE; inflicts terror (15s); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5302_1259" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5305_1702" xml:space="preserve">
+    <value>instant ranged attack</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5305_1701" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5299_4529" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5299_4528" xml:space="preserve">
+    <value>conal gaze attack inflicting paralysis (30s) - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5300_147" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5307_4455" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5307_4457" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5301_312" xml:space="preserve">
+    <value>grants counterattack (magic potency 200 + chance to inflict 30s slow, 5s) to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5308_5832" xml:space="preserve">
+    <value>roomwide gaze attack inflicting blind (15s) - look away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_4996_416" xml:space="preserve">
+    <value>grants magic damage up (50%, 15s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5303_362" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5303_1079" xml:space="preserve">
+    <value>enrage; inflicts disease (15s) with strong heavy effect; can be interrupted. Used 37 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5304_933" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts vulnerability up (20%, 30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_5306_740" xml:space="preserve">
+    <value>telegraphed circle AoE; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5319_4471" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5319_4473" xml:space="preserve">
+    <value>telegraphed backward conal AoE; inflicts knockback; used after Third Leg Forward if someone is behind</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5315_937" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5315_935" xml:space="preserve">
+    <value>telegraphed backward conal AoE inflicting stun (3s) and knockback; used if someone is behind</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5313_5366" xml:space="preserve">
+    <value>untelegraphed conal gaze AoE inflicting paralysis (20s) - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5317_1657" xml:space="preserve">
+    <value>instant; inflicts vulnerability up (30%, 10s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5316_3703" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5320_2368" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5311_317" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts burns (unique DoT potency 30, 12s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5318_6216" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5314_3211" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5312_4469" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5312_3810" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts stun (4s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_5004_5363" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5331_1497" xml:space="preserve">
+    <value>instant; inflicts windburn (physical DoT potency 30, 20s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5331_1489" xml:space="preserve">
+    <value>instant circle AoE gap closer; inflicts stun (2s) and vulnerability up (50%, 10s); used when HP is below 30%. Diminishing returns do NOT apply to this stun (it is always 2s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5323_546" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5322_4538" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5327_2183" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5324_3883" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5324_2951" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts confused (10s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5328_355" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5325_631" xml:space="preserve">
+    <value>huge untelegraphed 270 degree donut AoE inflicting electrocution (magic DoT potency 30, 12s) - get in or get behind</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5325_628" xml:space="preserve">
+    <value>untelegraphed pointblank AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5329_4458" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5329_4459" xml:space="preserve">
+    <value>grants physical damage up (50%, 15s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5330_6111" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5330_6980" xml:space="preserve">
+    <value>large telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5326_2206" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5326_2204" xml:space="preserve">
+    <value>grants physical damage up (100%, 15s) to self and heals 80% of max HP; only used out of combat</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_5332_511" xml:space="preserve">
+    <value>instant; absorbs 100% of damage dealt</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5334_337" xml:space="preserve">
+    <value>instant AoE sacrifical enrage; used 37 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5344_446" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5344_902" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts burns (unique DoT potency 50, 21s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5344_1102" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts heavy (10s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5339_3056" xml:space="preserve">
+    <value>instant; draws the target in and inflicts prey. Knockback immunity does not work against the draw-in</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5339_3054" xml:space="preserve">
+    <value>used against players with prey; clears prey status</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5337_413" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts burns (magic DoT potency 50, 15s); also used out of battle</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5340_453" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts burns (magic DoT potency 30, 24s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5341_4533" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts burns (magic DoT potency 100, 9s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5342_612" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5342_613" xml:space="preserve">
+    <value>telegraphed backward conal AoE; used when someone is behind</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5336_4471" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5336_4473" xml:space="preserve">
+    <value>telegraphed backward conal AoE; inflicts knockback; used after Third Leg Forward if someone is behind</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5343_1898" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts poison (magic DoT potency 60, 15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5335_1906" xml:space="preserve">
+    <value>instant ranged attack</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5338_1111" xml:space="preserve">
+    <value>instant; inflicts sludge (magic DoT potency 20, 12s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_5338_528" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts blind (10s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5347_6877" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5348_745" xml:space="preserve">
+    <value>telegraphed circle AoE; also used out of battle, with potency 300</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5352_575" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5352_1847" xml:space="preserve">
+    <value>instant; only used against lower-enmity party members (not used against solo adventurers)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5355_6411" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_4979_603" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts stun (6s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5353_6879" xml:space="preserve">
+    <value>instant gap closer</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5349_2893" xml:space="preserve">
+    <value>grants physical damage up (100%, 8s) to self; used 41 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5346_2895" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts stun (6s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5350_344" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5350_346" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5354_594" xml:space="preserve">
+    <value>huge telegraphed pointblank AoE; inflicts terror (15s); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5370_5825" xml:space="preserve">
+    <value>gap closer (can be LoSed)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5370_5826" xml:space="preserve">
+    <value>grants evasion up (8s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5363_516" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5362_4506" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5362_4507" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts physical damage down (90%, 15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5369_1920" xml:space="preserve">
+    <value>instant 3-hit attack</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5364_603" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts stun (6s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5366_919" xml:space="preserve">
+    <value>sacrificial enrage; possible to outrange; used at 22-second intervals</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5365_372" xml:space="preserve">
+    <value>inflicts poison (unique DoT potency 20, 15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5360_377" xml:space="preserve">
+    <value>grants haste (30s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5361_321" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5367_388" xml:space="preserve">
+    <value>instant; inflicts physical vulnerability up (50%, 20s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_5368_506" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5373_4449" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5383_5353" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5383_129" xml:space="preserve">
+    <value>grants stoneskin (10% of max HP, 60s) to a nearby enemy; not used on self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5382_1210" xml:space="preserve">
+    <value>instant; inflicts poison (magic DoT potency 60, 15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5382_1454" xml:space="preserve">
+    <value>instant death; only used if you are a toad</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5374_347" xml:space="preserve">
+    <value>instant; draws the target in, and inflicts stun (6s) if looking AWAY from the toad - be sure to face toward the toad so you can escape Labored Leap</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5374_1006" xml:space="preserve">
+    <value>telegraphed pointblank AoE; used immediately after Sticky Tongue</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5372_4463" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts dropsy (magic DoT potency 50, 15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5380_605" xml:space="preserve">
+    <value>large instant conal AoE; inflicts sleep (3s) and slow (10s); used immediately before Bad Breath</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5380_604" xml:space="preserve">
+    <value>large telegraphed conal AoE on random player; inflicts many debuffs</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5376_2476" xml:space="preserve">
+    <value>telegraphed circle AoE; also used out of combat</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5378_1033" xml:space="preserve">
+    <value>telegraphed large circle AoE; inflicts poison (magic DoT potency 60, 15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5381_943" xml:space="preserve">
+    <value>instant pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5377_5367" xml:space="preserve">
+    <value>grants stoneskin (1/3 of max HP, 8s) to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_5375_1213" xml:space="preserve">
+    <value>instant AoE sacrificial enrage; used 37 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5387_417" xml:space="preserve">
+    <value>large telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5387_418" xml:space="preserve">
+    <value>grants physical vulnerability down (90%, 20s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5388_497" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5388_410" xml:space="preserve">
+    <value>telegraphed conal gaze AoE inflicting petrify (15s) - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5386_519" xml:space="preserve">
+    <value>instant; inflicts paralysis (30s); has to be close to use this, so ranged DPS can avoid by kiting with Sprint and/or Leg Graze</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5386_995" xml:space="preserve">
+    <value>telegraphed circle AoE; short cast</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5391_38" xml:space="preserve">
+    <value>grants physical damage up (50%, 20s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5391_3675" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5394_356" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5394_358" xml:space="preserve">
+    <value>causes auto-attacks to absorb 100% of damage dealt for 30s</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5392_773" xml:space="preserve">
+    <value>large telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5395_3970" xml:space="preserve">
+    <value>untelegraphed pointblank AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5385_412" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5396_4523" xml:space="preserve">
+    <value>untelegraphed large pointblank AoE; inflicts sleep (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5390_1690" xml:space="preserve">
+    <value>telegraphed circle AoE; also used out of combat</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5390_309" xml:space="preserve">
+    <value>grants haste (30s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5393_900" xml:space="preserve">
+    <value>untelegraphed circle AoE; can be interrupted, but it's a very quick cast</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_5389_5362" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5402_514" xml:space="preserve">
+    <value>untelegraphed conal AoE on random player inflicting petrify (15s) - get behind or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5408_6444" xml:space="preserve">
+    <value>telegraphed conal gaze AoE inflicting minimum (30s) - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5408_2103" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5403_584" xml:space="preserve">
+    <value>inflicts disease (30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5409_575" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5409_576" xml:space="preserve">
+    <value>instant conal AoE draw-in; inflicts stun (2s). Only used against lower-enmity party members (not used against solo adventurers)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5409_1847" xml:space="preserve">
+    <value>instant conal AoE; used immediately after Inhale on the same target</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5407_5193" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5407_5194" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5399_1914" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5404_5829" xml:space="preserve">
+    <value>large untelegraphed pointblank AoE; draws players in</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5404_5830" xml:space="preserve">
+    <value>telegraphed pointblank AoE; used immediately after Sucker</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5401_2895" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts stun (6s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5400_614" xml:space="preserve">
+    <value>large telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5398_585" xml:space="preserve">
+    <value>telegraphed pointblank AoE; also deals 500 MP damage</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5406_932" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5406_4982" xml:space="preserve">
+    <value>telegraphed circle AoE that inflicts Voidblood (damage taken +10%, 30s); not used against solo adventurers</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5416_1662" xml:space="preserve">
+    <value>huge untelegraphed pointblank AoE inflicting paralysis (15s); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5413_998" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5413_771" xml:space="preserve">
+    <value>enrage; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5420_750" xml:space="preserve">
+    <value>conal gaze AoE inflicting terror (5s) - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5420_735" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts disease (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5414_619" xml:space="preserve">
+    <value>instant; inflicts poison (physical DoT potency 55, 20s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5414_624" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5417_5196" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5412_325" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5423_6411" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5415_3677" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5415_2893" xml:space="preserve">
+    <value>grants physical damage up (100%, 8s) to self; used 41 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5421_2134" xml:space="preserve">
+    <value>instant gap closer; used immediately on pull, and again when its damage down debuff (see next ability) wears off</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5421_2315" xml:space="preserve">
+    <value>grants damage up (50%, 30s) to self; used immediately after Wild Charge. When the buff expires, it changes to a physical damage down debuff (60%, 30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5421_2310" xml:space="preserve">
+    <value>untelegraphed conal AoE - don't stand in front!</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5421_413" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5418_1662" xml:space="preserve">
+    <value>huge untelegraphed pointblank AoE inflicting paralysis (15s); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5419_705" xml:space="preserve">
+    <value>large telegraphed pointblank AoE; inflicts terror (10s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5419_1717" xml:space="preserve">
+    <value>large telegraphed circle AoE; used immediately after Dark Mist; also used out of battle</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5422_594" xml:space="preserve">
+    <value>huge telegraphed pointblank AoE; inflicts terror (10s); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5435_740" xml:space="preserve">
+    <value>telegraphed circle AoE; can be interrupted. Also used out of combat</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5435_741" xml:space="preserve">
+    <value>grants physical damage up (80%, 30s) to self; used 47 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5434_1701" xml:space="preserve">
+    <value>telegraphed conal AoE. Try to stay very near or far when paralyzed, so you don't get caught in the middle of this</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5434_1702" xml:space="preserve">
+    <value>ranged attack on random player; inflicts paralysis (30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5429_4529" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5429_4528" xml:space="preserve">
+    <value>conal gaze attack inflicting paralysis (30s) - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5431_312" xml:space="preserve">
+    <value>Grants counterattack (magic potency 200, 5s) to self; can be interrupted. Recommended to interrupt or disengage immediately. The damage can kill you very quickly</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5431_1697" xml:space="preserve">
+    <value>Inflicts slow (20s); can be interrupted. It only has medium range, so you can also run away to avoid it</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5430_147" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5436_4455" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5436_4456" xml:space="preserve">
+    <value>telegraphed circle AoE on random player; inflicts stun (5s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5437_5832" xml:space="preserve">
+    <value>roomwide gaze attack inflicting blind (15s) - look away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5437_5833" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5381_943" xml:space="preserve">
+    <value>instant pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5432_1260" xml:space="preserve">
+    <value>quick, long, narrow line AoE. It will spam this every few seconds</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5433_362" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5433_363" xml:space="preserve">
+    <value>instant; absorbs 100% of damage dealt</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_5406_933" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts vulnerability up (20%, 30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5440_4469" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5440_4470" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5443_936" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5441_5367" xml:space="preserve">
+    <value>grants stoneskin (1/3 of max HP, 8s) to self; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5441_5366" xml:space="preserve">
+    <value>untelegraphed conal gaze AoE inflicting paralysis (20s) - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5439_317" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts burns (unique DoT potency 30, 12s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5444_3703" xml:space="preserve">
+    <value>instant circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5444_4510" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts deep freeze (magic DoT potency 70, 15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5448_2368" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5446_6216" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5442_3211" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5445_3704" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts deep freeze (magic DoT potency 50, 9s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5445_4485" xml:space="preserve">
+    <value>instant circle AoE on random player; inflicts slow (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5447_4471" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5447_4473" xml:space="preserve">
+    <value>telegraphed backward conal AoE; inflicts knockback. Used after Third Leg Forward if someone is behind, and will use it over and over as long as someone is behind it.</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_5389_5362" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5459_1497" xml:space="preserve">
+    <value>instant; inflicts windburn (physical DoT potency 15, 20s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5459_1489" xml:space="preserve">
+    <value>instant circle AoE gap closer; inflicts stun (2s) and vulnerability up (50%, 10s). Diminishing returns do NOT apply to this stun (it is always 2s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5450_4538" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5455_2183" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5452_3883" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5452_2951" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts confused (10s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5452_4776" xml:space="preserve">
+    <value>grants physical damage up (80%, 30s) and haste (30s) to self, and causes it to spam Revelation. Can be interrupted, but not recommended as its casting will give you lots of breathing room</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5456_355" xml:space="preserve">
+    <value>telegraphed conal AoE. Doesn't use this while you're paralyzed</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5456_353" xml:space="preserve">
+    <value>inflicts paralyze (30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5457_4458" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5457_4459" xml:space="preserve">
+    <value>grants physical damage up (50%, 15s) to self</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5458_7065" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5458_6980" xml:space="preserve">
+    <value>large telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5454_2205" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5454_2204" xml:space="preserve">
+    <value>grants physical damage up (100%, 15s) to self and heals 20% of max HP; only used out of combat. After using this, it will use Chest Thump every few seconds until the buff expires</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5454_2207" xml:space="preserve">
+    <value>huge 1.5 room instant AoE that inflicts physical vulnerability up (5% per stack, max 8 stacks, 8s). Only used out of combat during Ripe Banana</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5453_629" xml:space="preserve">
+    <value>untelegraphed wide line AoE - DO NOT stand in front</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5453_628" xml:space="preserve">
+    <value>untelegraphed pointblank AoE inflicting knockback - get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5451_548" xml:space="preserve">
+    <value>draws players in and inflicts an extreme heavy debuff (10s); used 30 seconds after pull; can use knockback immunity. Draw-in will not work under the Knockback Penalty enchantment</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5451_2817" xml:space="preserve">
+    <value>large telegraphed pointblank AoE; inflicts paralysis (30s); can be interrupted. Used immediately after Khoomii, making it difficult to escape</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_5460_511" xml:space="preserve">
+    <value>instant conal AoE; absorbs 100% of damage dealt; inflicts frostbite (physical DoT potency 50, 12s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5440_4469" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5440_4470" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5466_3056" xml:space="preserve">
+    <value>instant; draws the target in and inflicts prey. Knockback immunity does not work against the draw-in</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5466_3054" xml:space="preserve">
+    <value>used against players with prey; clears prey status</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5466_3060" xml:space="preserve">
+    <value>untelegraphed pointblank AoE; inflicts slow (20s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5467_4452" xml:space="preserve">
+    <value>instant conal AoE; inflicts slow (30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5464_1023" xml:space="preserve">
+    <value>instant circle AoE; inflicts frostbite (magic DoT potency 100, 21s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5464_560" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5470_1105" xml:space="preserve">
+    <value>untelegraphed donut AoE - get IN. Inflicts electrocution (DoT potency 50, 30s) and paralysis (30s). Can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5470_1104" xml:space="preserve">
+    <value>untelegraphed pointblank AoE - get OUT. Inflicts frostbite and deep freeze. Can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5470_446" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5470_902" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5470_1102" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5462_3085" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5468_4486" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5468_4487" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5469_1898" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts poison</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5469_1897" xml:space="preserve">
+    <value>heals another enemy. If you pull multiple mobs, kill the Wamoura first. If you pull 2 Wamouras, you'll probably have to use Witching or Rage to avoid them healing each other forever</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5463_1906" xml:space="preserve">
+    <value>instant ranged attack on random player</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5465_533" xml:space="preserve">
+    <value>instant circle AoE on random player. Also used out of combat, with potency 75; be very careful if there are several worms nearby, as getting hit by a few of these at once could kill you</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5465_1112" xml:space="preserve">
+    <value>quick huge pointblank AoE; draws players in. Knockback immunity does not work, but draw-in will not work on floors with knockback penalty</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5474_6877" xml:space="preserve">
+    <value>instant conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5474_595" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5420_750" xml:space="preserve">
+    <value>conal gaze AoE - look away, get behind, or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5420_735" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts disease (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5473_1059" xml:space="preserve">
+    <value>untelegraphed conal AoE on random player inflicting instant death - get behind or get away</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5409_575" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5409_576" xml:space="preserve">
+    <value>instant conal AoE draw-in; inflicts stun (2s). Only used against lower-enmity party members (not used against solo adventurers)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5409_1847" xml:space="preserve">
+    <value>instant conal AoE; used immediately after Inhale on the same target</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5364_601" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5364_603" xml:space="preserve">
+    <value>telegraphed pointblank AoE; probably inflicts stun (6s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5475_6879" xml:space="preserve">
+    <value>instant gap closer; used on aggro and every 30 seconds afterward. Will destroy non-tanks if it crits</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5423_6411" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5415_3677" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5415_3680" xml:space="preserve">
+    <value>scary-looking telegraphed donut AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5415_2893" xml:space="preserve">
+    <value>grants physical damage up (100%, 8s) to self; used 41 seconds after pull</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_2566_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5401_2895" xml:space="preserve">
+    <value>telegraphed conal AoE; probably inflicts stun (6s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5472_4534" xml:space="preserve">
+    <value>instant ranged attack</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5472_346" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5422_594" xml:space="preserve">
+    <value>huge telegraphed pointblank AoE; inflicts terror (10s); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5422_6434" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts disease (30s); can be interrupted. Also used outside of combat</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_Boss_31477" xml:space="preserve">
+    <value>activates random mines, causing them to use Mandrashock</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_Boss_31479" xml:space="preserve">
+    <value>proximity AoE on boss - get away; minimum potency at 10y</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_Boss_31799" xml:space="preserve">
+    <value>orders some adds to use Flame Breath</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_Boss_32545" xml:space="preserve">
+    <value>orders half of the adds to use Flame Breath, followed shortly by the other half</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_Boss_1227" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_Boss_31841" xml:space="preserve">
+    <value>spawns adds at the front of the arena that move toward the back, leaving two open spaces</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_Boss_31843" xml:space="preserve">
+    <value>wide line AoE down the center of the arena with late telegraph - get OUT. Spawns adds which move from the center to the sides</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_Boss_31845" xml:space="preserve">
+    <value>wide line AoEs down both sides of the arena with late telegraph - get IN. Spawns adds which move from each side to the other</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_Boss_31849" xml:space="preserve">
+    <value>four sets of telegraphed circle AoEs covering the arena, leaving random spaces open each time; adds spawn from some of the AoEs after each set, moving toward a random player</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_Boss_31847" xml:space="preserve">
+    <value>telegraphed circle AoE, with four additional hits chasing the targeted player - keep moving! Spawns an add moving toward a random player on each hit</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_Boss_671" xml:space="preserve">
+    <value>spawns a little tornado under you; instant death if you are standing on it, so make sure you're moving as the cast completes</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_Boss_31462" xml:space="preserve">
+    <value>many circle AoEs leaving behind tornados that remain until after Turbine; stepping in one deals damage (magic potency 125) and inflicts windburn (magic DoT potency 250, 6s) which cannot be removed with Esuna</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_Boss_31465" xml:space="preserve">
+    <value>four telegraphed circle AoEs on all party members, each a couple seconds apart; make sure to leave a safe path open for Turbine</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_Boss_4116" xml:space="preserve">
+    <value>knockback from center</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_Boss_9906" xml:space="preserve">
+    <value>boss goes to one end of the arena and charges straight across (line AoE with late telegraph); drops a twister at the same time, so make sure you're moving as the cast completes</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_Boss_1105" xml:space="preserve">
+    <value>untelegraphed donut AoE - get IN. Only used as part of the Songs and Thunderous Cold / Cold Thunder combos (never used on its own)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_Boss_1104" xml:space="preserve">
+    <value>untelegraphed pointblank AoE - get OUT. Only used as part of the Songs and Thunderous Cold / Cold Thunder combos (never used on its own)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_Boss_31851" xml:space="preserve">
+    <value>Ram's Voice followed by Dragon's Voice - get out, then in</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_Boss_31852" xml:space="preserve">
+    <value>Dragon's Voice followed by Ram's Voice - get in, then out</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_Boss_31861" xml:space="preserve">
+    <value>untelegraphed 180 degree AoE to the boss's left</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_Boss_31863" xml:space="preserve">
+    <value>untelegraphed 180 degree AoE to the boss's right</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_Boss_31856" xml:space="preserve">
+    <value>telegraphed charge AoE with tether, followed by Dragon's Voice, followed by Ram's Voice - get far to reduce charge damage, then get in, then out</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_Boss_31855" xml:space="preserve">
+    <value>telegraphed charge AoE with tether, followed by Ram's Voice, followed by Dragon's Voice - get far to reduce charge damage, then get out, then in</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_Boss_1107" xml:space="preserve">
+    <value>spawns an orb that tethers and chases each party member for a short time before stopping and exploding; runs to the middle to cast this</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_Boss_31872" xml:space="preserve">
+    <value>Eight Bullish Swipe telegraphs followed by the actual attacks</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_Boss_3972" xml:space="preserve">
+    <value>knockback from center</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_Boss_30744" xml:space="preserve">
+    <value>90 degree conal AoE with late telegraph - get behind; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_Boss_31875" xml:space="preserve">
+    <value>pointblank AoE with late telegraph - get away; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_Boss_14463" xml:space="preserve">
+    <value>roomwide AoE; leaves several orbs scattered around the room; orbs explode in pointblank AoEs in time with the first hit of Octuple Swipe</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_Boss_10207" xml:space="preserve">
+    <value>tankbuster</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_Boss_31442" xml:space="preserve">
+    <value>untelegraphed charge attack with tether; get far to reduce damage</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_Boss_31436" xml:space="preserve">
+    <value>donut AoE if boss has a big blue glowing animation; pointblank AoE otherwise; late telegraph. Inflicts vulnerability up (10% per stack, 30s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_Boss_6293" xml:space="preserve">
+    <value>causes many rocks and crystals to fall from the ceiling causing circle AoEs; 4 crystals are left behind. Crystals do AoEs with late telegraphs with the next Preternatural Turn - see notes below</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_Boss_2923" xml:space="preserve">
+    <value>conal AoE tankbuster</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_Boss_2927" xml:space="preserve">
+    <value>creates damage zones in center (instant death) and outer ring (unique DoT potency 200) of arena</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_Boss_2939" xml:space="preserve">
+    <value>inflicts positive or negative charge to each player and spawns four adds outside the arena with positive or negative charge markers; also re-creates the instant death zone in the center of the arena</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_Boss_31423" xml:space="preserve">
+    <value>wide conal AoE to the front; the boss turns to face the target before using this</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_Boss_31424" xml:space="preserve">
+    <value>180 degree AoE to the boss's left and behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_Boss_31425" xml:space="preserve">
+    <value>180 degree AoE to the boss's right and behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_Boss_31426" xml:space="preserve">
+    <value>donut AoE with late telegraph - only a narrow ring around the center is safe; instant death zone in center disappears right after this</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_Boss_31449" xml:space="preserve">
+    <value>spawns Interceptor adds. α (eggs) will do wide conal AoEs, β (cubes) will do line AoEs, γ (spheres) will do a donut AoE, all with late telegraphs. The timing of these is determined by the boss's next move. See rotation for more details</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_Boss_31450" xml:space="preserve">
+    <value>places 1/2/3 markers on the adds to indicate the order they will fire in</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_Boss_31454" xml:space="preserve">
+    <value>causes adds in each set to fire one at a time from left to right while 5 consecutive circle AoEs also appear on players</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_Boss_31455" xml:space="preserve">
+    <value>orders all adds to fire at once</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_Boss_31447" xml:space="preserve">
+    <value>telegraphed donut AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_Boss_31448" xml:space="preserve">
+    <value>cross AoE (lines through front-back and sides) - get to corners (oriented with boss/animation)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_Boss_31456" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31353" xml:space="preserve">
+    <value>roomwide AoE; grants Soul of Ice or Soul of Fire to each player; if there are Caliburni swords, this imbues one set with fire, and another with ice</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31333" xml:space="preserve">
+    <value>telegraphed line AoEs leaving swords that persist outside the arena. After a short time, the swords shoot back across</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31349" xml:space="preserve">
+    <value>Line and roomwide AoE; One side of the arena will be hit with fire, the other with ice. Stand OUTSIDE of the line telegraph, and on the side opposite of the buff you have. This will change your buff.</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31338" xml:space="preserve">
+    <value>Setup cast - nothing actually happens</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31327" xml:space="preserve">
+    <value>pointblank AoE with late telegraph - get out; followed by arc or conal AoEs</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31328" xml:space="preserve">
+    <value>donut AoE with late telegraph - get in; followed by arc or conal AoEs</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_1733" xml:space="preserve">
+    <value>conal AoEs with Solid/Empty Souls' Caliber</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31330" xml:space="preserve">
+    <value>indicates Frost's Revelation will happen after next Souls' Caliber, so you'll need to get the fire buff</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31329" xml:space="preserve">
+    <value>indicates Flame's Revelation will happen after next Souls' Caliber, so you'll need to get the ice buff</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31332" xml:space="preserve">
+    <value>roomwide ice-aspected AoE - must have fire buff; switches your buff to ice</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31345" xml:space="preserve">
+    <value>spawns 2 sets of 3 circle AoEs that turn into star AoEs. Outside the center ring of the arena, there is a pattern with 8 points. Each of these points is a safe spot for all possible patterns</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31343" xml:space="preserve">
+    <value>spawns a series of circles that grow and explode; you can run clockwise around the boss's hitbox to avoid them</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_Boss_8026" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_Boss_8025" xml:space="preserve">
+    <value>inflicts knockback; knockback immunity does not work</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_1_Boss_8022" xml:space="preserve">
+    <value>telegraphed half room AoE; inflicts vulnerability up (40% per stack, max 16 stacks, 45s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_Boss_390" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_Boss_5574" xml:space="preserve">
+    <value>huge telegraphed conal AoE; inflicts confused (10s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_Boss_5573" xml:space="preserve">
+    <value>360 degree gaze inflicting confused (10s) - look away!</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_Boss_11292" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_Boss_6009" xml:space="preserve">
+    <value>summons Raiuns (untargetable lightning cloud adds)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_Boss_11291" xml:space="preserve">
+    <value>proximity AoE; knocks players into the air. Potency scales from 1000 on top of the marker to 100 at ~3y distance (1 boss radius) from the marker edge, so as long as you move a little bit away, damage is minimal</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_Boss_11293" xml:space="preserve">
+    <value>180 degree AoE (covers the entire room in front of the boss)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_Boss_900" xml:space="preserve">
+    <value>untelegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_Boss_5582" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts windburn (magic DoT potency 50, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_Boss_10966" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts windburn (magic DoT potency 50, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_Boss_10723" xml:space="preserve">
+    <value>roomwide AoE; inflicts knockback; knockback immunity does not work, but completely blocking the damage with a shield will also block the knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_Boss_9825" xml:space="preserve">
+    <value>untelegraphed conal AoE; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_Boss_9826" xml:space="preserve">
+    <value>untelegraphed line AoE; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_Boss_9829" xml:space="preserve">
+    <value>360 degree gaze inflicting confused (20s) - look away</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_Boss_9828" xml:space="preserve">
+    <value>proximity AoE - get away (minimum potency at 20y, or about halfway across the room)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_Boss_2329" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_Boss_147" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts burns (magic DoT potency 100, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_Boss_2321" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_Boss_1730" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_Boss_3245" xml:space="preserve">
+    <value>untelegraphed conal AoE inflicting flesh wound (physical DoT potency 80) - get away or behind</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_Boss_3241" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_Boss_3248" xml:space="preserve">
+    <value>targeted circle AoE; leaves a puddle that inflicts minimum (damage dealt -20%, damage taken +400%). Auto-attacks and Ululation will generally one-shot DPS and healers without steel while in this puddle</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_Boss_3254" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_Boss_3247" xml:space="preserve">
+    <value>telegraphed wide charge AoE to targeted player; inflicts stun (4s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_61_Boss_1454" xml:space="preserve">
+    <value>instant death to players WITHOUT minimum debuff (otherwise misses); on hit, absorbs target's remaining HP</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_Boss_3100" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts deep freeze (magic DoT potency 50, 18s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_Boss_3102" xml:space="preserve">
+    <value>instant gap closer; instant death to players with deep freeze</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_Boss_3103" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_Boss_2356" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_Boss_2355" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_Boss_2358" xml:space="preserve">
+    <value>telegraphed wide line AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_Boss_2361" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_Boss_2025" xml:space="preserve">
+    <value>delayed proximity AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_Boss_415" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_Boss_1900" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_Boss_414" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts slow (12s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_Boss_4513" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_Boss_1672" xml:space="preserve">
+    <value>roomwide AoE; inflicts windburn (physical DoT potency 50, 15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_Boss_1943" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_Boss_364" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts poison (magic DoT potency 75, 30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_Boss_1033" xml:space="preserve">
+    <value>telegraphed circle AoE on random player; inflicts poison (magic DoT potency 75, 30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_Boss_1950" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_Boss_1954" xml:space="preserve">
+    <value>telegraphed wide line AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_Boss_2776" xml:space="preserve">
+    <value>instant conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_Boss_685" xml:space="preserve">
+    <value>instant circle AoE on random player; leaves burn puddle (unique DoT potency 350)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_Boss_687" xml:space="preserve">
+    <value>instant circle AoE on random player; leaves heavy puddle</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_Boss_1280" xml:space="preserve">
+    <value>roomwide donut AoE; inflicts hysteria (10s); must be inside/near boss's target circle to avoid</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_Boss_4355" xml:space="preserve">
+    <value>telegraphed circle AoE; leaves a bleed puddle (unique DoT potency 40)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_Boss_4359" xml:space="preserve">
+    <value>telegraphed wide line AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_Boss_6434" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts disease (30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_Boss_594" xml:space="preserve">
+    <value>roomwide AoE; inflicts terror (10s) and prey</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_Boss_179" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_Boss_6400" xml:space="preserve">
+    <value>cleave</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_Boss_6398" xml:space="preserve">
+    <value>either a huge donut AoE or a large pointblank AoE; pierces Steel and absorbs 100% of damage dealt</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_Boss_6401" xml:space="preserve">
+    <value>instant (possibly circle AoE?); inflicts disease (20s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_Boss_6402" xml:space="preserve">
+    <value>roomwide AoE; adds 950 damage (Steel-piercing) for each player who was hit by In Health, or 9500 total damage at 5 In Health hits</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_Boss_6403" xml:space="preserve">
+    <value>360 degree gaze AoE; inflicts confused (10s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_Boss_3165" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_Boss_782" xml:space="preserve">
+    <value>instant large circle AoE leaving bleed puddle (unique DoT potency 70)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_Boss_3167" xml:space="preserve">
+    <value>telegraphed charge AoE; inflicts knockback'</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_Boss_2334" xml:space="preserve">
+    <value>instant conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_Boss_4546" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_Boss_2333" xml:space="preserve">
+    <value>telegraphed pointblank AoE; leaves behind a puddle which grants haste to the boss. Standing in the puddle does NOT hurt you</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_Boss_4544" xml:space="preserve">
+    <value>inflicts heavy (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_Boss_770" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_Boss_771" xml:space="preserve">
+    <value>used periodically against players inside the tornado; inflicts windburn (magic DoT potency 180, 20s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_Boss_775" xml:space="preserve">
+    <value>large telegraphed conal AoE; inflicts vulnerability up (20%, 20s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_Boss_776" xml:space="preserve">
+    <value>roomwide AoE; long cast time</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_Boss_5322" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_Boss_5323" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_Boss_7102" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_Boss_6872" xml:space="preserve">
+    <value>instant circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_Boss_6874" xml:space="preserve">
+    <value>telegraphed wide line AoE; inflicts vulnerability up (50%, 30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_Boss_6873" xml:space="preserve">
+    <value>instant roomwide(?) AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_Boss_6875" xml:space="preserve">
+    <value>telegraphed huge conal AoE; inflicts doom (20s). Doom can be removed with Esuna</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_Boss_6876" xml:space="preserve">
+    <value>phase change action; summons corse adds</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_Boss_415" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_Boss_1900" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_Boss_414" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts slow (12s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_Boss_4513" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_Boss_1672" xml:space="preserve">
+    <value>roomwide AoE; inflicts windburn (physical DoT potency 50, 15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_Boss_1943" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_Boss_364" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts poison (magic DoT potency 150, 30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_Boss_1033" xml:space="preserve">
+    <value>telegraphed circle AoE on random player; inflicts poison (magic DoT potency 150, 30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_Boss_1950" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_Boss_1954" xml:space="preserve">
+    <value>telegraphed wide line AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_Boss_2776" xml:space="preserve">
+    <value>instant conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_Boss_685" xml:space="preserve">
+    <value>instant circle AoE on random player; leaves burn puddle (unique DoT potency 450)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_Boss_687" xml:space="preserve">
+    <value>instant circle AoE on random player; leaves heavy puddle</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_Boss_1280" xml:space="preserve">
+    <value>roomwide donut AoE; inflicts hysteria (10s); must be inside/near boss's target circle to avoid</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_Boss_4355" xml:space="preserve">
+    <value>telegraphed circle AoE; leaves a bleed puddle (unique DoT potency 1300)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_Boss_4359" xml:space="preserve">
+    <value>telegraphed wide line AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_Boss_6434" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_Boss_594" xml:space="preserve">
+    <value>roomwide AoE; inflicts terror (10s) and prey</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_Boss_179" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_Boss_705" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts terror (10s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_Boss_1717" xml:space="preserve">
+    <value>large telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_Boss_7177" xml:space="preserve">
+    <value>telegraphed wide line AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_Boss_6876" xml:space="preserve">
+    <value>summons one of four types of adds (see rotation)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_Boss_1762" xml:space="preserve">
+    <value>draws succubus add to boss and inflicts terror on it</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_Boss_1610" xml:space="preserve">
+    <value>kills succubus add, absorbing its remaining HP</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_Boss_1720" xml:space="preserve">
+    <value>roomwide AoE; also hits zombie adds. Never crits</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_Boss_3165" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_Boss_782" xml:space="preserve">
+    <value>instant large circle AoE leaving bleed puddle (unique DoT potency 100)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_Boss_3167" xml:space="preserve">
+    <value>telegraphed charge AoE; inflicts knockback'</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_Boss_2334" xml:space="preserve">
+    <value>instant conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_Boss_4546" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_Boss_2333" xml:space="preserve">
+    <value>telegraphed pointblank AoE; leaves behind a puddle which grants damage up (30%) and haste to the boss. Standing in the puddle does NOT hurt you</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_Boss_4544" xml:space="preserve">
+    <value>inflicts heavy (15s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_Boss_770" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_Boss_771" xml:space="preserve">
+    <value>used periodically against players inside the tornado</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_Boss_775" xml:space="preserve">
+    <value>large telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_Boss_776" xml:space="preserve">
+    <value>roomwide AoE; medium cast time</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_Boss_5322" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_Boss_5323" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_Boss_7102" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12324_5512" xml:space="preserve">
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12324_5514" xml:space="preserve">
+    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_12323_4518" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12324_5512" xml:space="preserve">
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12324_5514" xml:space="preserve">
+    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_12323_4518" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12324_5512" xml:space="preserve">
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12324_5514" xml:space="preserve">
+    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12323_4518" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12143_2310" xml:space="preserve">
+    <value>instant; used immediately after Barrelling Smash</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12324_5512" xml:space="preserve">
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12324_5514" xml:space="preserve">
+    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12323_4518" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12324_5512" xml:space="preserve">
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12324_5514" xml:space="preserve">
+    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_12323_4518" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12324_5512" xml:space="preserve">
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12324_5514" xml:space="preserve">
+    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_12323_4518" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12324_5512" xml:space="preserve">
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12324_5514" xml:space="preserve">
+    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_12323_4518" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12324_5512" xml:space="preserve">
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12324_5514" xml:space="preserve">
+    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12323_4518" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_12207_3432" xml:space="preserve">
+    <value>untelegraphed huge donut AoE; only used if someone is far</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12324_5512" xml:space="preserve">
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12324_5514" xml:space="preserve">
+    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_12323_4518" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12324_5512" xml:space="preserve">
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12324_5514" xml:space="preserve">
+    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_12323_4518" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_71_7362_5165" xml:space="preserve">
+    <value>instant death; used on players with deep freeze</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5018_1073" xml:space="preserve">
+    <value>telegraphed backward conal AoE inflicting concussion (physical DoT potency 30, 30s); used if someone is behind</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_5348_751" xml:space="preserve">
+    <value>large telegraphed conal AoE; not used against solo adventurers</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_5403_1073" xml:space="preserve">
+    <value>telegraphed backward conal AoE inflicting concussion (physical DoT potency 30, 15s); used if someone is behind</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_5420_751" xml:space="preserve">
+    <value>large telegraphed conal AoE; not used against solo adventurers</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_5467_507" xml:space="preserve">
+    <value>instant conal AoE; inflicts poison (magic DoT potency 60, 20s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_5415_3679" xml:space="preserve">
+    <value>grants physical vulnerability down (20s) to self; used immediately after Ossify</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_Boss_31478" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts vulnerability up (25% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_Boss_676" xml:space="preserve">
+    <value>conal AoE with late telegraph; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_Boss_7" xml:space="preserve">
+    <value>triggered whenever you touch an add</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_Boss_1108" xml:space="preserve">
+    <value>pointblank thunder AoE; used when the orb gets within range of its target or 9 seconds after it starts moving</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_Boss_516" xml:space="preserve">
+    <value>pointblank AoE (magic damage) if boss has a big blue glowing animation; wide conal AoE (physical damage) otherwise; late telegraph. Inflicts vulnerability up (10% per stack, 30s)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_Boss_2617" xml:space="preserve">
+    <value>telegraphed line AoEs across the arena, forming an 'X'; used periodically - see rotation below</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_Boss_3943" xml:space="preserve">
+    <value>AoE with late telegraph; shape varies with add (see rotation)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31336" xml:space="preserve">
+    <value>return attack from Caliburni swords (fire element)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31337" xml:space="preserve">
+    <value>return attack from Caliburni swords (ice element)</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_Boss_31347" xml:space="preserve">
+    <value>line AoEs from Exglacialis stars</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_11_Boss_7850" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts paralysis (30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_21_Boss_2368" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts vulnerability up (20% per stack, 1m). Vulnerability up is applied even if the damage is fully shielded</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_31_Boss_10189" xml:space="preserve">
+    <value>pointblank AoE; inflicts windburn (magic DoT potency 50, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_Boss_3526" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts heavy (30s). Diminishing returns do NOT apply to this heavy (it is always 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_Boss_2331" xml:space="preserve">
+    <value>telegraphed donut AoE; inflicts bleeding (magic DoT potency 50, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_51_Boss_2330" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts bleeding (magic DoT potency 50, 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_Boss_3032" xml:space="preserve">
+    <value>instant pointblank AoE; inflicts heavy (30s) and knockback</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_Boss_7127" xml:space="preserve">
+    <value>telegraphed circle AoE of double the tornado's size that draws players in</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_Boss_337" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_Boss_764" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_Boss_489" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_Boss_855" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_Boss_7127" xml:space="preserve">
+    <value>telegraphed circle AoE of double the tornado's size that draws players in</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_Boss_3085" xml:space="preserve">
+    <value>roomwide AoE; inflicts deep freeze (DoT potency 15, 5s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_Boss_5567" xml:space="preserve">
+    <value>telegraphed pointblank AoE inflicting stun (2s); also hits enemies, including the boss</value>
+  </data>
 </root>

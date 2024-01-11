@@ -7,6 +7,9 @@ const compendium = path.join(__dirname, "compendium");
 const bnpc = JSON.parse(
   fs.readFileSync(path.join(__dirname, "processor", "names.json"), "utf8")
 );
+const actions = JSON.parse(
+  fs.readFileSync(path.join(__dirname, "processor", "actions.json"), "utf8")
+);
 
 const enemies = {};
 const floorsets = {};
@@ -70,6 +73,18 @@ function jobSpecifics(data) {
   );
 }
 
+function deepDungeon(name) {
+  if (name.includes("potd")) {
+    return "PalaceOfTheDead";
+  } else if (name.includes("hoh")) {
+    return "HeavenOnHigh";
+  } else if (name.includes("eo")) {
+    return "EurekaOrthos";
+  } else {
+    return null;
+  }
+}
+
 async function main() {
   const strings = await resx.resx2js(
     fs.readFileSync(
@@ -78,19 +93,40 @@ async function main() {
     )
   );
 
+  function ability(prefix, data) {
+    let potency = parseInt(data.potency);
+    if (isNaN(potency)) potency = null;
+
+    // Remove parentheses
+    const name = data.name
+      .replace(/\(.*\)/g, "")
+      .trim()
+      .toLowerCase();
+    const id = Object.entries(actions).filter(
+      ([, v]) => v.toLowerCase() === name
+    );
+    if (id.length < 1) {
+      console.log(`Unable to find ID for ${data.name}`);
+      return;
+    }
+    // Just pick the first ability for now - TODO
+    const realId = parseInt(id[0][0]);
+
+    strings[`AbilityNote_${prefix}_${realId}`] = data.description;
+
+    return {
+      Id: realId,
+      Type: data.type,
+      Potency: potency
+    };
+  }
+
   const dirs = fs.readdirSync(compendium);
   for (const dir of dirs.filter((x) => x.endsWith("_enemies"))) {
     const files = fs.readdirSync(path.join(compendium, dir));
 
     const floor = parseInt(dir.split("_")[2]);
-    let type = null;
-    if (dir.includes("potd")) {
-      type = "PalaceOfTheDead";
-    } else if (dir.includes("hoh")) {
-      type = "HeavenOnHigh";
-    } else if (dir.includes("eo")) {
-      type = "EurekaOrthos";
-    }
+    const type = deepDungeon(dir);
     if (type == null) {
       console.log(`Unable to find type for ${filePath}`);
       continue;
@@ -101,6 +137,7 @@ async function main() {
       const raw = fs.readFileSync(filePath, "utf8");
       const data = yaml.load(raw.split("---")[1]);
 
+      // TODO: handle duplicate names
       const id = Object.entries(bnpc).filter(
         ([, v]) => v.toLowerCase() === data.name.toLowerCase()
       );
@@ -108,9 +145,11 @@ async function main() {
         console.log(`Unable to find ID for ${data.name} in ${filePath}`);
         continue;
       }
+      const realId = parseInt(id[0][0]);
+      const uniqueId = `${type}_${floor}_${realId}`;
 
       const enemy = {
-        Id: parseInt(id[0][0]),
+        Id: realId,
         Family: data.family,
         Image: data.image,
 
@@ -122,6 +161,7 @@ async function main() {
         AttackName: data.attack_name,
         AttackType: data.attack_type,
 
+        Abilities: (data.abilities ?? []).map((x) => ability(uniqueId, x)),
         Vulnerabilities: Object.fromEntries(
           Object.entries(data.vulnerabilities)
             .filter(([k, v]) => typeof v === "boolean")
@@ -139,8 +179,7 @@ async function main() {
       enemies[type][floor].push(enemy);
 
       const builtNote = buildNote(notes(data.notes));
-      if (builtNote)
-        strings[`EnemyNote_${type}_${floor}_${enemy.Id}`] = builtNote;
+      if (builtNote) strings[`EnemyNote_${uniqueId}`] = builtNote;
     }
   }
 
@@ -151,30 +190,25 @@ async function main() {
       const raw = fs.readFileSync(filePath, "utf8");
       const data = yaml.load(raw.split("---")[1]);
 
-      let type = null;
-      if (dir.includes("potd")) {
-        type = "PalaceOfTheDead";
-      } else if (dir.includes("hoh")) {
-        type = "HeavenOnHigh";
-      } else if (dir.includes("eo")) {
-        type = "EurekaOrthos";
-      }
-
+      let type = deepDungeon(dir);
       if (type == null) {
         console.log(`Unable to find type for ${filePath}`);
         continue;
       }
+      const floorsetId = parseInt(data.floorset);
 
       const floorset = {
         Boss: data.boss,
-        BossAbilities: data.boss_abilities,
+        BossAbilities: (data.boss_abilities ?? []).map((x) =>
+          ability(`${type}_${floorsetId}_Boss`, x)
+        ),
         JobSpecifics: jobSpecifics(data.job_specifics)
       };
 
       if (!floorsets[type]) {
         floorsets[type] = {};
       }
-      floorsets[type][data.floorset] = floorset;
+      floorsets[type][floorsetId] = floorset;
 
       const builtNote = buildNote(notes(data.boss_notes));
       if (builtNote)

@@ -1,8 +1,7 @@
 ﻿namespace DeeperDeepDungeonDex.Storage;
 
 public class Ability {
-    public string? Name;
-    public string? Potency; // "n/a" or a number
+    public required uint Id;
     public AttackType Type;
-    public string? Description;
+    public uint? Potency;
 }
