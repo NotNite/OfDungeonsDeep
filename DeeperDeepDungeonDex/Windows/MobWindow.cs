@@ -29,7 +29,7 @@ public class MobWindow : Window, IDisposable {
         if (Services.TargetManager.Target is BattleNpc {BattleNpcKind: BattleNpcSubKind.Enemy} bnpc
             && bnpc.IsValid()
             && Plugin.InDeepDungeon()
-            && Plugin.StorageManager.Enemies.TryGetValue(bnpc.NameId, out var enemy)) {
+            && Plugin.StorageManager.AllEnemies.TryGetValue(bnpc.NameId, out var enemy)) {
             this.target = bnpc;
             this.targetInfo = enemy;
         } else {
@@ -51,6 +51,7 @@ public class MobWindow : Window, IDisposable {
         var vulns = this.targetInfo.Vulnerabilities
             .Where(x => x.Value)
             .Select(x => x.Key);
+        
         ImGui.TextUnformatted($"Weakness: {string.Join(", ", vulns)}");
     }
 }

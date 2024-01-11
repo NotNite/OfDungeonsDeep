@@ -55,6 +55,21 @@ function jobSpecifics(data) {
 const dirs = fs.readdirSync(compendium);
 for (const dir of dirs.filter((x) => x.endsWith("_enemies"))) {
   const files = fs.readdirSync(path.join(compendium, dir));
+
+  const floor = dir.split("_")[2];
+  let type = null;
+  if (dir.includes("potd")) {
+    type = "PalaceOfTheDead";
+  } else if (dir.includes("hoh")) {
+    type = "HeavenOnHigh";
+  } else if (dir.includes("eo")) {
+    type = "EurekaOrthos";
+  }
+  if (type == null) {
+    console.log(`Unable to find type for ${filePath}`);
+    continue;
+  }
+
   for (const file of files) {
     const filePath = path.join(compendium, dir, file);
     const raw = fs.readFileSync(filePath, "utf8");
@@ -70,8 +85,10 @@ for (const dir of dirs.filter((x) => x.endsWith("_enemies"))) {
 
     const enemy = {
       Name: data.name,
+      Id: parseInt(id[0][0]),
       Nickname: data.nickname,
       Family: data.family,
+      Image: data.image,
 
       StartFloor: data.start_floor,
       EndFloor: data.end_floor,
@@ -90,8 +107,13 @@ for (const dir of dirs.filter((x) => x.endsWith("_enemies"))) {
       JobSpecifics: jobSpecifics(data.job_specifics)
     };
 
-    const actualId = id[0][0];
-    enemies[actualId] = enemy;
+    if (!enemies[type]) {
+      enemies[type] = {};
+    }
+    if (!enemies[type][floor]) {
+      enemies[type][floor] = [];
+    }
+    enemies[type][floor].push(enemy);
   }
 }
 
@@ -131,10 +153,10 @@ for (const dir of dirs.filter((x) => x.endsWith("_floorsets"))) {
 }
 
 fs.writeFileSync(
-  path.join(__dirname, "Data", "enemies.json"),
+  path.join(__dirname, "Data", "enemies.en.json"),
   JSON.stringify(enemies)
 );
 fs.writeFileSync(
-  path.join(__dirname, "Data", "floorsets.json"),
+  path.join(__dirname, "Data", "floorsets.en.json"),
   JSON.stringify(floorsets)
 );

@@ -3,6 +3,6 @@
 namespace DeeperDeepDungeonDex.Storage;
 
 public class NoteData {
-    public List<string> Notes;
-    public List<NoteData> Subnotes;
+    public List<string> Notes = new();
+    public List<NoteData> Subnotes = new();
 }

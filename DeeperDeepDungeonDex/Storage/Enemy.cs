@@ -4,8 +4,10 @@ namespace DeeperDeepDungeonDex.Storage;
 
 public class Enemy {
     public required string Name;
+    public required uint Id;
     public string? Nickname;
     public string? Family;
+    public string? Image;
 
     public required int StartFloor;
     public required int EndFloor;
