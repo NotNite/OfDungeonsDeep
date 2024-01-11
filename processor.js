@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const yaml = require("js-yaml");
+const resx = require("resx");
 
 const compendium = path.join(__dirname, "compendium");
 const bnpc = JSON.parse(
@@ -39,6 +40,23 @@ function notes(data) {
   }
 }
 
+function buildNote(notes, indent = 0) {
+  if (!notes) return undefined;
+  let str = "";
+  let indentStr = " ".repeat(indent);
+  let iHateJavascript = Array.isArray(notes) ? notes : [notes];
+  for (const note of iHateJavascript) {
+    for (const n of note.Notes) {
+      str += `${indentStr}- ${n}\n`;
+    }
+    for (const sub of note.Subnotes) {
+      str += buildNote(sub, indent + 2);
+    }
+  }
+
+  return str;
+}
+
 function jobSpecifics(data) {
   return Object.fromEntries(
     Object.entries(data ?? {}).map(([k, v]) => [
@@ -52,78 +70,19 @@ function jobSpecifics(data) {
   );
 }
 
-const dirs = fs.readdirSync(compendium);
-for (const dir of dirs.filter((x) => x.endsWith("_enemies"))) {
-  const files = fs.readdirSync(path.join(compendium, dir));
+async function main() {
+  const strings = await resx.resx2js(
+    fs.readFileSync(
+      path.join(__dirname, "DeeperDeepDungeonDex", "Strings.resx"),
+      "utf8"
+    )
+  );
 
-  const floor = dir.split("_")[2];
-  let type = null;
-  if (dir.includes("potd")) {
-    type = "PalaceOfTheDead";
-  } else if (dir.includes("hoh")) {
-    type = "HeavenOnHigh";
-  } else if (dir.includes("eo")) {
-    type = "EurekaOrthos";
-  }
-  if (type == null) {
-    console.log(`Unable to find type for ${filePath}`);
-    continue;
-  }
+  const dirs = fs.readdirSync(compendium);
+  for (const dir of dirs.filter((x) => x.endsWith("_enemies"))) {
+    const files = fs.readdirSync(path.join(compendium, dir));
 
-  for (const file of files) {
-    const filePath = path.join(compendium, dir, file);
-    const raw = fs.readFileSync(filePath, "utf8");
-    const data = yaml.load(raw.split("---")[1]);
-
-    const id = Object.entries(bnpc).filter(
-      ([, v]) => v.toLowerCase() === data.name.toLowerCase()
-    );
-    if (id.length !== 1) {
-      console.log(`Unable to find ID for ${data.name} in ${filePath}`);
-      continue;
-    }
-
-    const enemy = {
-      Name: data.name,
-      Id: parseInt(id[0][0]),
-      Nickname: data.nickname,
-      Family: data.family,
-      Image: data.image,
-
-      StartFloor: data.start_floor,
-      EndFloor: data.end_floor,
-      Hp: data.hp,
-
-      Aggro: data.agro,
-      AttackName: data.attack_name,
-      AttackType: data.attack_type,
-
-      Notes: notes(data.notes ?? []),
-      Vulnerabilities: Object.fromEntries(
-        Object.entries(data.vulnerabilities)
-          .filter(([k, v]) => typeof v === "boolean")
-          .map(([k, v]) => [pascalify(k), v])
-      ),
-      JobSpecifics: jobSpecifics(data.job_specifics)
-    };
-
-    if (!enemies[type]) {
-      enemies[type] = {};
-    }
-    if (!enemies[type][floor]) {
-      enemies[type][floor] = [];
-    }
-    enemies[type][floor].push(enemy);
-  }
-}
-
-for (const dir of dirs.filter((x) => x.endsWith("_floorsets"))) {
-  const files = fs.readdirSync(path.join(compendium, dir));
-  for (const file of files) {
-    const filePath = path.join(compendium, dir, file);
-    const raw = fs.readFileSync(filePath, "utf8");
-    const data = yaml.load(raw.split("---")[1]);
-
+    const floor = parseInt(dir.split("_")[2]);
     let type = null;
     if (dir.includes("potd")) {
       type = "PalaceOfTheDead";
@@ -132,31 +91,111 @@ for (const dir of dirs.filter((x) => x.endsWith("_floorsets"))) {
     } else if (dir.includes("eo")) {
       type = "EurekaOrthos";
     }
-
     if (type == null) {
       console.log(`Unable to find type for ${filePath}`);
       continue;
     }
 
-    const floorset = {
-      Boss: data.boss,
-      BossAbilities: data.boss_abilities,
-      BossNotes: notes(data.boss_notes),
-      JobSpecifics: jobSpecifics(data.job_specifics)
-    };
+    for (const file of files) {
+      const filePath = path.join(compendium, dir, file);
+      const raw = fs.readFileSync(filePath, "utf8");
+      const data = yaml.load(raw.split("---")[1]);
 
-    if (!floorsets[type]) {
-      floorsets[type] = {};
+      const id = Object.entries(bnpc).filter(
+        ([, v]) => v.toLowerCase() === data.name.toLowerCase()
+      );
+      if (id.length !== 1) {
+        console.log(`Unable to find ID for ${data.name} in ${filePath}`);
+        continue;
+      }
+
+      const enemy = {
+        Id: parseInt(id[0][0]),
+        Family: data.family,
+        Image: data.image,
+
+        StartFloor: data.start_floor,
+        EndFloor: data.end_floor,
+        Hp: data.hp,
+
+        Aggro: data.agro,
+        AttackName: data.attack_name,
+        AttackType: data.attack_type,
+
+        Vulnerabilities: Object.fromEntries(
+          Object.entries(data.vulnerabilities)
+            .filter(([k, v]) => typeof v === "boolean")
+            .map(([k, v]) => [pascalify(k), v])
+        ),
+        JobSpecifics: jobSpecifics(data.job_specifics)
+      };
+
+      if (!enemies[type]) {
+        enemies[type] = {};
+      }
+      if (!enemies[type][floor]) {
+        enemies[type][floor] = [];
+      }
+      enemies[type][floor].push(enemy);
+
+      const builtNote = buildNote(notes(data.notes));
+      if (builtNote)
+        strings[`EnemyNote_${type}_${floor}_${enemy.Id}`] = builtNote;
     }
-    floorsets[type][data.floorset] = floorset;
   }
+
+  for (const dir of dirs.filter((x) => x.endsWith("_floorsets"))) {
+    const files = fs.readdirSync(path.join(compendium, dir));
+    for (const file of files) {
+      const filePath = path.join(compendium, dir, file);
+      const raw = fs.readFileSync(filePath, "utf8");
+      const data = yaml.load(raw.split("---")[1]);
+
+      let type = null;
+      if (dir.includes("potd")) {
+        type = "PalaceOfTheDead";
+      } else if (dir.includes("hoh")) {
+        type = "HeavenOnHigh";
+      } else if (dir.includes("eo")) {
+        type = "EurekaOrthos";
+      }
+
+      if (type == null) {
+        console.log(`Unable to find type for ${filePath}`);
+        continue;
+      }
+
+      const floorset = {
+        Boss: data.boss,
+        BossAbilities: data.boss_abilities,
+        JobSpecifics: jobSpecifics(data.job_specifics)
+      };
+
+      if (!floorsets[type]) {
+        floorsets[type] = {};
+      }
+      floorsets[type][data.floorset] = floorset;
+
+      const builtNote = buildNote(notes(data.boss_notes));
+      if (builtNote)
+        strings[`FloorsetNote_${type}_${data.floorset}`] = builtNote;
+    }
+  }
+
+  fs.writeFileSync(
+    path.join(__dirname, "Data", "enemies.json"),
+    JSON.stringify(enemies)
+  );
+  fs.writeFileSync(
+    path.join(__dirname, "Data", "floorsets.json"),
+    JSON.stringify(floorsets)
+  );
+
+  const resxWrite = await resx.js2resx(strings);
+  fs.writeFileSync(
+    path.join(__dirname, "DeeperDeepDungeonDex", "Strings.resx"),
+    resxWrite
+  );
 }
 
-fs.writeFileSync(
-  path.join(__dirname, "Data", "enemies.en.json"),
-  JSON.stringify(enemies)
-);
-fs.writeFileSync(
-  path.join(__dirname, "Data", "floorsets.en.json"),
-  JSON.stringify(floorsets)
-);
+main();

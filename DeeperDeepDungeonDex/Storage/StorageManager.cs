@@ -17,20 +17,19 @@ public class StorageManager {
             .GroupBy(x => x.Id)
             .ToDictionary(x => x.Key, x => x.First());
 
-    // TODO: handle localization
     public void Load() {
         var assemblyDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
         var data = Path.Combine(assemblyDir, "Data");
 
         var options = new JsonSerializerOptions {IncludeFields = true};
         this.Enemies = JsonSerializer.Deserialize<Dictionary<DeepDungeonType, Dictionary<uint, List<Enemy>>>>(
-            File.ReadAllText(Path.Combine(data, "enemies.en.json")),
+            File.ReadAllText(Path.Combine(data, "enemies.json")),
             options
         )!;
         Services.PluginLog.Debug("Loaded {Count} enemies", this.AllEnemies.Count);
 
         this.Floorsets = JsonSerializer.Deserialize<Dictionary<DeepDungeonType, Dictionary<uint, Floorset>>>(
-            File.ReadAllText(Path.Combine(data, "floorsets.en.json")),
+            File.ReadAllText(Path.Combine(data, "floorsets.json")),
             options
         )!;
         Services.PluginLog.Debug("Loaded {Count} floorsets", this.Floorsets.Sum(x => x.Value.Count));

@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EnemyNote_EurekaOrthos_1_12324" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m vulnerability down buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_1_12114" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_1_12110" xml:space="preserve">
+    <value>- Be careful of explosions in large pulls
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_1_12112" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_1_12322" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Regenerates a small amount of HP every tick while in combat
+- Grants 30m regen buff upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_1_12323" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m damage up buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_1_2566" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_1_12118" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_11_12324" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m vulnerability down buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_11_12322" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Regenerates a small amount of HP every tick while in combat
+- Grants 30m regen buff upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_11_12323" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m damage up buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_11_12121" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_11_2566" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_11_12130" xml:space="preserve">
+    <value>- Bad Breath inflicts these debuffs:
+  - Nausea (20s)
+  - Slow (20s)
+  - Blind (30s)
+  - Heavy (20s)
+  - Silence (10s)
+  - Paralysis (30s)
+- Unlike the PotD/HoH variants, this Bad Breath does not inflict poison (it deals direct damage instead)
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_11_12120" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_21_12324" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m vulnerability down buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_21_12132" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_21_12134" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_21_12322" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m regen buff upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_21_12138" xml:space="preserve">
+    <value>- Stay close so you can easily dodge Swinge
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_21_12323" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m damage up buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_21_2566" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_31_12152" xml:space="preserve">
+    <value>- Voice abilities CANNOT be interrupted, unlike in previous deep dungeons
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_31_12324" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m vulnerability down buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_31_12156" xml:space="preserve">
+    <value>- The knockback can't be outranged, so be careful about knockback direction. You'll have a moment to adjust during the cast
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_31_12322" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m regen buff upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_31_12323" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m damage up buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_31_2566" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_31_12153" xml:space="preserve">
+    <value>- Death's Door has a normal cast time, not a quick cast like in PotD/HoH
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_41_12161" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_41_12324" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m vulnerability down buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_41_12164" xml:space="preserve">
+    <value>- You'll be safe from Ecliptic Bite if the stun from Abyssal Cry wears off before the Hoarhound reaches you. This generally will only happen in pit rooms where it has to run around the pit
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_41_12162" xml:space="preserve">
+    <value>- LoSing the charge is not mandatory if you have room to dodge the followup AoE
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_41_12163" xml:space="preserve">
+    <value>- Once a Kukulkan decides to use Bombination on a player, it will slowly move close enough for the AoE to hit the player before starting the cast. It will keep following until it gets within range, even into other rooms! Be aware of these when fighting other mobs
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_41_12322" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m regen buff upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_41_12323" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m damage up buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_41_2566" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_41_12170" xml:space="preserve">
+    <value>- Be careful when other enemies are around because you may not be able to dodge AoEs while heavied
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_51_12324" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m vulnerability down buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_51_12322" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m regen buff upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_51_12178" xml:space="preserve">
+    <value>- Acid Mist is fairly easy to avoid by kiting
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_51_12323" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m damage up buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_51_2566" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_51_12180" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_51_12176" xml:space="preserve">
+    <value>- If you shield all the damage from Scuttling Skewer, the heavy will also be blocked and Tail Screw will be skipped
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_51_12183" xml:space="preserve">
+    <value>- Gelid Charge only counters physical attacks, so casters can keep casting as usual - just be careful not to auto-attack
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_61_12324" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m vulnerability down buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_61_12189" xml:space="preserve">
+    <value>- The vulnerability up from Peculiar Light is a non-stacking debuff separate from other vuln-up effects. It also nullifies the vulnerability down buff from the Steel pomander and prevents you from reapplying it until the debuff wears off
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_61_12185" xml:space="preserve">
+    <value>- Smoldering Scales only counters physical attacks, so casters can keep casting as usual - just be careful not to auto-attack
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_61_12322" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m regen buff upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_61_12323" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m damage up buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_61_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_71_12324" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m vulnerability down buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_71_12202" xml:space="preserve">
+    <value>- As of patch 6.35, a bug can cause Gulo Gulo to store Savage Swipe and use it after moving within melee range, making it a guaranteed wipe. May be best to avoid this enemy for now
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_71_12322" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m regen buff upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_71_12323" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m damage up buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_71_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_71_12207" xml:space="preserve">
+    <value>- It can help to keep rotating around the enemy, so you can more easily tell when he's using abilities
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_71_12199" xml:space="preserve">
+    <value>- Uses Gallop &gt; Alicorn 3 times in a row
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_81_12222" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_81_12216" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_81_12324" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m vulnerability down buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_81_12217" xml:space="preserve">
+    <value>- All abilities target random players, so be wary of sudden direction changes when in a party
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_81_12322" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m regen buff upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_81_12323" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m damage up buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_81_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_81_12221" xml:space="preserve">
+    <value>- Rotation:
+  - Left Sweep or Right Sweep
+  - Ringing Burst or Surrounding Burst
+- Left/Right Sweep are 180-degree AoEs with an extra 30 degrees to the opposite side in front (for example, Left Sweep hits from directly in back, around the left side, to directly in front and 30 degrees beyond)
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_91_12324" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m vulnerability down buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_91_12223" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_91_12227" xml:space="preserve">
+    <value>- As of patch 6.35, a bug in the game sometimes causes the Unholy cast bar and effect to be hidden when the Lethargy protomander is active. Be VERY CAREFUL when using Lethargy on these floors!
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_91_12322" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m regen buff upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_91_12323" xml:space="preserve">
+    <value>- Dread beast
+- Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
+- Grants 30m damage up buff (10%) upon defeat
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_91_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_91_12232" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_91_12229" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_91_12224" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_1_7262" xml:space="preserve">
+    <value>- Auto-attack inflicts heavy (4s). Diminishing returns do NOT apply to this heavy (it is always 4s)
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_11_7280" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_11_7276" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_21_7290" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_21_7292" xml:space="preserve">
+    <value>- Uses each ability in sequence - at low aetherpool levels or when mass pulling the floor, be careful of the final enrage
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_21_7288" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_21_7291" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_31_7313" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_51_7327" xml:space="preserve">
+    <value>- auto-attacks inflict vulnerability up (5% per stack, 6s)
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_51_7330" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_51_7332" xml:space="preserve">
+    <value>- Doesn't have auto-attacks
+- Moves to within 15y for each Auto-cannons shot after the first
+- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_51_7336" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_61_7344" xml:space="preserve">
+    <value>- Will not come into melee range if you stay away from it, doing very little damage
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_61_7343" xml:space="preserve">
+    <value>- Its line AoEs are quick, so be ready to move fast
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_61_7350" xml:space="preserve">
+    <value>- Offal Breath inflicts these debuffs:
+  - Poison (magic DoT potency 10, 20s)
+  - Nausea (20s)
+  - Slow (20s)
+  - Blind (30s)
+  - Heavy (20s)
+  - Silence (10s)
+  - Paralysis (30s)
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_61_7340" xml:space="preserve">
+    <value>- auto-attacks inflict stacking poison (physical DoT potency 10 per stack, max 8 stacks, 30s)
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_71_7359" xml:space="preserve">
+    <value>- Rotation:
+  - Freefall (immediately when pulled)
+  - Golden Talons x3
+  - Freefall
+  - Winds of Winter - Be ready to stun or LoS
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_71_7357" xml:space="preserve">
+    <value>- Be careful near mammoths when you've used a Pomander of Concealment, as Prehistoric Trumpet will break the effect
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_71_7358" xml:space="preserve">
+    <value>- Does not make an effort to come into melee range unless Golden Tongue is interrupted
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_81_7373" xml:space="preserve">
+    <value>- Rotation:
+  - Goobbue's Grief
+  - Moldy Phlegm
+  - Goobbue's Grief
+  - Inhale + Moldy Sneeze
+  - Goobbue's Grief
+  - Time for roughly 3 auto-attacks before it restarts (another Goobbue's Grief)
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_81_7375" xml:space="preserve">
+    <value>- You can duck behind a corner as it uses Rush to steer it into the wall. You'll still take damage, but it can give you a chance to heal before it's in range to auto-attack
+- If LoSing Earthquake, you can peek out between stomps for uptime, but the timing is weird. Damage is applied when it hits the ground as expected, but it snapshots your position earlier, as its feet come off the ground
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_81_7374" xml:space="preserve">
+    <value>- If you let it do one auto-attack after Vile Utterance and then duck behind a corner, you should avoid the vulnerability up
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_81_7367" xml:space="preserve">
+    <value>- You can duck behind a corner as it uses Buffet to steer it into the wall. You'll still take damage, but it can give you a chance to heal before it's in range to auto-attack
+- For melee jobs, try standing behind it during its casts to delay its next auto-attack
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_81_7365" xml:space="preserve">
+    <value>- These mostly just spam abilities, doing very little auto-attack damage
+- Try to stand behind it during Dragon's Voice and Breath attacks to delay its next auto-attack
+- Voice and Breath abilities are all treated as spells, so an impeding trap can interrupt one in an emergency
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_81_7366" xml:space="preserve">
+    <value>- Hits hard, and doesn't stop to use abilities so the damage is constant
+- DO NOT pull while it has the attack bonus
+- Be very careful fighting other enemies nearby
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_81_7370" xml:space="preserve">
+    <value>- Elbow Drop can be baited to delay its auto-attacks; just don't get hit by it!
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_91_7391" xml:space="preserve">
+    <value>- Rare spawn
+</value>
+  </data>
+  <data name="EnemyNote_HeavenOnHigh_91_7389" xml:space="preserve">
+    <value>- Each time it grows, it gains a stacking damage up buff
+- Pattern:
+  - Drainstrikes
+  - Iron Justice
+  - Cloudcover x2
+  - Grows
+  - Iron Justice x2
+  - Grows
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_1_2566" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_1_5479" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_11_2566" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_11_4995" xml:space="preserve">
+    <value>- Bad Breath inflicts these debuffs:
+  - Poison (unique DoT potency 50, 30s)
+  - Nausea (20s)
+  - Slow (10s)
+  - Blind (30s)
+  - Heavy (20s)
+  - Silence (10s)
+  - Paralysis (30s)
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_11_4996" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_11_4994" xml:space="preserve">
+    <value>- Autoattack inflicts stacking poison (physical DoT potency 10 per stack, max 4 stacks, 9s)
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_11_5049" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: Oh, Dolorous. Even in death...I will always...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_11_5048" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: Wh-What is this place? Where are the others?
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_11_5047" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: We said we'd...make a name for ourselves...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_21_5052" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: You hear that, lads? The sea's callin' me home...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_21_5050" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: I must have that chocobo egg...It's the only way...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_21_2566" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_21_5051" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying word: I am undying...? Was it the elixir?
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_21_5005" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_31_5017" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_31_5053" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: Where are my men...? Clovissoix, Dhavha!
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_31_2566" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_31_5019" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_31_5020" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_41_5046" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: Impossible! M-My courage is...absolute...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_41_5026" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_41_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_51_5291" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: Gyahahaha! &amp;lt;wheeze&amp;gt; The dark returns...to dark...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_51_5301" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_51_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_51_5290" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: I...I've been...executed!?
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_51_4996" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_51_5303" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_61_5293" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: Una... Percevains... Where did you...?
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_61_5292" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: I finally remember...who I am...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_61_5294" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: We must...protect...the Waking Sands...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_61_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_71_5295" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: Ala Mhigo, it...it burns...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_71_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_71_5296" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: Damielliot, please... Open your eyes...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_81_5344" xml:space="preserve">
+    <value>- Can appear on any floor from 81-89, but seems fairly rare in the earlier floors, and more common in the later floors
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_81_5337" xml:space="preserve">
+    <value>- Can appear on any floor from 81-89, but seems fairly rare in the earlier floors, and much more common in the later floors
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_81_5297" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: The dragons will...rend you...asunder...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_81_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_81_5298" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: Laniaitte... Francel... I wish you all...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_91_5348" xml:space="preserve">
+    <value>- Can appear on any floor from 91-99, but seems fairly rare in the earlier floors, and much more common in the later floors
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_91_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_91_5283" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: No...Stay back! Not again!
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_91_5351" xml:space="preserve">
+    <value>- Autoattack absorbs 30% of damage dealt
+- Be careful when raging - if not at full health, autoattack drain can let it survive rage hits
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_101_5284" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: I must find...the Black Eft...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_101_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_101_5480" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_101_5360" xml:space="preserve">
+    <value>- Arm's Length can be used to override the haste buff and prevent it from re-applying
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_111_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_111_5380" xml:space="preserve">
+    <value>- Stand close so you'll be able to get out of the Bad Breath AoE after waking up from Sweet Breath
+- Bad Breath inflicts these debuffs:
+  - Poison (unique DoT potency 50, 30s)
+  - Nausea (20s)
+  - Slow (10s)
+  - Blind (30s)
+  - Heavy (20s)
+  - Silence (10s)
+  - Paralysis (30s)
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_111_5379" xml:space="preserve">
+    <value>- Autoattack has a chance to inflict stacking poison (physical DoT potency 10 per stack, max 4 stacks, 9s)
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_111_5375" xml:space="preserve">
+    <value>- Acid Spray inflicts physical vulnerability up (+10% per stack, max 8 stacks, 5s); this ability does magic damage, so its own damage is not affected
+- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_121_5386" xml:space="preserve">
+    <value>- Uses Levinfang immediately followed by Electrify shortly after pull. If paralysis procs early, you won't be able to escape the AoE
+- Can use Spine Drops to remove paralysis if you're ok with not using Sustaining Potions for 1m30s
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_121_5285" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: SLAVES... NO MORE...!
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_121_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_121_5390" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_131_5402" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+- Stay close when in parties to avoid being caught out by random targeting
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_131_5286" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: No! I can't die... Not like this...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_131_5399" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_131_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_131_5404" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_131_5405" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_141_5414" xml:space="preserve">
+    <value>- Hits pretty hard - watch out for poison damage
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_141_5412" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_141_5415" xml:space="preserve">
+    <value>- Hits pretty hard with the attack bonus
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_141_5421" xml:space="preserve">
+    <value>- Hits pretty hard with the attack bonus
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_141_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_151_5434" xml:space="preserve">
+    <value>- If there are several, you may want to pull them in quick succession to take advantage of diminishing returns on paralysis
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_151_5431" xml:space="preserve">
+    <value>- Disengaging during Ice Spikes and running away to avoid Void Blizzard is probably the safest option as you avoid all damage
+- Some people prefer to disengage during Ice Spikes and stun/interrupt Void Blizzard. Make sure to disengage again quickly, but you will probably still get one auto-attack in and take Ice Spikes damage.
+- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_151_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_151_5381" xml:space="preserve">
+    <value>- Caster, but also does melee attacks if you're close. Keeping distance will mitigate some damage
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_151_5433" xml:space="preserve">
+    <value>- Caster - kiting doesn't help to mitigate damage
+- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_151_5287" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: Dyin' a third time... Forgive me, Diamanda...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_161_5440" xml:space="preserve">
+    <value>- Hits pretty hard
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_161_5443" xml:space="preserve">
+    <value>- Hits pretty hard
+- Doesn't stop to use any abilities, so the damage is constant
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_161_5288" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dying words: Lord van Baelsar... Even in death...I serve...
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_161_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_161_5442" xml:space="preserve">
+    <value>- Hits pretty hard
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_161_5445" xml:space="preserve">
+    <value>- If there are several, you may want to pull them in quick succession to take advantage of diminishing returns on slow
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_161_5447" xml:space="preserve">
+    <value>- Bait Third Leg Back repeatedly to avoid taking any damage - just keep running in and out of its area
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_161_5389" xml:space="preserve">
+    <value>- Hits pretty hard
+- Doesn't stop to use any abilities, so the damage is constant
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_171_5459" xml:space="preserve">
+    <value>- If in a party, spread out to minimize damage from Flying Frenzy
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_171_5450" xml:space="preserve">
+    <value>- Hits pretty hard
+- Doesn't stop to use any abilities, so the damage is constant
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_171_5456" xml:space="preserve">
+    <value>- If there are several, you may want to pull them in quick succession to take advantage of diminishing returns on paralyze
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_171_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_171_5454" xml:space="preserve">
+    <value>- Hits VERY hard
+- DO NOT pull while it has the attack bonus
+- Be very careful fighting other enemies nearby
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_171_5460" xml:space="preserve">
+    <value>- Hits pretty hard
+- Doesn't stop to use any abilities, so the damage is constant
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_181_5466" xml:space="preserve">
+    <value>- Does a draw-in that inflicts Prey status followed by Impale. Knockback immunity does not work, but draw-in will not work on floors with knockback penalty, making them easier to deal with
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_181_5470" xml:space="preserve">
+    <value>- These mostly just spam abilities, doing very little auto-attack damage
+- Try to stand behind it during Voice and Breath attacks to delay its next auto-attack
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_181_5289" xml:space="preserve">
+    <value>- Rare spawn
+- Uses only auto-attacks
+- Immune to transfiguration (Pomander of Witching)
+- Dies in 4 hits from resolution
+- Dying words: Lord Gaius... I'm coming.
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_181_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_181_5480" xml:space="preserve">
+    <value>- Caster - kiting doesn't help to mitigate damage
+- Interrupts spell casts very often
+- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_181_5465" xml:space="preserve">
+    <value>- Enrages after 30 seconds, using Bottomless Desert followed by Temblor. Knockback penalty blocks the draw-in, making them easier to deal with
+- Can appear on any floor from 181-189, but seems fairly rare in the earlier floors, and more common in the later floors
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_191_5473" xml:space="preserve">
+    <value>- Caster - kiting doesn't help to mitigate damage
+- Interrupts spell casts very often
+- Stay close when in parties to avoid being caught out by random targeting
+- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_191_5423" xml:space="preserve">
+    <value>- Highest DPS enemy in PotD
+- If in a party, spread out to minimize damage from Vengeful Soul
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_191_5415" xml:space="preserve">
+    <value>- Do not fight one of these with a Wraith nearby, as the Wraith can cast Accursed Pox outside of combat and fill in the safe spot normally left by Death Spiral
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_191_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_191_5472" xml:space="preserve">
+    <value>- Will not come into melee range if you stay away from it, doing very little damage
+- For ranged jobs, these are great to pull and fight in a corner while patrols are passing, or to kite around while exploring
+</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_191_5422" xml:space="preserve">
+    <value>- Do not fight a Knight with one of these nearby, as Accursed Pox can fill in the safe spot of the Knight's donut AoE
+</value>
+  </data>
+  <data name="FloorsetNote_EurekaOrthos_001" xml:space="preserve">
+    <value>- The arena is a 3x3 grid of mines (pachypodium mine adds)
+- Rotation:
+  - Authoritative Shriek
+  - Authoritative Shriek
+  - Mandrastorm
+  - Mines activate in rows with the middle always being first. Stand in the third row to activate and move into the first after it explodes.
+</value>
+  </data>
+  <data name="FloorsetNote_EurekaOrthos_011" xml:space="preserve">
+    <value>- Initial actions:
+  - Offensive Command: summons 3 adds in a Y shape
+    - Stand beside any of the adds
+  - Offensive Command: summons 5 more adds to complete the circle
+    - Stand beside the one tethered add that doesn't have another tether across from it
+  - Piercing Laser
+  - Order Relay - see note below for safe spots
+- Rotation:
+  - Piercing Laser
+  - Piercing Laser
+  - Offensive Command for 5 random adds
+    - Stand beside a tethered add that doesn't have another tether across from it
+  - Order Relay - see note below for safe spots
+- The two sets of 4 adds for Order Relay will each be a group of 3 and a solo add, separated by the solo add for the other set. To dodge the flames, start in front of the second solo add, then move to the first solo add after the first flames are done
+</value>
+  </data>
+  <data name="FloorsetNote_EurekaOrthos_021" xml:space="preserve">
+    <value>- All damage other than the boss's auto-attack inflicts vulnerability up (20% per stack, 1m)
+- Initial actions:
+  - Creature of Darkness
+  - Dark Wyrmtail OR Dark Wyrmwing
+  - Dark Megaflare
+  - Whei Morn
+  - Dark Wyrmwing OR Dark Wyrmtail
+- Rotation:
+  - Creature of Darkness
+  - Dark Wyrmtail OR Dark Wyrmwing
+  - Whei Morn
+  - Dark Wyrmwing OR Dark Wyrmtail
+  - Dark Megaflare
+  - Whei Morn
+  - Dark Wyrmtail OR Dark Wyrmwing
+- The first two Dark Wyrm actions will be either tail followed by wing or wing followed by tail. Likewise, the 3 tail/wing actions in a single rotation will always be either tail-wing-tail or wing-tail-wing
+</value>
+  </data>
+  <data name="FloorsetNote_EurekaOrthos_031" xml:space="preserve">
+    <value>- Opening sequence:
+  - Twister
+  - Meracydian Cyclone
+  - Meracydian Squall
+  - Turbine
+  - Twister
+  - Meracydian Squall
+  - Twisting Dive
+- Rotation after opening:
+  - Twister
+  - Meracydian Cyclone
+  - Meracydian Squall
+  - Turbine
+- Getting hit by a Cyclone or Squall AoE inflicts vulnerability up (10% per stack, 30s)
+- The arena has an outer damage ring which inflicts windburn (unique DoT potency 200, 15s, cannot be removed with Esuna) if you step on it
+- Simple strategy for Meracydian Cyclone/Squall:
+  - Find the open center-to-edge path for Turbine
+  - Drop two Squall AoEs at the edge (the first one won't land until the third AoE appears)
+  - Move inward, drop the other two Squall AoEs
+  - Move to the center and wait for Turbine
+</value>
+  </data>
+  <data name="FloorsetNote_EurekaOrthos_041" xml:space="preserve">
+    <value>- Initial actions:
+  - Songs of Ice and Thunder OR Thunder and Ice
+  - Leftbreathed Thunder OR Rightbreathed Cold
+  - Thunderous Cold OR Cold Thunder
+  - Leftbreathed Thunder OR Rightbreathed Cold
+- Rotation:
+  - Cacophony
+  - Leftbreathed Thunder OR Rightbreathed Cold
+  - Thunderous Cold OR Cold Thunder
+  - Leftbreathed Thunder OR Rightbreathed Cold
+  - Songs of Ice and Thunder OR Thunder and Ice
+- Elements not important for Left/Rightbreathed. For other abilities, pay attention to the order of elements in the ability name - ice/cold is pointblank and thunder is donut
+- All ice/thunder AoEs deal 900 potency magic damage (~50k to a DPS/healer) and inflict vulnerability up (20% per stack, 1m) along with deep freeze (magic DoT potency 150, 6s) or paralysis (15s), uncurable with Esuna
+- Ram's + Dragon's Voice combo is survivable with steel
+- Charge tether is potency 2700 when too close, which will one-shot DPS/healers through steel
+</value>
+  </data>
+  <data name="FloorsetNote_EurekaOrthos_051" xml:space="preserve">
+    <value>- Rotation:
+  - Octuple Swipe
+  - Disorienting Groan OR Bullish Swing
+  - Bullish Swipe (random target)
+  - Thundercall
+- The boss rotates to face the player before Octuple Swipe, so the first swipe will always be toward the player. The first four swipes are in the order front &gt; back &gt; left &gt; right, and the next four are either the same order or reversed
+- Trick for Octuple Swipe:
+  - Stand outside of the first spot
+  - The only attack that might repeat in the same area is 4 and 5
+  - If there is no repeat, follow all of the attacks - always stand where the last one hit
+  - If there was a repeat, follow the attacks until the one that repeats. Wait for both hits in that area, then move into it and stay there
+</value>
+  </data>
+  <data name="FloorsetNote_EurekaOrthos_061" xml:space="preserve">
+    <value>- Rotation:
+  - Steel Claw
+  - Ferocity (random target)
+  - Preternatural Turn
+  - Roar
+  - Preternatural Turn
+- Preternatural Turn with crystals:
+  - If the boss is doing a pointblank AoE, the crystals will do wide conal AoEs toward the outside of the arena. The safe spots are between the farthest crystal and an adjacent one, a bit closer to the far one and outside of the pointblank
+  - If the boss is doing a donut AoE, the crystals will do pointblank AoEs. The safe spot is a small triangle just inside the inner circle of the boss's hitbox toward the far crystal
+- Unei can provide all the heals you need as long as you don't get hit by anything avoidable
+</value>
+  </data>
+  <data name="FloorsetNote_EurekaOrthos_071" xml:space="preserve">
+    <value>- Rotation:
+  - Resonance
+  - Barofield (only used on first rotation)
+  - Nanospore Jet
+  - Nerve Gas (Centralized, Leftward, or Rightward)
+  - Nerve Gas (Centralized, Leftward, or Rightward)
+    - Auto-cannons fire during this cast
+  - Nerve Gas (Centralized, Leftward, or Rightward)
+    - Auto-cannons fire during this cast
+  - Magnet tether appears
+  - Nerve Gas (Centralized, Leftward, or Rightward)
+    - Auto-cannons fire during this cast
+  - Nerve Gas Ring
+    - Magnet attract/repel happens just before this cast finishes; there is a quick moment to adjust when the telegraph appears
+    - Auto-cannons fire at the same time
+- Getting hit by Auto-cannons or any Nerve Gas attack inflicts vulnerability up (10% per stack, 30s)
+- North and south adds are always negative. West and east adds are always positive
+- If you are solo, you will always be bound to the north add, which spawns behind the boss
+- Use steel if you're not confident, so you can easily survive a hit from any of the Nerve Gas abilities
+</value>
+  </data>
+  <data name="FloorsetNote_EurekaOrthos_081" xml:space="preserve">
+    <value>- Rotation:
+  - Support Systems; spawns:
+    - 1 Interceptor α (egg) outside one side of the arena
+    - 5 Interceptor β (cubes) in a row along one side of the arena, close to the egg
+    - 1 Interceptor γ (sphere) inside the arena
+  - Interception Sequence - dodge adds in the order of markers
+  - Peripheral Lasers OR Cross Lasers
+  - Laserstream
+  - Support Systems; spawns:
+    - 8 Interceptor β (cubes) along the north side of the arena
+    - 8 Interceptor β (cubes) along the east side of the arena
+  - Parallel Execution - dodge the circle AoEs while also getting to the safe side of both sets of firing cubes (wait for one to go off and run quickly into that space before the next goes off and hits you)
+  - Support Systems; spawns:
+    - 6 Interceptor β (cubes) along the west side of the arena with spaces beside the first and last at each end
+    - 6 Interceptor β (cubes) along the north side of the arena with spaces beside the first and last at each end
+    - 1 Interceptor α (egg) on the east side of the arena
+    - 1 Interceptor α (egg) on the south side of the arena
+  - Salvo Script - pay attention to the direction the eggs are facing
+    - safe spot is always in the far corner of a single square that is the second from the corner of the arena
+    - if both eggs are facing inward, safe spot is between the two eggs
+    - if one is facing toward the corner between the eggs, safe spot is on the far side of the other egg
+- Peripheral/Cross Lasers will one-shot DPS/healers through steel
+- All abilities except Laserstream inflict stacking vulnerability up (10% per stack, 1m)
+</value>
+  </data>
+  <data name="FloorsetNote_EurekaOrthos_091" xml:space="preserve">
+    <value>- Opening sequence:
+  - Paradoxum
+  - Caliburni - one set of blades
+  - Thermal Divide
+  - Blades from Caliburni fire back across the arena
+  - Call Dimensional Blade
+  - Solid OR Empty Souls' Caliber
+- Rotation after opening:
+  - Caliburni - 3 sets of blades
+  - Paradoxum - one set of blades turns to fire, and another to ice
+  - Frostforge OR Flameforge - you'll need to make sure your buff is opposite of this
+  - Blades from Caliburni fire back across the arena. If you have the same element as the boss prepared, make sure to get hit by an opposite element blade
+  - Solid OR Empty Souls' Caliber
+  - Frost's OR Flame's Revelation, depending on which was prepared
+  - Exglacialis OR Exflammeus
+  - Thermal Divide
+- Soul of Fire/Ice increases damage from the same element to 10x normal, so everything becomes a one-shot
+</value>
+  </data>
+  <data name="FloorsetNote_HeavenOnHigh_001" xml:space="preserve">
+    <value>- Rotation:
+  - Concussive Oscillation
+  - Overtow from center of room
+  - Amorphous Applause
+</value>
+  </data>
+  <data name="FloorsetNote_HeavenOnHigh_011" xml:space="preserve">
+    <value>- Rotation:
+  - Proboscis
+  - Psycho Squama
+  - Proboscis
+  - Neuro Squama
+    - Butterflies appear along the perimeter at the same time
+  - Psycho Squama
+    - Butterflies all explode at the same time, inflicting big damage and paralysis
+- TLDR: Stay close to centre so everything is easy to dodge
+</value>
+  </data>
+  <data name="FloorsetNote_HeavenOnHigh_021" xml:space="preserve">
+    <value>- Opening sequence:
+  - Lightning Strike
+  - Cloud Call
+  - Shiko
+    - Make sure you're far from the boss and stand under a cloud. You will break the cloud, creating a safe spot, as the other clouds will all do AoEs a moment later - stay in the safe spot until after this
+  - Lightning Strike (wait until cloud AoEs before dodging)
+- Rotation after opening sequence:
+  - Lightning Strike
+  - Lightning Strike
+  - Supercell
+  - Cloud Call
+  - Shiko
+  - Supercell (wait until cloud AoEs before dodging)
+</value>
+  </data>
+  <data name="FloorsetNote_HeavenOnHigh_031" xml:space="preserve">
+    <value>- Rotation:
+  - Tornado
+  - Ancient Aero II
+  - Whirlwinds appear along the west and east sides of the arena
+  - Ancient Aero III
+    - Whirlwinds explode immediately after this, so make sure not get get knocked into them
+  - Ancient Aero
+  - Ancient Aero II
+  - Whirlwinds appear along the north and south sides of the arena
+  - Ancient Aero III
+  - Ancient Aero
+</value>
+  </data>
+  <data name="FloorsetNote_HeavenOnHigh_041" xml:space="preserve">
+    <value>- Rotation:
+  - Rusting Claw - he stops and raises a hand to indicate that he's readying this
+  - Words of Woe - he stops, looks at the target, and stands still for a moment before firing this
+  - Eye of the Fire
+  - Orbs appear and boss drops proximity marker. Orbs will do telegraphed pointblank AoEs at regular intervals. Get away from the boss, but also away from the orbs
+  - The Spin - big damage if you're close to the marker, and very little if you're half the room away
+  - Orbs disappear as he does his next Rusting Claw
+</value>
+  </data>
+  <data name="FloorsetNote_HeavenOnHigh_051" xml:space="preserve">
+    <value>- Rotation:
+  - Firewalker
+  - First set of 4 Accursed Canes appears
+  - Second set of 4 Accursed Canes appears
+  - Fire II - at the same time, the first group of canes does donut AoEs
+  - Second set of canes does donut AoEs
+  - Topple - At the same time, the first group of canes does line AoEs at random players
+  - Second group of canes does line AoEs
+  - Canes disappear and a new group of 8 appears
+  - Fire II
+  - All 8 canes do donut AoEs. The centre is always safe from these, and there are safe spots to the outside of each cane
+  - Ancient Flare
+  - All 8 canes do line AoEs at random players. These are easiest to dodge if you bait them toward the walls
+- TLDR: Lots of AoEs to dodge
+</value>
+  </data>
+  <data name="FloorsetNote_HeavenOnHigh_061" xml:space="preserve">
+    <value>- Rotation:
+  - Predator Claws
+  - Slabber
+  - Innerspace
+  - Ululation - stay OUT of puddle until after this
+  - Hound out of Hell - get IN the puddle when this targets you
+  - Devour - stay IN puddle until this, then get OUT
+  - Ululation - make sure you're OUT of puddle
+- TLDR: Be OUT of puddle for Ululation &gt; IN for Hound out of Hell and Devour &gt; OUT for Ululation
+- Innerspace targets a random player each round. Hound out of Hell and Devour are used on the same player
+- If you take no damage from Hound out of Hell, it will not stun you. Make sure not to leave the puddle until AFTER Devour
+</value>
+  </data>
+  <data name="FloorsetNote_HeavenOnHigh_071" xml:space="preserve">
+    <value>- Rotation:
+  - Heavensward Howl
+  - Eclipse Bite
+  - Summons ice chunks that will explode in a large untelegraphed pointblank AoE if hit by the icicle, other exploding chunks, or Lunar Cry
+  - Icicle appears on one side of the arena with telegraphed circle AoE, then does a telegraphed line AoE shooting across the platform
+  - Lunar Cry
+  - Eclipse Bite
+</value>
+  </data>
+  <data name="FloorsetNote_HeavenOnHigh_081" xml:space="preserve">
+    <value>- Rotation before 85%:
+  - Burning Rave
+  - Knuckle Press
+  - Aura Cannon
+- Rotation after 85%:
+  - Ancient Quaga
+  - Meteor Impact - drops proximity marker under Onra; several black orbs also spawn around the room and pulse pointblank AoEs that inflict heavy
+  - Aura Cannon
+  - Burning Rave - meteor drops on proximity marker, and black orbs disappear roughly when this cast starts
+  - Knuckle Press
+- Melee uptime strategy:
+  - Place 3 markers along the wall, using the posts for reference:
+    - A by the post at 3:00
+    - B 2 posts north/counter-clockwise from A
+    - C 3 posts north/counter-clockwise from B (just right of the exit)
+  - Do whatever for the first 15% - doesn't really matter.
+  - Before Onra hits 85%, position him so that he's standing on the A marker and facing south
+  - When he starts casting Ancient Quaga, go behind him. This prevents an auto-attack immediately after Ancient Quaga
+  - Wait for Onra to turn around and make one auto-attack. This is important for positioning Meteor Impact
+  - Immediately run just past B. You need to move right after the auto to avoid a black orb AoE. You want Onra to stop on the B marker
+  - Wait for one auto-attack, then run to C, which will get you out of Aura Cannon
+  - Wait for Burning Rave, then move to B
+  - Wait for Knuckle Press, then move Onra back to A facing south
+  - Repeat from Ancient Quaga
+</value>
+  </data>
+  <data name="FloorsetNote_HeavenOnHigh_091" xml:space="preserve">
+    <value>- You must touch the Empyrean Shrine at the far end of floor 100 to secure your victory. It takes about 15 seconds to run across the floor without Sprint
+- You gain the title for soloing once you touch the shrine. To set it for your screenshots while still inside, use this text command: /title set "Lone Hero"
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_001" xml:space="preserve">
+    <value>- Rotation:
+  - Whipcrack
+  - Stormwind
+  - Bombination
+  - Lumisphere
+  - Aero Blast
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_011" xml:space="preserve">
+    <value>- Rotation:
+  - Bloody Caress
+  - Acid Mist
+  - Gold Dust
+  - Leafstorm
+  - Boss runs to north end and stays there until after Rotten Stench phase
+  - Two Palace Hornet adds appear
+  - Rotten Stench x3
+- Kill adds quickly, or they will use Final Sting, which does 70% max HP damage (each)
+- Lust can be used to AoE down the adds quickly while continuing to DPS the boss as well
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_021" xml:space="preserve">
+    <value>- Auto-attacks are conal AoEs
+- Rotation:
+  - Dissever
+  - Ball of Fire
+  - Ball of Ice
+  - Dissever
+  - Ball of Fire
+  - Ball of Ice
+  - Boss runs to center of room
+  - Fear Itself
+- Make sure to stay out of middle for the fire/ice balls to keep a safe spot for avoiding Fear Itself
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_031" xml:space="preserve">
+    <value>- Rotation:
+  - Ancient Eruption (x4)
+  - Adds: 2 Nightmare Bhoots appear
+  - Entropic Flame
+  - Accursed Pox
+  - Entropic Flame
+  - Accursed Pox
+  - Scream
+    - If adds are still alive at this point, prey will cause them to cast Tornado, likely killing you
+  - Shadow Flare
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_041" xml:space="preserve">
+    <value>- Rotation:
+  - Until 90% health:
+    - Dark Harvest
+    - In Health (donut)
+    - In Sickness
+  - Uses Black Honeymoon once at 90% health
+  - From 90% to 60% health:
+    - Cold Feet
+    - In Health (x2: pointblank, then donut)
+    - Dark Harvest
+    - In Sickness
+  - Uses Black Honeymoon once at 60% health
+  - Below 60% health:
+    - Cold Feet
+    - In Health (x2: pointblank &gt; donut OR donut &gt; pointblank)
+    - Dark Harvest (x2)
+    - In Health (donut) + adds
+      - Summons untargetable adds outside the arena which will cast either a single circle AoE (potency 250) or four line AoEs (each potency 300), resolving shortly before In Health
+      - Avoid the AoEs, then run toward Edda to dodge In Health
+    - Black Honeymoon
+- Stay close to avoid In Health easily
+  - But be careful of the disease debuff from In Sickness in the first half of the fight
+- Make sure to turn for Cold Feet
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_051" xml:space="preserve">
+    <value>- Rotation:
+  - Geirrothr
+  - Hall of Sorrow
+  - Valfodr
+    - Flames appear around the edges of the arena and do telegraphed pointblank AoEs at the same time. Make sure to get knocked into a safe spot or use knockback immunity. The flames explode a couple seconds after the knockback, so there is a bit of time to adjust. Flame explosions deal 70% max HP damage
+  - Geirrothr
+  - Hall of Sorrow
+- Bleed DoT does not stack (standing in overlapping puddles does the same damage as standing in just one)
+- The flame AoE telegraphs are buggy and sometimes don't display - stay away from the flames even if you don't see the telegraphs
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_061" xml:space="preserve">
+    <value>- Rotation:
+  - Drench
+  - Electrogenesis
+  - Douse
+  - Fang's End
+- Hit Sprint when it uses Drench if you're still heavied to escape Electrogenesis safely
+- Make sure to drag the boss out of the Douse puddles
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_071" xml:space="preserve">
+    <value>- Rotation:
+  - Thunderbolt
+  - Charybdis
+  - Thunderbolt
+  - Trounce; runs to the east end of the arena to cast this
+  - Charybdis
+  - Thunderbolt
+  - Charybdis
+  - Trounce again, but from the west end
+- At 10% HP, the boss casts Ecliptic Meteor once, then returns to the rotation
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_081" xml:space="preserve">
+    <value>- Rotation:
+  - Scalding Scolding
+  - Sap
+  - Grey Bomb spawns along with several untargetable Lava Bombs
+    - Grey Bomb starts using Burst immediately with a long cast time. It must be killed before this goes off to prevent big roomwide damage (80% max HP)
+    - Lava Bombs all use Self-destruct after a few seconds. This is a telegraphed pointblank AoE, so don't get caught in the middle of them
+  - Sap
+  - Sap
+  - Another Grey Bomb, but no Lava Bombs this time
+  - Scalding Scolding
+  - Sap
+  - Sap
+  - Giddy Bomb spawns along with several Lava Bombs as the boss starts casting Massive Burst
+    - Massive Burst will do 99% max HP damage to everyone if it finishes
+    - Giddy Bomb does a pointblank AoE that can interrupt the boss's Massive Burst. It can be moved around by attacking it
+    - Lava Bombs are the same as before, and can get in the way of your attempts to move the Giddy Bomb if you're not prepared
+- Grey and Giddy Bomb spawn locations are static. Locations below are relative to the center and listed per rotation (Grey &gt; Grey &gt; Giddy)
+  - Slightly south &gt; center &gt; slightly north-west
+  - North &gt; slightly south-west &gt; slightly north-east
+  - South &gt; north &gt; slightly north-east
+  - Center &gt; south &gt; center
+- You can preposition the boss where Giddy Bomb will spawn to avoid having to move the bomb around
+- You can preposition the boss on first Grey Bomb and use Lust to AoE it along with the boss for a faster kill
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_91" xml:space="preserve">
+    <value>- Timeline:
+  - phase 1: uses only Abyss until HP reaches 90%
+  - Summon Darkness: spawns 1 Giant Corse and 1 Bicephalic Corse
+  - phase 2: uses Abyss and Shackle until HP reaches 65%
+  - Summon Darkness: spawns 1 Bicephalic Corse and 1 Iron Corse
+  - phase 3: uses Abyss, Shackle, and Word of Pain until HP reaches 40%
+  - Summon Darkness: spawns 1 Iron, 1 Giant, and 1 Bicephalic Corse
+  - phase 4: rotation of Doom &gt; Abyss &gt; Word of Pain &gt; Shackle &gt; Abyss &gt; Word of Pain
+- Lust can be used to AoE the adds down quickly (3 hits) while also applying vulnerability stacks to the boss
+- Adds remain on the battlefield when killed, and will be resurrected after a while if not cleared with resolution
+- Resolution can be used to kill adds in one shot. It can also be used on the corpses to remove them from the battle, preventing them from resurrecting
+- You'll want to use at least one resolution to clear most, if not all, of the adds. They are likely to overwhelm you otherwise
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_101" xml:space="preserve">
+    <value>- Rotation:
+  - Whipcrack
+  - Stormwind
+  - Bombination
+  - Lumisphere
+  - Aero Blast
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_111" xml:space="preserve">
+    <value>- Rotation:
+  - Bloody Caress
+  - Acid Mist
+  - Gold Dust
+  - Leafstorm
+  - Boss runs to north end and stays there until after Rotten Stench phase
+  - Two Deep Palace Hornet adds appear
+  - Rotten Stench x3
+- Full rotation takes 56 seconds
+- Kill adds quickly, or they will use Final Sting, which does 70% max HP damage (each). This can be outranged, but the adds will keep using it repeatedly until it hits or they die
+- If you use lust during the second Rotten Stench cast, it will last long enough to kill 2 sets of adds. Steel may be needed to survive long enough on non-tanks though
+- Rotten Stench will one-shot a DPS or healer without steel
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_121" xml:space="preserve">
+    <value>- Auto-attacks are conal AoEs
+- Rotation:
+  - Dissever
+  - Ball of Fire
+  - Ball of Ice
+  - Dissever
+  - Ball of Fire
+  - Ball of Ice
+  - Boss runs to center of room
+  - Fear Itself
+- Make sure to stay out of middle for the fire/ice balls to keep a safe spot for avoiding Fear Itself
+- Fear Itself is a quicker cast than on floor 30, so get to the center fast
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_131" xml:space="preserve">
+    <value>- Vulnerable to resolution
+  - Can be killed in under 1 minute on any job using strength and resolution
+- Rotation:
+  - Ancient Eruption (x4)
+  - Adds: 2 Deep Palace Followers appear
+  - Entropic Flame
+  - Accursed Pox
+  - Entropic Flame
+  - Accursed Pox
+  - Scream
+    - If adds are still alive at this point, prey will cause them to cast Tornado, killing you with 99999 damage
+  - Shadow Flare: roomwide AoE damage
+- Bleed pool DoT, Entropic Flame, and (presumably) Accursed Pox will one-shot DPS/healers - stay away
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_141" xml:space="preserve">
+    <value>- Rotation:
+  - Void Fire IV
+  - Summon Darkness (Gargoyle): calls an untargetable gargoyle that will use a large telegraphed line AoE at the same time as Dark Mist
+  - Dark Mist
+  - Summon Darkness (Zombies): calls 4 zombie adds that will slowly crawl towards you. If one touches you, you will be bound until it dies
+  - Void Fire IV
+  - Void Aero
+  - Summon Darkness (Vodoriga): calls an untargetable vodoriga that will use a telegraphed circle AoE just after the next Void Fire IV
+  - Void Fire IV
+  - Dark Mist
+  - Summon Darkness (Succubus): calls a succubus add - in addition to autoattacks, uses Sweet Steel and Void Fire II
+  - Void Aero
+  - Void Fire IV
+  - Fatal Allure
+  - Blood Sword - the HP drain is 1:1, so whether you DPS the add or the boss doesn't matter in terms of damage
+  - Blood Rain - kills any remaining zombies
+- Entire rotation is about 1m50s
+- Don't let the zombies catch you
+- Physical ranged jobs can just kite the zombies until they despawn. It's likely better for others to kill them. They have pretty low HP
+- If you're not killing the succubus add, it's worth putting DoTs on it anyway
+- In party play, Summon Darkness (Gargoyle/Vodoriga) summons one add for each party member
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_151" xml:space="preserve">
+    <value>- Rotation:
+  - Geirrothr
+  - Hall of Sorrow
+  - Valfodr
+    - Flames appear around the edges of the arena and do telegraphed pointblank AoEs at the same time. Make sure to get knocked into a safe spot or use knockback immunity. The flames explode a couple seconds after the knockback, so there is a bit of time to adjust. Flame explosions deal 70% max HP damage
+  - Geirrothr
+  - Hall of Sorrow
+- Bleed DoT does not stack (standing in overlapping puddles does the same damage as standing in just one)
+- The flame AoE telegraphs are buggy and sometimes don't display - stay away from the flames even if you don't see the telegraphs
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_161" xml:space="preserve">
+    <value>- Rotation:
+  - Drench
+  - Electrogenesis
+  - Douse
+  - Fang's End
+- Hit Sprint when it uses Drench if you're still heavied to escape Electrogenesis safely. Only needed 1 out of every 5 times because of diminshing returns on the heavy (15s &gt; 7s &gt; 3s &gt; resist &gt; resist &gt; 15s)
+- If you're kiting, it is a good idea to try to pull the boss to the same place every time for Douse. If they're all stacked in one place, it's much easier to keep the boss out of them, reducing damage taken
+- If not kiting, simply pull him out of the puddle after Douse
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_171" xml:space="preserve">
+    <value>- Rotation:
+  - Thunderbolt
+  - Charybdis (x2)
+  - Thunderbolt
+  - Trounce; runs to the south end of the arena to cast this
+  - Charybdis (x2)
+  - Thunderbolt
+  - Charybdis
+  - Trounce again, but from the north end
+- Enters enrage mode at 15% - stands up and casts Ecliptic Meteor, dealing 80% max HP damage to everyone in the party. Continues to cast this over and over until the fight ends
+- If you are standing in front of him during meteors, he can also autoattack you (so don't do that!)
+- Most jobs require a very strict strategy to get through this final push. See the job-specific notes below
+- Useful macros:
+  - Cancel Lust: /statusoff "Transfiguration"
+    - Useful if you have trouble clicking it off quickly
+  - Cancel food: /statusoff "Well Fed"
+    - Again useful if you have trouble cancelling it quickly otherwise
+    - Cancelling food is useful during enrage if you're healing through it because Meteors do damage based on your max HP. Lower max HP means less damage taken, which means less damage to heal
+    - Cancelling your food when not at full HP also acts like a pseudo heal since it lowers your max HP, which actually raises your current HP%
+  - Check boss HP% with decimal place: /echo &amp;lt;thpp&amp;gt;
+    - useful so you can get him as close to 15.0% as possible without accidentally starting the burst phase
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_181" xml:space="preserve">
+    <value>- Rotation:
+  - Scalding Scolding
+  - Remedy Bomb (blue) spawns along with several untargetable Giddy Bombs
+    - Remedy Bomb starts using Hypothermal Combustion immediately with a long cast time. It must be killed before this goes off to prevent massive roomwide damage (80% max HP damage + 5s deep freeze)
+    - Giddy Bombs all use Hypothermal Combustion after a few seconds. Theirs is a small telegraphed pointblank AoE with a short cast time, so stay away from them
+  - Sap (x3)
+  - Scalding Scolding
+  - Sap
+  - Lava Bomb (red) spawns along with several Giddy Bombs as the boss starts casting Massive Burst.
+    - Massive Burst will do 99% max HP damage to everyone if it finishes
+    - Lava Bomb does a pointblank AoE that can interrupt the boss's Massive Burst. It can be moved around by attacking it
+    - Giddy Bombs are the same as before, and can get in the way of your attempts to move the Lava Bomb if you're not prepared
+- Full rotation takes 1 minute, 20 seconds
+- Remedy Bomb and Lava Bomb spawn locations are static. Knowing the spawn locations of Lava Bombs is especially useful, as you can then pull the boss to where it will spawn, allowing you to to keep uptime on the boss instead of running around to position the bomb
+- DO NOT open with lust if soloing, as the cleave at the start will destroy you
+- The safest time to use lust is during the triple Sap cast. Kill the Remedy Bomb as quickly as possible to maximize your time. DO NOT get greedy here. Drop transfiguration immediately regardless of stacks after the third Sap, as you need to be prepared for the cleave that follows
+- Another option is to use Lust to kill the Lava Bomb and get stacks on the boss at the same time. It will take 4 hits to kill the Lava Bomb, so don't delay
+</value>
+  </data>
+  <data name="FloorsetNote_PalaceOfTheDead_191" xml:space="preserve">
+    <value>- You must touch the Firecrest or Glass Pumpkin at the far end of floor 200 to secure your victory. It takes about 35 seconds to run across the floor without Sprint
+- You gain the title for soloing once you touch the ending. To set it for your screenshots while still inside, use this text command: /title set "The Necromancer"
+</value>
+  </data>
+</root>

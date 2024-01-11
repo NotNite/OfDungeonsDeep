@@ -1,10 +1,12 @@
-﻿using System.Threading.Tasks;
+﻿using System.Globalization;
+using System.Threading.Tasks;
 using Dalamud.Game.Command;
 using Dalamud.Plugin;
 using Dalamud.Interface.Windowing;
 using DeeperDeepDungeonDex.Storage;
 using DeeperDeepDungeonDex.Windows;
 using FFXIVClientStructs.FFXIV.Client.Game.Event;
+using FFXIVClientStructs.FFXIV.Client.Game.InstanceContent;
 
 namespace DeeperDeepDungeonDex;
 
@@ -17,6 +19,8 @@ public sealed class Plugin : IDalamudPlugin {
     public static MobWindow MobWindow = null!;
 
     public Plugin(DalamudPluginInterface pluginInterface) {
+        Strings.Culture = new CultureInfo(pluginInterface.UiLanguage);
+
         pluginInterface.Create<Services>();
         Configuration = Services.PluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
 
@@ -42,12 +46,12 @@ public sealed class Plugin : IDalamudPlugin {
         MobWindow.Dispose();
     }
 
-    public static unsafe bool InDeepDungeon() {
+    public static unsafe InstanceContentDeepDungeon* GetDirector() {
         var eventFramework = EventFramework.Instance();
-        if (eventFramework == null) return false;
-        var dd = eventFramework->GetInstanceContentDeepDungeon();
-        return dd != null;
+        return eventFramework == null ? null : eventFramework->GetInstanceContentDeepDungeon();
     }
+
+    public static unsafe bool InDeepDungeon() => GetDirector() != null;
 
     private void OnCommand(string command, string args) {
         this.OpenConfigUi();
