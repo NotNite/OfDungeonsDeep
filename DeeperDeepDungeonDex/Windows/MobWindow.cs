@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.ClientState.Objects.Types;
@@ -26,10 +27,16 @@ public class MobWindow : Window, IDisposable {
     }
 
     private void FrameworkUpdate(IFramework framework) {
-        if (Services.TargetManager.Target is BattleNpc {BattleNpcKind: BattleNpcSubKind.Enemy} bnpc
+        var floorset = Plugin.GetFloorsetId();
+        var type = Plugin.GetDeepDungeonType();
+        if (
+            Services.TargetManager.Target is BattleNpc {BattleNpcKind: BattleNpcSubKind.Enemy} bnpc
             && bnpc.IsValid()
-            && Plugin.InDeepDungeon()
-            && Plugin.StorageManager.AllEnemies.TryGetValue(bnpc.NameId, out var enemy)) {
+            && floorset is not null
+            && type is not null
+            && Plugin.StorageManager.Enemies[type.Value].TryGetValue(floorset.Value, out var enemies)
+        ) {
+            var enemy = enemies.FirstOrDefault(x => x.Id == bnpc.NameId);
             this.target = bnpc;
             this.targetInfo = enemy;
         } else {
@@ -51,7 +58,7 @@ public class MobWindow : Window, IDisposable {
         var vulns = this.targetInfo.Vulnerabilities
             .Where(x => x.Value)
             .Select(x => x.Key);
-        
+
         ImGui.TextUnformatted($"Weakness: {string.Join(", ", vulns)}");
     }
 }

@@ -46,13 +46,6 @@ public sealed class Plugin : IDalamudPlugin {
         MobWindow.Dispose();
     }
 
-    public static unsafe InstanceContentDeepDungeon* GetDirector() {
-        var eventFramework = EventFramework.Instance();
-        return eventFramework == null ? null : eventFramework->GetInstanceContentDeepDungeon();
-    }
-
-    public static unsafe bool InDeepDungeon() => GetDirector() != null;
-
     private void OnCommand(string command, string args) {
         this.OpenConfigUi();
     }
@@ -64,4 +57,26 @@ public sealed class Plugin : IDalamudPlugin {
     public void OpenConfigUi() {
         // TODO
     }
+
+    public static unsafe InstanceContentDeepDungeon* GetDirector() {
+        var eventFramework = EventFramework.Instance();
+        return eventFramework == null ? null : eventFramework->GetInstanceContentDeepDungeon();
+    }
+
+    public static unsafe bool InDeepDungeon() => GetDirector() != null;
+
+    public static unsafe uint? GetFloorsetId() {
+        var director = GetDirector();
+        if (director == null) return null;
+        var floor = director->Floor;
+        return (uint) (floor - (floor % 10) + 1);
+    }
+
+    public static DeepDungeonType? GetDeepDungeonType()
+        => Services.ClientState.TerritoryType switch {
+            >= 561 and <= 565 or >= 593 and <= 607 => DeepDungeonType.PalaceOfTheDead,
+            >= 770 and <= 775 or >= 782 and <= 785 => DeepDungeonType.HeavenOnHigh,
+            >= 1099 and <= 1108 => DeepDungeonType.EurekaOrthos,
+            _ => null
+        };
 }
