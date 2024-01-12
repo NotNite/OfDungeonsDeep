@@ -1,22 +1,19 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.Threading.Tasks;
-using Dalamud.Game.Command;
 using Dalamud.Plugin;
-using Dalamud.Interface.Windowing;
 using DeeperDeepDungeonDex.Storage;
-using DeeperDeepDungeonDex.Windows;
+using DeeperDeepDungeonDex.System;
 using FFXIVClientStructs.FFXIV.Client.Game.Event;
 using FFXIVClientStructs.FFXIV.Client.Game.InstanceContent;
+using Lumina.Excel.GeneratedSheets2;
 
 namespace DeeperDeepDungeonDex;
 
 public sealed class Plugin : IDalamudPlugin {
-    private const string CommandName = "/dddd";
-
     public static Configuration Configuration = null!;
     public static StorageManager StorageManager = null!;
-    public static WindowSystem WindowSystem = null!;
-    public static MobWindow MobWindow = null!;
+    public static DeeperDeepDungeonDexController Controller = null!;
 
     public Plugin(DalamudPluginInterface pluginInterface) {
         Strings.Culture = new CultureInfo(pluginInterface.UiLanguage);
@@ -27,35 +24,11 @@ public sealed class Plugin : IDalamudPlugin {
         StorageManager = new StorageManager();
         Task.Run(StorageManager.Load);
 
-        WindowSystem = new WindowSystem("DeeperDeepDungeonDex");
-        WindowSystem.AddWindow(MobWindow = new MobWindow());
-
-        Services.CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand));
-
-        Services.PluginInterface.UiBuilder.Draw += this.Draw;
-        Services.PluginInterface.UiBuilder.OpenConfigUi += this.OpenConfigUi;
+        Controller = new DeeperDeepDungeonDexController();
     }
 
     public void Dispose() {
-        Services.PluginInterface.UiBuilder.Draw -= this.Draw;
-        Services.PluginInterface.UiBuilder.OpenConfigUi -= this.OpenConfigUi;
-
-        Services.CommandManager.RemoveHandler(CommandName);
-
-        WindowSystem.RemoveAllWindows();
-        MobWindow.Dispose();
-    }
-
-    private void OnCommand(string command, string args) {
-        this.OpenConfigUi();
-    }
-
-    private void Draw() {
-        WindowSystem.Draw();
-    }
-
-    public void OpenConfigUi() {
-        // TODO
+        Controller.Dispose();
     }
 
     public static unsafe InstanceContentDeepDungeon* GetDirector() {
@@ -65,11 +38,18 @@ public sealed class Plugin : IDalamudPlugin {
 
     public static unsafe bool InDeepDungeon() => GetDirector() != null;
 
-    public static unsafe uint? GetFloorsetId() {
+    public static unsafe byte? GetFloor() {
         var director = GetDirector();
-        if (director == null) return null;
-        var floor = director->Floor;
-        return (uint) (floor - (floor % 10) + 1);
+        if (director is null) return null;
+        return director->Floor;
+    }
+    
+    public static uint? GetFloorSetId() {
+        if (GetFloor() is { } floor) {
+            return (uint) (floor - (floor % 10) + 1);
+        }
+        
+        return null;
     }
 
     public static DeepDungeonType? GetDeepDungeonType()
@@ -79,4 +59,12 @@ public sealed class Plugin : IDalamudPlugin {
             >= 1099 and <= 1108 => DeepDungeonType.EurekaOrthos,
             _ => null
         };
+    
+    public static string GetEnemyName(Enemy enemy) {
+        if (Services.DataManager.GetExcelSheet<BNpcName>() is { } bnpcNameSheet) {
+            return bnpcNameSheet.GetRow(enemy.Id)!.Singular;
+        }
+
+        throw new Exception($"Exception trying to get mob name from enemy#{enemy.Id}");
+    }
 }
