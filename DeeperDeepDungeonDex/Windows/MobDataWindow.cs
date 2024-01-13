@@ -26,22 +26,28 @@ public class MobDataWindow : DeepDungeonWindow {
 
         if (Enemy.Image is not null) {
             var assemblyDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
-            var targetPath = Path.Combine(
-                assemblyDir,
-                "Data",
-                "Images",
-                Plugin.GetDeepDungeonType() switch {
-                    DeepDungeonType.PalaceOfTheDead => "potd",
-                    DeepDungeonType.HeavenOnHigh => "hoh",
-                    DeepDungeonType.EurekaOrthos => "eo",
-                    _ => throw new ArgumentOutOfRangeException()
-                },
-                Plugin.GetFloorSetId()?.ToString("000") ?? "000",
-                Enemy.Image
-            );
 
-            mobImageLarge = Services.TextureProvider.GetTextureFromFile(new FileInfo(targetPath.Replace("png", "jpg")));
+            mobImageLarge = Services.TextureProvider.GetTextureFromFile(new FileInfo(GetImagePath(assemblyDir, "Images")));
+            mobImageSmall = Services.TextureProvider.GetTextureFromFile(new FileInfo( GetImagePath(assemblyDir, "Thumbnails")));
         }
+    }
+    
+    private string GetImagePath(string assemblyDir, string folder) {
+        if (Enemy.Image is null) return string.Empty;
+        
+        return Path.Combine(
+            assemblyDir,
+            "Data",
+            folder,
+            Plugin.GetDeepDungeonType() switch {
+                DeepDungeonType.PalaceOfTheDead => "potd",
+                DeepDungeonType.HeavenOnHigh => "hoh",
+                DeepDungeonType.EurekaOrthos => "eo",
+                _ => throw new ArgumentOutOfRangeException()
+            },
+            Plugin.GetFloorSetId()?.ToString("000") ?? "000",
+            Enemy.Image
+        );
     }
     
     public override void Draw() {
@@ -80,7 +86,7 @@ public class MobDataWindow : DeepDungeonWindow {
         ImGui.EndChild();
 
         var mobDataSize = new Vector2(ImGui.GetContentRegionAvail().X, 100.0f);
-        if (ImGui.BeginChild("MobData")) {
+        if (ImGui.BeginChild("MobData", mobDataSize, true)) {
             
         }
         ImGui.EndChild();
@@ -123,14 +129,14 @@ public class MobDataWindow : DeepDungeonWindow {
     }
 
     private void DrawPortrait() {
-        if (mobImage is not null) {
-            ImGui.Image(mobImage.ImGuiHandle, ImGui.GetContentRegionAvail());
+        if (mobImageSmall is not null && mobImageLarge is not null) {
+            ImGui.Image(mobImageSmall.ImGuiHandle, ImGui.GetContentRegionAvail());
             if (ImGui.IsItemClicked()) {
                 ImGui.OpenPopup("ImagePopup");
             }
 
             if (ImGui.BeginPopup("ImagePopup")) {
-                ImGui.Image(mobImage.ImGuiHandle, mobImage.Size);
+                ImGui.Image(mobImageLarge.ImGuiHandle, mobImageLarge.Size);
                 ImGui.EndPopup();
             } else if (ImGui.IsItemHovered()) {
                 ImGui.SetTooltip("Click to see Full Resolution");
