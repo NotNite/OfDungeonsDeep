@@ -52,17 +52,22 @@ public sealed class Plugin : IDalamudPlugin {
         return null;
     }
 
-    public static DeepDungeonType? GetDeepDungeonType()
-        => Services.ClientState.TerritoryType switch {
-            >= 561 and <= 565 or >= 593 and <= 607 => DeepDungeonType.PalaceOfTheDead,
-            >= 770 and <= 775 or >= 782 and <= 785 => DeepDungeonType.HeavenOnHigh,
-            >= 1099 and <= 1108 => DeepDungeonType.EurekaOrthos,
-            _ => null
-        };
+    public static DeepDungeonType? GetDeepDungeonType() {
+        if (Services.DataManager.GetExcelSheet<TerritoryType>()?.GetRow(Services.ClientState.TerritoryType) is { } territoryInfo) {
+            return territoryInfo switch {
+                { TerritoryIntendedUse: 31, ExVersion.Row: 0 or 1 } => DeepDungeonType.PalaceOfTheDead,
+                { TerritoryIntendedUse: 31, ExVersion.Row: 2 } => DeepDungeonType.HeavenOnHigh,
+                { TerritoryIntendedUse: 31, ExVersion.Row: 4 } => DeepDungeonType.EurekaOrthos,
+                _ => null
+            };
+        }
+
+        return null;
+    }
     
     public static string GetEnemyName(Enemy enemy) {
         if (Services.DataManager.GetExcelSheet<BNpcName>() is { } bnpcNameSheet) {
-            return bnpcNameSheet.GetRow(enemy.Id)!.Singular;
+            return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(bnpcNameSheet.GetRow(enemy.Id)!.Singular);
         }
 
         throw new Exception($"Exception trying to get mob name from enemy#{enemy.Id}");
