@@ -5,8 +5,11 @@ namespace DeeperDeepDungeonDex.System;
 /// <summary>
 /// This class is an extension of a Dalamud Window, to allow for easier collapse control.
 /// </summary>
-public abstract class DeepDungeonWindow(string name) : Window(name) {
+public abstract class DeepDungeonWindow : Window {
     private bool isCollapsed;
+
+    public DeepDungeonWindow(string name) : base(name) {
+    }
 
     public void UnCollapseOrShow() {
         TryUnCollapse();
@@ -27,5 +30,14 @@ public abstract class DeepDungeonWindow(string name) : Window(name) {
     private void UnCollapse() {
         isCollapsed = false;
         Collapsed = false;
+    }
+
+    public override void Update() {
+        isCollapsed = true;
+    }
+    
+    public override void Draw() {
+        isCollapsed = false;
+        Collapsed = null;
     }
 }
