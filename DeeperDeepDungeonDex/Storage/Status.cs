@@ -9,5 +9,5 @@ public enum Status : uint {
     Sleep = 15013,
     Slow = 15009,
     Stun = 15004,
-    Resolution = 0,
+    Resolution = 27990,
 }
