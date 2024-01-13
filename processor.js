@@ -151,7 +151,7 @@ async function main() {
       const enemy = {
         Id: realId,
         Family: data.family,
-        Image: data.image,
+        Image: data.image.replace(".png", ".jpg"),
 
         StartFloor: data.start_floor,
         EndFloor: data.end_floor,
