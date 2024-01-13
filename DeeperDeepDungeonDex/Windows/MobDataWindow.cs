@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Numerics;
 using System.Reflection;
+using Dalamud.Interface;
 using Dalamud.Interface.Internal;
 using Dalamud.Interface.Utility;
 using DeeperDeepDungeonDex.Storage;
@@ -130,7 +132,9 @@ public class MobDataWindow : DeepDungeonWindow {
 
     private void DrawPortrait() {
         if (mobImageSmall is not null && mobImageLarge is not null) {
+            var rectPosition = ImGui.GetCursorScreenPos();
             ImGui.Image(mobImageSmall.ImGuiHandle, ImGui.GetContentRegionAvail());
+            ImGui.GetWindowDrawList().AddRect(rectPosition, rectPosition + ImGui.GetContentRegionMax(), ImGui.GetColorU32(KnownColor.White.Vector() with { W = 0.75f }));
             if (ImGui.IsItemClicked()) {
                 ImGui.OpenPopup("ImagePopup");
             }
