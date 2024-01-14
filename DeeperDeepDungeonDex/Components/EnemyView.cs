@@ -32,7 +32,7 @@ public class EnemyView {
         }
     }
 
-    public void Draw() {
+    public virtual void Draw() {
         const float portraitHeight = 85.0f;
         var portraitSize = new Vector2(ImGui.GetContentRegionMax().X * 0.25f, portraitHeight * ImGuiHelpers.GlobalScale);
         if (ImGui.BeginChild("MobPortrait", portraitSize, false)) {

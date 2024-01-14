@@ -1,9 +1,7 @@
-﻿using System.Linq;
+﻿using System.Numerics;
 using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.ClientState.Objects.Types;
-using Dalamud.Interface;
 using DeeperDeepDungeonDex.Storage;
-using FFXIVClientStructs.FFXIV.Common.Math;
 using ImGuiNET;
 
 namespace DeeperDeepDungeonDex.System;
@@ -13,8 +11,8 @@ public class TargetDataWindow : DeepDungeonWindow {
 
     public TargetDataWindow() : base("##DeeperDeepDungeonDex_TargetDataWindow") {
         SizeConstraints = new WindowSizeConstraints {
-            MinimumSize = new Vector2(325.0f, 250.0f),
-            MaximumSize = new Vector2(325.0f, 250.0f),
+            MinimumSize = new Vector2(325.0f, 350.0f),
+            MaximumSize = new Vector2(325.0f, 350.0f),
         };
 
         Flags |= ImGuiWindowFlags.NoResize;
@@ -39,6 +37,6 @@ public class TargetDataWindow : DeepDungeonWindow {
     }
 
     public void UpdateTarget(Enemy enemy) {
-        enemyView = new EnemyView(enemy, FontAwesomeIcon.ArrowUpRightFromSquare, () => Plugin.Controller.WindowController.TryAddMobDataWindow(enemy));
+        enemyView = new JobEnemyView(enemy);
     }
 }
