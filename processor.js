@@ -112,7 +112,10 @@ async function main() {
     // Just pick the first ability for now - TODO
     const realId = parseInt(id[0][0]);
 
-    strings[`AbilityNote_${prefix}_${realId}`] = data.description;
+    if (data.description)
+      strings[`AbilityNote_${prefix}_${realId}`] = data.description;
+    if (data.warning)
+      strings[`AbilityWarning_${prefix}_${realId}`] = data.warning;
 
     return {
       Id: realId,
@@ -148,6 +151,9 @@ async function main() {
       const realId = parseInt(id[0][0]);
       const uniqueId = `${type}_${floor}_${realId}`;
 
+      let dmg = parseInt(data.attack_damage);
+      if (isNaN(dmg)) dmg = null;
+
       const enemy = {
         Id: realId,
         Family: data.family,
@@ -161,6 +167,7 @@ async function main() {
         AttackName: data.attack_name,
         AttackType: data.attack_type,
 
+        AttackDamage: dmg,
         Abilities: (data.abilities ?? []).map((x) => ability(uniqueId, x)),
         Vulnerabilities: Object.fromEntries(
           Object.entries(data.vulnerabilities)

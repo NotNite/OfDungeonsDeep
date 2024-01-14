@@ -5085,4 +5085,742 @@
   <data name="AbilityNote_PalaceOfTheDead_181_Boss_5567" xml:space="preserve">
     <value>telegraphed pointblank AoE inflicting stun (2s); also hits enemies, including the boss</value>
   </data>
+  <data name="AbilityWarning_EurekaOrthos_1_12109_773" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_1_12109_776" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_1_12116_1661" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_1_12114_513" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_1_12110_1936" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_11_12130_604" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_11_12127_1279" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_21_12142_498" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_21_12132_2618" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_21_12134_4549" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_21_12133_673" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_21_12133_1231" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_21_12138_903" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_21_12143_7697" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_21_12141_414" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_31_12156_940" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_31_12154_33167" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_31_12149_10852" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_31_12155_512" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_31_12148_33171" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_31_12148_3966" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_31_12146_3668" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_31_12150_3970" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_31_12150_3969" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_41_12166_1745" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_41_12160_613" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_41_12158_3409" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_41_12168_576" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_41_12168_580" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_41_12164_5197" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_41_12162_5777" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_41_12162_9812" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_41_12163_414" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_41_12170_8664" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_51_12175_569" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_51_12172_5829" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_51_12182_17156" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_51_12180_3085" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_51_12173_497" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_51_12173_5161" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_51_12176_33182" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_51_12183_1284" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_51_12179_17296" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_61_12190_410" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_61_12186_1209" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_61_12189_450" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_61_12185_632" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_61_12193_3889" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_61_12194_2310" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_61_12194_2132" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_61_12196_561" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_61_12195_2246" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_61_12192_347" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_61_12192_16224" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12206_7949" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12200_8148" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12200_7222" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12208_15010" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12202_2183" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12209_3696" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12205_2246" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12204_3675" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12203_2207" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12198_4523" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12207_7697" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12207_3432" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12197_924" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_71_12199_7703" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12218_2099" xml:space="preserve">
+    <value>idle-gaze</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12210_4528" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12215_576" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12215_579" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12212_1914" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12212_2660" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12217_6877" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12219_7757" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12219_6013" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12213_3424" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12211_5478" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12221_31076" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12221_31075" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12221_32775" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12221_32774" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_81_12220_594" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12233_1104" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12233_1105" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12233_446" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12233_32906" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12223_2618" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12235_1987" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12235_8366" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12227_12281" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12227_2319" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12231_500" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12231_33200" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12225_15853" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12232_6554" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12228_4493" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12228_903" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12229_31451" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12224_1216" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12224_1217" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12224_32876" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12234_12293" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12234_10980" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_EurekaOrthos_91_12230_15716" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_1_7266_568" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_1_7267_8610" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_1_7268_410" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_11_7287_5155" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_11_7286_3847" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_11_7281_2729" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_21_7292_7487" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_21_7299_1662" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_21_7288_393" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_21_7296_11159" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_21_7295_8032" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_21_7295_8028" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_31_7313_9818" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_31_7304_7830" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_31_7307_332" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_31_7310_6980" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_31_7312_7654" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_31_7312_7699" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_41_7324_483" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_41_7326_1112" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_41_7318_6226" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_41_7318_6229" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_51_7335_673" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_51_7337_3027" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_51_7337_3028" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_51_7336_4549" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_61_7347_5215" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_61_7347_5216" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_61_7343_589" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_61_7343_588" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7362_2460" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7362_7651" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7353_594" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7353_6434" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7359_3696" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7357_3672" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7357_3673" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7357_3676" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7364_6980" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7361_548" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7361_2817" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7360_3087" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7360_3089" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_71_7356_4485" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7373_576" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7373_579" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7375_3972" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7375_532" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7371_629" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7371_628" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7374_2408" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7365_1105" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7365_1104" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7377_2310" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7366_2204" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7366_2207" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7370_613" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_91_7382_771" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_91_7584_12281" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_91_7584_12280" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_91_7389_2398" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_91_7381_3167" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_91_7390_6011" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_1_4981_919" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_11_4997_410" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_11_4997_1454" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_11_4995_604" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_11_4990_1213" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_11_4989_347" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_21_5001_632" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_21_5010_3970" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_21_5003_410" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_21_5011_4523" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_31_5023_4492" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_31_5019_5829" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_41_5030_1662" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_41_5035_2310" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_41_5032_1662" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_41_5036_594" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_51_5299_4528" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_51_5301_312" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_51_5308_5832" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_51_5303_1079" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_61_5313_5366" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_71_5331_1489" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_71_5325_631" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_71_5325_628" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_81_5334_337" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_81_5339_3056" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_91_5354_594" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_101_5366_919" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_111_5382_1454" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_111_5374_347" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_111_5380_605" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_111_5380_604" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_111_5376_2476" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_111_5375_1213" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_121_5388_410" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_121_5386_519" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_121_5395_3970" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_121_5396_4523" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_121_5390_1690" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_131_5402_514" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_131_5408_6444" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_131_5403_584" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_131_5404_5829" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_141_5416_1662" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_141_5413_771" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_141_5420_750" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_141_5421_2310" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_141_5418_1662" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_141_5419_1717" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_141_5422_594" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_151_5434_1701" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_151_5434_1702" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_151_5429_4528" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_151_5431_312" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_151_5437_5832" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_151_5432_1260" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_161_5441_5366" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_171_5459_1489" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_171_5456_353" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_171_5458_6980" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_171_5454_2204" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_171_5454_2207" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_171_5453_629" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_171_5453_628" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_171_5451_548" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_171_5451_2817" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_181_5466_3056" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_181_5470_1105" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_181_5470_1104" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_181_5469_1897" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_181_5465_533" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_181_5465_1112" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_191_5420_750" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_191_5473_1059" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_191_5415_3680" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_191_5422_594" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityWarning_PalaceOfTheDead_191_5422_6434" xml:space="preserve">
+    <value>idle</value>
+  </data>
 </root>
