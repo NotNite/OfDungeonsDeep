@@ -12,10 +12,13 @@ public class WindowController : IDisposable {
     
     private readonly WindowSystem windowSystem;
     private readonly List<DeepDungeonWindow> windows;
+    public readonly TargetDataWindow TargetDataWindow;
 
     public WindowController() {
         windows = new List<DeepDungeonWindow>();
         windowSystem = new WindowSystem("DeeperDeepDungeonDex");
+        
+        windowSystem.AddWindow(TargetDataWindow = new TargetDataWindow());
         
         Services.CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand));
         

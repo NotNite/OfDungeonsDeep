@@ -53,14 +53,14 @@ public class DeeperDeepDungeonDexController : IDisposable {
 
         if (Services.TargetManager.Target is BattleNpc { BattleNpcKind: BattleNpcSubKind.Enemy } currentTarget) {
             if (lastFrameGameObject is null || (lastFrameGameObject is not null && currentTarget.NameId != lastFrameGameObject.NameId)) {
-                TrySpawnWindow(currentTarget);
+                UpdateTarget(currentTarget);
             }
         }
         
         lastFrameGameObject = Services.TargetManager.Target as BattleNpc;
     }
     
-    private void TrySpawnWindow(BattleNpc currentTarget) {
+    private void UpdateTarget(BattleNpc currentTarget) {
         if (currentFloor is 0) return;
         if (dungeonType is DeepDungeonType.Unknown) return;
         if (currentFloorSet is 0) return;
@@ -68,6 +68,6 @@ public class DeeperDeepDungeonDexController : IDisposable {
         if (!Plugin.StorageManager.Enemies[dungeonType].TryGetValue(currentFloorSet, out var enemies)) return;
         if (enemies.FirstOrDefault(enemy => enemy.Id == currentTarget.NameId) is not { } enemyData) return;
         
-        WindowController.TryAddMobDataWindow(enemyData);
+        WindowController.TargetDataWindow.UpdateTarget(enemyData);
     }
 }
