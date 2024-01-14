@@ -12,6 +12,8 @@ public class Enemy {
     public int? Hp;
 
     public required Aggro Aggro;
+    
+    // Auto attack info
     public string? AttackName;
     public AttackType? AttackType;
     public uint? AttackDamage;
