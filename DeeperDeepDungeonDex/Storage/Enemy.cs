@@ -7,6 +7,7 @@ public class Enemy {
     public string? Family;
     public string? Image;
 
+    public DeepDungeonType DungeonType;
     public required int StartFloor;
     public required int EndFloor;
     public int? Hp;

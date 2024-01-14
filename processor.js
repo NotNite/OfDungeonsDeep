@@ -159,6 +159,7 @@ async function main() {
         Family: data.family,
         Image: data.image.replace(".png", ".jpg"),
 
+        DungeonType: type,
         StartFloor: data.start_floor,
         EndFloor: data.end_floor,
         Hp: data.hp,
