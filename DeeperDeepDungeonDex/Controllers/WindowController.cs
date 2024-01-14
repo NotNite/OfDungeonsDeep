@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Dalamud.Game.Command;
 using Dalamud.Interface.Windowing;
+using Dalamud.Utility;
 using DeeperDeepDungeonDex.Storage;
 
 namespace DeeperDeepDungeonDex.System;
@@ -13,12 +14,14 @@ public class WindowController : IDisposable {
     private readonly WindowSystem windowSystem;
     private readonly List<DeepDungeonWindow> windows;
     public readonly TargetDataWindow TargetDataWindow;
+    private readonly DexWindow DexWindow;
 
     public WindowController() {
         windows = new List<DeepDungeonWindow>();
         windowSystem = new WindowSystem("DeeperDeepDungeonDex");
         
         windowSystem.AddWindow(TargetDataWindow = new TargetDataWindow());
+        windowSystem.AddWindow(DexWindow = new DexWindow());
         
         Services.CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand));
         
@@ -36,7 +39,11 @@ public class WindowController : IDisposable {
     }
     
     private void OnCommand(string command, string args) {
-        this.OpenConfigUi();
+        if (args.IsNullOrEmpty()) {
+            this.OpenConfigUi();
+        } else if (args.Contains("dex")) {
+            DexWindow.UnCollapseOrToggle();
+        }
     }
     
     private void Draw() {
