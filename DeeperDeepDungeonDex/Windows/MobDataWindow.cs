@@ -15,12 +15,12 @@ using Status = Lumina.Excel.GeneratedSheets2.Status;
 namespace DeeperDeepDungeonDex.System;
 
 public class MobDataWindow : DeepDungeonWindow {
-    public Enemy Enemy { get; }
+    private readonly Enemy enemy;
     private readonly IDalamudTextureWrap? mobImageSmall;
     private readonly IDalamudTextureWrap? mobImageLarge;
 
-    public MobDataWindow(string name, Enemy enemy) : base(name) {
-        Enemy = enemy;
+    public MobDataWindow(string name, Enemy enemyData) : base(name) {
+        enemy = enemyData;
         
         SizeConstraints = new WindowSizeConstraints {
             MinimumSize = new Vector2(325.0f, 185.0f),
@@ -30,14 +30,14 @@ public class MobDataWindow : DeepDungeonWindow {
         Flags |= ImGuiWindowFlags.NoResize;
         Flags |= ImGuiWindowFlags.NoTitleBar;
 
-        if (Enemy.Image is not null) {
+        if (enemy.Image is not null) {
             mobImageLarge = Services.TextureProvider.GetTextureFromFile(new FileInfo(GetImagePath("Images")));
             mobImageSmall = Services.TextureProvider.GetTextureFromFile(new FileInfo( GetImagePath("Thumbnails")));
         }
     }
     
     private string GetImagePath(string folder) {
-        if (Enemy.Image is null) return string.Empty;
+        if (enemy.Image is null) return string.Empty;
         
         return Path.Combine(
             Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!,
@@ -50,7 +50,7 @@ public class MobDataWindow : DeepDungeonWindow {
                 _ => throw new ArgumentOutOfRangeException()
             },
             Plugin.GetFloorSetId()?.ToString("000") ?? "000",
-            Enemy.Image
+            enemy.Image
         );
     }
     
@@ -117,20 +117,20 @@ public class MobDataWindow : DeepDungeonWindow {
             ImGui.Text("Floors");
 
             ImGui.TableNextColumn();
-            ImGui.Text(string.Join(", ",  Enumerable.Range(Enemy.StartFloor, Enemy.EndFloor - Enemy.StartFloor + 1)));
+            ImGui.Text(string.Join(", ",  Enumerable.Range(enemy.StartFloor, enemy.EndFloor - enemy.StartFloor + 1)));
 
             ImGui.TableNextColumn();
             ImGui.Text("Aggro");
 
             ImGui.TableNextColumn();
-            ImGui.Text(Enemy.Aggro.ToString());
+            ImGui.Text(enemy.Aggro.ToString());
 
-            if (Enemy.AttackName is not null) {
+            if (enemy.AttackName is not null) {
                 ImGui.TableNextColumn();
                 ImGui.Text("Attack");
 
                 ImGui.TableNextColumn();
-                ImGui.Text(Enemy.AttackName);
+                ImGui.Text(enemy.AttackName);
             }
             
             ImGui.EndTable();
@@ -138,7 +138,7 @@ public class MobDataWindow : DeepDungeonWindow {
     }
 
     private void DrawVulnerabilities() {
-        foreach (var (status, isVulnerable) in Enemy.Vulnerabilities) {
+        foreach (var (status, isVulnerable) in enemy.Vulnerabilities) {
             if (Services.TextureProvider.GetIcon((uint) status) is { } image) {
                 ImGui.Image(image.ImGuiHandle, image.Size * ImGuiHelpers.GlobalScale * 0.50f, Vector2.Zero, Vector2.One, isVulnerable ? Vector4.One : Vector4.One / 2.5f );
 
@@ -153,13 +153,13 @@ public class MobDataWindow : DeepDungeonWindow {
     private void DrawBasicMobData() {
         if (ImGui.BeginTable("BasicInfoTable", 3, ImGuiTableFlags.SizingStretchSame, ImGui.GetContentRegionAvail())) {
             ImGui.TableNextColumn();
-            ImGui.Text($"{Enemy.Family ?? string.Empty}");
+            ImGui.Text($"{enemy.Family ?? string.Empty}");
 
             ImGui.TableNextColumn();
-            ImGui.Text($"HP {Enemy.Hp ?? 0}");
+            ImGui.Text($"HP {enemy.Hp ?? 0}");
             
             ImGui.TableNextColumn();
-            var idText = $"ID {Enemy.Id}";
+            var idText = $"ID {enemy.Id}";
             var idTextSize = ImGui.CalcTextSize(idText);
             ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - idTextSize.X);
             ImGui.Text(idText);
@@ -187,7 +187,7 @@ public class MobDataWindow : DeepDungeonWindow {
     }
     
     private void DrawMobName() {
-        ImGui.Text(Plugin.GetEnemyName(Enemy));
+        ImGui.Text(Plugin.GetEnemyName(enemy));
     }
 
     public override void OnClose() {
