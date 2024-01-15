@@ -204,10 +204,28 @@ async function main() {
       }
       const floorsetId = parseInt(data.floorset);
 
+      // TODO: handle duplicate names
+      const id = Object.entries(bnpc).filter(
+          ([, v]) => v.toLowerCase() === data.boss.toLowerCase()
+      );
+      if (id.length !== 1) {
+          console.log(`Unable to find ID for ${data.name} in ${filePath}`);
+          continue;
+      }
+      const realId = parseInt(id[0][0]);
+      
       const floorset = {
+        Id: realId,
+        Image: data.boss_image.replace(".png", ".jpg"),
+       
+        DungeonType: type,
+        Floor: floorsetId,
+        Hp: parseInt(data.boss_hp),
+        AttackDamage: parseInt(data.boss_attack_damage),
+                  
         Boss: data.boss,
         BossAbilities: (data.boss_abilities ?? []).map((x) =>
-          ability(`${type}_${floorsetId}_Boss`, x)
+          ability(`${type}_${floorsetId}_${realId}`, x)
         ),
         JobSpecifics: jobSpecifics(data.job_specifics)
       };

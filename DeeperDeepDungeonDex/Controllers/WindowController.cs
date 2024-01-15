@@ -14,14 +14,14 @@ public class WindowController : IDisposable {
     private readonly WindowSystem windowSystem;
     private readonly List<DeepDungeonWindow> windows;
     public readonly TargetDataWindow TargetDataWindow;
-    private readonly DexWindow DexWindow;
+    private readonly DexWindow dexWindow;
 
     public WindowController() {
         windows = new List<DeepDungeonWindow>();
         windowSystem = new WindowSystem("DeeperDeepDungeonDex");
         
         windowSystem.AddWindow(TargetDataWindow = new TargetDataWindow());
-        windowSystem.AddWindow(DexWindow = new DexWindow());
+        windowSystem.AddWindow(dexWindow = new DexWindow());
         
         Services.CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand));
         
@@ -42,7 +42,7 @@ public class WindowController : IDisposable {
         if (args.IsNullOrEmpty()) {
             this.OpenConfigUi();
         } else if (args.Contains("dex")) {
-            DexWindow.UnCollapseOrToggle();
+            dexWindow.UnCollapseOrToggle();
         }
     }
     
@@ -54,7 +54,7 @@ public class WindowController : IDisposable {
         // TODO: Make Config UI
     }
 
-    public void TryAddMobDataWindow(Enemy enemy) {
+    public void TryAddMobDataWindow(IDrawableMob enemy) {
         var targetWindowName = GetMobWindowName(enemy);
         
         if (!windows.Any(window => string.Equals(window.WindowName, targetWindowName, StringComparison.InvariantCultureIgnoreCase))) {
@@ -72,8 +72,14 @@ public class WindowController : IDisposable {
             windows.Remove(window);
         }
     }
+
+    public void RemoveWindowForEnemy(IDrawableMob enemy) {
+        if (windows.FirstOrDefault(window => window.WindowName == GetMobWindowName(enemy)) is {} mobWindow) {
+            RemoveWindow(mobWindow);
+        }
+    }
     
-    private static string GetMobWindowName(Enemy enemy) {
-        return $"Enemy Info - {Plugin.GetEnemyName(enemy)}##{enemy.Id}";
+    private static string GetMobWindowName(IDrawableMob enemy) {
+        return $"Enemy Info - {enemy.Name}##{enemy.Id}";
     }
 }

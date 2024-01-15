@@ -1,19 +1,17 @@
 ﻿using System.Numerics;
-using Dalamud.Interface;
-using DeeperDeepDungeonDex.Storage;
 using ImGuiNET;
 
 namespace DeeperDeepDungeonDex.System;
 
 public class MobDataWindow : DeepDungeonWindow {
-    private readonly EnemyView enemyView;
+    private readonly IDrawableMob enemy;
 
-    public MobDataWindow(string name, Enemy enemyData) : base(name) {
-        enemyView = new EnemyView(enemyData, FontAwesomeIcon.Times, OnClose);
+    public MobDataWindow(string name, IDrawableMob enemyData) : base(name) {
+        enemy = enemyData;
         
         SizeConstraints = new WindowSizeConstraints {
-            MinimumSize = new Vector2(325.0f, 185.0f),
-            MaximumSize = new Vector2(325.0f, 185.0f),
+            MinimumSize = new Vector2(325.0f, 250.0f),
+            MaximumSize = new Vector2(325.0f, 250.0f),
         };
 
         Flags |= ImGuiWindowFlags.NoResize;
@@ -22,7 +20,7 @@ public class MobDataWindow : DeepDungeonWindow {
 
     public override void Draw() {
         base.Draw();
-        enemyView.Draw();
+        enemy.Draw(false, WindowExtraButton.Close);
     }
 
     public override void OnClose() {

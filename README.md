@@ -9,7 +9,7 @@ This plugin uses a modified version of [the Deep Dungeon Compendium website](htt
 To update mob/floor information:
 
 ```sh
-dotnet run --project DeeperDeepDungeonDex.ExcelExporter -- "F:\games\standalone\xiv\game\sqpack"
+dotnet run --project DeeperDeepDungeonDex.ExcelExporter -- "C:\Program Files (x86)\Steam\steamapps\common\FINAL FANTASY XIV Online\game\sqpack"
 node processor.js
 ```
 

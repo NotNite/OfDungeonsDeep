@@ -10,7 +10,7 @@ using ImGuiNET;
 namespace DeeperDeepDungeonDex.System;
 
 public class DexWindow : DeepDungeonWindow {
-    private Enemy? selectedEnemy;
+    private IDrawableMob? selectedEnemy;
     private DeepDungeonType dungeonType = DeepDungeonType.PalaceOfTheDead;
     private uint floorSet;
     
@@ -80,6 +80,16 @@ public class DexWindow : DeepDungeonWindow {
                     }
                 }
             }
+
+            if (Plugin.StorageManager.Floorsets.TryGetValue(dungeonType, out var floorSets)) {
+                if (floorSets.TryGetValue(floorSet * 10 + 1, out var floorInfo)) {
+                    ImGui.PushStyleColor(ImGuiCol.Text, KnownColor.Orange.Vector());
+                    if (ImGui.Selectable(Plugin.GetEnemyName(floorInfo), selectedEnemy == floorInfo)) {
+                        selectedEnemy = floorInfo;
+                    }
+                    ImGui.PopStyleColor();
+                }
+            }
             
             ImGui.EndListBox();
         }
@@ -134,7 +144,7 @@ public class DexWindow : DeepDungeonWindow {
     
     private void DrawContents() {
         if (selectedEnemy is not null) {
-            selectedEnemy.Draw(true);
+            selectedEnemy.Draw(true, WindowExtraButton.PopOut);
         } else {
             var nothingSelectedText = "Select an enemy";
             var textSize = ImGui.CalcTextSize(nothingSelectedText);

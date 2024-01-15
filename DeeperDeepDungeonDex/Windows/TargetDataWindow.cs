@@ -7,7 +7,7 @@ using ImGuiNET;
 namespace DeeperDeepDungeonDex.System;
 
 public class TargetDataWindow : DeepDungeonWindow {
-    private EnemyView? enemyView;
+    private IDrawableMob? targetEnemy;
 
     public TargetDataWindow() : base("##DeeperDeepDungeonDex_TargetDataWindow") {
         SizeConstraints = new WindowSizeConstraints {
@@ -33,10 +33,10 @@ public class TargetDataWindow : DeepDungeonWindow {
     public override void Draw() {
         base.Draw();
         
-        enemyView?.Draw();
+        targetEnemy?.Draw(true, WindowExtraButton.PopOut);
     }
 
     public void UpdateTarget(Enemy enemy) {
-        enemyView = new JobEnemyView(enemy);
+        targetEnemy = enemy;
     }
 }

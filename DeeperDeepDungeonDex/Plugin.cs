@@ -65,7 +65,7 @@ public sealed class Plugin : IDalamudPlugin {
         return null;
     }
     
-    public static string GetEnemyName(Enemy enemy) {
+    public static string GetEnemyName(IDrawableMob enemy) {
         if (Services.DataManager.GetExcelSheet<BNpcName>() is { } bnpcNameSheet) {
             return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(bnpcNameSheet.GetRow(enemy.Id)!.Singular);
         }

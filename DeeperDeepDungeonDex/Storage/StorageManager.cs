@@ -8,7 +8,7 @@ namespace DeeperDeepDungeonDex.Storage;
 
 public class StorageManager {
     public Dictionary<DeepDungeonType, Dictionary<uint, List<Enemy>>> Enemies = new();
-    public Dictionary<DeepDungeonType, Dictionary<uint, Floorset>> Floorsets = new();
+    public Dictionary<DeepDungeonType, Dictionary<uint, FloorSet>> Floorsets = new();
     public bool DataReady;
 
     // Temporary hack until we implement floor detection
@@ -29,7 +29,7 @@ public class StorageManager {
         )!;
         Services.PluginLog.Debug("Loaded {Count} enemies", this.AllEnemies.Count);
 
-        this.Floorsets = JsonSerializer.Deserialize<Dictionary<DeepDungeonType, Dictionary<uint, Floorset>>>(
+        this.Floorsets = JsonSerializer.Deserialize<Dictionary<DeepDungeonType, Dictionary<uint, FloorSet>>>(
             File.ReadAllText(Path.Combine(data, "floorsets.json")),
             options
         )!;
