@@ -10,11 +10,10 @@ public class MobDataWindow : DeepDungeonWindow {
         enemy = enemyData;
         
         SizeConstraints = new WindowSizeConstraints {
-            MinimumSize = new Vector2(325.0f, 250.0f),
-            MaximumSize = new Vector2(325.0f, 250.0f),
+            MinimumSize = new Vector2(325.0f, 125.0f),
+            MaximumSize = new Vector2(325.0f, float.PositiveInfinity),
         };
 
-        Flags |= ImGuiWindowFlags.NoResize;
         Flags |= ImGuiWindowFlags.NoTitleBar;
     }
 
