@@ -66,7 +66,6 @@ function jobSpecifics(data) {
       k,
       {
         Difficulty: difficulty(v.difficulty),
-        Timing: v.timing,
         Notes: notes(v.notes)
       }
     ])
