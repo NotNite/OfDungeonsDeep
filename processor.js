@@ -18,18 +18,6 @@ function pascalify(str) {
   return str[0].toUpperCase() + str.slice(1).toLowerCase();
 }
 
-function difficulty(str) {
-  if (!str) return "Unrated";
-
-  const allowed = ["Easy", "Medium", "Hard", "Extreme", "Unrated"];
-  const first = str.split(" ")[0];
-  if (allowed.includes(first)) {
-    return first;
-  } else {
-    return "Unrated";
-  }
-}
-
 function notes(data) {
   if (typeof data === "string") {
     return [{ Notes: [data], Subnotes: [] }];
