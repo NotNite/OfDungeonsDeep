@@ -7,9 +7,7 @@ namespace DeeperDeepDungeonDex.Storage;
 public class FloorSet : IDrawableMob {
     public required int Floor;
     
-    public required string Boss;
-    public List<Ability>? BossAbilities = new();
-    public Dictionary<string, JobSpecifics> JobSpecifics = new();
+    public List<Ability?>? BossAbilities = new();
 
     public string Name => Plugin.GetEnemyName(this);
     public uint Id { get; set; }
@@ -33,7 +31,7 @@ public class FloorSet : IDrawableMob {
     public string? Image { get; set; }
     public DeepDungeonType DungeonType { get; set; }
 
-    public List<Ability>? Abilities {
+    public List<Ability?>? Abilities {
         get => BossAbilities;
         set => BossAbilities = value;
     }

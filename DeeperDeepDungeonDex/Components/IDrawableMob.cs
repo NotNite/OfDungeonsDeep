@@ -30,24 +30,22 @@ public interface IDrawableMob {
     Dictionary<Status, bool>? Vulnerabilities { get; set; }
     string? Image { get; set; }
     DeepDungeonType DungeonType { get; set; }
-    List<Ability>? Abilities { get; set; }
+    List<Ability?>? Abilities { get; set; }
     
     IDalamudTextureWrap? ImageSmall { get; set; }
     IDalamudTextureWrap? ImageLarge { get; set; }
     
-    public void Draw(bool extendedInfo, WindowExtraButton buttonType) {
+    public void Draw(WindowExtraButton buttonType) {
         var topSegmentSize = new Vector2(ImGui.GetContentRegionAvail().X, 110.0f * ImGuiHelpers.GlobalScale);
         if (ImGui.BeginChild("TopSegment",  topSegmentSize, false)) {
-            var portraitHeight = 110.0f * ImGuiHelpers.GlobalScale;
-            var portraitWidth = 110.0f * ImGuiHelpers.GlobalScale;
-            var portraitSize = new Vector2(portraitWidth, portraitHeight);
+            var portraitSize = new Vector2(110.0f * ImGuiHelpers.GlobalScale, 110.0f * ImGuiHelpers.GlobalScale);
             if (ImGui.BeginChild("##Portrait", portraitSize, false)) {
                 DrawPortrait();
             }
             ImGui.EndChild();
             
             ImGui.SameLine();
-            var portraitSideInfoSize = new Vector2(ImGui.GetContentRegionAvail().X, portraitHeight);
+            var portraitSideInfoSize = new Vector2(ImGui.GetContentRegionAvail().X, portraitSize.Y);
             if (ImGui.BeginChild("##PortraitSideInfo", portraitSideInfoSize, false)) {
                 DrawPortraitSideInfo(buttonType);
             }
@@ -55,14 +53,16 @@ public interface IDrawableMob {
         }
         ImGui.EndChild();
 
+        ImGui.Separator();
+        
         DrawAbilityList();
 
-        if (extendedInfo) {
-            DrawExtendedInfo();
-        }
+        ImGui.Separator();
+        
+        DrawNotes();
     }
 
-    protected void DrawPortrait() {
+    private void DrawPortrait() {
         ImageSmall ??= Services.TextureProvider.GetTextureFromFile(new FileInfo( GetImagePath("Thumbnails")));
         ImageLarge ??= Services.TextureProvider.GetTextureFromFile(new FileInfo(GetImagePath("Images")));
 
@@ -84,14 +84,36 @@ public interface IDrawableMob {
         }
     }
     
-    protected void DrawAbilityList() {
+    private void DrawAbilityList() {
         Ability.DrawAbilityList(Abilities, this);
     }
+        
+    private void DrawNotes() {
+        var mobEntry = this switch {
+            Enemy => Strings.ResourceManager.GetString($"EnemyNote_{DungeonType.ToString()}_{EndFloor / 10 * 10 + 1}_{Id}"),
+            FloorSet => Strings.ResourceManager.GetString($"FloorsetNote_{DungeonType.ToString()}_{EndFloor / 10 * 10 + 1:000}"),
+            _ => throw new ArgumentOutOfRangeException()
+        };
 
-    private void DrawExtendedInfo() {
+        if (mobEntry is not null) {
+            foreach (var line in mobEntry.Split("\n")) {
+                var tabs = line.TakeWhile(char.IsWhiteSpace).Count();
+                var cleanedLine = line.TrimStart().Replace("-", string.Empty);
+
+                if (tabs > 0) {
+                    ImGui.Indent(15.0f * tabs);
+                }
+                ImGuiHelpers.SafeTextWrapped(cleanedLine);
+                if (tabs > 0) {
+                    ImGui.Unindent(15 * tabs);
+                }
+            }
+        } else {
+            ImGui.TextUnformatted("No Notes");
+        }
     }
-    
-    protected void DrawPortraitSideInfo(WindowExtraButton buttonType) {
+
+    private void DrawPortraitSideInfo(WindowExtraButton buttonType) {
         if (ImGui.BeginTable("PortraitSideInfoTable", 3, ImGuiTableFlags.SizingStretchSame | ImGuiTableFlags.NoClip, ImGui.GetContentRegionAvail())) {
             ImGui.TableNextColumn();
             DrawMobName();

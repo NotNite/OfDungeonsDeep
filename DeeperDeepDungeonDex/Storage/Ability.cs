@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using Dalamud.Interface.Utility;
 using DeeperDeepDungeonDex.System;
@@ -8,11 +9,11 @@ using Lumina.Excel.GeneratedSheets2;
 namespace DeeperDeepDungeonDex.Storage;
 
 public class Ability {
-    public required uint Id;
-    public AttackType Type;
-    public uint? Potency;
+    public uint? Id;
+    public AttackType? Type;
+    public string? Potency;
 
-    public static void DrawAbilityList(List<Ability>? abilities, IDrawableMob enemy) {
+    public static void DrawAbilityList(List<Ability?>? abilities, IDrawableMob enemy) {
         if (abilities is null) return;
         
         if (!abilities.Any()) {
@@ -26,7 +27,7 @@ public class Ability {
             ImGui.TableSetupColumn("##Description", ImGuiTableColumnFlags.WidthStretch);
 
             foreach (var ability in abilities) {
-                ability.Draw(enemy.DungeonType, enemy.StartFloor, enemy.Id);
+                ability?.Draw(enemy.DungeonType, enemy.StartFloor, enemy.Id);
             }
             
             ImGui.EndTable();
@@ -34,23 +35,28 @@ public class Ability {
     }
 
     private void Draw(DeepDungeonType type, int floor, uint id) {
-        if (Services.DataManager.GetExcelSheet<Action>()?.GetRow(Id) is not { } ability) return;
+        if (Id is null || Services.DataManager.GetExcelSheet<Action>()?.GetRow(Id.Value) is not { } ability) return;
         if (Strings.ResourceManager.GetString($"AbilityNote_{type.ToString()}_{((floor / 10) * 10) + 1}_{id}_{Id}") is not { } description) return;
 
+        var titleCaseName = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ability.Name);
+        
         ImGui.TableNextColumn();
-        ImGui.TextUnformatted(ability.Name);
+        ImGui.TextUnformatted(titleCaseName);
         if (ImGui.IsItemHovered()) {
-            ImGui.SetTooltip(ability.Name);
+            ImGui.SetTooltip(titleCaseName);
         }
 
         ImGui.TableNextColumn();
         if (Potency is not null) {
-            Type.DrawIcon();
+            Type?.DrawIcon();
         }
             
         ImGui.TableNextColumn();
-        ImGui.TextUnformatted(Potency is not null ? Potency.ToString() : "N/A");
-
+        ImGui.TextUnformatted(Potency ?? "n/a");
+        if (ImGui.IsItemHovered() && Potency is not null) {
+            ImGui.SetTooltip(Potency.Replace("%", "%%"));
+        }
+        
         ImGui.TableNextColumn();
         ImGui.TextUnformatted(description);
         if (ImGui.IsItemHovered()) {

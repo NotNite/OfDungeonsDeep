@@ -5,9 +5,6 @@ using DeeperDeepDungeonDex.System;
 namespace DeeperDeepDungeonDex.Storage;
 
 public class Enemy : IDrawableMob {
-    public string? Family;
-    public Dictionary<string, JobSpecifics> JobSpecifics = new(); // key is job code (MCH etc
-
     public string Name => Plugin.GetEnemyName(this);
     public uint Id { get; set; }
     public int? Hp { get; set; }
@@ -20,7 +17,7 @@ public class Enemy : IDrawableMob {
     public Dictionary<Status, bool>? Vulnerabilities { get; set; }
     public string? Image { get; set; }
     public DeepDungeonType DungeonType { get; set; }
-    public List<Ability>? Abilities { get; set; }
+    public List<Ability?>? Abilities { get; set; }
     public IDalamudTextureWrap? ImageSmall { get; set; }
     public IDalamudTextureWrap? ImageLarge { get; set; }
 }
