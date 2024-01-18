@@ -60,18 +60,6 @@ function buildNote(notes, indent = 0) {
   return str;
 }
 
-function jobSpecifics(data) {
-  return Object.fromEntries(
-    Object.entries(data ?? {}).map(([k, v]) => [
-      k,
-      {
-        Difficulty: difficulty(v.difficulty),
-        Notes: notes(v.notes)
-      }
-    ])
-  );
-}
-
 function deepDungeon(name) {
   if (name.includes("potd")) {
     return "PalaceOfTheDead";
@@ -93,9 +81,6 @@ async function main() {
   );
 
   function ability(prefix, data) {
-    let potency = parseInt(data.potency);
-    if (isNaN(potency)) potency = null;
-
     // Remove parentheses
     const name = data.name
       .replace(/\(.*\)/g, "")
@@ -119,7 +104,7 @@ async function main() {
     return {
       Id: realId,
       Type: data.type,
-      Potency: potency
+      Potency: data.potency?.toString(),
     };
   }
 
@@ -155,7 +140,6 @@ async function main() {
 
       const enemy = {
         Id: realId,
-        Family: data.family,
         Image: data.image.replace(".png", ".jpg"),
 
         DungeonType: type,
@@ -167,14 +151,13 @@ async function main() {
         AttackName: data.attack_name,
         AttackType: data.attack_type,
 
-        AttackDamage: dmg,
+        AttackDamage: data.attack_damage,
         Abilities: (data.abilities ?? []).map((x) => ability(uniqueId, x)),
         Vulnerabilities: Object.fromEntries(
           Object.entries(data.vulnerabilities)
             .filter(([k, v]) => typeof v === "boolean")
             .map(([k, v]) => [pascalify(k), v])
         ),
-        JobSpecifics: jobSpecifics(data.job_specifics)
       };
 
       if (!enemies[type]) {
@@ -227,7 +210,6 @@ async function main() {
         BossAbilities: (data.boss_abilities ?? []).map((x) =>
           ability(`${type}_${floorsetId}_${realId}`, x)
         ),
-        JobSpecifics: jobSpecifics(data.job_specifics)
       };
 
       if (!floorsets[type]) {
