@@ -11,7 +11,7 @@ public class MobDataWindow : DeepDungeonWindow {
         
         SizeConstraints = new WindowSizeConstraints {
             MinimumSize = new Vector2(325.0f, 125.0f),
-            MaximumSize = new Vector2(325.0f, float.PositiveInfinity),
+            MaximumSize = new Vector2(float.PositiveInfinity),
         };
 
         Flags |= ImGuiWindowFlags.NoTitleBar;
@@ -19,7 +19,7 @@ public class MobDataWindow : DeepDungeonWindow {
 
     public override void Draw() {
         base.Draw();
-        enemy.Draw(false, WindowExtraButton.Close);
+        enemy.Draw(WindowExtraButton.Close);
     }
 
     public override void OnClose() {

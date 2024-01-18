@@ -8,7 +8,7 @@ namespace DeeperDeepDungeonDex.System;
 public abstract class DeepDungeonWindow : Window {
     private bool isCollapsed;
 
-    public DeepDungeonWindow(string name) : base(name) {
+    protected DeepDungeonWindow(string name) : base(name) {
     }
 
     public void UnCollapseOrShow() {

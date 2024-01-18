@@ -144,7 +144,7 @@ public class DexWindow : DeepDungeonWindow {
     
     private void DrawContents() {
         if (selectedEnemy is not null) {
-            selectedEnemy.Draw(true, WindowExtraButton.PopOut);
+            selectedEnemy.Draw(WindowExtraButton.PopOut);
         } else {
             var nothingSelectedText = "Select an enemy";
             var textSize = ImGui.CalcTextSize(nothingSelectedText);

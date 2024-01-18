@@ -17,7 +17,7 @@ public static class AggroExtensions {
         Aggro.Sight => FontAwesomeIcon.Eye.ToIconString(),
         Aggro.Sound => FontAwesomeIcon.AssistiveListeningSystems.ToIconString(),
         Aggro.Proximity => FontAwesomeIcon.Bullseye.ToIconString(),
-        _ => throw new ArgumentOutOfRangeException(nameof(Aggro))
+        _ => throw new ArgumentOutOfRangeException(nameof(aggro))
     };
 
     public static void Draw(this Aggro aggro) {

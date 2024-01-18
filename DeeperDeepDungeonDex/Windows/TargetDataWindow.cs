@@ -11,13 +11,11 @@ public class TargetDataWindow : DeepDungeonWindow {
 
     public TargetDataWindow() : base("##DeeperDeepDungeonDex_TargetDataWindow") {
         SizeConstraints = new WindowSizeConstraints {
-            MinimumSize = new Vector2(325.0f, 350.0f),
-            MaximumSize = new Vector2(325.0f, 350.0f),
+            MinimumSize = new Vector2(325.0f, 200.0f),
+            MaximumSize = new Vector2(float.PositiveInfinity),
         };
 
-        Flags |= ImGuiWindowFlags.NoResize;
         Flags |= ImGuiWindowFlags.NoTitleBar;
-
         IsOpen = true;
     }
 
@@ -33,7 +31,7 @@ public class TargetDataWindow : DeepDungeonWindow {
     public override void Draw() {
         base.Draw();
         
-        targetEnemy?.Draw(true, WindowExtraButton.PopOut);
+        targetEnemy?.Draw(WindowExtraButton.PopOut);
     }
 
     public void UpdateTarget(Enemy enemy) {

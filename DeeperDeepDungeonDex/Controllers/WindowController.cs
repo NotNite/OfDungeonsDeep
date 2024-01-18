@@ -4,7 +4,6 @@ using System.Linq;
 using Dalamud.Game.Command;
 using Dalamud.Interface.Windowing;
 using Dalamud.Utility;
-using DeeperDeepDungeonDex.Storage;
 
 namespace DeeperDeepDungeonDex.System;
 
