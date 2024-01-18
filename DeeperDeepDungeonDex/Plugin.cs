@@ -51,6 +51,9 @@ public sealed class Plugin : IDalamudPlugin {
         
         return null;
     }
+    public static int GetFloorSetId(int floor) {
+        return (((floor / 10) * 10) + 1);
+    }
 
     public static DeepDungeonType? GetDeepDungeonType() {
         if (Services.DataManager.GetExcelSheet<TerritoryType>()?.GetRow(Services.ClientState.TerritoryType) is { } territoryInfo) {

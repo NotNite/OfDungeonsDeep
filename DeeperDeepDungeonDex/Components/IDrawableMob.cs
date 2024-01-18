@@ -90,8 +90,8 @@ public interface IDrawableMob {
         
     private void DrawNotes() {
         var mobEntry = this switch {
-            Enemy => Strings.ResourceManager.GetString($"EnemyNote_{DungeonType.ToString()}_{EndFloor / 10 * 10 + 1}_{Id}"),
-            FloorSet => Strings.ResourceManager.GetString($"FloorsetNote_{DungeonType.ToString()}_{EndFloor / 10 * 10 + 1:000}"),
+            Enemy => Strings.ResourceManager.GetString($"EnemyNote_{DungeonType.ToString()}_{Plugin.GetFloorSetId(StartFloor)}_{Id}"),
+            FloorSet => Strings.ResourceManager.GetString($"FloorsetNote_{DungeonType.ToString()}_{Plugin.GetFloorSetId(StartFloor):000}"),
             _ => throw new ArgumentOutOfRangeException()
         };
 
@@ -245,7 +245,7 @@ public interface IDrawableMob {
                 DeepDungeonType.EurekaOrthos => "eo",
                 _ => throw new ArgumentOutOfRangeException(nameof(folder))
             },
-            (((StartFloor / 10) * 10) + 1).ToString("000"),
+            Plugin.GetFloorSetId(StartFloor).ToString("000"),
             Image
         );
     }

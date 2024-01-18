@@ -36,7 +36,7 @@ public class Ability {
 
     private void Draw(DeepDungeonType type, int floor, uint id) {
         if (Id is null || Services.DataManager.GetExcelSheet<Action>()?.GetRow(Id.Value) is not { } ability) return;
-        if (Strings.ResourceManager.GetString($"AbilityNote_{type.ToString()}_{((floor / 10) * 10) + 1}_{id}_{Id}") is not { } description) return;
+        if (Strings.ResourceManager.GetString($"AbilityNote_{type.ToString()}_{Plugin.GetFloorSetId(floor)}_{id}_{Id}") is not { } description) return;
 
         var titleCaseName = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ability.Name);
         
