@@ -7,7 +7,7 @@ namespace DeeperDeepDungeonDex;
 public class Configuration : IPluginConfiguration {
     public int Version { get; set; } = 0;
 
-    public void Save() {
-        Services.PluginInterface.SavePluginConfig(this);
-    }
+    public bool EnableTargetWindow = true;
+
+    public void Save() => Services.PluginInterface.SavePluginConfig(this);
 }

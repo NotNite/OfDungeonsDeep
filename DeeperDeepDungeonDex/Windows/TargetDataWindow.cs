@@ -20,6 +20,7 @@ public class TargetDataWindow : DeepDungeonWindow {
     }
 
     public override bool DrawConditions() {
+        if (Plugin.Configuration is {EnableTargetWindow: false}) return false;
         if (!Plugin.InDeepDungeon()) return false;
         if (!Plugin.StorageManager.DataReady) return false;
         if (Services.TargetManager.Target is null) return false;

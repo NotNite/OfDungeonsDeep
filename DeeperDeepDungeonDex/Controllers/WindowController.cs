@@ -14,11 +14,13 @@ public class WindowController : IDisposable {
     private readonly List<DeepDungeonWindow> windows;
     public readonly TargetDataWindow TargetDataWindow;
     private readonly DexWindow dexWindow;
+    private readonly ConfigurationWindow configWindow;
 
     public WindowController() {
         windows = new List<DeepDungeonWindow>();
         windowSystem = new WindowSystem("DeeperDeepDungeonDex");
         
+        windowSystem.AddWindow(configWindow = new ConfigurationWindow());
         windowSystem.AddWindow(TargetDataWindow = new TargetDataWindow());
         windowSystem.AddWindow(dexWindow = new DexWindow());
         
@@ -50,7 +52,7 @@ public class WindowController : IDisposable {
     }
     
     private void OpenConfigUi() {
-        // TODO: Make Config UI
+        configWindow.UnCollapseOrToggle();
     }
 
     public void TryAddMobDataWindow(IDrawableMob enemy) {
