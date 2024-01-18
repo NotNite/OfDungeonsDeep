@@ -24,7 +24,9 @@ public class WindowController : IDisposable {
         windowSystem.AddWindow(TargetDataWindow = new TargetDataWindow());
         windowSystem.AddWindow(dexWindow = new DexWindow());
         
-        Services.CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand));
+        Services.CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand) {
+            HelpMessage = "Open Configuration Window\n/dddd dex \u2192 Open Monster Dex"
+        });
         
         Services.PluginInterface.UiBuilder.Draw += this.Draw;
         Services.PluginInterface.UiBuilder.OpenConfigUi += this.OpenConfigUi;
