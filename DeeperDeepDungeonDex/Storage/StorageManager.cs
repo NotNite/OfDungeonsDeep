@@ -11,13 +11,6 @@ public class StorageManager {
     public Dictionary<DeepDungeonType, Dictionary<uint, FloorSet>> Floorsets = new();
     public bool DataReady;
 
-    // Temporary hack until we implement floor detection
-    public Dictionary<uint, Enemy> AllEnemies =>
-        this.Enemies.SelectMany(x => x.Value)
-            .SelectMany(x => x.Value)
-            .GroupBy(x => x.Id)
-            .ToDictionary(x => x.Key, x => x.First());
-
     public void Load() {
         var assemblyDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
         var data = Path.Combine(assemblyDir, "Data");
@@ -27,7 +20,6 @@ public class StorageManager {
             File.ReadAllText(Path.Combine(data, "enemies.json")),
             options
         )!;
-        Services.PluginLog.Debug("Loaded {Count} enemies", this.AllEnemies.Count);
 
         this.Floorsets = JsonSerializer.Deserialize<Dictionary<DeepDungeonType, Dictionary<uint, FloorSet>>>(
             File.ReadAllText(Path.Combine(data, "floorsets.json")),
