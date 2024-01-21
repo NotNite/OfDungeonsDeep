@@ -43,7 +43,7 @@ public class WindowController : IDisposable {
     }
     
     private void OnCommand(string command, string args) {
-        switch (args) {
+        switch (args = args.ToLowerInvariant()) {
             case null:
             case not null when args.IsNullOrEmpty():
                 this.OpenConfigUi();
@@ -82,7 +82,7 @@ public class WindowController : IDisposable {
             _ => throw new ArgumentOutOfRangeException(nameof(target), target, null)
         };
 
-        if (windows.FirstOrDefault(window => string.Equals(window.WindowName, windowName, StringComparison.InvariantCultureIgnoreCase)) is not {} existingWindow) {
+        if (windows.FirstOrDefault(window => string.Equals(window.WindowName, windowName, StringComparison.InvariantCultureIgnoreCase)) is null) {
             DeepDungeonWindow newWindow = target switch {
                 Enemy enemy => new MobDataWindow(windowName, enemy),
                 FloorSet floor => new FloorDataWindow(windowName, floor),
