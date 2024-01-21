@@ -4,7 +4,6 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Numerics;
-using System.Reflection;
 using Dalamud.Interface;
 using Dalamud.Interface.Components;
 using Dalamud.Interface.Internal;
@@ -114,11 +113,13 @@ public interface IDrawableMob {
     }
 
     private void DrawPortraitSideInfo(WindowExtraButton buttonType) {
-        if (ImGui.BeginTable("PortraitSideInfoTable", 3, ImGuiTableFlags.SizingStretchSame | ImGuiTableFlags.NoClip, ImGui.GetContentRegionAvail())) {
+        if (ImGui.BeginTable("PortraitSideInfoTable", 2, ImGuiTableFlags.SizingStretchProp | ImGuiTableFlags.NoClip, ImGui.GetContentRegionAvail())) {
+            ImGui.TableSetupColumn("##First", ImGuiTableColumnFlags.WidthStretch, 100);
+            ImGui.TableSetupColumn("##Second", ImGuiTableColumnFlags.WidthStretch, 130);
+            
             ImGui.TableNextColumn();
             DrawMobName();
 
-            ImGui.TableNextColumn();
             ImGui.TableNextColumn();
             DrawUtilityButton(buttonType);
 
