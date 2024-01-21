@@ -14,7 +14,7 @@ public class DeeperDeepDungeonDexController : IDisposable {
     private uint currentFloorSet;
     private DeepDungeonType dungeonType;
     private BattleNpc? lastFrameGameObject;
-    
+
     public DeeperDeepDungeonDexController() {
         WindowController = new WindowController();
         
@@ -25,25 +25,27 @@ public class DeeperDeepDungeonDexController : IDisposable {
             OnDutyStarted(this, Services.ClientState.TerritoryType);
         }
     }
-    
+
     public void Dispose() {
         WindowController.Dispose();
         
         Services.DutyState.DutyStarted -= OnDutyStarted;
         Services.Framework.Update -= OnFrameworkUpdate;
     }
+        
+    private void OnFloorChanged() {
+        if (!Plugin.InDeepDungeon()) return;
+        if (!Plugin.StorageManager.DataReady) return;
+        if (!Plugin.Configuration.ShowFloorEveryFloor) return;
+        
+        TryShowFloorInfo();
+    }
     
     private void OnDutyStarted(object? sender, ushort e) {
         if (!Plugin.InDeepDungeon()) return;
         if (!Plugin.StorageManager.DataReady) return;
 
-        UpdateData();
-
-        if (Plugin.StorageManager.Floorsets.TryGetValue(dungeonType, out var floorSets)) {
-            if (floorSets.TryGetValue(currentFloorSet, out var floorSetData)) {
-                WindowController.TryAddDataWindow(floorSetData);
-            }
-        }
+        TryShowFloorInfo();
     }
 
     private void UpdateData() {
@@ -59,6 +61,11 @@ public class DeeperDeepDungeonDexController : IDisposable {
 
         // If the data hasn't finished loading, don't try to access it.
         if (!Plugin.StorageManager.DataReady) return;
+
+        if (Plugin.GetFloor() is {} floor && currentFloor != floor) {
+            currentFloor = floor;
+            OnFloorChanged();
+        }
 
         if (Services.TargetManager.Target is BattleNpc { BattleNpcKind: BattleNpcSubKind.Enemy } currentTarget) {
             if (lastFrameGameObject is null || (lastFrameGameObject is not null && currentTarget.NameId != lastFrameGameObject.NameId)) {
@@ -78,5 +85,15 @@ public class DeeperDeepDungeonDexController : IDisposable {
         if (enemies.FirstOrDefault(enemy => enemy.Id == currentTarget.NameId) is not { } enemyData) return;
         
         WindowController.TargetDataWindow.UpdateTarget(enemyData);
+    }
+
+    private void TryShowFloorInfo() {
+        UpdateData();
+        
+        if (Plugin.StorageManager.Floorsets.TryGetValue(dungeonType, out var floorSets)) {
+            if (floorSets.TryGetValue(currentFloorSet, out var floorSetData)) {
+                WindowController.TryAddDataWindow(floorSetData);
+            }
+        }
     }
 }

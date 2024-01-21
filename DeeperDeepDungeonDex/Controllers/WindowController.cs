@@ -82,7 +82,7 @@ public class WindowController : IDisposable {
             _ => throw new ArgumentOutOfRangeException(nameof(target), target, null)
         };
 
-        if (!windows.Any(window => string.Equals(window.WindowName, windowName, StringComparison.InvariantCultureIgnoreCase))) {
+        if (windows.FirstOrDefault(window => string.Equals(window.WindowName, windowName, StringComparison.InvariantCultureIgnoreCase)) is not {} existingWindow) {
             DeepDungeonWindow newWindow = target switch {
                 Enemy enemy => new MobDataWindow(windowName, enemy),
                 FloorSet floor => new FloorDataWindow(windowName, floor),
@@ -92,7 +92,7 @@ public class WindowController : IDisposable {
             windows.Add(newWindow);
             windowSystem.AddWindow(newWindow);
 
-            newWindow.IsOpen = true;
+            newWindow.UnCollapseOrShow();
         }
     }
 

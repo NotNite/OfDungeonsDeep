@@ -9,6 +9,7 @@ public class Configuration : IPluginConfiguration {
 
     public bool EnableTargetWindow = true;
     public bool EnableFloorWindow = true;
+    public bool ShowFloorEveryFloor = false;
 
     public void Save() => Services.PluginInterface.SavePluginConfig(this);
 }
