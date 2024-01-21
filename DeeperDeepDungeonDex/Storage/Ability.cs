@@ -20,10 +20,9 @@ public class Ability {
             ImGui.TextUnformatted("No Special Abilities");
         }
             
-        if (ImGui.BeginTable("###AbilityInfoTable", 4, ImGuiTableFlags.Resizable | ImGuiTableFlags.RowBg)) {
+        if (ImGui.BeginTable("###AbilityInfoTable", 3, ImGuiTableFlags.Resizable | ImGuiTableFlags.RowBg)) {
             ImGui.TableSetupColumn("##AbilityName", ImGuiTableColumnFlags.WidthFixed, 100.0f * ImGuiHelpers.GlobalScale);
-            ImGui.TableSetupColumn("##Icon", ImGuiTableColumnFlags.WidthFixed, 18.0f * ImGuiHelpers.GlobalScale);
-            ImGui.TableSetupColumn("##Potency", ImGuiTableColumnFlags.WidthFixed, 50.0f * ImGuiHelpers.GlobalScale);
+            ImGui.TableSetupColumn("##Potency", ImGuiTableColumnFlags.WidthFixed, 75.0f * ImGuiHelpers.GlobalScale);
             ImGui.TableSetupColumn("##Description", ImGuiTableColumnFlags.WidthStretch);
 
             foreach (var ability in abilities) {
@@ -47,20 +46,25 @@ public class Ability {
         }
 
         ImGui.TableNextColumn();
-        if (Potency is not null) {
-            Type?.DrawIcon();
-        }
-            
-        ImGui.TableNextColumn();
-        ImGui.TextUnformatted(Potency ?? "n/a");
+        DrawAbilityDamage();
         if (ImGui.IsItemHovered() && Potency is not null) {
-            ImGui.SetTooltip(Potency.Replace("%", "%%"));
+            ImGui.BeginTooltip();
+            DrawAbilityDamage();
+            ImGui.EndTooltip();
         }
         
         ImGui.TableNextColumn();
         ImGui.TextUnformatted(description);
         if (ImGui.IsItemHovered()) {
             ImGui.SetTooltip(description.Replace("; ", "\n").Replace("%", "%%"));
+        }
+    }
+
+    private void DrawAbilityDamage() {
+        if (Potency is not null && Type is not null && Potency is not "n/a") {
+            Type?.DrawIcon();
+            ImGui.SameLine();
+            ImGui.TextUnformatted(Potency ?? "");
         }
     }
 }
