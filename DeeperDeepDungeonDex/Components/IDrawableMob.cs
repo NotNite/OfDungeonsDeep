@@ -224,7 +224,7 @@ public interface IDrawableMob {
                 break;
                         
             case WindowExtraButton.Close:
-                ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 18.0f * ImGuiHelpers.GlobalScale);
+                ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale);
                 if (ImGuiComponents.IconButton("Button", FontAwesomeIcon.Times)) {
                     Plugin.Controller.WindowController.RemoveWindowForEnemy(this);
                 }
