@@ -167,6 +167,7 @@ async function main() {
       const filePath = path.join(compendium, dir, file);
       const raw = fs.readFileSync(filePath, "utf8");
       const data = yaml.load(raw.split("---")[1]);
+      const floorNotes = raw.split("---")[2];
 
       let type = deepDungeon(dir);
       if (type == null) {
@@ -198,6 +199,18 @@ async function main() {
         BossAbilities: (data.boss_abilities ?? []).map((x) =>
           ability(`${type}_${floorsetId}_${realId}`, x)
         ),
+          
+          
+          Title: data.title.toString(), // TODO: maybe put in resx
+          MimicType: data.mimic_type.toString(), // TODO: put this in resx
+          Rooms: data.rooms_per_floor.toString(),
+          Chests: data.chests_per_floor.toString(),
+          Enemies: data.enemies_per_room.toString(),
+          KillsNeeded: data.kills_per_passage.toString(),
+          RespawnRate: data.respawns.toString(),
+          Reward: data.hoard_type.toString(), // TODO: resolve hoard_type to an itemid
+          
+          Notes: floorNotes,
       };
 
       if (!floorsets[type]) {

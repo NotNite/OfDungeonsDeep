@@ -4,7 +4,7 @@ using DeeperDeepDungeonDex.System;
 
 namespace DeeperDeepDungeonDex.Storage;
 
-public class FloorSet : IDrawableMob {
+public class FloorSet : IDrawableMob, IDrawableFloorSet {
     public required int Floor;
     
     public List<Ability?>? BossAbilities = new();
@@ -29,7 +29,16 @@ public class FloorSet : IDrawableMob {
     public Aggro Aggro { get; set; }
     public Dictionary<Status, bool>? Vulnerabilities { get; set; }
     public string? Image { get; set; }
+    public string? Title { get; set; }
     public DeepDungeonType DungeonType { get; set; }
+    public string? MimicType { get; set; }
+    public string? Rooms { get; set; }
+    public string? Chests { get; set; }
+    public string? Enemies { get; set; }
+    public string? KillsNeeded { get; set; }
+    public string? RespawnRate { get; set; }
+    public string? Reward { get; set; }
+    public string? Notes { get; set; }
 
     public List<Ability?>? Abilities {
         get => BossAbilities;

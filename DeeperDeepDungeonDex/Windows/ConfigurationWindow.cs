@@ -16,6 +16,8 @@ public class ConfigurationWindow : DeepDungeonWindow {
         base.Draw();
         var changed = ImGui.Checkbox("Enable Target Window", ref Plugin.Configuration.EnableTargetWindow);
 
+        changed |= ImGui.Checkbox("Enable Floor Window", ref Plugin.Configuration.EnableFloorWindow);
+
         if (changed) {
             Plugin.Configuration.Save();
         }

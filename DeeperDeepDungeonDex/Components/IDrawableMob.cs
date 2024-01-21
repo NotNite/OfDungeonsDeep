@@ -220,7 +220,7 @@ public interface IDrawableMob {
             case WindowExtraButton.PopOut:
                 ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale);
                 if (ImGuiComponents.IconButton("Button", FontAwesomeIcon.ArrowUpRightFromSquare)) {
-                    Plugin.Controller.WindowController.TryAddMobDataWindow(this);
+                    Plugin.Controller.WindowController.TryAddDataWindow(this);
                 } 
                 break;
                         

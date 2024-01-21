@@ -22,9 +22,9 @@ public sealed class Plugin : IDalamudPlugin {
         Configuration = Services.PluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
 
         StorageManager = new StorageManager();
-        Task.Run(StorageManager.Load);
-
-        Controller = new DeeperDeepDungeonDexController();
+        Task.Run(StorageManager.Load).ContinueWith(_ => {
+            Controller = new DeeperDeepDungeonDexController();
+        });
     }
 
     public void Dispose() {

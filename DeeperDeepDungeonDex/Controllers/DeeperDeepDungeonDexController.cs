@@ -22,7 +22,7 @@ public class DeeperDeepDungeonDexController : IDisposable {
         Services.Framework.Update += OnFrameworkUpdate;
 
         if (Plugin.InDeepDungeon()) {
-            UpdateData();
+            OnDutyStarted(this, Services.ClientState.TerritoryType);
         }
     }
     
@@ -34,7 +34,16 @@ public class DeeperDeepDungeonDexController : IDisposable {
     }
     
     private void OnDutyStarted(object? sender, ushort e) {
+        if (!Plugin.InDeepDungeon()) return;
+        if (!Plugin.StorageManager.DataReady) return;
+
         UpdateData();
+
+        if (Plugin.StorageManager.Floorsets.TryGetValue(dungeonType, out var floorSets)) {
+            if (floorSets.TryGetValue(currentFloorSet, out var floorSetData)) {
+                WindowController.TryAddDataWindow(floorSetData);
+            }
+        }
     }
 
     private void UpdateData() {

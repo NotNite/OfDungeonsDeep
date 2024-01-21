@@ -4,6 +4,7 @@ using System.Linq;
 using Dalamud.Game.Command;
 using Dalamud.Interface.Windowing;
 using Dalamud.Utility;
+using DeeperDeepDungeonDex.Storage;
 
 namespace DeeperDeepDungeonDex.System;
 
@@ -57,15 +58,24 @@ public class WindowController : IDisposable {
         configWindow.UnCollapseOrToggle();
     }
 
-    public void TryAddMobDataWindow(IDrawableMob enemy) {
-        var targetWindowName = GetMobWindowName(enemy);
-        
-        if (!windows.Any(window => string.Equals(window.WindowName, targetWindowName, StringComparison.InvariantCultureIgnoreCase))) {
-            var newMobWindow = new MobDataWindow(targetWindowName, enemy);
-            windows.Add(newMobWindow);
-            windowSystem.AddWindow(newMobWindow);
+    public void TryAddDataWindow(object target) {
+        var windowName = target switch {
+            Enemy enemy => GetMobWindowName(enemy),
+            FloorSet floor => GetFloorWindowName(floor),
+            _ => throw new ArgumentOutOfRangeException(nameof(target), target, null)
+        };
 
-            newMobWindow.IsOpen = true;
+        if (!windows.Any(window => string.Equals(window.WindowName, windowName, StringComparison.InvariantCultureIgnoreCase))) {
+            DeepDungeonWindow newWindow = target switch {
+                Enemy enemy => new MobDataWindow(windowName, enemy),
+                FloorSet floor => new FloorDataWindow(windowName, floor),
+                _ => throw new ArgumentOutOfRangeException(nameof(target), target, null)
+            };
+            
+            windows.Add(newWindow);
+            windowSystem.AddWindow(newWindow);
+
+            newWindow.IsOpen = true;
         }
     }
 
@@ -81,8 +91,18 @@ public class WindowController : IDisposable {
             RemoveWindow(mobWindow);
         }
     }
+
+    public void RemoveWindowForFloor(IDrawableFloorSet floorSet) {
+        if (windows.FirstOrDefault(window => window.WindowName == GetFloorWindowName(floorSet)) is {} mobWindow) {
+            RemoveWindow(mobWindow);
+        }
+    }
     
     private static string GetMobWindowName(IDrawableMob enemy) {
         return $"Enemy Info - {enemy.Name}##{enemy.Id}";
+    }
+
+    private static string GetFloorWindowName(IDrawableFloorSet floor) {
+        return $"Floor Info - {floor.Title}##{floor.DungeonType}";
     }
 }
