@@ -26,7 +26,7 @@ public class WindowController : IDisposable {
         windowSystem.AddWindow(dexWindow = new DexWindow());
         
         Services.CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand) {
-            HelpMessage = "Open Configuration Window\n/dddd dex \u2192 Open Monster Dex"
+            HelpMessage = "Open Configuration Window\n/dddd dex \u2192 Open Monster Dex\n/dddd floor \\u2192 Show Floor Info"
         });
         
         Services.PluginInterface.UiBuilder.Draw += this.Draw;
@@ -43,10 +43,27 @@ public class WindowController : IDisposable {
     }
     
     private void OnCommand(string command, string args) {
-        if (args.IsNullOrEmpty()) {
-            this.OpenConfigUi();
-        } else if (args.Contains("dex")) {
-            dexWindow.UnCollapseOrToggle();
+        switch (args) {
+            case null:
+            case not null when args.IsNullOrEmpty():
+                this.OpenConfigUi();
+                break;
+            
+            case not null when args.Contains("dex"):
+                dexWindow.UnCollapseOrToggle();
+                break;
+            
+            case not null when args.Contains("floor") && windows.FirstOrDefault(window => window is FloorDataWindow) is {} floorWindow:
+                floorWindow.UnCollapseOrShow();
+                break;
+            
+            case not null when args.Contains("floor") && windows.FirstOrDefault(window => window is FloorDataWindow) is null && Plugin.GetDeepDungeonType() is {} dungeonType && Plugin.GetFloorSetId() is {} currentFloorSet:
+                if (Plugin.StorageManager.Floorsets.TryGetValue(dungeonType, out var floorSets)) {
+                    if (floorSets.TryGetValue(currentFloorSet, out var floorSetData)) {
+                        TryAddDataWindow(floorSetData);
+                    }
+                }
+                break;
         }
     }
     
