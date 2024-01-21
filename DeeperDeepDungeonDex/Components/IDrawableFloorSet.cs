@@ -33,6 +33,19 @@ public interface IDrawableFloorSet {
 
             ImGui.TableNextColumn();
             ImGui.TableNextColumn();
+            ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale * 2.0f - ImGui.GetStyle().ItemSpacing.X);
+            if (Plugin.Configuration.LockFloorWindow) {
+                if (ImGuiComponents.IconButton("Unlock", FontAwesomeIcon.Lock)) {
+                    Plugin.Configuration.LockFloorWindow = false;
+                }
+            } else {
+                if (ImGuiComponents.IconButton("Lock", FontAwesomeIcon.LockOpen)) {
+                    Plugin.Configuration.LockFloorWindow = true;
+                }
+            }
+
+            ImGui.SameLine();
+            
             ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale);
             if (ImGuiComponents.IconButton("Button", FontAwesomeIcon.Times)) {
                 Plugin.Controller.WindowController.RemoveWindowForFloor(this);

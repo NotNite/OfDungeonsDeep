@@ -17,8 +17,19 @@ public class MobDataWindow : DeepDungeonWindow {
         Flags |= ImGuiWindowFlags.NoTitleBar;
     }
 
+    public override void PreDraw() {
+        if (Plugin.Configuration.LockMobWindow) {
+            Flags |= ImGuiWindowFlags.NoMove;
+            Flags |= ImGuiWindowFlags.NoResize;
+        } else {
+            Flags &= ~ImGuiWindowFlags.NoMove;
+            Flags &= ~ImGuiWindowFlags.NoResize;
+        }
+    }
+
     public override void Draw() {
         base.Draw();
+
         enemy.Draw(WindowExtraButton.Close);
     }
 

@@ -218,6 +218,19 @@ public interface IDrawableMob {
     private void DrawUtilityButton(WindowExtraButton buttonType) {
         switch (buttonType) {
             case WindowExtraButton.PopOut:
+                ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale * 2.0f - ImGui.GetStyle().ItemSpacing.X);
+                if (Plugin.Configuration.LockTargetWindow) {
+                    if (ImGuiComponents.IconButton("Unlock", FontAwesomeIcon.Lock)) {
+                        Plugin.Configuration.LockTargetWindow = false;
+                    }
+                } else {
+                    if (ImGuiComponents.IconButton("Lock", FontAwesomeIcon.LockOpen)) {
+                        Plugin.Configuration.LockTargetWindow = true;
+                    }
+                }
+
+                ImGui.SameLine();
+                
                 ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale);
                 if (ImGuiComponents.IconButton("Button", FontAwesomeIcon.ArrowUpRightFromSquare)) {
                     Plugin.Controller.WindowController.TryAddDataWindow(this);
@@ -225,6 +238,19 @@ public interface IDrawableMob {
                 break;
                         
             case WindowExtraButton.Close:
+                ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale * 2.0f - ImGui.GetStyle().ItemSpacing.X);
+                if (Plugin.Configuration.LockMobWindow) {
+                    if (ImGuiComponents.IconButton("Unlock", FontAwesomeIcon.Lock)) {
+                        Plugin.Configuration.LockMobWindow = false;
+                    }
+                } else {
+                    if (ImGuiComponents.IconButton("Lock", FontAwesomeIcon.LockOpen)) {
+                        Plugin.Configuration.LockMobWindow = true;
+                    }
+                }
+
+                ImGui.SameLine();
+                
                 ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale);
                 if (ImGuiComponents.IconButton("Button", FontAwesomeIcon.Times)) {
                     Plugin.Controller.WindowController.RemoveWindowForEnemy(this);

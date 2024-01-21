@@ -24,6 +24,16 @@ public class FloorDataWindow : DeepDungeonWindow {
         return true;
     }
 
+    public override void PreDraw() {
+        if (Plugin.Configuration.LockFloorWindow) {
+            Flags |= ImGuiWindowFlags.NoMove;
+            Flags |= ImGuiWindowFlags.NoResize;
+        } else {
+            Flags &= ~ImGuiWindowFlags.NoMove;
+            Flags &= ~ImGuiWindowFlags.NoResize;
+        }
+    }
+    
     public override void Draw() {
         base.Draw();
         

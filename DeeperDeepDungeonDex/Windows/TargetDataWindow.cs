@@ -29,6 +29,16 @@ public class TargetDataWindow : DeepDungeonWindow {
 
         return true;
     }
+    
+    public override void PreDraw() {
+        if (Plugin.Configuration.LockTargetWindow) {
+            Flags |= ImGuiWindowFlags.NoMove;
+            Flags |= ImGuiWindowFlags.NoResize;
+        } else {
+            Flags &= ~ImGuiWindowFlags.NoMove;
+            Flags &= ~ImGuiWindowFlags.NoResize;
+        }
+    }
 
     public override void Draw() {
         base.Draw();
