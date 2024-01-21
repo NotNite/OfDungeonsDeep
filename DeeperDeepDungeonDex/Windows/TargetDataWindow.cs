@@ -25,6 +25,7 @@ public class TargetDataWindow : DeepDungeonWindow {
         if (!Plugin.StorageManager.DataReady) return false;
         if (Services.TargetManager.Target is null) return false;
         if (Services.TargetManager.Target is not BattleNpc { BattleNpcKind: BattleNpcSubKind.Enemy }) return false;
+        if (Services.ClientState.LocalPlayer is {IsDead: true}) return false;
 
         return true;
     }
