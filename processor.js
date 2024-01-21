@@ -184,9 +184,9 @@ async function main() {
 
       // TODO: handle duplicate names
       const id = Object.entries(bnpc).filter(
-          ([, v]) => v.toLowerCase() === data.boss.toLowerCase()
+          ([, v]) => v.toLowerCase() === data.boss.replace(/['"]+/g, '').toLowerCase()
       );
-      if (id.length !== 1) {
+      if (id.length == 0) {
           console.log(`Unable to find ID for ${data.name} in ${filePath}`);
           continue;
       }

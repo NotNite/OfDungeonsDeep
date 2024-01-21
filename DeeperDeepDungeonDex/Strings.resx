@@ -6351,4 +6351,85 @@
   <data name="AbilityNote_PalaceOfTheDead_181_5471_7102" xml:space="preserve">
     <value>roomwide AoE</value>
   </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7485_9825" xml:space="preserve">
+    <value>untelegraphed conal AoE; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7485_9826" xml:space="preserve">
+    <value>untelegraphed line AoE; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7485_9829" xml:space="preserve">
+    <value>360 degree gaze inflicting confused (20s) - look away</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7485_9828" xml:space="preserve">
+    <value>proximity AoE - get away (minimum potency at 20y, or about halfway across the room)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_41_7485_3526" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts heavy (30s). Diminishing returns do NOT apply to this heavy (it is always 30s)</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7493_2356" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7493_2355" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7493_2358" xml:space="preserve">
+    <value>telegraphed wide line AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7493_2361" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7493_2025" xml:space="preserve">
+    <value>delayed proximity AoE</value>
+  </data>
+  <data name="AbilityNote_HeavenOnHigh_81_7493_3032" xml:space="preserve">
+    <value>instant pointblank AoE; inflicts heavy (30s) and knockback</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5025_4355" xml:space="preserve">
+    <value>telegraphed circle AoE; leaves a bleed puddle (unique DoT potency 40)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5025_4359" xml:space="preserve">
+    <value>telegraphed wide line AoE</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5025_6434" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts disease (30s)</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5025_594" xml:space="preserve">
+    <value>roomwide AoE; inflicts terror (10s) and prey</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_5025_179" xml:space="preserve">
+    <value>roomwide AoE</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12242_31841" xml:space="preserve">
+    <value>spawns adds at the front of the arena that move toward the back, leaving two open spaces</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12242_31843" xml:space="preserve">
+    <value>wide line AoE down the center of the arena with late telegraph - get OUT. Spawns adds which move from the center to the sides</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12242_31845" xml:space="preserve">
+    <value>wide line AoEs down both sides of the arena with late telegraph - get IN. Spawns adds which move from each side to the other</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12242_31849" xml:space="preserve">
+    <value>four sets of telegraphed circle AoEs covering the arena, leaving random spaces open each time; adds spawn from some of the AoEs after each set, moving toward a random player</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12242_31847" xml:space="preserve">
+    <value>telegraphed circle AoE, with four additional hits chasing the targeted player - keep moving! Spawns an add moving toward a random player on each hit</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_12242_7" xml:space="preserve">
+    <value>triggered whenever you touch an add</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12263_671" xml:space="preserve">
+    <value>spawns a little tornado under you; instant death if you are standing on it, so make sure you're moving as the cast completes</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12263_31462" xml:space="preserve">
+    <value>many circle AoEs leaving behind tornados that remain until after Turbine; stepping in one deals damage (magic potency 125) and inflicts windburn (magic DoT potency 250, 6s) which cannot be removed with Esuna</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12263_31465" xml:space="preserve">
+    <value>four telegraphed circle AoEs on all party members, each a couple seconds apart; make sure to leave a safe path open for Turbine</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12263_4116" xml:space="preserve">
+    <value>knockback from center</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_12263_9906" xml:space="preserve">
+    <value>boss goes to one end of the arena and charges straight across (line AoE with late telegraph); drops a twister at the same time, so make sure you're moving as the cast completes</value>
+  </data>
 </root>
