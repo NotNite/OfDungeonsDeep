@@ -1,4 +1,5 @@
 ﻿using FFXIVClientStructs.FFXIV.Common.Math;
+using ImGuiNET;
 
 namespace DeeperDeepDungeonDex.System;
 
@@ -12,6 +13,8 @@ public class FloorDataWindow : DeepDungeonWindow {
             MinimumSize = new Vector2(350.0f, 350.0f),
             MaximumSize = new Vector2(float.PositiveInfinity),
         };
+
+        Flags |= ImGuiWindowFlags.NoTitleBar;
     }
 
     public override bool DrawConditions() {

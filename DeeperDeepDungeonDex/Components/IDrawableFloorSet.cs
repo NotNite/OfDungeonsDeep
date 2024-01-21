@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 using Dalamud.Interface;
 using Dalamud.Interface.Components;
 using Dalamud.Interface.GameFonts;
@@ -31,6 +30,13 @@ public partial interface IDrawableFloorSet {
             ImGui.TableNextColumn();
             using (LargeFont.Push()) {
                 ImGui.TextUnformatted(Title);
+            }
+
+            ImGui.TableNextColumn();
+            ImGui.TableNextColumn();
+            ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale);
+            if (ImGuiComponents.IconButton("Button", FontAwesomeIcon.Times)) {
+                Plugin.Controller.WindowController.RemoveWindowForFloor(this);
             }
             
             DrawSpacingRow();
