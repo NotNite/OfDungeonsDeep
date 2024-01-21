@@ -37,10 +37,12 @@ public interface IDrawableFloorSet {
             if (Plugin.Configuration.LockFloorWindow) {
                 if (ImGuiComponents.IconButton("Unlock", FontAwesomeIcon.Lock)) {
                     Plugin.Configuration.LockFloorWindow = false;
+                    Plugin.Configuration.Save();
                 }
             } else {
                 if (ImGuiComponents.IconButton("Lock", FontAwesomeIcon.LockOpen)) {
                     Plugin.Configuration.LockFloorWindow = true;
+                    Plugin.Configuration.Save();
                 }
             }
 
@@ -48,7 +50,7 @@ public interface IDrawableFloorSet {
             
             ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale);
             if (ImGuiComponents.IconButton("Button", FontAwesomeIcon.Times)) {
-                Plugin.Controller.WindowController.RemoveWindowForFloor(this);
+                Plugin.Controller.WindowController.RemoveWindowForFloor();
             }
             
             DrawSpacingRow();

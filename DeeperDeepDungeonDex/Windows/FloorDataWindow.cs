@@ -4,20 +4,27 @@ using ImGuiNET;
 namespace DeeperDeepDungeonDex.System;
 
 public class FloorDataWindow : DeepDungeonWindow {
-    private readonly IDrawableFloorSet floorSet;
+    private IDrawableFloorSet? floorSet;
 
-    public FloorDataWindow(string windowName, IDrawableFloorSet floorData) : base(windowName) {
-        floorSet = floorData;
-        
+    public FloorDataWindow() : base("DeeperDeepDungeonDex - Floor Info") {
         SizeConstraints = new WindowSizeConstraints {
-            MinimumSize = new Vector2(350.0f, 350.0f),
+            MinimumSize = new Vector2(350.0f, 250.0f),
             MaximumSize = new Vector2(float.PositiveInfinity),
         };
 
         Flags |= ImGuiWindowFlags.NoTitleBar;
     }
 
+    public void SetFloor(IDrawableFloorSet? drawableFloorSet) {
+        floorSet = drawableFloorSet;
+
+        if (floorSet is not null) {
+            UnCollapseOrShow();
+        }
+    }
+
     public override bool DrawConditions() {
+        if (floorSet is null) return false;
         if (!Plugin.InDeepDungeon()) return false;
         if (!Plugin.Configuration.EnableFloorWindow) return false;
 
@@ -37,7 +44,7 @@ public class FloorDataWindow : DeepDungeonWindow {
     public override void Draw() {
         base.Draw();
         
-        floorSet.Draw();
+        floorSet?.Draw();
     }
     
     public override void OnClose() {

@@ -92,7 +92,7 @@ public class DeeperDeepDungeonDexController : IDisposable {
         
         if (Plugin.StorageManager.Floorsets.TryGetValue(dungeonType, out var floorSets)) {
             if (floorSets.TryGetValue(currentFloorSet, out var floorSetData)) {
-                WindowController.TryAddDataWindow(floorSetData);
+                WindowController.ShowFloorSetData(floorSetData);
             }
         }
     }

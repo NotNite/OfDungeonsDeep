@@ -43,7 +43,7 @@ public class TargetDataWindow : DeepDungeonWindow {
     public override void Draw() {
         base.Draw();
         
-        targetEnemy?.Draw(WindowExtraButton.PopOut);
+        targetEnemy?.Draw(WindowExtraButton.PopOutWithLock);
     }
 
     public void UpdateTarget(Enemy enemy) {

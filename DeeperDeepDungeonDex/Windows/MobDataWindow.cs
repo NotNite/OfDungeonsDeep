@@ -18,7 +18,7 @@ public class MobDataWindow : DeepDungeonWindow {
     }
 
     public override void PreDraw() {
-        if (Plugin.Configuration.LockMobWindow) {
+        if (Plugin.Configuration.LockedMobWindows.Contains(enemy.Id)) {
             Flags |= ImGuiWindowFlags.NoMove;
             Flags |= ImGuiWindowFlags.NoResize;
         } else {
@@ -30,7 +30,7 @@ public class MobDataWindow : DeepDungeonWindow {
     public override void Draw() {
         base.Draw();
 
-        enemy.Draw(WindowExtraButton.Close);
+        enemy.Draw(WindowExtraButton.CloseWithLock);
     }
 
     public override void OnClose() {

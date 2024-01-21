@@ -217,48 +217,68 @@ public interface IDrawableMob {
     
     private void DrawUtilityButton(WindowExtraButton buttonType) {
         switch (buttonType) {
-            case WindowExtraButton.PopOut:
-                ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale * 2.0f - ImGui.GetStyle().ItemSpacing.X);
-                if (Plugin.Configuration.LockTargetWindow) {
-                    if (ImGuiComponents.IconButton("Unlock", FontAwesomeIcon.Lock)) {
-                        Plugin.Configuration.LockTargetWindow = false;
-                    }
-                } else {
-                    if (ImGuiComponents.IconButton("Lock", FontAwesomeIcon.LockOpen)) {
-                        Plugin.Configuration.LockTargetWindow = true;
-                    }
-                }
-
+            case WindowExtraButton.PopOutWithLock:
+                DrawLockUnlockButton(ref Plugin.Configuration.LockTargetWindow);
                 ImGui.SameLine();
-                
-                ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale);
-                if (ImGuiComponents.IconButton("Button", FontAwesomeIcon.ArrowUpRightFromSquare)) {
-                    Plugin.Controller.WindowController.TryAddDataWindow(this);
-                } 
+                DrawPopoutButton(); 
                 break;
                         
-            case WindowExtraButton.Close:
-                ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale * 2.0f - ImGui.GetStyle().ItemSpacing.X);
-                if (Plugin.Configuration.LockMobWindow) {
-                    if (ImGuiComponents.IconButton("Unlock", FontAwesomeIcon.Lock)) {
-                        Plugin.Configuration.LockMobWindow = false;
-                    }
-                } else {
-                    if (ImGuiComponents.IconButton("Lock", FontAwesomeIcon.LockOpen)) {
-                        Plugin.Configuration.LockMobWindow = true;
-                    }
-                }
-
+            case WindowExtraButton.CloseWithLock:
+                DrawLockUnlockButton(ref Plugin.Configuration.LockedMobWindows);
                 ImGui.SameLine();
-                
-                ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale);
-                if (ImGuiComponents.IconButton("Button", FontAwesomeIcon.Times)) {
-                    Plugin.Controller.WindowController.RemoveWindowForEnemy(this);
-                }
+                DrawCloseButton();
+                break;
+            
+            case WindowExtraButton.PopOut:
+                DrawPopoutButton();
                 break;
         }
     }
     
+    private void DrawCloseButton() {
+        ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale);
+        if (ImGuiComponents.IconButton("Button", FontAwesomeIcon.Times)) {
+            Plugin.Controller.WindowController.RemoveWindowForEnemy(this);
+        }
+    }
+
+    private void DrawLockUnlockButton(ref HashSet<uint> lockedIdSet) {
+        ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale * 2.0f - ImGui.GetStyle().ItemSpacing.X);
+        if (lockedIdSet.Contains(Id)) {
+            if (ImGuiComponents.IconButton("Unlock", FontAwesomeIcon.Lock)) {
+                lockedIdSet.Remove(Id);
+                Plugin.Configuration.Save();
+            }
+        } else {
+            if (ImGuiComponents.IconButton("Lock", FontAwesomeIcon.LockOpen)) {
+                lockedIdSet.Add(Id);
+                Plugin.Configuration.Save();
+            }
+        }
+    }
+
+    private void DrawPopoutButton() {
+        ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale);
+        if (ImGuiComponents.IconButton("Button", FontAwesomeIcon.ArrowUpRightFromSquare)) {
+            Plugin.Controller.WindowController.TryAddDataWindow(this);
+        }
+    }
+    
+    private static void DrawLockUnlockButton(ref bool setting) {
+        ImGui.SetCursorPosX(ImGui.GetContentRegionMax().X - 23.0f * ImGuiHelpers.GlobalScale * 2.0f - ImGui.GetStyle().ItemSpacing.X);
+        if (setting) {
+            if (ImGuiComponents.IconButton("Unlock", FontAwesomeIcon.Lock)) {
+                setting = false;
+                Plugin.Configuration.Save();
+            }
+        } else {
+            if (ImGuiComponents.IconButton("Lock", FontAwesomeIcon.LockOpen)) {
+                setting = true;
+                Plugin.Configuration.Save();
+            }
+        }
+    }
+
     private string GetImagePath(string folder) {
         if (Image is null) return string.Empty;
         

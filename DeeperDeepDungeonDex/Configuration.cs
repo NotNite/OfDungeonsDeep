@@ -1,5 +1,6 @@
 ﻿using Dalamud.Configuration;
 using System;
+using System.Collections.Generic;
 
 namespace DeeperDeepDungeonDex;
 
@@ -10,7 +11,7 @@ public class Configuration : IPluginConfiguration {
     public bool EnableTargetWindow = true;
     public bool EnableFloorWindow = true;
     public bool ShowFloorEveryFloor = false;
-    public bool LockMobWindow = false;
+    public HashSet<uint> LockedMobWindows = new();
     public bool LockFloorWindow = false;
     public bool LockTargetWindow = false;
 
