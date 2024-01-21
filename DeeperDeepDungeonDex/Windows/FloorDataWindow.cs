@@ -29,4 +29,8 @@ public class FloorDataWindow : DeepDungeonWindow {
         
         floorSet.Draw();
     }
+    
+    public override void OnClose() {
+        Plugin.Controller.WindowController.RemoveWindow(this);
+    }
 }
