@@ -13,6 +13,7 @@ public class ConfigurationWindow : DeepDungeonWindow {
     }
 
     public override void Draw() {
+        base.Draw();
         var changed = ImGui.Checkbox("Enable Target Window", ref Plugin.Configuration.EnableTargetWindow);
 
         if (changed) {
