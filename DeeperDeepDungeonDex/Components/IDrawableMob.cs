@@ -236,7 +236,7 @@ public interface IDrawableMob {
         if (Image is null) return string.Empty;
         
         return Path.Combine(
-            Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!,
+            Services.PluginInterface.AssemblyLocation.Directory?.FullName!,
             "Data",
             folder,
             DungeonType switch {
