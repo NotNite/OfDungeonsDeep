@@ -167,8 +167,14 @@ async function main() {
       const filePath = path.join(compendium, dir, file);
       const raw = fs.readFileSync(filePath, "utf8");
       const data = yaml.load(raw.split("---")[1]);
-      const floorNotes = raw.split("---")[2];
-
+      let floorNotes = raw.split("---")[2].trimStart().replaceAll();
+      
+      floorNotes = floorNotes.trimStart();
+      floorNotes = floorNotes.replaceAll("\r\n\r\n", "ABC");
+      floorNotes = floorNotes.replaceAll("\r\n", " ");
+      floorNotes = floorNotes.replaceAll("ABC", "\n");
+      floorNotes = floorNotes.replace(/\[(.*?)\]\((.*?)\)/gm, "$1");
+        
       let type = deepDungeon(dir);
       if (type == null) {
         console.log(`Unable to find type for ${filePath}`);

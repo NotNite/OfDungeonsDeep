@@ -1,5 +1,4 @@
-﻿using System.Text.RegularExpressions;
-using Dalamud.Interface;
+﻿using Dalamud.Interface;
 using Dalamud.Interface.Components;
 using Dalamud.Interface.GameFonts;
 using Dalamud.Interface.ManagedFontAtlas;
@@ -9,7 +8,7 @@ using ImGuiNET;
 
 namespace DeeperDeepDungeonDex.System;
 
-public partial interface IDrawableFloorSet {
+public interface IDrawableFloorSet {
     public string? Title { get; set; }
     public DeepDungeonType DungeonType { get; set; }
     public string? MimicType { get; set; }
@@ -46,13 +45,13 @@ public partial interface IDrawableFloorSet {
             DrawIconString(FontAwesomeIcon.Box, MimicType, "Mimic Type");
             
             ImGui.TableNextColumn();
-            DrawIconString(FontAwesomeIcon.Home, Rooms, "Number of Rooms per floor");
+            DrawIconString(FontAwesomeIcon.Home, Rooms, "Rooms per floor");
             
             ImGui.TableNextColumn();
-            DrawIconString(FontAwesomeIcon.Gem, Chests, "Number of Chests per floor");
+            DrawIconString(FontAwesomeIcon.Gem, Chests, "Chests per floor");
             
             ImGui.TableNextColumn();
-            DrawIconString(FontAwesomeIcon.Bugs, Enemies, "Number of Enemies per floor");
+            DrawIconString(FontAwesomeIcon.Bugs, Enemies, "Enemies per floor");
 
             ImGui.TableNextColumn();
             DrawIconString(FontAwesomeIcon.SkullCrossbones, KillsNeeded, "Kills Needed per floor");
@@ -69,12 +68,6 @@ public partial interface IDrawableFloorSet {
         ImGui.Separator();
         
         if (Notes is not null) {
-            Notes = Notes.TrimStart();
-            Notes = Notes.Replace("\r\n\r\n", "ABC");
-            Notes = Notes.Replace("\r\n", " ");
-            Notes = Notes.Replace("ABC", "\n");
-            Notes = MarkdownLinks().Replace(Notes, "$1");
-            
             foreach (var line in Notes.Split("\n")) {
                 ImGuiHelpers.ScaledDummy(5.0f);
                 ImGuiHelpers.SafeTextWrapped(line);
@@ -115,7 +108,4 @@ public partial interface IDrawableFloorSet {
         
         ImGuiHelpers.ScaledDummy(3.0f);
     }
-
-    [GeneratedRegex("\\[(.*?)\\]\\((.*?)\\)")]
-    private static partial Regex MarkdownLinks();
 }
