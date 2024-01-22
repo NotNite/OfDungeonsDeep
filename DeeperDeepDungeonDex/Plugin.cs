@@ -46,13 +46,14 @@ public sealed class Plugin : IDalamudPlugin {
     
     public static uint? GetFloorSetId() {
         if (GetFloor() is { } floor) {
-            return (uint) (floor - (floor % 10) + 1);
+            return (uint) ((floor - 1) / 10 * 10 + 1);
         }
         
         return null;
     }
+
     public static int GetFloorSetId(int floor) {
-        return (((floor / 10) * 10) + 1);
+        return (floor - 1) / 10 * 10 + 1;
     }
 
     public static DeepDungeonType? GetDeepDungeonType() {
