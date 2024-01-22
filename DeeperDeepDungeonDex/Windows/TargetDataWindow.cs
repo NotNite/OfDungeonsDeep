@@ -1,7 +1,6 @@
 ﻿using System.Numerics;
 using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.ClientState.Objects.Types;
-using DeeperDeepDungeonDex.Storage;
 using ImGuiNET;
 
 namespace DeeperDeepDungeonDex.System;
@@ -46,7 +45,7 @@ public class TargetDataWindow : DeepDungeonWindow {
         targetEnemy?.Draw(WindowExtraButton.PopOutWithLock);
     }
 
-    public void UpdateTarget(Enemy enemy) {
+    public void UpdateTarget(IDrawableMob enemy) {
         targetEnemy = enemy;
     }
 }
