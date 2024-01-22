@@ -49,9 +49,13 @@ public class DeeperDeepDungeonDexController : IDisposable {
     }
 
     private void UpdateData() {
-        currentFloor = Plugin.GetFloor() ?? 0;
         currentFloorSet = Plugin.GetFloorSetId() ?? 0;
         dungeonType = Plugin.GetDeepDungeonType() ?? DeepDungeonType.Unknown;
+        
+        if (Plugin.GetFloor() is {} floor && currentFloor != floor) {
+            currentFloor = floor;
+            OnFloorChanged();
+        }
     }
 
     private void OnFrameworkUpdate(IFramework framework) {
@@ -62,10 +66,7 @@ public class DeeperDeepDungeonDexController : IDisposable {
         // If the data hasn't finished loading, don't try to access it.
         if (!Plugin.StorageManager.DataReady) return;
 
-        if (Plugin.GetFloor() is {} floor && currentFloor != floor) {
-            currentFloor = floor;
-            OnFloorChanged();
-        }
+        UpdateData();
 
         if (Services.TargetManager.Target is BattleNpc { BattleNpcKind: BattleNpcSubKind.Enemy } currentTarget) {
             if (lastFrameGameObject is null || (lastFrameGameObject is not null && currentTarget.NameId != lastFrameGameObject.NameId)) {
@@ -81,15 +82,27 @@ public class DeeperDeepDungeonDexController : IDisposable {
         if (dungeonType is DeepDungeonType.Unknown) return;
         if (currentFloorSet is 0) return;
         if (!currentTarget.IsValid()) return;
-        if (!Plugin.StorageManager.Enemies[dungeonType].TryGetValue(currentFloorSet, out var enemies)) return;
-        if (enemies.FirstOrDefault(enemy => enemy.Id == currentTarget.NameId) is not { } enemyData) return;
         
-        WindowController.TargetDataWindow.UpdateTarget(enemyData);
+        if (Plugin.StorageManager.Enemies.TryGetValue(dungeonType, out var dungeonEnemies)) {
+            if (dungeonEnemies.TryGetValue(currentFloorSet, out var enemies)) {
+                if (enemies.FirstOrDefault(enemy => enemy.Id == currentTarget.NameId) is { } enemyData) {
+                    WindowController.TargetDataWindow.UpdateTarget(enemyData);
+                    return;
+                }
+            }
+        }
+
+        if (Plugin.StorageManager.Floorsets.TryGetValue(dungeonType, out var bossEnemies)) {
+            if (bossEnemies.TryGetValue(currentFloorSet, out var floorBoss)) {
+                if (floorBoss.Id == currentTarget.NameId) {
+                    WindowController.TargetDataWindow.UpdateTarget(floorBoss);
+                    return;
+                }
+            }
+        }
     }
 
     private void TryShowFloorInfo() {
-        UpdateData();
-        
         if (Plugin.StorageManager.Floorsets.TryGetValue(dungeonType, out var floorSets)) {
             if (floorSets.TryGetValue(currentFloorSet, out var floorSetData)) {
                 WindowController.ShowFloorSetData(floorSetData);
