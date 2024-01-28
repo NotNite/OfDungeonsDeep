@@ -22,10 +22,6 @@ public class DexWindow : DeepDungeonWindow {
 
         Flags |= ImGuiWindowFlags.NoScrollbar;
         Flags |= ImGuiWindowFlags.NoScrollWithMouse;
-        
-#if DEBUG
-        IsOpen = true;
-#endif
     }
 
     public override bool DrawConditions() {
