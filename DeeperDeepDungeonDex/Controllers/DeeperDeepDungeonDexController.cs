@@ -69,7 +69,7 @@ public class DeeperDeepDungeonDexController : IDisposable {
         UpdateData();
 
         if (Services.TargetManager.Target is BattleNpc { BattleNpcKind: BattleNpcSubKind.Enemy } currentTarget) {
-            if (lastFrameGameObject is null || (lastFrameGameObject is not null && currentTarget.NameId != lastFrameGameObject.NameId)) {
+            if (lastFrameGameObject is null || (lastFrameGameObject is not null && currentTarget.ObjectId != lastFrameGameObject.ObjectId)) {
                 UpdateTarget(currentTarget);
             }
         }
