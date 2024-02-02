@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Linq;
 using Dalamud.Interface.Utility;
-using DeeperDeepDungeonDex.System;
+using DeeperDeepDungeonDex.Components;
 using ImGuiNET;
 using Lumina.Excel.GeneratedSheets2;
 

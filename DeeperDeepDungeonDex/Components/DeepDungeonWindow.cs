@@ -1,6 +1,6 @@
 ﻿using Dalamud.Interface.Windowing;
 
-namespace DeeperDeepDungeonDex.System;
+namespace DeeperDeepDungeonDex.Components;
 
 /// <summary>
 /// This class is an extension of a Dalamud Window, to allow for easier collapse control.

@@ -4,8 +4,9 @@ using System.Linq;
 using Dalamud.Game.Command;
 using Dalamud.Interface.Windowing;
 using Dalamud.Utility;
+using DeeperDeepDungeonDex.Components;
 
-namespace DeeperDeepDungeonDex.System;
+namespace DeeperDeepDungeonDex.Controllers;
 
 public class WindowController : IDisposable {
     private const string CommandName = "/dddd";

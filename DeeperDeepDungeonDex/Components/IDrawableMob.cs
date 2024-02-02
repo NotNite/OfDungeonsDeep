@@ -14,7 +14,7 @@ using Lumina.Excel.GeneratedSheets2;
 using AttackType = DeeperDeepDungeonDex.Storage.AttackType;
 using Status = DeeperDeepDungeonDex.Storage.Status;
 
-namespace DeeperDeepDungeonDex.System;
+namespace DeeperDeepDungeonDex.Components;
 
 public interface IDrawableMob {
     string Name { get; }

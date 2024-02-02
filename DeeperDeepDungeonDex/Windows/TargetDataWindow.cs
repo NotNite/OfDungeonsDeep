@@ -1,9 +1,10 @@
 ﻿using System.Numerics;
 using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.ClientState.Objects.Types;
+using DeeperDeepDungeonDex.Components;
 using ImGuiNET;
 
-namespace DeeperDeepDungeonDex.System;
+namespace DeeperDeepDungeonDex.Controllers;
 
 public class TargetDataWindow : DeepDungeonWindow {
     private IDrawableMob? targetEnemy;

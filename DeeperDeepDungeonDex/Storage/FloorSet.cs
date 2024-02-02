@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Dalamud.Interface.Internal;
-using DeeperDeepDungeonDex.System;
+using DeeperDeepDungeonDex.Components;
+using DeeperDeepDungeonDex.Controllers;
 
 namespace DeeperDeepDungeonDex.Storage;
 

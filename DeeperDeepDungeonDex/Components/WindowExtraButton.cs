@@ -1,4 +1,4 @@
-﻿namespace DeeperDeepDungeonDex.System;
+﻿namespace DeeperDeepDungeonDex.Components;
 
 public enum WindowExtraButton {
     PopOutWithLock,

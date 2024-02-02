@@ -1,7 +1,8 @@
 ﻿using System.Numerics;
+using DeeperDeepDungeonDex.Components;
 using ImGuiNET;
 
-namespace DeeperDeepDungeonDex.System;
+namespace DeeperDeepDungeonDex.Controllers;
 
 public class MobDataWindow : DeepDungeonWindow {
     private readonly IDrawableMob enemy;

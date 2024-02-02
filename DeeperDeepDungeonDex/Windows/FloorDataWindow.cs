@@ -1,7 +1,8 @@
-﻿using FFXIVClientStructs.FFXIV.Common.Math;
+﻿using DeeperDeepDungeonDex.Components;
+using FFXIVClientStructs.FFXIV.Common.Math;
 using ImGuiNET;
 
-namespace DeeperDeepDungeonDex.System;
+namespace DeeperDeepDungeonDex.Controllers;
 
 public class FloorDataWindow : DeepDungeonWindow {
     private IDrawableFloorSet? floorSet;

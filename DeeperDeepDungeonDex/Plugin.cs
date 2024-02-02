@@ -2,8 +2,9 @@
 using System.Globalization;
 using System.Threading.Tasks;
 using Dalamud.Plugin;
+using DeeperDeepDungeonDex.Components;
 using DeeperDeepDungeonDex.Storage;
-using DeeperDeepDungeonDex.System;
+using DeeperDeepDungeonDex.Controllers;
 using FFXIVClientStructs.FFXIV.Client.Game.Event;
 using FFXIVClientStructs.FFXIV.Client.Game.InstanceContent;
 using Lumina.Excel.GeneratedSheets2;

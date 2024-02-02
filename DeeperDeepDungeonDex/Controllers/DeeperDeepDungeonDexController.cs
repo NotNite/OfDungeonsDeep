@@ -5,7 +5,7 @@ using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.Plugin.Services;
 using DeeperDeepDungeonDex.Storage;
 
-namespace DeeperDeepDungeonDex.System;
+namespace DeeperDeepDungeonDex.Controllers;
 
 public class DeeperDeepDungeonDexController : IDisposable {
     public WindowController WindowController;

@@ -6,7 +6,7 @@ using Dalamud.Interface.Utility;
 using DeeperDeepDungeonDex.Storage;
 using ImGuiNET;
 
-namespace DeeperDeepDungeonDex.System;
+namespace DeeperDeepDungeonDex.Components;
 
 public interface IDrawableFloorSet {
     public string? Title { get; set; }
