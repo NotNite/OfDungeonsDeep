@@ -11,7 +11,7 @@ public class MobDataWindow : DeepDungeonWindow {
     public MobDataWindow(string name, IDrawableMob enemyData) : base(name) {
         enemy = enemyData;
         
-        SizeConstraints = new Window.WindowSizeConstraints {
+        SizeConstraints = new WindowSizeConstraints {
             MinimumSize = new Vector2(350.0f, 125.0f),
             MaximumSize = new Vector2(float.PositiveInfinity),
         };

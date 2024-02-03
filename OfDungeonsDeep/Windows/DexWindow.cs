@@ -17,7 +17,7 @@ public class DexWindow : DeepDungeonWindow {
     private uint floorSet;
     
     public DexWindow() : base("OfDungeonsDeep - Monster Dex") {
-        SizeConstraints = new Window.WindowSizeConstraints {
+        SizeConstraints = new WindowSizeConstraints {
             MinimumSize = new Vector2(600.0f, 400.0f),
             MaximumSize = new Vector2(float.PositiveInfinity),
         };
@@ -105,6 +105,7 @@ public class DexWindow : DeepDungeonWindow {
                     }
                     
                     dungeonType = type;
+                    floorSet = 0;
                 }
             }
             
@@ -112,7 +113,7 @@ public class DexWindow : DeepDungeonWindow {
         }
         
         ImGui.PushItemWidth(ImGui.GetContentRegionAvail().X);
-        if (ImGui.BeginCombo("##FloorSelection", GetFloorSetString(floorSet))) {
+        if (ImGui.BeginCombo("##FloorSelection", GetFloorSetString(floorSet), ImGuiComboFlags.HeightLarge)) {
 
             foreach (uint index in Enumerable.Range(0, 10)) {
                 if (ImGui.Selectable(GetFloorSetString(index), floorSet == index)) {

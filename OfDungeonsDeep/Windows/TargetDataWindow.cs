@@ -11,7 +11,7 @@ public class TargetDataWindow : DeepDungeonWindow {
     private IDrawableMob? targetEnemy;
 
     public TargetDataWindow() : base("##DeeperDeepDungeonDex_TargetDataWindow") {
-        SizeConstraints = new Window.WindowSizeConstraints {
+        SizeConstraints = new WindowSizeConstraints {
             MinimumSize = new Vector2(325.0f, 200.0f),
             MaximumSize = new Vector2(float.PositiveInfinity),
         };

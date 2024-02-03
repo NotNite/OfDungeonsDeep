@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeeperDeepDungeonDex", "DeeperDeepDungeonDex\DeeperDeepDungeonDex.csproj", "{13C812E9-0D42-4B95-8646-40EEBF30636F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfDungeonsDeep", "OfDungeonsDeep\OfDungeonsDeep.csproj", "{13C812E9-0D42-4B95-8646-40EEBF30636F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeeperDeepDungeonDex.ExcelExporter", "DeeperDeepDungeonDex.ExcelExporter\DeeperDeepDungeonDex.ExcelExporter.csproj", "{69974C84-3166-4FD2-80E6-B571B5F676A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfDungeonsDeep.ExcelExporter", "OfDungeonsDeep.ExcelExporter\OfDungeonsDeep.ExcelExporter.csproj", "{69974C84-3166-4FD2-80E6-B571B5F676A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

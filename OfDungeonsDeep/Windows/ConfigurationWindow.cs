@@ -8,7 +8,7 @@ namespace OfDungeonsDeep.Controllers;
 public class ConfigurationWindow : DeepDungeonWindow {
 
     public ConfigurationWindow() : base("OfDungeonsDeep - Configuration") {
-        SizeConstraints = new Window.WindowSizeConstraints {
+        SizeConstraints = new WindowSizeConstraints {
             MinimumSize = new Vector2(300.0f, 150.0f),
             MaximumSize = new Vector2(float.PositiveInfinity),
         };

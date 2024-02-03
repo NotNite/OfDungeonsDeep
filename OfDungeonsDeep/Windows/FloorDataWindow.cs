@@ -9,7 +9,7 @@ public class FloorDataWindow : DeepDungeonWindow {
     private IDrawableFloorSet? floorSet;
 
     public FloorDataWindow() : base("OfDungeonsDeep - Floor Info") {
-        SizeConstraints = new Window.WindowSizeConstraints {
+        SizeConstraints = new WindowSizeConstraints {
             MinimumSize = new Vector2(350.0f, 250.0f),
             MaximumSize = new Vector2(float.PositiveInfinity),
         };
