@@ -9,7 +9,7 @@ using OfDungeonsDeep.Components;
 namespace OfDungeonsDeep.Controllers;
 
 public class WindowController : IDisposable {
-    private const string CommandName = "/dddd";
+    private const string CommandName = "/odd";
     
     private readonly WindowSystem windowSystem;
     private readonly List<DeepDungeonWindow> windows;
@@ -28,7 +28,7 @@ public class WindowController : IDisposable {
         windowSystem.AddWindow(dexWindow = new DexWindow());
         
         Services.CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand) {
-            HelpMessage = "Open Configuration Window\n/dddd dex \u2192 Open Monster Dex\n/dddd floor \u2192 Show Floor Info"
+            HelpMessage = "Open Configuration Window\n/odd dex \u2192 Open Monster Dex\n/odd floor \u2192 Show Floor Info"
         });
         
         Services.PluginInterface.UiBuilder.Draw += this.Draw;

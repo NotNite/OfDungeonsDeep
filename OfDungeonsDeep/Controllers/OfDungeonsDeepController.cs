@@ -7,7 +7,7 @@ using OfDungeonsDeep.Storage;
 
 namespace OfDungeonsDeep.Controllers;
 
-public class DeeperDeepDungeonDexController : IDisposable {
+public class OfDungeonsDeepController : IDisposable {
     public WindowController WindowController;
     
     private uint currentFloor;
@@ -15,7 +15,7 @@ public class DeeperDeepDungeonDexController : IDisposable {
     private DeepDungeonType dungeonType;
     private BattleNpc? lastFrameGameObject;
 
-    public DeeperDeepDungeonDexController() {
+    public OfDungeonsDeepController() {
         WindowController = new WindowController();
         
         Services.DutyState.DutyStarted += OnDutyStarted;

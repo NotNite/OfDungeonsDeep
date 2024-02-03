@@ -14,7 +14,7 @@ namespace OfDungeonsDeep;
 public sealed class Plugin : IDalamudPlugin {
     public static Configuration Configuration = null!;
     public static StorageManager StorageManager = null!;
-    public static DeeperDeepDungeonDexController Controller = null!;
+    public static OfDungeonsDeepController Controller = null!;
 
     public Plugin(DalamudPluginInterface pluginInterface) {
         Strings.Culture = new CultureInfo(pluginInterface.UiLanguage);
@@ -24,7 +24,7 @@ public sealed class Plugin : IDalamudPlugin {
 
         StorageManager = new StorageManager();
         Task.Run(StorageManager.Load).ContinueWith(_ => {
-            Controller = new DeeperDeepDungeonDexController();
+            Controller = new OfDungeonsDeepController();
         });
     }
 
