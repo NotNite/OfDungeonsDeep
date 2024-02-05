@@ -1,4 +1,5 @@
-# DeeperDeezNuts
+# OfDungeonsDeep
+[![Download count](https://img.shields.io/endpoint?url=https://qzysathwfhebdai6xgauhz4q7m0mzmrf.lambda-url.us-east-1.on.aws/OfDungeonsDeep)](https://github.com/NotNite/OfDungeonsDeep)
 
 Rewrite of DeepDungeonDex.
 
