@@ -33,7 +33,6 @@ public interface IDrawableMob {
     DeepDungeonType DungeonType { get; set; }
     List<Ability?>? Abilities { get; set; }
     
-    IDalamudTextureWrap? ImageSmall { get; set; }
     IDalamudTextureWrap? ImageLarge { get; set; }
     
     public void Draw(WindowExtraButton buttonType) {
@@ -64,12 +63,14 @@ public interface IDrawableMob {
     }
 
     private void DrawPortrait() {
-        ImageSmall ??= Services.TextureProvider.GetTextureFromFile(new FileInfo( GetImagePath("Thumbnails")));
         ImageLarge ??= Services.TextureProvider.GetTextureFromFile(new FileInfo(GetImagePath("Images")));
 
-        if (ImageSmall is not null && ImageLarge is not null) {
+        if (ImageLarge is not null) {
             var rectPosition = ImGui.GetCursorScreenPos();
-            ImGui.Image(ImageSmall.ImGuiHandle, ImGui.GetContentRegionAvail());
+
+            var widthRatio = (1.0f - ((float)ImageLarge.Height / ImageLarge.Width)) / 2.0f;
+            
+            ImGui.Image(ImageLarge.ImGuiHandle, ImGui.GetContentRegionAvail(), new Vector2(widthRatio, 0.0f), new Vector2(1.0f - widthRatio, 1.0f));
             ImGui.GetWindowDrawList().AddRect(rectPosition, rectPosition + ImGui.GetContentRegionMax(), ImGui.GetColorU32(KnownColor.White.Vector() with { W = 0.75f }));
             
             if (ImGui.IsItemClicked()) {

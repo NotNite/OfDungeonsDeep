@@ -28,10 +28,4 @@
         <DependentUpon>Strings.resx</DependentUpon>
       </Compile>
     </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="..\Data\Thumbnails\">
-        <Link>Data\Thumbnails</Link>
-      </Folder>
-    </ItemGroup>
 </Project>
