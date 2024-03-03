@@ -18,6 +18,7 @@ public class TargetDataWindow : DeepDungeonWindow {
 
         Flags |= ImGuiWindowFlags.NoTitleBar;
         IsOpen = true;
+        RespectCloseHotkey = false;
     }
 
     public override bool DrawConditions() {
