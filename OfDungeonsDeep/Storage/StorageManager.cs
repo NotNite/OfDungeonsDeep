@@ -12,7 +12,7 @@ public class StorageManager {
     public bool DataReady;
 
     public void Load() {
-        var assemblyDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
+        var assemblyDir = Services.PluginInterface.AssemblyLocation.DirectoryName!;
         var data = Path.Combine(assemblyDir, "Data");
 
         var options = new JsonSerializerOptions {IncludeFields = true};
