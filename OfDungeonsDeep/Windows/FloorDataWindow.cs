@@ -15,6 +15,9 @@ public class FloorDataWindow : DeepDungeonWindow {
         };
 
         Flags |= ImGuiWindowFlags.NoTitleBar;
+        Flags |= ImGuiWindowFlags.NoNav;
+        Flags |= ImGuiWindowFlags.NoFocusOnAppearing;
+        Flags |= ImGuiWindowFlags.NoBringToFrontOnFocus;
     }
 
     public void SetFloor(IDrawableFloorSet? drawableFloorSet) {

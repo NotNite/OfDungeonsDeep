@@ -1,5 +1,4 @@
 ﻿using System.Numerics;
-using Dalamud.Interface.Windowing;
 using ImGuiNET;
 using OfDungeonsDeep.Components;
 
@@ -17,6 +16,9 @@ public class MobDataWindow : DeepDungeonWindow {
         };
 
         Flags |= ImGuiWindowFlags.NoTitleBar;
+        Flags |= ImGuiWindowFlags.NoNav;
+        Flags |= ImGuiWindowFlags.NoFocusOnAppearing;
+        Flags |= ImGuiWindowFlags.NoBringToFrontOnFocus;
     }
 
     public override void PreDraw() {
