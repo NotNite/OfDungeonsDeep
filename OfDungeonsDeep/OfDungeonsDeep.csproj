@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project Sdk="Dalamud.NET.Sdk/9.0.1">
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="Dalamud.Plugin.Bootstrap.targets"/>
+
     <PropertyGroup>
         <PackageProjectUrl>https://github.com/NotNite/OfDungeonsDeep.git</PackageProjectUrl>
-        <Version>1.0.0.4</Version>
+        <Version>1.0.0.5</Version>
     </PropertyGroup>
 
     <ItemGroup>
