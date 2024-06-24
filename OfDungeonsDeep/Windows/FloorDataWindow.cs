@@ -28,7 +28,13 @@ public class FloorDataWindow : DeepDungeonWindow {
         }
     }
 
-    public override bool DrawConditions() {
+    public override void PreOpenCheck() {
+        if (IsOpen && !CanOpen()) {
+            IsOpen = false;
+        }
+    }
+
+    public bool CanOpen() {
         if (floorSet is null) return false;
         if (!Plugin.InDeepDungeon()) return false;
         if (!Plugin.Configuration.EnableFloorWindow) return false;

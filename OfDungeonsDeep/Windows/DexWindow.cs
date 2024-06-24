@@ -26,10 +26,8 @@ public class DexWindow : DeepDungeonWindow {
         Flags |= ImGuiWindowFlags.NoScrollWithMouse;
     }
 
-    public override bool DrawConditions() {
-        if (!Plugin.StorageManager.DataReady) return false;
-
-        return true;
+    public override void PreOpenCheck() {
+        if (IsOpen && !Plugin.StorageManager.DataReady) IsOpen = false;
     }
 
     public override void Draw() {
