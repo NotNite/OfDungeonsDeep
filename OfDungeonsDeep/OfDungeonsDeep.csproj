@@ -4,7 +4,7 @@
 
     <PropertyGroup>
         <PackageProjectUrl>https://github.com/NotNite/OfDungeonsDeep.git</PackageProjectUrl>
-        <Version>1.0.0.5</Version>
+        <Version>1.0.1.0</Version>
     </PropertyGroup>
 
     <ItemGroup>
