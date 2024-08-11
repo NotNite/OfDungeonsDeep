@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.ClientState.Objects.Types;
@@ -13,7 +13,7 @@ public class OfDungeonsDeepController : IDisposable {
     private uint currentFloor;
     private uint currentFloorSet;
     private DeepDungeonType dungeonType;
-    private BattleNpc? lastFrameGameObject;
+    private IBattleNpc? lastFrameGameObject;
 
     public OfDungeonsDeepController() {
         WindowController = new WindowController();
@@ -68,16 +68,16 @@ public class OfDungeonsDeepController : IDisposable {
 
         UpdateData();
 
-        if (Services.TargetManager.Target is BattleNpc { BattleNpcKind: BattleNpcSubKind.Enemy } currentTarget) {
-            if (lastFrameGameObject is null || (lastFrameGameObject is not null && currentTarget.ObjectId != lastFrameGameObject.ObjectId)) {
+        if (Services.TargetManager.Target is IBattleNpc { BattleNpcKind: BattleNpcSubKind.Enemy } currentTarget) {
+            if (lastFrameGameObject is null || (lastFrameGameObject is not null && currentTarget.EntityId != lastFrameGameObject.EntityId)) {
                 UpdateTarget(currentTarget);
             }
         }
         
-        lastFrameGameObject = Services.TargetManager.Target as BattleNpc;
+        lastFrameGameObject = Services.TargetManager.Target as IBattleNpc;
     }
     
-    private void UpdateTarget(BattleNpc currentTarget) {
+    private void UpdateTarget(IBattleNpc currentTarget) {
         if (currentFloor is 0) return;
         if (dungeonType is DeepDungeonType.Unknown) return;
         if (currentFloorSet is 0) return;

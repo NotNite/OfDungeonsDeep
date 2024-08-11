@@ -1,4 +1,4 @@
-﻿using Dalamud.Game.ClientState.Objects;
+using Dalamud.Game.ClientState.Objects;
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
@@ -6,7 +6,7 @@ using Dalamud.Plugin.Services;
 namespace OfDungeonsDeep;
 
 public class Services {
-    [PluginService] public static DalamudPluginInterface PluginInterface { get; private set; } = null!;
+    [PluginService] public static IDalamudPluginInterface PluginInterface { get; private set; } = null!;
     [PluginService] public static ICommandManager CommandManager { get; private set; } = null!;
     [PluginService] public static IFramework Framework { get; private set; } = null!;
     [PluginService] public static ITargetManager TargetManager { get; private set; } = null!;

@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using Dalamud.Interface.Internal;
-using OfDungeonsDeep.Controllers;
+using System.Collections.Generic;
 using OfDungeonsDeep.Components;
+using Dalamud.Interface.Textures;
 
 namespace OfDungeonsDeep.Storage;
 
@@ -46,6 +45,6 @@ public class FloorSet : IDrawableMob, IDrawableFloorSet {
         set => BossAbilities = value;
     }
 
-    public IDalamudTextureWrap? ImageSmall { get; set; }
-    public IDalamudTextureWrap? ImageLarge { get; set; }
+    public ISharedImmediateTexture? ImageSmall { get; set; }
+    public ISharedImmediateTexture? ImageLarge { get; set; }
 }
