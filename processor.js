@@ -63,7 +63,7 @@ function deepDungeon(name) {
 async function main() {
   const strings = await resx.resx2js(
     fs.readFileSync(
-      path.join(__dirname, "DeeperDeepDungeonDex", "Strings.resx"),
+      path.join(__dirname, "OfDungeonsDeep", "Strings.resx"),
       "utf8"
     )
   );
@@ -241,7 +241,7 @@ async function main() {
 
   const resxWrite = await resx.js2resx(strings);
   fs.writeFileSync(
-    path.join(__dirname, "DeeperDeepDungeonDex", "Strings.resx"),
+    path.join(__dirname, "OfDungeonsDeep", "Strings.resx"),
     resxWrite
   );
 }

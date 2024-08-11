@@ -1,5 +1,5 @@
-﻿using System.Text.Json.Serialization;
-using Dalamud.Interface.Internal;
+using System.Text.Json.Serialization;
+using Dalamud.Interface.Textures;
 using Dalamud.Interface.Utility;
 using ImGuiNET;
 
@@ -13,16 +13,16 @@ public enum AttackType {
 }
 
 public static class AttackTypeExtensions {
-    public static IDalamudTextureWrap? Texture(this AttackType type) => type switch {
-        AttackType.Magic => Services.TextureProvider.GetIcon(60012),
-        AttackType.Physical => Services.TextureProvider.GetIcon(60011),
-        AttackType.Unique => Services.TextureProvider.GetIcon(60013),
+    public static ISharedImmediateTexture? Texture(this AttackType type) => type switch {
+        AttackType.Magic => Services.TextureProvider.GetFromGameIcon(60012),
+        AttackType.Physical => Services.TextureProvider.GetFromGameIcon(60011),
+        AttackType.Unique => Services.TextureProvider.GetFromGameIcon(60013),
         _ => null,
     };
 
     public static void DrawIcon(this AttackType type) {
         if (type.Texture() is { } texture) {
-            ImGui.Image(texture.ImGuiHandle, ImGuiHelpers.ScaledVector2(18.0f, 18.0f));
+            ImGui.Image(texture.GetWrapOrEmpty().ImGuiHandle, ImGuiHelpers.ScaledVector2(18.0f, 18.0f));
         }
     }
     
@@ -33,7 +33,7 @@ public static class AttackTypeExtensions {
             var autoDamageType = type.Texture(); 
             ImGui.BeginGroup();
             if (autoDamageType is not null) {
-                ImGui.Image(autoDamageType.ImGuiHandle, ImGuiHelpers.ScaledVector2(18.0f, 18.0f));
+                ImGui.Image(autoDamageType.GetWrapOrEmpty().ImGuiHandle, ImGuiHelpers.ScaledVector2(18.0f, 18.0f));
             }
             if (autoDamageType is not null) {
                 ImGui.SameLine();

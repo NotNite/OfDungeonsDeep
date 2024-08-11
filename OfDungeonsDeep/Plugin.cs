@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.Threading.Tasks;
 using Dalamud.Plugin;
 using FFXIVClientStructs.FFXIV.Client.Game.Event;
 using FFXIVClientStructs.FFXIV.Client.Game.InstanceContent;
-using Lumina.Excel.GeneratedSheets2;
+using Lumina.Excel.GeneratedSheets;
 using OfDungeonsDeep.Components;
 using OfDungeonsDeep.Controllers;
 using OfDungeonsDeep.Storage;
@@ -16,7 +16,7 @@ public sealed class Plugin : IDalamudPlugin {
     public static StorageManager StorageManager = null!;
     public static OfDungeonsDeepController Controller = null!;
 
-    public Plugin(DalamudPluginInterface pluginInterface) {
+    public Plugin(IDalamudPluginInterface pluginInterface) {
         Strings.Culture = new CultureInfo(pluginInterface.UiLanguage);
 
         pluginInterface.Create<Services>();
