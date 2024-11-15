@@ -9,7 +9,7 @@ using Dalamud.Interface.Components;
 using Dalamud.Interface.Textures;
 using Dalamud.Interface.Utility;
 using ImGuiNET;
-using Lumina.Excel.GeneratedSheets2;
+using Lumina.Excel.Sheets;
 using OfDungeonsDeep.Storage;
 using Status = OfDungeonsDeep.Storage.Status;
 using Storage_AttackType = OfDungeonsDeep.Storage.AttackType;
@@ -203,13 +203,13 @@ public interface IDrawableMob {
             if (Services.TextureProvider.GetFromGameIcon((uint) status) is { } image) {
                 if (status is not Status.Resolution) {
                     ImGui.Image(image.GetWrapOrEmpty().ImGuiHandle, image.GetWrapOrEmpty().Size * 0.5f, Vector2.Zero, Vector2.One, isVulnerable ? Vector4.One : Vector4.One / 2.5f );
-                    if (ImGui.IsItemHovered() && Services.DataManager.GetExcelSheet<Lumina.Excel.GeneratedSheets2.Status>()?.FirstOrDefault(statusEffect => statusEffect.Icon == (uint)status) is {} statusInfo ) {
-                        ImGui.SetTooltip(statusInfo.Name);
+                    if (ImGui.IsItemHovered() && Services.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Status>()?.FirstOrDefault(statusEffect => statusEffect.Icon == (uint)status) is {} statusInfo ) {
+                        ImGui.SetTooltip(statusInfo.Name.ExtractText());
                     }
                 } else {
                     ImGui.Image(image.GetWrapOrEmpty().ImGuiHandle, ImGuiHelpers.ScaledVector2(32.0f, 32.0f), Vector2.Zero, Vector2.One, isVulnerable ? Vector4.One : Vector4.One / 2.5f );
                     if (ImGui.IsItemHovered() && Services.DataManager.GetExcelSheet<DeepDungeonItem>()?.GetRow(16) is {} resolution) {
-                        ImGui.SetTooltip(resolution.Name);
+                        ImGui.SetTooltip(resolution.Name.ExtractText());
                     }
                 }
                 ImGui.SameLine();

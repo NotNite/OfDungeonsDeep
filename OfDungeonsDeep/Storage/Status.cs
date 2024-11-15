@@ -1,13 +1,13 @@
-﻿using System.Text.Json.Serialization;
+using System.Text.Json.Serialization;
 
 namespace OfDungeonsDeep.Storage;
 
 [JsonConverter(typeof(JsonStringEnumConverter))]
 public enum Status : uint {
-    Bind = 15003,
-    Heavy = 15002,
-    Sleep = 15013,
-    Slow = 15009,
-    Stun = 15004,
+    Bind = 215003,
+    Heavy = 215002,
+    Sleep = 215013,
+    Slow = 215009,
+    Stun = 215004,
     Resolution = 27990,
 }

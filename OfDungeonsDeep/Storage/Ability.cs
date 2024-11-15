@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using Dalamud.Interface.Utility;
 using ImGuiNET;
-using Lumina.Excel.GeneratedSheets2;
+using Lumina.Excel.Sheets;
 using OfDungeonsDeep.Components;
 
 namespace OfDungeonsDeep.Storage;
@@ -37,7 +37,7 @@ public class Ability {
         if (Id is null || Services.DataManager.GetExcelSheet<Action>()?.GetRow(Id.Value) is not { } ability) return;
         if (Strings.ResourceManager.GetString($"AbilityNote_{type.ToString()}_{Plugin.GetFloorSetId(floor)}_{id}_{Id}") is not { } description) return;
 
-        var titleCaseName = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ability.Name);
+        var titleCaseName = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ability.Name.ExtractText());
         
         ImGui.TableNextColumn();
         ImGui.TextUnformatted(titleCaseName);

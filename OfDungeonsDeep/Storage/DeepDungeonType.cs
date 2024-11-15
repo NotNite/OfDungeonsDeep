@@ -1,5 +1,5 @@
 using System.Text.Json.Serialization;
-using Lumina.Excel.GeneratedSheets2;
+using Lumina.Excel.Sheets;
 
 namespace OfDungeonsDeep.Storage;
 
@@ -13,9 +13,9 @@ public enum DeepDungeonType {
 
 public static class DeepDungeonTypeExtensions {
     public static string Localized(this DeepDungeonType type) => type switch {
-        DeepDungeonType.PalaceOfTheDead => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(90)?.Name ?? string.Empty,
-        DeepDungeonType.HeavenOnHigh => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(91)?.Name ?? string.Empty,
-        DeepDungeonType.EurekaOrthos => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(92)?.Name ?? string.Empty,
+        DeepDungeonType.PalaceOfTheDead => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(96).Name.ExtractText() ?? string.Empty,
+        DeepDungeonType.HeavenOnHigh => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(97).Name.ExtractText() ?? string.Empty,
+        DeepDungeonType.EurekaOrthos => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(98).Name.ExtractText() ?? string.Empty,
         _ => string.Empty
     };
 }

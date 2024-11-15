@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Dalamud.Game.Command;
@@ -33,6 +33,7 @@ public class WindowController : IDisposable {
         
         Services.PluginInterface.UiBuilder.Draw += this.Draw;
         Services.PluginInterface.UiBuilder.OpenConfigUi += this.OpenConfigUi;
+        Services.PluginInterface.UiBuilder.OpenMainUi += this.OpenDex;
     }
 
     public void Dispose() {
@@ -75,6 +76,10 @@ public class WindowController : IDisposable {
     
     private void OpenConfigUi() {
         configWindow.UnCollapseOrToggle();
+    }
+    
+    private void OpenDex() {        
+        dexWindow.UnCollapseOrToggle();
     }
 
     public void TryAddDataWindow(IDrawableMob target) {

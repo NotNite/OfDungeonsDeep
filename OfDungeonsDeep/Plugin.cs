@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Dalamud.Plugin;
 using FFXIVClientStructs.FFXIV.Client.Game.Event;
 using FFXIVClientStructs.FFXIV.Client.Game.InstanceContent;
-using Lumina.Excel.GeneratedSheets;
+using Lumina.Excel.Sheets;
 using OfDungeonsDeep.Components;
 using OfDungeonsDeep.Controllers;
 using OfDungeonsDeep.Storage;
@@ -60,9 +60,9 @@ public sealed class Plugin : IDalamudPlugin {
     public static DeepDungeonType? GetDeepDungeonType() {
         if (Services.DataManager.GetExcelSheet<TerritoryType>()?.GetRow(Services.ClientState.TerritoryType) is { } territoryInfo) {
             return territoryInfo switch {
-                { TerritoryIntendedUse: 31, ExVersion.Row: 0 or 1 } => DeepDungeonType.PalaceOfTheDead,
-                { TerritoryIntendedUse: 31, ExVersion.Row: 2 } => DeepDungeonType.HeavenOnHigh,
-                { TerritoryIntendedUse: 31, ExVersion.Row: 4 } => DeepDungeonType.EurekaOrthos,
+                { TerritoryIntendedUse.Value.RowId: 31, ExVersion.RowId: 0 or 1 } => DeepDungeonType.PalaceOfTheDead,
+                { TerritoryIntendedUse.Value.RowId: 31, ExVersion.RowId: 2 } => DeepDungeonType.HeavenOnHigh,
+                { TerritoryIntendedUse.Value.RowId: 31, ExVersion.RowId: 4 } => DeepDungeonType.EurekaOrthos,
                 _ => null
             };
         }
@@ -72,9 +72,9 @@ public sealed class Plugin : IDalamudPlugin {
     
     public static string GetEnemyName(IDrawableMob enemy) {
         if (Services.DataManager.GetExcelSheet<BNpcName>() is { } bnpcNameSheet) {
-            return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(bnpcNameSheet.GetRow(enemy.Id)!.Singular);
+            return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(bnpcNameSheet.GetRow(enemy.Id)!.Singular.ExtractText());
         }
 
-        throw new Exception($"Exception trying to get mob name from enemy#{enemy.Id}");
+        throw new Exception($"Exception trying to get mob name from enemy #{enemy.Id}");
     }
 }
