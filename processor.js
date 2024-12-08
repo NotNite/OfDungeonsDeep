@@ -68,6 +68,51 @@ async function main() {
     )
   );
 
+  function map_bnpc(data)
+  {
+    switch (data.name.toLowerCase()) {
+      case "heavenly shabti":
+        if(data.start_floor == 56) return 7334;
+        if(data.start_floor == 97) return 7386;
+        break;
+    
+      case "heavenly nuppeppo":
+        if(data.attack_damage == 3026) return 7378; // WAR
+        if(data.attack_damage == 5504) return 7379; // MNK
+        if(data.attack_damage == 6285) return 7380; // WHM
+        
+      case "heavenly gozu":
+        if(data.start_floor == 81) return 7368;
+        if(data.start_floor == 91) return 7388;
+
+      case "heavenly sekizo":
+        if(data.start_floor == 42) return 7317;
+        if(data.start_floor == 44) return 7325;
+
+      case "heavenly saikoro":
+        if(data.start_floor == 41) return 7314;
+        if(data.start_floor == 44) return 7319; 
+
+      case "heavenly iseki":
+        if(data.start_floor == 46) return 7320;
+        if(data.start_floor == 47) return 7323;
+
+      case "heavenly onmitsu":
+        if(data.start_floor == 31) return 7311;
+        if(data.start_floor == 34) return 7305;
+
+      case "quivering coffer":
+        if(data.start_floor < 30) return 7392;
+        if(data.start_floor > 30 && data.start_floor < 60) return 7393;
+        if(data.start_floor > 60) return 7394;
+        
+      default:
+        break;
+    }
+
+    return 0;
+  }
+
   function ability(prefix, data) {
     // Remove parentheses
     const name = data.name
@@ -78,7 +123,7 @@ async function main() {
       ([, v]) => v.toLowerCase() === name
     );
     if (id.length < 1) {
-      console.log(`Unable to find ID for ${data.name}`);
+      console.log(`(Actions) Unable to find ID for ${data.name} (${name})`);
       return;
     }
     // Just pick the first ability for now - TODO
@@ -103,7 +148,7 @@ async function main() {
     const floor = parseInt(dir.split("_")[2]);
     const type = deepDungeon(dir);
     if (type == null) {
-      console.log(`Unable to find type for ${filePath}`);
+      console.log(`(Type) Unable to find type for ${filePath}`);
       continue;
     }
 
@@ -112,15 +157,18 @@ async function main() {
       const raw = fs.readFileSync(filePath, "utf8");
       const data = yaml.load(raw.split("---")[1]);
 
-      // TODO: handle duplicate names
       const id = Object.entries(bnpc).filter(
         ([, v]) => v.toLowerCase() === data.name.toLowerCase()
       );
-      if (id.length !== 1) {
-        console.log(`Unable to find ID for ${data.name} in ${filePath}`);
+      if (id.length == 0) {
+        console.log(`(BNPC) Unable to find ID for ${data.name} (${id}) in ${filePath}`);
         continue;
       }
-      const realId = parseInt(id[0][0]);
+      var realId = parseInt(id[0][0]);
+      if (id.length !== 1) {
+        realId = map_bnpc(data);
+        console.log(`(BNPC) Multiple IDs for ${data.name} (${id}) in ${filePath}, picking the adequate one (${realId})`);  
+      }
       const uniqueId = `${type}_${floor}_${realId}`;
 
       let dmg = parseInt(data.attack_damage);
@@ -177,20 +225,24 @@ async function main() {
         
       let type = deepDungeon(dir);
       if (type == null) {
-        console.log(`Unable to find type for ${filePath}`);
+        console.log(`(Floor Notes) Unable to find type for ${filePath}`);
         continue;
       }
       const floorsetId = parseInt(data.floorset);
 
       // TODO: handle duplicate names
       const id = Object.entries(bnpc).filter(
-          ([, v]) => v.toLowerCase() === data.boss.replace(/['"]+/g, '').toLowerCase()
+          ([, v]) => v.toLowerCase() === data.boss.toLowerCase()
       );
       if (id.length == 0) {
-          console.log(`Unable to find ID for ${data.name} in ${filePath}`);
-          continue;
+          console.log(`(BNPC Floorset) Unable to find ID for ${data.name} (${id}) in ${filePath}, replacing with a Time Bomb as a dummy data`);
+          var tempId = 4562;
       }
-      const realId = parseInt(id[0][0]);
+      else {
+        var tempId = parseInt(id[0][0]);
+      }
+
+      const realId = tempId;
       
       const floorset = {
         Id: realId,
