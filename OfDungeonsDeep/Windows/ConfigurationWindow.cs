@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using Dalamud.Interface.Windowing;
 using ImGuiNET;
 using OfDungeonsDeep.Components;
@@ -17,6 +17,8 @@ public class ConfigurationWindow : DeepDungeonWindow {
     public override void Draw() {
         base.Draw();
         var changed = ImGui.Checkbox("Enable Target Window", ref Plugin.Configuration.EnableTargetWindow);
+        if(Plugin.Configuration.EnableTargetWindow)
+            changed = ImGui.Checkbox("Enable Target Window even when dead", ref Plugin.Configuration.EnableDeadTargetWindow);
 
         changed |= ImGui.Checkbox("Enable Floor Window", ref Plugin.Configuration.EnableFloorWindow);
         changed |= ImGui.Checkbox("Show Floor Window on Every Floor", ref Plugin.Configuration.ShowFloorEveryFloor);
