@@ -138,7 +138,6 @@
   <data name="EnemyNote_EurekaOrthos_1_12322" xml:space="preserve">
     <value>- Dread beast
 - Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
-- Regenerates a small amount of HP every tick while in combat
 - Grants 30m regen buff upon defeat
 </value>
   </data>
@@ -166,7 +165,6 @@
   <data name="EnemyNote_EurekaOrthos_11_12322" xml:space="preserve">
     <value>- Dread beast
 - Immune to knockback, which means it will not die to the Rotosmash ability from the Protomander of Dread
-- Regenerates a small amount of HP every tick while in combat
 - Grants 30m regen buff upon defeat
 </value>
   </data>
@@ -1180,6 +1178,7 @@
   - Authoritative Shriek
   - Mandrastorm
   - Mines activate in rows with the middle always being first. Stand in the third row to activate and move into the first after it explodes.
+- At level 85, a Doga demiclone will defeat the boss in about 7m15s with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_011" xml:space="preserve">
@@ -1197,6 +1196,7 @@
     - Stand beside a tethered add that doesn't have another tether across from it
   - Order Relay - see note below for safe spots
 - The two sets of 4 adds for Order Relay will each be a group of 3 and a solo add, separated by the solo add for the other set. To dodge the flames, start in front of the second solo add, then move to the first solo add after the first flames are done
+- A Doga demiclone will defeat the boss in about 6m with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_021" xml:space="preserve">
@@ -1216,6 +1216,7 @@
   - Whei Morn
   - Dark Wyrmtail OR Dark Wyrmwing
 - The first two Dark Wyrm actions will be either tail followed by wing or wing followed by tail. Likewise, the 3 tail/wing actions in a single rotation will always be either tail-wing-tail or wing-tail-wing
+- A Doga demiclone will defeat the boss in about 7m45s with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_031" xml:space="preserve">
@@ -1239,6 +1240,7 @@
   - Drop two Squall AoEs at the edge (the first one won't land until the third AoE appears)
   - Move inward, drop the other two Squall AoEs
   - Move to the center and wait for Turbine
+- A Doga demiclone will defeat the boss in about 4m30s with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_041" xml:space="preserve">
@@ -1257,6 +1259,7 @@
 - All ice/thunder AoEs deal 900 potency magic damage (~50k to a DPS/healer) and inflict vulnerability up (20% per stack, 1m) along with deep freeze (magic DoT potency 150, 6s) or paralysis (15s), uncurable with Esuna
 - Ram's + Dragon's Voice combo is survivable with steel
 - Charge tether is potency 2700 when too close, which will one-shot DPS/healers through steel
+- A Doga demiclone will defeat the boss in about 4m45s with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_051" xml:space="preserve">
@@ -1271,6 +1274,7 @@
   - The only attack that might repeat in the same area is 4 and 5
   - If there is no repeat, follow all of the attacks - always stand where the last one hit
   - If there was a repeat, follow the attacks until the one that repeats. Wait for both hits in that area, then move into it and stay there
+- A Doga demiclone will defeat the boss in about 8m15s with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_061" xml:space="preserve">
@@ -1284,6 +1288,7 @@
   - If the boss is doing a pointblank AoE, the crystals will do wide conal AoEs toward the outside of the arena. The safe spots are between the farthest crystal and an adjacent one, a bit closer to the far one and outside of the pointblank
   - If the boss is doing a donut AoE, the crystals will do pointblank AoEs. The safe spot is a small triangle just inside the inner circle of the boss's hitbox toward the far crystal
 - Unei can provide all the heals you need as long as you don't get hit by anything avoidable
+- A Doga demiclone will defeat the boss in about 10m15s with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_071" xml:space="preserve">
@@ -1306,6 +1311,7 @@
 - North and south adds are always negative. West and east adds are always positive
 - If you are solo, you will always be bound to the north add, which spawns behind the boss
 - Use steel if you're not confident, so you can easily survive a hit from any of the Nerve Gas abilities
+- A Doga demiclone will defeat the boss in about 10m45s with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_081" xml:space="preserve">
@@ -1332,6 +1338,7 @@
     - if one is facing toward the corner between the eggs, safe spot is on the far side of the other egg
 - Peripheral/Cross Lasers will one-shot DPS/healers through steel
 - All abilities except Laserstream inflict stacking vulnerability up (10% per stack, 1m)
+- An onion knight demiclone will defeat the boss in about 6m with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_091" xml:space="preserve">
@@ -1352,6 +1359,7 @@
   - Exglacialis OR Exflammeus
   - Thermal Divide
 - Soul of Fire/Ice increases damage from the same element to 10x normal, so everything becomes a one-shot
+- An onion knight demiclone will defeat the boss in about 10m with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_HeavenOnHigh_001" xml:space="preserve">
@@ -1479,6 +1487,7 @@
   - Wait for Burning Rave, then move to B
   - Wait for Knuckle Press, then move Onra back to A facing south
   - Repeat from Ancient Quaga
+- The delay from the Meteor Impact cast to the meteor actually dropping is random. Rarely it can drop *very* quickly, even before Aura Cannon, and deal potentially fatal damage. Steel can help mitigate this risk for jobs that can spare it
 </value>
   </data>
   <data name="FloorsetNote_HeavenOnHigh_091" xml:space="preserve">
@@ -1570,6 +1579,7 @@
   - Geirrothr
   - Hall of Sorrow
 - Bleed DoT does not stack (standing in overlapping puddles does the same damage as standing in just one)
+  - With sustaining potions (or other job utility) you can position yourself on the wall midway between two candles and just sit in the puddles for the entire fight
 - The flame AoE telegraphs are buggy and sometimes don't display - stay away from the flames even if you don't see the telegraphs
 </value>
   </data>
@@ -1759,8 +1769,6 @@
     - Again useful if you have trouble cancelling it quickly otherwise
     - Cancelling food is useful during enrage if you're healing through it because Meteors do damage based on your max HP. Lower max HP means less damage taken, which means less damage to heal
     - Cancelling your food when not at full HP also acts like a pseudo heal since it lowers your max HP, which actually raises your current HP%
-  - Check boss HP% with decimal place: /echo &amp;lt;thpp&amp;gt;
-    - useful so you can get him as close to 15.0% as possible without accidentally starting the burst phase
 </value>
   </data>
   <data name="FloorsetNote_PalaceOfTheDead_181" xml:space="preserve">
@@ -1825,13 +1833,13 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_12323_38" xml:space="preserve">
-    <value>probably grants damage up to self; can be interrupted</value>
+    <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_12323_12280" xml:space="preserve">
-    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+    <value>huge (20y) pointblank AoE enrage; used below 50% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_2566_2619" xml:space="preserve">
     <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
@@ -1873,13 +1881,13 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_11_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_11_12323_38" xml:space="preserve">
-    <value>probably grants damage up to self; can be interrupted</value>
+    <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_11_12323_12280" xml:space="preserve">
-    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+    <value>huge (20y) pointblank AoE enrage; used below 50% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_11_12121_1227" xml:space="preserve">
     <value>telegraphed line AoE; cannot be LoSed</value>
@@ -1963,16 +1971,16 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12138_903" xml:space="preserve">
     <value>huge conal AoE with late telegraph - get behind</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12323_38" xml:space="preserve">
-    <value>probably grants damage up to self; can be interrupted</value>
+    <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12323_12280" xml:space="preserve">
-    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+    <value>huge (20y) pointblank AoE enrage; used below 50% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_2566_2619" xml:space="preserve">
     <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
@@ -1987,7 +1995,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12143_7697" xml:space="preserve">
-    <value>pointblank AoE with late telegraph; inflicts stun (4s) and knockback - get away</value>
+    <value>pointblank AoE with late telegraph; inflicts stun (4s) and knockback - get away. Fully blocking the damage also blocks the stun and knockback</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12141_415" xml:space="preserve">
     <value>instant</value>
@@ -2017,13 +2025,13 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_31_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_31_12323_38" xml:space="preserve">
-    <value>probably grants damage up to self; can be interrupted</value>
+    <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_31_12323_12280" xml:space="preserve">
-    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+    <value>huge (20y) pointblank AoE enrage; used below 50% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_31_2566_2619" xml:space="preserve">
     <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
@@ -2149,13 +2157,13 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_41_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_41_12323_38" xml:space="preserve">
-    <value>probably grants damage up to self; can be interrupted</value>
+    <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_41_12323_12280" xml:space="preserve">
-    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+    <value>huge (20y) pointblank AoE enrage; used below 50% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_41_2566_2619" xml:space="preserve">
     <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
@@ -2194,16 +2202,16 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_51_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_51_12178_364" xml:space="preserve">
     <value>instant pointblank AoE; inflicts vulnerability up (10% per stack, 20s); 12 second cooldown</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_51_12323_38" xml:space="preserve">
-    <value>probably grants damage up to self; can be interrupted</value>
+    <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_51_12323_12280" xml:space="preserve">
-    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+    <value>huge (20y) pointblank AoE enrage; used below 50% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_51_2566_2619" xml:space="preserve">
     <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
@@ -2302,7 +2310,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_61_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_61_12191_8613" xml:space="preserve">
     <value>telegraphed conal AoE</value>
@@ -2311,10 +2319,10 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_61_12323_38" xml:space="preserve">
-    <value>probably grants damage up to self; can be interrupted</value>
+    <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_61_12323_12280" xml:space="preserve">
-    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+    <value>huge (20y) pointblank AoE enrage; used below 50% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_61_2566_2619" xml:space="preserve">
     <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
@@ -2389,13 +2397,13 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_71_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_71_12323_38" xml:space="preserve">
-    <value>probably grants damage up to self; can be interrupted</value>
+    <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_71_12323_12280" xml:space="preserve">
-    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+    <value>huge (20y) pointblank AoE enrage; used below 50% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_71_2566_2619" xml:space="preserve">
     <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
@@ -2503,13 +2511,13 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_81_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_81_12323_38" xml:space="preserve">
-    <value>probably grants damage up to self; can be interrupted</value>
+    <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_81_12323_12280" xml:space="preserve">
-    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+    <value>huge (20y) pointblank AoE enrage; used below 50% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_81_2566_2619" xml:space="preserve">
     <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
@@ -2605,13 +2613,13 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_91_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used at critical health (such as after Storms or landmine)</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_91_12323_38" xml:space="preserve">
-    <value>probably grants damage up to self; can be interrupted</value>
+    <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_91_12323_12280" xml:space="preserve">
-    <value>huge (20y) pointblank AoE enrage; used below 40% HP</value>
+    <value>huge (20y) pointblank AoE enrage; used below 50% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_91_2566_2619" xml:space="preserve">
     <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
@@ -3073,7 +3081,7 @@
     <value>huge untelegraphed pointblank AoE; only used out of combat</value>
   </data>
   <data name="AbilityNote_HeavenOnHigh_71_7354_319" xml:space="preserve">
-    <value>instant knockback used on anyone standing behind it</value>
+    <value>instant rearward AoE knockback; used if someone is behind</value>
   </data>
   <data name="AbilityNote_HeavenOnHigh_71_7355_511" xml:space="preserve">
     <value>instant; inflicts frostbite (physical DoT potency 50, 12s); absorbs 95.5% of damage dealt</value>
@@ -4144,7 +4152,7 @@
     <value>telegraphed conal AoE; inflicts deep freeze (magic DoT potency 50, 9s)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_161_5445_4485" xml:space="preserve">
-    <value>instant circle AoE on random player; inflicts slow (15s)</value>
+    <value>instant circle AoE on random player; inflicts 50% slow (15s)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_161_5447_4471" xml:space="preserve">
     <value>telegraphed conal AoE</value>
@@ -4894,28 +4902,28 @@
     <value>roomwide AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_12324_5512" xml:space="preserve">
-    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack, max 8 stacks) to self, unless the damage was fully blocked</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_12324_5514" xml:space="preserve">
-    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+    <value>huge pointblank AoE sacrificial enrage; used below 10% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_12323_4518" xml:space="preserve">
     <value>instant</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_11_12324_5512" xml:space="preserve">
-    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack, max 8 stacks) to self, unless the damage was fully blocked</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_11_12324_5514" xml:space="preserve">
-    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+    <value>huge pointblank AoE sacrificial enrage; used below 10% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_11_12323_4518" xml:space="preserve">
     <value>instant</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12324_5512" xml:space="preserve">
-    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack, max 8 stacks) to self, unless the damage was fully blocked</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12324_5514" xml:space="preserve">
-    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+    <value>huge pointblank AoE sacrificial enrage; used below 10% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12323_4518" xml:space="preserve">
     <value>instant</value>
@@ -4924,46 +4932,46 @@
     <value>instant; used immediately after Barreling Smash</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_31_12324_5512" xml:space="preserve">
-    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack, max 8 stacks) to self, unless the damage was fully blocked</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_31_12324_5514" xml:space="preserve">
-    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+    <value>huge pointblank AoE sacrificial enrage; used below 10% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_31_12323_4518" xml:space="preserve">
     <value>instant</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_41_12324_5512" xml:space="preserve">
-    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack, max 8 stacks) to self, unless the damage was fully blocked</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_41_12324_5514" xml:space="preserve">
-    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+    <value>huge pointblank AoE sacrificial enrage; used below 10% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_41_12323_4518" xml:space="preserve">
     <value>instant</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_51_12324_5512" xml:space="preserve">
-    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack, max 8 stacks) to self, unless the damage was fully blocked</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_51_12324_5514" xml:space="preserve">
-    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+    <value>huge pointblank AoE sacrificial enrage; used below 10% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_51_12323_4518" xml:space="preserve">
     <value>instant</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_61_12324_5512" xml:space="preserve">
-    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack, max 8 stacks) to self, unless the damage was fully blocked</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_61_12324_5514" xml:space="preserve">
-    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+    <value>huge pointblank AoE sacrificial enrage; used below 10% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_61_12323_4518" xml:space="preserve">
     <value>instant</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_71_12324_5512" xml:space="preserve">
-    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack, max 8 stacks) to self, unless the damage was fully blocked</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_71_12324_5514" xml:space="preserve">
-    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+    <value>huge pointblank AoE sacrificial enrage; used below 10% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_71_12323_4518" xml:space="preserve">
     <value>instant</value>
@@ -4972,19 +4980,19 @@
     <value>untelegraphed huge donut AoE; only used if someone is far</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_81_12324_5512" xml:space="preserve">
-    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack, max 8 stacks) to self, unless the damage was fully blocked</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_81_12324_5514" xml:space="preserve">
-    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+    <value>huge pointblank AoE sacrificial enrage; used below 10% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_81_12323_4518" xml:space="preserve">
     <value>instant</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_91_12324_5512" xml:space="preserve">
-    <value>instant; also grants permanent stacking vulnerability down (10% per stack) to self</value>
+    <value>instant; also grants permanent stacking vulnerability down (10% per stack, max 8 stacks) to self, unless the damage was fully blocked</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_91_12324_5514" xml:space="preserve">
-    <value>huge pointblank AoE sacrificial enrage; used at critical HP</value>
+    <value>huge pointblank AoE sacrificial enrage; used below 10% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_91_12323_4518" xml:space="preserve">
     <value>instant</value>
@@ -6451,31 +6459,31 @@
     <value>explosion</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_12322_1962" xml:space="preserve">
-    <value>instant circle AoE; also grants permanent stacking HP regeneration to self</value>
+    <value>instant circle AoE; also grants permanent stacking HP regeneration to self (about 0.2%/3s per stack)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_11_12322_1962" xml:space="preserve">
-    <value>instant circle AoE; also grants permanent stacking HP regeneration to self</value>
+    <value>instant circle AoE; also grants permanent stacking HP regeneration to self (about 0.2%/3s per stack)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12322_1962" xml:space="preserve">
-    <value>instant circle AoE; also grants permanent stacking HP regeneration (~1700 HP/tick per stack) to self</value>
+    <value>instant circle AoE; also grants permanent stacking HP regeneration to self (about 0.2%/3s per stack)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_31_12322_1962" xml:space="preserve">
-    <value>instant circle AoE; also grants permanent stacking HP regeneration to self</value>
+    <value>instant circle AoE; also grants permanent stacking HP regeneration to self (about 0.2%/3s per stack)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_41_12322_1962" xml:space="preserve">
-    <value>instant circle AoE; also grants permanent stacking HP regeneration to self</value>
+    <value>instant circle AoE; also grants permanent stacking HP regeneration to self (about 0.2%/3s per stack)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_51_12322_1962" xml:space="preserve">
-    <value>instant circle AoE; also grants permanent stacking HP regeneration to self</value>
+    <value>instant circle AoE; also grants permanent stacking HP regeneration to self (about 0.2%/3s per stack)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_61_12322_1962" xml:space="preserve">
-    <value>instant circle AoE; also grants permanent stacking HP regeneration to self</value>
+    <value>instant circle AoE; also grants permanent stacking HP regeneration to self (about 0.2%/3s per stack)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_71_12322_1962" xml:space="preserve">
-    <value>instant circle AoE; also grants permanent stacking HP regeneration to self</value>
+    <value>instant circle AoE; also grants permanent stacking HP regeneration to self (about 0.2%/3s per stack)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_81_12322_1962" xml:space="preserve">
-    <value>instant circle AoE; also grants permanent stacking HP regeneration to self</value>
+    <value>instant circle AoE; also grants permanent stacking HP regeneration to self (about 0.2%/3s per stack)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_91_12233_1282" xml:space="preserve">
     <value>backward conal AoE with quick cast - get in front; used when someone is close behind</value>
@@ -6484,7 +6492,7 @@
     <value>directional</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_91_12322_1962" xml:space="preserve">
-    <value>instant circle AoE; also grants permanent stacking HP regeneration to self</value>
+    <value>instant circle AoE; also grants permanent stacking HP regeneration to self (about 0.2%/3s per stack)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_31_12152_1105" xml:space="preserve">
     <value>untelegraphed donut AoE - get in</value>
@@ -6499,7 +6507,7 @@
     <value>pointblank</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12143_20004" xml:space="preserve">
-    <value>instant charge attack; used immediately after Scythe Tail if it hits</value>
+    <value>instant charge attack; used immediately after Scythe Tail if it hits (and is not fully blocked)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_81_12216_32756" xml:space="preserve">
     <value>telegraphed huge, wide line AoE</value>
@@ -6680,7 +6688,7 @@
     <value>gaze</value>
   </data>
   <data name="AbilityNote_HeavenOnHigh_81_7368_1454" xml:space="preserve">
-    <value>instant death; only used if you've been turned into a pig</value>
+    <value>instant death; only used if you've been turned into a pig. Also grants a stacking damage up buff (1m)</value>
   </data>
   <data name="AbilityNote_HeavenOnHigh_81_6880_586" xml:space="preserve">
     <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
@@ -6954,5 +6962,44 @@
   </data>
   <data name="AbilityNote_HeavenOnHigh_71_7362_4539" xml:space="preserve">
     <value>instant death; used on players with deep freeze</value>
+  </data>
+  <data name="AbilityWarning_HeavenOnHigh_81_7369_3671" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_4976_319" xml:space="preserve">
+    <value>instant rearward AoE knockback; used if someone is behind</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_4562_31841" xml:space="preserve">
+    <value>spawns adds at the front of the arena that move toward the back, leaving two open spaces</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_4562_31843" xml:space="preserve">
+    <value>wide line AoE down the center of the arena with late telegraph - get OUT. Spawns adds which move from the center to the sides</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_4562_31845" xml:space="preserve">
+    <value>wide line AoEs down both sides of the arena with late telegraph - get IN. Spawns adds which move from each side to the other</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_4562_31849" xml:space="preserve">
+    <value>four sets of telegraphed circle AoEs covering the arena, leaving random spaces open each time; adds spawn from three of the AoEs after each set, moving toward a random player</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_4562_31847" xml:space="preserve">
+    <value>telegraphed circle AoE, with four additional hits chasing the targeted player - keep moving! Spawns an add moving toward a random player on each hit</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_4562_7" xml:space="preserve">
+    <value>triggered whenever you touch an add</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_4562_671" xml:space="preserve">
+    <value>spawns a little tornado under you; instant death if you are standing on it, so make sure you're moving as the cast completes</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_4562_31462" xml:space="preserve">
+    <value>many circle AoEs leaving behind tornados that remain until after Turbine; stepping in one deals damage (magic potency 125) and inflicts windburn (magic DoT potency 250, 6s) which cannot be removed with Esuna</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_4562_31465" xml:space="preserve">
+    <value>four telegraphed circle AoEs on all party members, each a couple seconds apart; make sure to leave a safe path open for Turbine</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_4562_4116" xml:space="preserve">
+    <value>knockback from center</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_4562_9906" xml:space="preserve">
+    <value>boss goes to one end of the arena and charges straight across (line AoE with late telegraph); drops a twister at the same time, so make sure you're moving as the cast completes</value>
   </data>
 </root>
