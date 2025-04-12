@@ -1268,7 +1268,7 @@
   - Disorienting Groan OR Bullish Swing
   - Bullish Swipe (random target)
   - Thundercall
-- The boss rotates to face the player before Octuple Swipe, so the first swipe will always be toward the player. The first four swipes are in the order front &gt; back &gt; left &gt; right, and the next four are either the same order or reversed
+- The boss rotates to face the player before Octuple Swipe, so the first swipe will always be toward the player. The first four swipes are in the order front &gt; back &gt; right &gt; left, and the next four are either the same order or reversed
 - Trick for Octuple Swipe:
   - Stand outside of the first spot
   - The only attack that might repeat in the same area is 4 and 5
@@ -6417,7 +6417,7 @@
     <value>wide line AoEs down both sides of the arena with late telegraph - get IN. Spawns adds which move from each side to the other</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12242_31849" xml:space="preserve">
-    <value>four sets of telegraphed circle AoEs covering the arena, leaving random spaces open each time; adds spawn from some of the AoEs after each set, moving toward a random player</value>
+    <value>four sets of telegraphed circle AoEs covering the arena, leaving random spaces open each time; adds spawn from three of the AoEs after each set, moving toward a random player</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12242_31847" xml:space="preserve">
     <value>telegraphed circle AoE, with four additional hits chasing the targeted player - keep moving! Spawns an add moving toward a random player on each hit</value>
