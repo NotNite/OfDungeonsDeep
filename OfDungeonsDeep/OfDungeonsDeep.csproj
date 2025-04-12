@@ -3,7 +3,7 @@
 
     <PropertyGroup>
         <PackageProjectUrl>https://github.com/NotNite/OfDungeonsDeep.git</PackageProjectUrl>
-        <Version>1.0.4.2</Version>
+        <Version>1.0.4.3</Version>
         <TargetFramework>net9.0-windows</TargetFramework>
     </PropertyGroup>
 
