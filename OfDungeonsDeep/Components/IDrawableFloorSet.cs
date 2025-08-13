@@ -3,7 +3,7 @@ using Dalamud.Interface.Components;
 using Dalamud.Interface.GameFonts;
 using Dalamud.Interface.ManagedFontAtlas;
 using Dalamud.Interface.Utility;
-using ImGuiNET;
+using Dalamud.Bindings.ImGui;
 using OfDungeonsDeep.Storage;
 using System;
 
@@ -88,7 +88,7 @@ public interface IDrawableFloorSet {
             new string[] { "\r\n", "\r", "\n", "*" },
             StringSplitOptions.None)) {
                 ImGuiHelpers.ScaledDummy(5.0f);
-                ImGuiHelpers.SafeTextWrapped(line);
+                ImGui.TextWrapped(line);
             }
         }
     }

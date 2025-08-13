@@ -5,7 +5,7 @@ using System.Numerics;
 using Dalamud.Interface;
 using Dalamud.Interface.Utility;
 using Dalamud.Interface.Windowing;
-using ImGuiNET;
+using Dalamud.Bindings.ImGui;
 using OfDungeonsDeep.Components;
 using OfDungeonsDeep.Storage;
 

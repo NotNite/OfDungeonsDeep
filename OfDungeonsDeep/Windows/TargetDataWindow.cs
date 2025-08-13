@@ -1,7 +1,7 @@
 using System.Numerics;
 using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.ClientState.Objects.Types;
-using ImGuiNET;
+using Dalamud.Bindings.ImGui;
 using OfDungeonsDeep.Components;
 
 namespace OfDungeonsDeep.Controllers;

@@ -1,6 +1,6 @@
 ﻿using Dalamud.Interface.Windowing;
 using FFXIVClientStructs.FFXIV.Common.Math;
-using ImGuiNET;
+using Dalamud.Bindings.ImGui;
 using OfDungeonsDeep.Components;
 
 namespace OfDungeonsDeep.Controllers;
