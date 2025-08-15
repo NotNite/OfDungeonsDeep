@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using System.Text.Json.Serialization;
 using Dalamud.Interface;
-using ImGuiNET;
+using Dalamud.Bindings.ImGui;
 
 namespace OfDungeonsDeep.Storage;
 

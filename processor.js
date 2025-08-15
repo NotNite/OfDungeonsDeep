@@ -3,7 +3,7 @@ const path = require("path");
 const yaml = require("js-yaml");
 const resx = require("resx");
 
-const compendium = path.join(__dirname, "compendium");
+const compendium = path.join(__dirname, "compendium/collections");
 const bnpc = JSON.parse(
   fs.readFileSync(path.join(__dirname, "processor", "names.json"), "utf8")
 );

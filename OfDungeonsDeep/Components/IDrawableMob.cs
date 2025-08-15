@@ -8,7 +8,7 @@ using Dalamud.Interface;
 using Dalamud.Interface.Components;
 using Dalamud.Interface.Textures;
 using Dalamud.Interface.Utility;
-using ImGuiNET;
+using Dalamud.Bindings.ImGui;
 using Lumina.Excel.Sheets;
 using OfDungeonsDeep.Storage;
 using Status = OfDungeonsDeep.Storage.Status;
@@ -39,26 +39,26 @@ public interface IDrawableMob {
         if (ImGui.BeginChild("TopSegment",  topSegmentSize, false)) {
             var portraitSize = new Vector2(110.0f * ImGuiHelpers.GlobalScale, 110.0f * ImGuiHelpers.GlobalScale);
             if (ImGui.BeginChild("##Portrait", portraitSize, false)) {
-                DrawPortrait();
+                this.DrawPortrait();
             }
             ImGui.EndChild();
             
             ImGui.SameLine();
             var portraitSideInfoSize = new Vector2(ImGui.GetContentRegionAvail().X, portraitSize.Y);
             if (ImGui.BeginChild("##PortraitSideInfo", portraitSideInfoSize, false)) {
-                DrawPortraitSideInfo(buttonType);
+                this.DrawPortraitSideInfo(buttonType);
             }
             ImGui.EndChild();
         }
         ImGui.EndChild();
 
         ImGui.Separator();
-        
-        DrawAbilityList();
+
+        this.DrawAbilityList();
 
         ImGui.Separator();
-        
-        DrawNotes();
+
+        this.DrawNotes();
     }
 
     private void DrawPortrait() {
@@ -69,7 +69,7 @@ public interface IDrawableMob {
 
             var widthRatio = (1.0f - ((float)ImageLarge.GetWrapOrEmpty().Height / ImageLarge.GetWrapOrEmpty().Width)) / 2.0f;
             
-            ImGui.Image(ImageLarge.GetWrapOrEmpty().ImGuiHandle, ImGui.GetContentRegionAvail(), new Vector2(widthRatio, 0.0f), new Vector2(1.0f - widthRatio, 1.0f));
+            ImGui.Image(ImageLarge.GetWrapOrEmpty().Handle, ImGui.GetContentRegionAvail(), new Vector2(widthRatio, 0.0f), new Vector2(1.0f - widthRatio, 1.0f));
             ImGui.GetWindowDrawList().AddRect(rectPosition, rectPosition + ImGui.GetContentRegionMax(), ImGui.GetColorU32(KnownColor.White.Vector() with { W = 0.75f }));
             
             if (ImGui.IsItemClicked()) {
@@ -77,7 +77,7 @@ public interface IDrawableMob {
             }
         
             if (ImGui.BeginPopup("ImagePopup")) {
-                ImGui.Image(ImageLarge.GetWrapOrEmpty().ImGuiHandle, ImageLarge.GetWrapOrEmpty().Size);
+                ImGui.Image(ImageLarge.GetWrapOrEmpty().Handle, ImageLarge.GetWrapOrEmpty().Size);
                 ImGui.EndPopup();
             } else if (ImGui.IsItemHovered()) {
                 ImGui.SetTooltip("Click to see Full Resolution");
@@ -104,7 +104,7 @@ public interface IDrawableMob {
                 if (tabs > 0) {
                     ImGui.Indent(15.0f * tabs);
                 }
-                ImGuiHelpers.SafeTextWrapped(cleanedLine);
+                ImGui.TextWrapped(cleanedLine);
                 if (tabs > 0) {
                     ImGui.Unindent(15 * tabs);
                 }
@@ -202,12 +202,12 @@ public interface IDrawableMob {
         foreach (var (status, isVulnerable) in Vulnerabilities) {
             if (Services.TextureProvider.GetFromGameIcon((uint) status) is { } image) {
                 if (status is not Status.Resolution) {
-                    ImGui.Image(image.GetWrapOrEmpty().ImGuiHandle, image.GetWrapOrEmpty().Size * 0.5f, Vector2.Zero, Vector2.One, isVulnerable ? Vector4.One : Vector4.One / 2.5f );
+                    ImGui.Image(image.GetWrapOrEmpty().Handle, image.GetWrapOrEmpty().Size * 0.5f, Vector2.Zero, Vector2.One, isVulnerable ? Vector4.One : Vector4.One / 2.5f );
                     if (ImGui.IsItemHovered() && Services.DataManager.GetExcelSheet<Lumina.Excel.Sheets.Status>()?.FirstOrDefault(statusEffect => statusEffect.Icon == (uint)status) is {} statusInfo ) {
                         ImGui.SetTooltip(statusInfo.Name.ExtractText());
                     }
                 } else {
-                    ImGui.Image(image.GetWrapOrEmpty().ImGuiHandle, ImGuiHelpers.ScaledVector2(32.0f, 32.0f), Vector2.Zero, Vector2.One, isVulnerable ? Vector4.One : Vector4.One / 2.5f );
+                    ImGui.Image(image.GetWrapOrEmpty().Handle, ImGuiHelpers.ScaledVector2(32.0f, 32.0f), Vector2.Zero, Vector2.One, isVulnerable ? Vector4.One : Vector4.One / 2.5f );
                     if (ImGui.IsItemHovered() && Services.DataManager.GetExcelSheet<DeepDungeonItem>()?.GetRow(16) is {} resolution) {
                         ImGui.SetTooltip(resolution.Name.ExtractText());
                     }

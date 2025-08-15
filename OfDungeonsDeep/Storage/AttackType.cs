@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
 using Dalamud.Interface.Textures;
 using Dalamud.Interface.Utility;
-using ImGuiNET;
+using Dalamud.Bindings.ImGui;
 
 namespace OfDungeonsDeep.Storage;
 
@@ -22,7 +22,7 @@ public static class AttackTypeExtensions {
 
     public static void DrawIcon(this AttackType type) {
         if (type.Texture() is { } texture) {
-            ImGui.Image(texture.GetWrapOrEmpty().ImGuiHandle, ImGuiHelpers.ScaledVector2(18.0f, 18.0f));
+            ImGui.Image(texture.GetWrapOrEmpty().Handle, ImGuiHelpers.ScaledVector2(18.0f, 18.0f));
         }
     }
     
@@ -33,7 +33,7 @@ public static class AttackTypeExtensions {
             var autoDamageType = type.Texture(); 
             ImGui.BeginGroup();
             if (autoDamageType is not null) {
-                ImGui.Image(autoDamageType.GetWrapOrEmpty().ImGuiHandle, ImGuiHelpers.ScaledVector2(18.0f, 18.0f));
+                ImGui.Image(autoDamageType.GetWrapOrEmpty().Handle, ImGuiHelpers.ScaledVector2(18.0f, 18.0f));
             }
             if (autoDamageType is not null) {
                 ImGui.SameLine();
