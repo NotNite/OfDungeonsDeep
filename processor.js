@@ -55,6 +55,8 @@ function deepDungeon(name) {
     return "HeavenOnHigh";
   } else if (name.includes("eo")) {
     return "EurekaOrthos";
+  } else if (name.includes("pt")) {
+    return "PilgrimsTraverse";
   } else {
     return null;
   }
@@ -70,6 +72,7 @@ async function main() {
 
   function map_bnpc(data)
   {
+    // I LOVE DUPLICATES THANK YOU SQUARE ENIX
     switch (data.name.toLowerCase()) {
       case "heavenly shabti":
         if(data.start_floor == 56) return 7334;
@@ -105,7 +108,71 @@ async function main() {
         if(data.start_floor < 30) return 7392;
         if(data.start_floor > 30 && data.start_floor < 60) return 7393;
         if(data.start_floor > 60) return 7394;
+      
+      case "forgiven conceit":
+        return 14116;
         
+      case "forgiven conformity":
+        return 14113;
+        
+      case "forgiven deceit":
+        return 14119;
+        
+      case "forgiven disobedience":
+        return 14118;
+        
+      case "forgiven folly":
+        return 14115;
+        
+      case "forgiven ignorance":
+        return 14114;
+        
+      case "forgiven violence":
+        return 14117;
+        
+      case "forgiven ambition":
+        return 14130;
+        
+      case "forgiven bribery":
+        return 14136;
+        
+      case "forgiven cruelty":
+        return 14129;
+        
+      case "forgiven dissonance":
+        return 14128;
+        
+      case "forgiven jealousy":
+        return 14126;
+        
+      case "forgiven venery":
+        return 14127;
+        
+      case "forgiven extortion":
+        return 14142;
+        
+      case "forgiven hypocrisy":
+        return 14144;
+        
+      case "forgiven prejudice":
+        return 14143;
+        
+      case "forgiven grudge":
+        return 14181;
+        
+      case "forgiven vanity":
+        return 14197;
+
+      case "mimic":
+        if( data.level > 90) 
+        {
+          if(data.start_floor < 30) return 14264;
+          if(data.start_floor > 30 && data.start_floor < 60) return 14265;
+          if(data.start_floor > 60) return 14266;
+        }
+
+        return 2566;
+
       default:
         break;
     }
@@ -174,6 +241,8 @@ async function main() {
       let dmg = parseInt(data.attack_damage);
       if (isNaN(dmg)) dmg = null;
 
+      if(data.image == null) (data.image = "none.png")
+
       const enemy = {
         Id: realId,
         Image: data.image.replace(".png", ".jpg"),
@@ -235,8 +304,14 @@ async function main() {
           ([, v]) => v.toLowerCase() === data.boss.toLowerCase()
       );
       if (id.length == 0) {
+        // Eminent Grief exception
+        if(data.boss == "Devoured Eater and Eminent Grief")
+          var tempId = 14037;
+        else {
           console.log(`(BNPC Floorset) Unable to find ID for ${data.name} (${id}) in ${filePath}, replacing with a Time Bomb as a dummy data`);
           var tempId = 4562;
+
+        }
       }
       else {
         var tempId = parseInt(id[0][0]);

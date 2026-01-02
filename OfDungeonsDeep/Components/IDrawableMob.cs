@@ -292,6 +292,7 @@ public interface IDrawableMob {
                 DeepDungeonType.PalaceOfTheDead => "potd",
                 DeepDungeonType.HeavenOnHigh => "hoh",
                 DeepDungeonType.EurekaOrthos => "eo",
+                DeepDungeonType.PilgrimsTraverse => "pt",
                 _ => throw new ArgumentOutOfRangeException(nameof(folder))
             },
             Plugin.GetFloorSetId(StartFloor).ToString("000"),

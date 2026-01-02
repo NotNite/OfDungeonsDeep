@@ -5,6 +5,7 @@ using Dalamud.Interface.Utility;
 using Dalamud.Bindings.ImGui;
 using Lumina.Excel.Sheets;
 using OfDungeonsDeep.Components;
+using Lumina.Data;
 
 namespace OfDungeonsDeep.Storage;
 
@@ -35,14 +36,16 @@ public class Ability {
 
     private void Draw(DeepDungeonType type, int floor, uint id) {
         if (Id is null || Services.DataManager.GetExcelSheet<Action>()?.GetRow(Id.Value) is not { } ability) return;
+        if (Services.DataManager.GameData.Excel.GetSheet<Action>(Language.English)?.GetRow(Id.Value) is not { } abilityEn) return;
         if (Strings.ResourceManager.GetString($"AbilityNote_{type.ToString()}_{Plugin.GetFloorSetId(floor)}_{id}_{Id}") is not { } description) return;
 
         var titleCaseName = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ability.Name.ExtractText());
+        var titleCaseNameEn = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(abilityEn.Name.ExtractText());
         
         ImGui.TableNextColumn();
         ImGui.TextUnformatted(titleCaseName);
         if (ImGui.IsItemHovered()) {
-            ImGui.SetTooltip(titleCaseName);
+            ImGui.SetTooltip(titleCaseNameEn);
         }
 
         ImGui.TableNextColumn();

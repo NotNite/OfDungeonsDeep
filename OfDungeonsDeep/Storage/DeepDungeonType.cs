@@ -9,13 +9,15 @@ public enum DeepDungeonType {
     PalaceOfTheDead,
     HeavenOnHigh,
     EurekaOrthos,
+    PilgrimsTraverse,
 }
 
 public static class DeepDungeonTypeExtensions {
     public static string Localized(this DeepDungeonType type) => type switch {
-        DeepDungeonType.PalaceOfTheDead => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(101).Name.ExtractText() ?? string.Empty,
-        DeepDungeonType.HeavenOnHigh => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(102).Name.ExtractText() ?? string.Empty,
-        DeepDungeonType.EurekaOrthos => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(103).Name.ExtractText() ?? string.Empty,
+        DeepDungeonType.PalaceOfTheDead => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(102).Name.ExtractText() ?? string.Empty,
+        DeepDungeonType.HeavenOnHigh => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(103).Name.ExtractText() ?? string.Empty,
+        DeepDungeonType.EurekaOrthos => Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(104).Name.ExtractText() ?? string.Empty,
+        DeepDungeonType.PilgrimsTraverse=> Services.DataManager.GetExcelSheet<JournalGenre>()?.GetRow(105).Name.ExtractText() ?? string.Empty,
         _ => string.Empty
     };
 }

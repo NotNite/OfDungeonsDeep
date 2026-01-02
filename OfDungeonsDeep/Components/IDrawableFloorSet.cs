@@ -85,7 +85,7 @@ public interface IDrawableFloorSet {
         
         if (Notes is not null) {
             foreach (var line in Notes.Split(
-            new string[] { "\r\n", "\r", "\n", "*" },
+            new string[] { "\r\n", "\r", "\n", "\n*", "\r\n*", "\r*", "* " },
             StringSplitOptions.None)) {
                 ImGuiHelpers.ScaledDummy(5.0f);
                 ImGui.TextWrapped(line);

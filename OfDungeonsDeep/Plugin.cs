@@ -63,6 +63,7 @@ public sealed class Plugin : IDalamudPlugin {
                 { TerritoryIntendedUse.Value.RowId: 31, ExVersion.RowId: 0 or 1 } => DeepDungeonType.PalaceOfTheDead,
                 { TerritoryIntendedUse.Value.RowId: 31, ExVersion.RowId: 2 } => DeepDungeonType.HeavenOnHigh,
                 { TerritoryIntendedUse.Value.RowId: 31, ExVersion.RowId: 4 } => DeepDungeonType.EurekaOrthos,
+                { TerritoryIntendedUse.Value.RowId: 31, ExVersion.RowId: 5 } => DeepDungeonType.PilgrimsTraverse,
                 _ => null
             };
         }

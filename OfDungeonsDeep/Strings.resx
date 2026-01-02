@@ -340,6 +340,7 @@
   </data>
   <data name="EnemyNote_EurekaOrthos_51_12180" xml:space="preserve">
     <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+- If petrified via Doga Demiclone when it dies, no explosion happens
 </value>
   </data>
   <data name="EnemyNote_EurekaOrthos_51_12176" xml:space="preserve">
@@ -1173,7 +1174,7 @@
   </data>
   <data name="FloorsetNote_EurekaOrthos_001" xml:space="preserve">
     <value>- The arena is a 3x3 grid of mines (pachypodium mine adds)
-- Rotation:
+- Rotation (53s per cycle):
   - Authoritative Shriek
   - Authoritative Shriek
   - Mandrastorm
@@ -1189,7 +1190,7 @@
     - Stand beside the one tethered add that doesn't have another tether across from it
   - Piercing Laser
   - Order Relay - see note below for safe spots
-- Rotation:
+- Rotation (59s per cycle):
   - Piercing Laser
   - Piercing Laser
   - Offensive Command for 5 random adds
@@ -1207,7 +1208,7 @@
   - Dark Megaflare
   - Whei Morn
   - Dark Wyrmwing OR Dark Wyrmtail
-- Rotation:
+- Rotation (2m12s per cycle):
   - Creature of Darkness
   - Dark Wyrmtail OR Dark Wyrmwing
   - Whei Morn
@@ -1228,7 +1229,7 @@
   - Twister
   - Meracydian Squall
   - Twisting Dive
-- Rotation after opening:
+- Rotation after opening (42s per cycle):
   - Twister
   - Meracydian Cyclone
   - Meracydian Squall
@@ -1249,7 +1250,7 @@
   - Leftbreathed Thunder OR Rightbreathed Cold
   - Thunderous Cold OR Cold Thunder
   - Leftbreathed Thunder OR Rightbreathed Cold
-- Rotation:
+- Rotation (1m18s per cycle):
   - Cacophony
   - Leftbreathed Thunder OR Rightbreathed Cold
   - Thunderous Cold OR Cold Thunder
@@ -1257,28 +1258,35 @@
   - Songs of Ice and Thunder OR Thunder and Ice
 - Elements not important for Left/Rightbreathed. For other abilities, pay attention to the order of elements in the ability name - ice/cold is pointblank and thunder is donut
 - All ice/thunder AoEs deal 900 potency magic damage (~50k to a DPS/healer) and inflict vulnerability up (20% per stack, 1m) along with deep freeze (magic DoT potency 150, 6s) or paralysis (15s), uncurable with Esuna
-- Ram's + Dragon's Voice combo is survivable with steel
+- Tanks can survive Ram's + Dragon's Voice combo with steel. DPS and healers may die to deep freeze DoT or a following auto-attack
 - Charge tether is potency 2700 when too close, which will one-shot DPS/healers through steel
+- If you are solo, your Cacaphony orb will always spawn west of center
 - A Doga demiclone will defeat the boss in about 4m45s with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_051" xml:space="preserve">
-    <value>- Rotation:
+    <value>- Initial actions:
   - Octuple Swipe
   - Disorienting Groan OR Bullish Swing
   - Bullish Swipe (random target)
+- Rotation after opening (58s per cycle):
   - Thundercall
-- The boss rotates to face the player before Octuple Swipe, so the first swipe will always be toward the player. The first four swipes are in the order front &gt; back &gt; right &gt; left, and the next four are either the same order or reversed
+  - Octuple Swipe
+  - Disorienting Groan OR Bullish Swing
+  - Bullish Swipe (random target)
+- The boss rotates to face the player before Octuple Swipe, so the first swipe will always be toward the player. The first four swipes are in the order front &gt; back &gt; right &gt; left (relative to boss orientation), and the next four are either the same order or reversed
+  - The initial order is random, but it swaps for each following rotation. If you just saw forward order, the next rotation will be reverse order, and vice versa
 - Trick for Octuple Swipe:
   - Stand outside of the first spot
   - The only attack that might repeat in the same area is 4 and 5
   - If there is no repeat, follow all of the attacks - always stand where the last one hit
   - If there was a repeat, follow the attacks until the one that repeats. Wait for both hits in that area, then move into it and stay there
+- Arm's Length or Surecast will block the Disorienting Groan knockback, but since each rotation takes slightly less than a minute, the ability may not come back in time for the second next cycle
 - A Doga demiclone will defeat the boss in about 8m15s with no player assistance
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_061" xml:space="preserve">
-    <value>- Rotation:
+    <value>- Rotation (1m13s per cycle):
   - Steel Claw
   - Ferocity (random target)
   - Preternatural Turn
@@ -1292,7 +1300,7 @@
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_071" xml:space="preserve">
-    <value>- Rotation:
+    <value>- Rotation (61s per cycle):
   - Resonance
   - Barofield (only used on first rotation)
   - Nanospore Jet
@@ -1315,7 +1323,7 @@
 </value>
   </data>
   <data name="FloorsetNote_EurekaOrthos_081" xml:space="preserve">
-    <value>- Rotation:
+    <value>- Rotation (1m25s per cycle):
   - Support Systems; spawns:
     - 1 Interceptor α (egg) outside one side of the arena
     - 5 Interceptor β (cubes) in a row along one side of the arena, close to the egg
@@ -1333,10 +1341,11 @@
     - 1 Interceptor α (egg) on the east side of the arena
     - 1 Interceptor α (egg) on the south side of the arena
   - Salvo Script - pay attention to the direction the eggs are facing
-    - safe spot is always in the far corner of a single square that is the second from the corner of the arena
-    - if both eggs are facing inward, safe spot is between the two eggs
-    - if one is facing toward the corner between the eggs, safe spot is on the far side of the other egg
-- Peripheral/Cross Lasers will one-shot DPS/healers through steel
+    - Safe spot is always in the far corner of a single square that is the second from the corner of the arena
+    - If both eggs are facing inward, safe spot is between the two eggs
+    - If one is facing toward the corner between the eggs, safe spot is on the far side of the other egg
+- Peripheral/Cross Lasers and Parallel Execution circle AoEs will one-shot DPS/healers through steel
+  - Line AoEs during Parallel Execution (Aetherochemical Laser β) are survivable
 - All abilities except Laserstream inflict stacking vulnerability up (10% per stack, 1m)
 - An onion knight demiclone will defeat the boss in about 6m with no player assistance
 </value>
@@ -1349,7 +1358,7 @@
   - Blades from Caliburni fire back across the arena
   - Call Dimensional Blade
   - Solid OR Empty Souls' Caliber
-- Rotation after opening:
+- Rotation after opening (1m20s per cycle):
   - Caliburni - 3 sets of blades
   - Paradoxum - one set of blades turns to fire, and another to ice
   - Frostforge OR Flameforge - you'll need to make sure your buff is opposite of this
@@ -1833,7 +1842,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when below 90% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_12323_38" xml:space="preserve">
     <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
@@ -1881,7 +1890,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_11_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when below 90% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_11_12323_38" xml:space="preserve">
     <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
@@ -1971,7 +1980,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when below 90% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_21_12138_903" xml:space="preserve">
     <value>huge conal AoE with late telegraph - get behind</value>
@@ -2025,7 +2034,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_31_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when below 90% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_31_12323_38" xml:space="preserve">
     <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
@@ -2157,7 +2166,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_41_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when below 90% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_41_12323_38" xml:space="preserve">
     <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
@@ -2202,7 +2211,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_51_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when below 90% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_51_12178_364" xml:space="preserve">
     <value>instant pointblank AoE; inflicts vulnerability up (10% per stack, 20s); 12 second cooldown</value>
@@ -2310,7 +2319,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_61_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when below 90% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_61_12191_8613" xml:space="preserve">
     <value>telegraphed conal AoE</value>
@@ -2397,7 +2406,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_71_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when below 90% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_71_12323_38" xml:space="preserve">
     <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
@@ -2511,7 +2520,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_81_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when below 90% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_81_12323_38" xml:space="preserve">
     <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
@@ -2613,7 +2622,7 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_91_12322_1969" xml:space="preserve">
-    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when under 90% health</value>
+    <value>huge 360 degree gaze inflicting stone curse (1m); also affects enemies. Used every 30 seconds when below 90% HP</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_91_12323_38" xml:space="preserve">
     <value>grants permanent stacking damage up to self (10% per stack); can be interrupted</value>
@@ -2796,7 +2805,7 @@
     <value>telegraphed circle AoE; inflicts knockback</value>
   </data>
   <data name="AbilityNote_HeavenOnHigh_21_7289_120" xml:space="preserve">
-    <value>heals self for 30% max HP; only used when HP under 35%</value>
+    <value>heals self for 30% max HP; only used when below 35% HP</value>
   </data>
   <data name="AbilityNote_HeavenOnHigh_21_7292_7488" xml:space="preserve">
     <value>untelegraphed conal AoE; inflicts knockback</value>
@@ -4167,7 +4176,7 @@
     <value>instant; inflicts windburn (physical DoT potency 15, 20s)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_171_5459_1489" xml:space="preserve">
-    <value>instant circle AoE gap closer; inflicts stun (2s) and vulnerability up (50%, 10s). Diminishing returns do NOT apply to this stun (it is always 2s)</value>
+    <value>instant circle AoE gap closer on random player; inflicts stun (2s) and vulnerability up (50%, 10s). Diminishing returns do NOT apply to this stun (it is always 2s)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_171_5450_4538" xml:space="preserve">
     <value>instant</value>
@@ -4239,19 +4248,19 @@
     <value>telegraphed pointblank AoE</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_181_5466_3056" xml:space="preserve">
-    <value>instant; draws the target in and inflicts prey. Knockback immunity does not work against the draw-in</value>
+    <value>instant on random player; draws the target in and inflicts prey. Knockback immunity does not work against the draw-in</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_181_5466_3054" xml:space="preserve">
     <value>used against players with prey; clears prey status</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_181_5466_3060" xml:space="preserve">
-    <value>untelegraphed pointblank AoE; inflicts slow (20s)</value>
+    <value>untelegraphed pointblank AoE on random player; inflicts slow (20s)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_181_5467_4452" xml:space="preserve">
     <value>instant conal AoE; inflicts slow (30s)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_181_5464_1023" xml:space="preserve">
-    <value>instant circle AoE; inflicts frostbite (magic DoT potency 100, 21s)</value>
+    <value>instant circle AoE on random player; inflicts frostbite (magic DoT potency 100, 21s)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_181_5464_560" xml:space="preserve">
     <value>telegraphed pointblank AoE</value>
@@ -4308,10 +4317,10 @@
     <value>telegraphed circle AoE</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_191_5420_750" xml:space="preserve">
-    <value>conal gaze AoE - look away, get behind, or get away</value>
+    <value>conal gaze AoE on random player - look away, get behind, or get away</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_191_5420_735" xml:space="preserve">
-    <value>telegraphed conal AoE; inflicts disease (15s)</value>
+    <value>telegraphed conal AoE on random player; inflicts disease (15s)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_191_5473_1059" xml:space="preserve">
     <value>untelegraphed conal AoE on random player inflicting instant death - get behind or get away. This instant death is a debuff, not damage, so it can't be blocked by tank invulnerability</value>
@@ -5013,7 +5022,7 @@
     <value>large telegraphed conal AoE; not used against solo adventurers</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_181_5467_507" xml:space="preserve">
-    <value>instant conal AoE; inflicts poison (magic DoT potency 60, 20s)</value>
+    <value>instant conal AoE on random player; inflicts poison (magic DoT potency 60, 20s)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_191_5415_3679" xml:space="preserve">
     <value>grants physical vulnerability down (20s) to self; used immediately after Ossify</value>
@@ -5835,7 +5844,7 @@
     <value>activates random mines, causing them to use Mandrashock</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_12240_31479" xml:space="preserve">
-    <value>proximity AoE on boss - get away; minimum potency at 10y</value>
+    <value>proximity AoE on boss - get away; minimum potency at 10y (1 grid square)</value>
   </data>
   <data name="AbilityNote_EurekaOrthos_1_12240_31478" xml:space="preserve">
     <value>telegraphed pointblank AoE; inflicts vulnerability up (25% per stack, 1m)</value>
@@ -7001,5 +7010,2426 @@
   </data>
   <data name="AbilityNote_EurekaOrthos_31_4562_9906" xml:space="preserve">
     <value>boss goes to one end of the arena and charges straight across (line AoE with late telegraph); drops a twister at the same time, so make sure you're moving as the cast completes</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_1_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_1_0" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_11_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_11_0" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_21_0" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_31_0" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_41_0" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_51_0" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_61_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_71_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_81_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_91_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_1_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_1_0" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_11_0" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_21_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_21_0" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_31_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_31_0" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_41_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_41_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_51_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_51_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_61_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_61_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_71_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_71_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_81_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_81_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_91_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_91_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_101_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_101_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_111_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_111_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_121_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_121_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_131_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_131_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_141_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_141_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_151_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_151_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_161_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_161_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_171_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_171_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_181_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_181_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_0_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_191_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PalaceOfTheDead_191_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14108_15788" xml:space="preserve">
+    <value>telegraphed circle AoE on random player; inflicts stacking poison (magic DoT potency 150, 15s, max 8 stacks)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14107_4467" xml:space="preserve">
+    <value>telegraphed line AoE charge attack; inflicts knockback from the center of the telegraphed area</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_1_14107_4467" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14101_16199" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14109_38577" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts sleep (15s, uncurable)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14103_1911" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts stacking poison (magic DoT potency 150 per stack, 15s, max 8 stacks)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14106_4526" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts stacking poison (magic DoT potency 150, 15s, max 8 stacks)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14111_924" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts slow (50%, 1m, uncurable)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_0_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_1_0" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14100_5393" xml:space="preserve">
+    <value>telegraphed circle AoE on random player; inflicts sleep (15s, uncurable)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14104_16215" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14102_900" xml:space="preserve">
+    <value>telegraphed circle AoE on random player; can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14112_5351" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14112_5350" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14105_440" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14105_478" xml:space="preserve">
+    <value>telegraphed backward conal AoE; used when someone is behind</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14110_27769" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14121_5219" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14121_6200" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_0_2183" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_0_510" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14120_1856" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14120_10327" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_0_4514" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_0_520" xml:space="preserve">
+    <value>telegraphed line AoE charge attack</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_0_697" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_0_701" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_11_0_701" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_0_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_11_0" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14124_20295" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14122_8595" xml:space="preserve">
+    <value>telegraphed line AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14123_901" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14125_2720" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_0_2205" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_0_2206" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_0_2310" xml:space="preserve">
+    <value>untelegraphed conal AoE - don't stand in front! Unlike other manticores, this one has a prominent visual effect while casting.</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_21_0_2310" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_0_8496" xml:space="preserve">
+    <value>telegraphed line AoE on random player</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_21_0" xml:space="preserve">
+    <value>- If a Venery targets you for Sanctified Flare, it will chase you until it gets into line-of-sight for the cast, even into hallways and other rooms. Flare can target even through walls between unconnected adjacent rooms, turning the enemy into a pseudo-patrol.
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14137_17155" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14137_27689" xml:space="preserve">
+    <value>targeted enrage with long cast; used at 25% HP. One-shots DPS/healers through steel. Cannot be outranged (the clionid will chase after the target until it gets in range or is killed).</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_21_14137_27689" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_0_901" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_0_16818" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_0_44666" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14132_575" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14132_3088" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14131_44671" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14131_16909" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts stun (5s, uncurable)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_21_14131_16909" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14138_9826" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14138_903" xml:space="preserve">
+    <value>pointblank AoE with late telegraph - get away!</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_21_14138_903" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_0_739" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_0_740" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_0_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14134_5831" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14134_5830" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14133_40408" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14133_42968" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14135_331" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_0_17093" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_0_17039" xml:space="preserve">
+    <value>telegraphed circle AoE used out of combat; chases target until in line-of-sight</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_21_0_17039" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14148_3886" xml:space="preserve">
+    <value>telegraphed circle AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14148_3886" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14148_7951" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14148_7951" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_0_5196" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_0_15815" xml:space="preserve">
+    <value>telegraphed huge conal AoE - get to the side or behind, or LoS</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_0_15815" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_0_15816" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14147_1259" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14147_1260" xml:space="preserve">
+    <value>telegraphed line AoE with quick cast; used repeatedly when below 30% HP (5.5s interval)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14147_1260" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14150_3694" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14150_3694" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14150_3692" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14149_22713" xml:space="preserve">
+    <value>telegraphed narrow but long conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_0_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_31_0" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14146_17044" xml:space="preserve">
+    <value>telegraphed circle AoE. Also used out of combat; chases target until in line-of-sight</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14146_17044" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14151_5777" xml:space="preserve">
+    <value>telegraphed wide line AoE charge attack; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14151_5777" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14151_7757" xml:space="preserve">
+    <value>pointblank AoE with late telegraph - get away! Used after Gallop if any player is within range, such as if the knockback was blocked</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14151_7757" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14141_15757" xml:space="preserve">
+    <value>grants damage up (100%, 20s) to self</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14141_15760" xml:space="preserve">
+    <value>huge untelegraphed pointblank AoE enrage; used repeatedly when below 30% HP (12s interval)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14141_15760" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_31_14141" xml:space="preserve">
+    <value>- Enrages at 30% HP and starts casting Unto Dust over and over. If you leave several of these in a room at low health, you may not be able to get back into the room later!
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14145_10662" xml:space="preserve">
+    <value>untelegraphed huge sideways AoE to the enemy's left side - get to the right or LoS</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14145_10662" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14145_10661" xml:space="preserve">
+    <value>untelegraphed huge sideways AoE to the enemy's right side - get to the left or LoS</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14145_10661" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_31_14145" xml:space="preserve">
+    <value>- Uses Left and Right Tentacle in pairs (random order), so either be ready to swap sides or stay out of line-of-sight until both are done
+- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14140_41344" xml:space="preserve">
+    <value>telegraphed wide conal AoE in front, followed by an untelegraphed wide conal AoE behind; both inflict stacking poison (magic DoT potency 60, 15s, max 8 stacks)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14140_41344" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14140_901" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_0_3977" xml:space="preserve">
+    <value>telegraphed conal AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_0_40741" xml:space="preserve">
+    <value>huge pointblank AoE gaze - look away! Inflicts petrify (15s, uncurable)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_0_40741" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14139_40557" xml:space="preserve">
+    <value>tankbuster; inflicts knockback. Only hits if the target is at close range when the cast finishes</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14139_40557" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14139_40558" xml:space="preserve">
+    <value>telegraphed circle AoE, followed by an untelegraphed, larger circle AoE on the same location - get far away from the telegraph!</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14139_40558" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14139_40891" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14162_38317" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14162_900" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14154_409" xml:space="preserve">
+    <value>tankbuster; inflicts poison (magic DoT potency 60, 15s). Can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14154_1210" xml:space="preserve">
+    <value>telegraphed circle AoE on random player; inflicts poison (magic DoT potency 60, 15s, uncurable)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14158_44708" xml:space="preserve">
+    <value>telegraphed wide line charge attack, followed by an untelegraphed charge back to the original position - stay to the sides!</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_41_14158_44708" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14158_8672" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14160_12939" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14160_415" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14163_7627" xml:space="preserve">
+    <value>telegraphed conal AoE; inflicts poison (magic DoT potency 60, 15s, max 8 stacks)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14163_11848" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14156_413" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14164_1902" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14164_939" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_0_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_41_0" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14152_41427" xml:space="preserve">
+    <value>huge pointblank AoE; draws players in</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_41_14152_41427" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14152_482" xml:space="preserve">
+    <value>large pointblank AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_41_14152_482" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14152_443" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_41_14152" xml:space="preserve">
+    <value>- Pulls players in with Magnetic Shock, then follows up with Plaincracker
+- Magnetic Shock has a narrow vertical range and will not pull players from up or down a stairway
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14159_413" xml:space="preserve">
+    <value>telegraphed circle AoE on random player; used 3 times in succession</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14159_2132" xml:space="preserve">
+    <value>telegraphed large pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14157_524" xml:space="preserve">
+    <value>telegraphed small conal AoE. Can be hard to dodge when hasted - keep moving to avoid getting hit</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14157_309" xml:space="preserve">
+    <value>grants permanent haste to self - speeds up auto-attacks and Acid Spray casts by a factor of 3. Used below 75% HP, but not until 30 seconds after being pulled</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_41_14157_309" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14155_41854" xml:space="preserve">
+    <value>telegraphed conal AoE in front, followed by an untelegraphed conal AoE behind</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_41_14155_41854" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14161_421" xml:space="preserve">
+    <value>short line AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_41_14161_421" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14161_17962" xml:space="preserve">
+    <value>pointblank AoE with late telegraph; inflicts stun (5s, uncurable)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_41_14161_17962" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14177_5825" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14177_5826" xml:space="preserve">
+    <value>grants evasion up (30s) to self; used below 50% HP, but not until 20 seconds after pull. Can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14175_351" xml:space="preserve">
+    <value>telegraphed pointblank AoE; inflicts paralysis (20s)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14175_2903" xml:space="preserve">
+    <value>telegraphed huge backward conal AoE; used when someone is behind</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14170_1021" xml:space="preserve">
+    <value>telegraphed wide line AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14170_413" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14176_576" xml:space="preserve">
+    <value>instant conal AoE draw-in</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14176_576" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14176_10859" xml:space="preserve">
+    <value>pointblank AoE with late telegraph; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14176_10859" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14176_10858" xml:space="preserve">
+    <value>telegraphed wide conal AoE; knocks players up</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_51_14166" xml:space="preserve">
+    <value>- Only uses auto-attacks
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14174_20004" xml:space="preserve">
+    <value>telegraphed charge attack, followed by either Scythe Tail or Master of Levin depending on player distance</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14174_7697" xml:space="preserve">
+    <value>pointblank AoE with late telegraph - get OUT</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14174_7697" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14174_33637" xml:space="preserve">
+    <value>huge donut AoE with late telegraph - get IN</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14174_33637" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14172_6136" xml:space="preserve">
+    <value>telegraphed wide conal AoE; inflicts stacking poison (magic DoT potency 60, 15s, max 8 stacks)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_0_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_51_0" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14169_517" xml:space="preserve">
+    <value>telegraphed wide conal AoE; inflicts burns (magic DoT potency 60, 15s)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14169_632" xml:space="preserve">
+    <value>grants counterattack (magic potency 500, 6s) to self; also used out of combat</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14169_632" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_51_14169" xml:space="preserve">
+    <value>- Unlike the EO version, the Smoldering Scales counterattack is not lethal, though it still hurts
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14171_3211" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14171_5363" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14173_24131" xml:space="preserve">
+    <value>telegraphed huge wide conal AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14173_24131" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14173_24132" xml:space="preserve">
+    <value>telegraphed large pointblank AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14173_24132" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14173_44729" xml:space="preserve">
+    <value>telegraphed large donut AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14173_44729" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14168_18029" xml:space="preserve">
+    <value>untelegraphed huge pointblank AoE; inflicts temporary misdirection (6s). Can be interrupted</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14168_18029" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14168_18028" xml:space="preserve">
+    <value>pointblank AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14168_18028" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14168_775" xml:space="preserve">
+    <value>huge conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14168_775" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_51_14168" xml:space="preserve">
+    <value>- Temporary misdirection is the debuff which puts a spinning cursor over the player's head and only allows movement in the direction of the cursor
+- Bafflement Bulb is followed by either Mighty Spin or Trounce. If the debuff hits, you may not be able to escape the AoE
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14167_27360" xml:space="preserve">
+    <value>untelegraphed huge 270-degree donut - get inside the target circle or behind</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_51_14167_27360" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14165_3060" xml:space="preserve">
+    <value>telegraphed circle AoE; on hit, sets target's HP to a random single digit amount</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14165_3054" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14188_17296" xml:space="preserve">
+    <value>180 degree forward or backward AoE</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14188_17296" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_61_14188" xml:space="preserve">
+    <value>- Targets a random player and uses either forward or backward Sewer Water depending on their position
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14183_520" xml:space="preserve">
+    <value>small conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14183_520" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14179_21189" xml:space="preserve">
+    <value>wide line AoE with late telegraph (no telegraph when hasted)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14179_21189" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14179_309" xml:space="preserve">
+    <value>grants permanent haste to self; used below 50% HP</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14187_15925" xml:space="preserve">
+    <value>instant gap-closer; removes Concealed buff from self</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14187_16224" xml:space="preserve">
+    <value>pointblank AoE with late telegraph and quick cast; used immediately after Slip of the Tongue</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14187_16224" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_61_14187" xml:space="preserve">
+    <value>- Spawns in with the Concealed buff, which prevents you from seeing the enemy until you get close (it will see you first if it's looking at you)
+- Concealed enemies cannot be targeted when invisible, but AoE abilities will hit them as usual, so be careful using AoEs if one of these might be around
+- Once Concealed is removed, it is never reapplied, so if you deaggro one of these (with sleep, death and Raising, etc.), it will be visible normally afterwards
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14189_612" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14189_4487" xml:space="preserve">
+    <value>untelegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14189_4487" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_0_12692" xml:space="preserve">
+    <value>long line AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_0_12692" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_0_24077" xml:space="preserve">
+    <value>telegraphed huge pointblank AoE enrage; used at 30% HP</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_0_24077" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14184_4456" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14184_483" xml:space="preserve">
+    <value>untelegraphed long cross-shaped AoE</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14184_483" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_0_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_61_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14185_17958" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14185_17959" xml:space="preserve">
+    <value>grants vulnerability down (30%, 15s) to self</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14190_9883" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14190_9884" xml:space="preserve">
+    <value>conal AoE with late telegraph; inflicts accuracy down (15s)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14190_9884" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14180_4526" xml:space="preserve">
+    <value>short line AoE with late telegraph</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14180_919" xml:space="preserve">
+    <value>targeted sacrificial enrage; used at 15% HP. Cannot be outranged (the enemy will chase after the target until it gets in range or is killed)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14180_919" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14182_11365" xml:space="preserve">
+    <value>circle AoE with late telegraph on random player</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14182_11365" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14182_3032" xml:space="preserve">
+    <value>untelegraphed donut AoE used immediately after Accelerate</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14182_3032" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14186_410" xml:space="preserve">
+    <value>untelegraphed conal AoE; inflicts petrify (15s, uncurable)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14186_410" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14186_497" xml:space="preserve">
+    <value>pointblank AoE with late telegraph; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14186_497" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_61_14186" xml:space="preserve">
+    <value>- Unlike other DDs, Stone Gaze is a normal AoE, not a gaze - looking away will not save you!
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14201_2321" xml:space="preserve">
+    <value>small pointblank AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14201_2321" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14201_3803" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14198_44759" xml:space="preserve">
+    <value>4 frontal half-circle AoEs, with a late telegraph on the first only - stay behind or away until all 4 hits are done</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14198_44759" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14192_42577" xml:space="preserve">
+    <value>small conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14192_42577" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14192_6626" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14192_20180" xml:space="preserve">
+    <value>huge pointblank AoE with long cast used out of combat; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14192_20180" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14196_147" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14191_18028" xml:space="preserve">
+    <value>large pointblank AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14191_18028" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14191_775" xml:space="preserve">
+    <value>huge conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14191_775" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14195_33" xml:space="preserve">
+    <value>pointblank AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14195_33" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14195_337" xml:space="preserve">
+    <value>large proximity AoE with late telegraph used AFTER DEATH - get away after it dies. Damage falls to minimum at 10y (the AoE itself has a radius of ~15y)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14195_337" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_71_14195" xml:space="preserve">
+    <value>- Immune to knockback, so it cannot be one-shot with the Primordial Flesh votive
+- Don't be fooled if you take low damage from the explosion - the damage becomes deadly as soon as you cross the 10y line
+- The explosion is blocked if the enemy dies while asleep, either from damage over time or from direct damage that kills
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_0_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_71_0" xml:space="preserve">
+    <value>- The abilities and telegraphs are the same as those used by the EO floor 90 boss
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14203_2897" xml:space="preserve">
+    <value>small conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14203_2897" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14203_8672" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14199_18031" xml:space="preserve">
+    <value>large conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14199_18031" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14199_25717" xml:space="preserve">
+    <value>large circle AoE with late telegraph on random player - move away from the spot you were at when it began casting</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14199_25717" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14193_42578" xml:space="preserve">
+    <value>untelegraphed pointblank AoE, followed by untelegraphed huge donut AoE - get out, then get in</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14193_42578" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14193_42746" xml:space="preserve">
+    <value>untelegraphed huge donut AoE, followed by untelegraphed pointblank AoE - get in, then get out</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14193_42746" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_71_14193" xml:space="preserve">
+    <value>- The hole for the donut AoE is roughly the same size as the pointblank AoE
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14194_42761" xml:space="preserve">
+    <value>instant gap-closer; knocks the target back and inflicts stacking poison (physical DoT potency 43 per stack, 15s, max 8 stacks)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14194_42761" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14200_38300" xml:space="preserve">
+    <value>short line AoE with late telegraph on random player - will chase until within casting range</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_71_14200" xml:space="preserve">
+    <value>- Beware the enrage! Crushing Fangs effectively increases auto-attack damage to 2.5x normal
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_0_31447" xml:space="preserve">
+    <value>telegraphed huge donut AoE</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_0_31447" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_0_31448" xml:space="preserve">
+    <value>telegraphed huge cross-shaped AoE - get to the corners of the triangle telegraphs</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14202_532" xml:space="preserve">
+    <value>pointblank AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14202_532" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14213_1701" xml:space="preserve">
+    <value>conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14213_1701" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14213_1702" xml:space="preserve">
+    <value>ranged attack on random player; inflicts paralysis (15s). Used when below 20% HP. Can be interrupted</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14213_1702" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14205_43134" xml:space="preserve">
+    <value>wide line AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14205_43134" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14205_7640" xml:space="preserve">
+    <value>huge pointblank AoE used out of combat; long cast time</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14205_7640" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14204_43131" xml:space="preserve">
+    <value>short line AoE with late telegraph on random player, followed by an untelegraphed backward conal</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14204_43131" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14214_10852" xml:space="preserve">
+    <value>huge pointblank AoE gaze; inflicts petrify (15s, uncurable)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14214_10852" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14214_10853" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14215_2368" xml:space="preserve">
+    <value>circle AoE with late telegraph directly in front of the enemy</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14215_20534" xml:space="preserve">
+    <value>forward conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14215_20534" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14215_3246" xml:space="preserve">
+    <value>backward conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14215_3246" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_81_14215" xml:space="preserve">
+    <value>- Uses Lightning Bolt followed by either Hellclaw or Tail Blow
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14211_6374" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14211_3424" xml:space="preserve">
+    <value>huge, wide conal AoE with late telegraph - get behind!</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14211_3424" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14210_39071" xml:space="preserve">
+    <value>wide conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14210_39071" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14210_38191" xml:space="preserve">
+    <value>single-target ranged enrage with long cast; used when HP goes below 30%, but not until 30 seconds after pull. Can be interrupted or LoSed</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14210_38191" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14209_1909" xml:space="preserve">
+    <value>inflicts slow (50%, 12s) and cancels any active Haste buff on the target. While this debuff is active, Haste cannot be reapplied (it will have no effect when used)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14209_1908" xml:space="preserve">
+    <value>conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14209_1908" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_81_14209" xml:space="preserve">
+    <value>- The slow effect of Bad-mouth is curable, so it can be blocked with a pomander of purification, which also preserves your Haste buff
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14208_43323" xml:space="preserve">
+    <value>3 attacks on the target, followed by Bellows</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14208_43324" xml:space="preserve">
+    <value>4 attacks on the target, followed by Bellows</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14208_11701" xml:space="preserve">
+    <value>instant conal AoE</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14208_11701" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_81_14208" xml:space="preserve">
+    <value>- Uses either Triple or Quadruple Blow followed by Bellows. Count the hits and move behind IMMEDIATELY after the last hit to avoid Bellows
+- The hits from Triple/Quadruple Blow cannot be LoSed or outranged (the Humbaba will chase after the target until it gets in range)
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_0_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_81_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14206_3167" xml:space="preserve">
+    <value>charge attack on random player with late telegraph, followed by 3 more attacks on random players; each attack inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14206_3167" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14206_23931" xml:space="preserve">
+    <value>wide, short conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14206_23931" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14212_2854" xml:space="preserve">
+    <value>telegraphied circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14212_41252" xml:space="preserve">
+    <value>gap-closer</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14212_41251" xml:space="preserve">
+    <value>pointblank AoE with late telegraph; used immediately after Surprise Attack. Can be interrupted</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14212_41251" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14207_43322" xml:space="preserve">
+    <value>untelegraphed circle AoE on random player (the player is indicated with an arrow marker but the circle is not telegraphed). Inflicts Pyretic (3s); taking any action (including moving or facing a different direction) before the debuff runs out inflicts damage at potency 5000, which is generally a one-shot. The attack can be LoSed</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14207_43322" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_81_14207" xml:space="preserve">
+    <value>- As of patch 7.35, the Pyretic debuff can trigger even if you remain perfectly still. This seems to be caused by the "Automatically face target when using action" setting in the character target settings, so if you do get hit, make sure to untarget the succubus before it starts moving
+  - It's still safer to LoS or stun
+- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14216_2450" xml:space="preserve">
+    <value>pointblank AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14216_2450" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14216_3424" xml:space="preserve">
+    <value>large conal AoE with late telegraph; has a short cast time</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_81_14216_3424" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14226_44509" xml:space="preserve">
+    <value>untelegraphed huge pointblank AoE</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14226_44509" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14229_9843" xml:space="preserve">
+    <value>large circle AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14229_9843" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14229_9842" xml:space="preserve">
+    <value>huge conal AoE with late telegraph and quick cast</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14229_9842" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14220_6196" xml:space="preserve">
+    <value>telegraphed circle AoE (follows targeted player position); inflicts heavy (5s)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14220_6196" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14220_6200" xml:space="preserve">
+    <value>large telegraphed circle AoE on targeted player; used immediately after Arachne Web</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14220_6179" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_91_14220" xml:space="preserve">
+    <value>- The heavy effect of Arachne Web is relatively weak and will let you escape Shadow Burst as long as you keep moving. It is also curable, so it can be blocked with a pomander of purification
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14225_11576" xml:space="preserve">
+    <value>untelegraphed wide conal AoE</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14225_11576" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14225_1073" xml:space="preserve">
+    <value>INSTANT huge backward conal AoE used when someone is behind - stay in front!</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14225_1073" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14221_3281" xml:space="preserve">
+    <value>huge pointblank AoE gaze; inflicts doom (10s)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14221_3281" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14221_3280" xml:space="preserve">
+    <value>line AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14221_3280" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_91_14221" xml:space="preserve">
+    <value>- The doom is curable, so you can preemptively use a pomander of purification to ignore one instance of Mortal Gaze
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14219_29624" xml:space="preserve">
+    <value>line AoE with late telegraph on random player</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14219_29624" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14219_29630" xml:space="preserve">
+    <value>large pointblank AoE with late telegraph used AFTER DEATH - get away after it dies</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14219_29630" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_91_14219" xml:space="preserve">
+    <value>- Immune to knockback, so it cannot be one-shot with the Primordial Flesh votive
+- The explosion is weaker than other AoEs, and DPS/healers can (barely) survive it with double HP from barkbalm incense or the Immolation votive
+- The explosion is blocked if the enemy dies while asleep, either from damage over time or from direct damage that kills
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14218_44343" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14228_44513" xml:space="preserve">
+    <value>large conal AoE with late telegraph; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14228_44513" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_0_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_0_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_91_0" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14227_39318" xml:space="preserve">
+    <value>pointblank AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14227_39318" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14227_7631" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14222_31069" xml:space="preserve">
+    <value>large wide frontward conal AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14222_31069" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14222_31067" xml:space="preserve">
+    <value>large 180 degree AoE with late telegraph to the left and behind</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14222_31067" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14222_31068" xml:space="preserve">
+    <value>large 180 degree AoE with late telegraph to the right and behind</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14222_31068" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_91_14222" xml:space="preserve">
+    <value>- The front/left/right AoEs are the same as the EO floor 80 boss
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14155_8666" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14155_8665" xml:space="preserve">
+    <value>conal AoE with late telegraph on random player</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14155_8665" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14217_40554" xml:space="preserve">
+    <value>3 attacks on the target, followed by Heavy Smash</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14217_40555" xml:space="preserve">
+    <value>4 attacks on the target, followed by Heavy Smash</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14217_25180" xml:space="preserve">
+    <value>instant pointblank AoE used after the last Skull Dasher hit</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14217_25180" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_91_14217" xml:space="preserve">
+    <value>- Same mechanic as the 81+ Humbaba - uses either Triple or Quadruple Skull Dasher followed by Heavy Smash. Count the hits and move away IMMEDIATELY after the last hit to avoid Heavy Smash
+- The hits from Triple/Quadruple Skull Dasher cannot be LoSed or outranged (the Warg will chase after the target until it gets in range)
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14224_1954" xml:space="preserve">
+    <value>wide line AoE with late telegraph and quick cast</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14224_1954" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14224_1033" xml:space="preserve">
+    <value>telegraphed large circle AoE on random player</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_91_14224" xml:space="preserve">
+    <value>- Uses Gold Dust and Rotten Stench in quick succession - don't sit around after dodging the circle!
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_13979_44051" xml:space="preserve">
+    <value>spawns 3 Striking Shrublet adds</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_13979_44053" xml:space="preserve">
+    <value>large pointblank AoE; knocks players upward and inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_13979_44055" xml:space="preserve">
+    <value>large circle AoE on marked points in telegraphed order; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_13979_44059" xml:space="preserve">
+    <value>jumps to the target and inflicts Down for the Count (1s stun)</value>
+  </data>
+  <data name="FloorsetNote_PilgrimsTraverse_001" xml:space="preserve">
+    <value>- Rotation (56s per cycle):
+  - Branch Out
+  - Adds move in random patterns, eventually ending up with two on one side of the arena and one on the other
+  - Hedge Mazing (boss and adds simultaneously)
+  - Adds become targetable and start auto-attacking
+  - Leafmash (4 telegraphs, then 4 hits in the same order)
+    - Any adds still alive become untargetable and use Little Leafmash at the same time each Leafmash hit lands, then die after Leafmash completes
+- If any adds live long enough to use Little Leafmash, they will probably wipe a solo player either from the damage itself or from being stunlocked and caught in the boss's Leafmash. Most jobs will need to save some cooldowns to burst down the adds in time
+- Barkbalm incense will help, but don't count on it as a guaranteed kill for the adds because Feo Ul's lightning ability doesn't sync with the boss rotation. The adds are immune to mazeroot (and pomander) witching
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_13973_564" xml:space="preserve">
+    <value>knocks players back about 3/4 the distance from the center to the outer damage ring</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_13973_764" xml:space="preserve">
+    <value>circle AoE around each of boss's feet in telegraphed order; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_13973_43460" xml:space="preserve">
+    <value>circle AoE on marked player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_13973_43463" xml:space="preserve">
+    <value>3 circle AoEs on random players (random points near players if the party is smaller than 3 people)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_13973_8666" xml:space="preserve">
+    <value>hits players who step in the roots once per second; inflicts heavy</value>
+  </data>
+  <data name="FloorsetNote_PilgrimsTraverse_011" xml:space="preserve">
+    <value>- Rotation (59s per cycle):
+  - Touchdown
+    - The boss's feet will each flash once during the cast, showing the order for Burst explosions
+  - Burst (x4)
+  - Bare Root Planting
+    - Lines of roots slowly extend in 8 directions from this AoE during Dense Planting, disappearing at the end of the rotation
+  - Dense Planting (x5)
+- The outer damage ring deals ~35k unique damage (unaffected by Steel) every 3 seconds while standing in it, changing to a 15-second DoT for ~13k/tick after leaving
+- Feo Ul will defeat the boss in about 5m45s using barkbalm incense, or 9m15s using mazeroot incense, with no player assistance
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_13863_39487" xml:space="preserve">
+    <value>spawns arena damage zones (see rotation)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_13863_40401" xml:space="preserve">
+    <value>half-room AoE with late telegraph on the side of the flashing arm; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_13863_40411" xml:space="preserve">
+    <value>225-degree AoE with late telegraph covering the opposite side of the arena from Grip of Salvation plus a frontal cone (get behind the glowing arm); knocks players upward and inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_13863_44917" xml:space="preserve">
+    <value>8 circle AoEs chasing the targeted player - keep moving! Inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="FloorsetNote_PilgrimsTraverse_021" xml:space="preserve">
+    <value>- Initial actions:
+  - Liturgy of Light (5 rings)
+    - The rings descend from above, each causing a Brutal Halo AoE when they land
+  - Grip of Salvation (hits at the same time as the 5th ring)
+  - Salvation's Reach
+  - Liturgy of Light (spinning circles)
+    - Generates a pair of spinning circle zones (either far + middle or far + near) on each cardinal, which then slowly rotate around the arena. Standing in one triggers Bounds of Indulgence once per second
+  - Grip of Salvation
+  - Salvation's Reach
+  - Grip of Salvation
+  - Salvation's Reach
+- Rotation after opening (57s per cycle):
+  - Divine Favor
+  - Liturgy of Light (6 rings + spinning circles)
+  - Grip of Salvation (hits with the 4th ring)
+  - Salvation's Reach (hits with the 6th ring)
+- The Liturgy of Light AoEs don't apply vulnerability up, so if you get trapped, it's better to run through one of those than get hit by Grip of Salvation or Salvation's Reach
+- Feo Ul will defeat the boss in about 7m using barkbalm incense with no player assistance
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_13977_42123" xml:space="preserve">
+    <value>boss and adds spout yellow or blue particles, telegraphing the order of Shining Shot (yellow) or Saltwater Shot (blue) hits</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_13977_42129" xml:space="preserve">
+    <value>large pointblank AoE with late telegraph; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_13977_42128" xml:space="preserve">
+    <value>knockback</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_13977_35486" xml:space="preserve">
+    <value>pointblank AoE with late telegraph; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_13977_35488" xml:space="preserve">
+    <value>donut AoE with late telegraph; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_13977_42130" xml:space="preserve">
+    <value>telegraphed circle AoEs that spawn randomly across the arena after Near or Far Tide (no cast bar); inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_13977_337" xml:space="preserve">
+    <value>long cast enrage; inflicts vulnerability up (20% per stack, 1m)</value>
+  </data>
+  <data name="FloorsetNote_PilgrimsTraverse_031" xml:space="preserve">
+    <value>- Rotation (44s per cycle):
+  - Summons adds (untargetable)
+  - Blown Blessing
+    - The boss will spout either yellow or blue particles, followed by the two adds spouting the same color in random order. After spouting and moving away, the enemies leave markers behind showing where the attacks will hit
+    - The second cycle is always the opposite color of the first. All other cycles are random
+  - Shining Shot OR Saltwater Shot, based on Blown Blessing color
+    - For Shining Shot (yellow), position near the third add and move toward the boss marker after its AoE lands
+    - For Saltwater Shot (blue), position near the boss marker and get knocked toward each add marker in sequence
+    - Adds become targetable after the boss's attack resolves
+  - Far Tide OR Near Tide
+  - Chaser
+    - Not used in the first cycle
+- These adds are much more lenient than on floor 10, with lower auto-attack damage and more time before their enrage. Most jobs should have no trouble with them
+  - Relying on barkbalm incense can be risky - if you move away for Near Tide, Feo's AoE lightning might miss the adds. It's probably better to stay in the middle and take the hit from Near Tide in this case; the damage isn't dangerous with the barkbalm HP buff, and Feo will heal you up afterwards
+- A single Arm's Length or Surecast will cover all three blue knockbacks if you use it immediately before the first one
+- The outer damage ring deals ~45k unique damage (unaffected by Steel) every 3 seconds while standing in it, changing to a 15-second DoT for ~18k/tick after leaving
+- Feo Ul will defeat the boss in about 3m50s using barkbalm incense with no player assistance
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14263_19094" xml:space="preserve">
+    <value>setup cast; turns the floor into quicksand</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14263_43537" xml:space="preserve">
+    <value>places a countdown marker in the center of the arena which will cast Biting Wind when the countdown completes</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14263_8677" xml:space="preserve">
+    <value>boss burrows underground, becoming untargetable until the Pit Ambush cast completes</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14263_8675" xml:space="preserve">
+    <value>telegraphed circle AoE on marked player's position, followed by 3 more untelegraphed circle AoEs chasing the player - keep moving, and don't stay in the quicksand too long!</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14263_7317" xml:space="preserve">
+    <value>roomwide AoE; inflicts knockback, pushing players into the damage ring. Deals no damage or knockback to players standing in quicksand. Knockback cannot be blocked with Arm's Length / Surecast</value>
+  </data>
+  <data name="FloorsetNote_PilgrimsTraverse_041" xml:space="preserve">
+    <value>- Initial actions:
+  - Liquefaction
+  - Falling Rock
+  - Sandpit
+  - Pit Ambush
+  - Falling Rock
+  - Windraiser
+  - Biting Wind
+- Rotation after opening (42s per cycle):
+  - Windraiser + Falling Rock
+  - Sandpit
+  - Pit Ambush
+  - Biting Wind + Falling Rock
+- Standing in the quicksand inflicts Six Fulms Under, which kills you if you don't get back on a rock within 4 seconds. It also blocks the effects of Biting Wind, so step into it just long enough to dodge the roomwide cast
+- Despite the flashy visual effects, Liquefaction and Windraiser deal no damage even if you're not standing on a rock
+- The outer damage ring deals ~50k unique damage (unaffected by Steel) every 3 seconds while standing in it, changing to a 15-second DoT for ~21k/tick after leaving
+- Feo Ul will defeat the boss in about 5m15s using barkbalm incense with no player assistance
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14097_44866" xml:space="preserve">
+    <value>untelegraphed frontward and backward conal; inflicts vulnerability up (30% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14097_44051" xml:space="preserve">
+    <value>spawns sabotender adds (see rotation)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14097_44862" xml:space="preserve">
+    <value>causes sabotender adds to rotate one square; inflicts bind on all players until the adds explode</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14097_44863" xml:space="preserve">
+    <value>causes sabotender adds to rotate two squares; inflicts bind on all players until the adds explode</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14097_44867" xml:space="preserve">
+    <value>uses Spineshot 10 times in quick succession, rotating 60 degrees after each one; inflicts vulnerability up (30% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14097_21189" xml:space="preserve">
+    <value>hits the single square the add is in; inflicts vulnerability up (30% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14097_44859" xml:space="preserve">
+    <value>hits a 3x3 square area around the add; inflicts vulnerability up (30% per stack, 1m)</value>
+  </data>
+  <data name="FloorsetNote_PilgrimsTraverse_051" xml:space="preserve">
+    <value>- Initial actions:
+  - Spineshot
+- Rotation after opening (1m24s per cycle):
+  - Branch Out (4 columns)
+    - Spawns 4 columns of sabotender adds, which will explode a few seconds later in the order spawned. Small sabotenders explode only on their own square, while large ones explode in a 3x3 square area
+  - Adds explode (Several Thousand Needles and Long-range Needles)
+  - Spineshot
+  - Branch Out (checkerboard)
+    - Spawns sabotender adds in a checkerboard pattern. There will always be three large adds, one in the center and two on opposite sides of the outer ring
+  - One-stone March OR Two-stone March
+    - The cast name indicates whether the adds will move one or two squares in the direction indicated by the arrows. Find the square that will be safe and get there before the cast ends
+  - Adds explode
+  - Spinning Needles
+    - These casts go off VERY quickly - if you're far away, you won't be able to keep up even with Sprint. Get in close as soon as the adds are gone and keep moving as the boss rotates
+    - The conals themselves are 60 degrees wide, so the far edge of one cone in the direction of rotation will be the near edge of the next one
+- To find the safe spot for One/Two-stone March:
+  - Look for the large add in the middle
+  - Find the closer large add in the outer ring (will be diagonally adjacent to the middle large add)
+  - Check the March direction indicated by the arrows
+  - Move backward from the outer ring add the OPPOSITE of the number of squares indicated by the cast name - one square for Two-stone, two squares for One-stone
+- Feo Ul will defeat the boss in about 6m30s using barkbalm incense with no player assistance
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_13971_39642" xml:space="preserve">
+    <value>white orbs left behind when the boss casts Glower or Ardorous Eye that explode into a roomwide donut</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_13971_43406" xml:space="preserve">
+    <value>untelegraphed frontal line AoE, starting either close to or far from the boss and moving to the opposite side</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_13971_3972" xml:space="preserve">
+    <value>knockback from the center of the arena</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_13971_31872" xml:space="preserve">
+    <value>eight large conal telegraphs followed by the actual attacks</value>
+  </data>
+  <data name="FloorsetNote_PilgrimsTraverse_061" xml:space="preserve">
+    <value>- All abilities other than Disorienting Groan inflict vulnerability up (30% per stack, 1m)
+- Rotation (1m50s per cycle):
+  - Zealous Glower x2
+  - Ardorous Eye
+  - 2000-mina Swing OR Disorienting Groan
+  - Octuple Swipe
+- For Glower and Ardorous Eye, pay attention to the movement of the boss's laser; orbs will spawn in that same pattern, then explode a short time later in spawn order. Move to the first orb as soon as it appears, then from orb to orb as they explode
+  - Be careful to also dodge the second Glower, which will cover part of the 4th donut hole from the first Glower
+- Octuple Swipe always hits all 4 quadrants once, then all 4 quadrants once more, and will never hit the same quadrant twice in a row. If you start outside the first telegraph, then move into each quadrant as it is hit, you can stop at the 5th hit and be safe for the rest of the mechanic
+- The outer damage ring deals ~80k unique damage (unaffected by Steel) every 3 seconds while standing in it, changing to a 15-second DoT for ~33k/tick after leaving
+- Feo Ul will defeat the boss in about 7m30s using barkbalm incense with no player assistance
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_13968_43473" xml:space="preserve">
+    <value>frontward or backward half-room AoE, telegraphed by the direction of the boss's whiskers; inflicts vulnerability up (30% per stack, 1m). Used during Roaring Ring/Perilous Lair</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_13968_43465" xml:space="preserve">
+    <value>donut AoE with late telegraph - get in! Inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_13968_43469" xml:space="preserve">
+    <value>pointblank AoE with late telegraph - get out! Inflicts bleeding (magic DoT potency 50, 15s)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_13968_43476" xml:space="preserve">
+    <value>line AoE between orbs with late telegraph; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_13968_43478" xml:space="preserve">
+    <value>untelegraphed huge pointblank AoE; inflicts paralysis (15s)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_13968_43475" xml:space="preserve">
+    <value>applies a 17s debuff to all players, either Nowhere to Run or Shadows of Death (randomly chosen per player)</value>
+  </data>
+  <data name="FloorsetNote_PilgrimsTraverse_071" xml:space="preserve">
+    <value>- Initial actions:
+  - Roaring Ring OR Perilous Lair (with Profane Waul)
+    - Profane Waul does not have a cast bar of its own, but is always used alongside Roaring Ring / Perilous Lair
+- Rotation after opening (1m14s per cycle):
+  - Stalking Static
+  - Roaring Ring OR Perilous Lair (with Profane Waul)
+  - Prowling Death
+  - Roaring Ring OR Perilous Lair (with Profane Waul)
+    - Resolve debuffs during this cast
+- Shadows of Death is a purple-colored debuff, also signaled by popup text reading "All who deny Light are condemned to death..." in the center of the screen, causing instant death on expiration. To cleanse the debuff, intentionally take a hit from Profane Waul (the light-colored half-room AoE) while dodging Perilous Lair or Roaring Ring (pointblank/donut) as usual
+  - Profane Waul's damage is reduced to a trivial amount and does not inflict vulnerability up if it hits this debuff
+- Nowhere to Run is a red-colored stacking debuff, also signaled by popup text reading "Death approaches all who tread forth..." in the center of the screen. The debuff starts at 1 stack and gains a stack every time the player moves a certain distance, triggering instant death if it reaches 8 stacks before expiring. Stay close to the boss and find the nearest safe spot when the pointblank/donut cast starts
+  - Unlike Shadows of Death, this debuff is NOT removed when the boss AoEs resolve, so stay still until you see the debuff expire!
+- Try to keep the boss near the center of the arena so there's enough room to escape Perilous Lair regardless of whiskers direction
+- All paralysis and bleeding debuffs are curable, so a pomander of purification can help if you take a hit from a mechanic
+- Feo Ul will defeat the boss in about 9m30s using barkbalm incense with no player assistance
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14090_44250" xml:space="preserve">
+    <value>270-degree roomwide AoE with late telegraph - safe spot is behind the boss on the side of the glowing hand. Also spawns 4 Arcane Cylinders covering 2 horizontal and 2 vertical rows of the arena, leaving 1 tile of each 4-tile block uncovered</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14090_43796" xml:space="preserve">
+    <value>line AoE with late telegraph from an Arcane Cylinder</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14090_44258" xml:space="preserve">
+    <value>AoE with late telegraph covering the 4-tile blocks to the boss's front and back</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14090_44259" xml:space="preserve">
+    <value>AoE with late telegraph covering the 4-tile blocks to the boss's left and right</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14090_44267" xml:space="preserve">
+    <value>spawns 4 waves of Meteor AoEs randomly across the arena</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14090_205" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14090_44266" xml:space="preserve">
+    <value>inflicts knockback across the arena - get close to the boss. Also spawns Arcane Cylinders on 3 of the 4 tile rows</value>
+  </data>
+  <data name="FloorsetNote_PilgrimsTraverse_081" xml:space="preserve">
+    <value>- All abilities except Skinflayer inflict vulnerability up (30% per stack, 1m)
+- Rotation (1m4s per cycle):
+  - Backhand
+  - Fore-hind Folly OR Twin-winged Treachery
+    - Arcane Cylinders fire at the same time
+  - Backhand
+  - Twin-winged Treachery OR Fore-hind Folly
+    - Arcane Cylinders fire at the same time
+  - Hot Iron
+  - Skinflayer
+    - Arcane Cylinders fire shortly after the knockback
+- The boss uses Fore-hind Folly and Twin-winged Treachery once each per rotation (in random order)
+- The arena is divided into 16 tiles, which can be thought of as 4 diamond-shaped blocks of 2x2 tiles each. Fore-hind Folly and Twin-winged Treachery each cover 2 of these blocks, and the Arcane Cylinders cover 3 of the 4 tiles in each remaining block, leaving 1 safe tile in each of those blocks
+- The boss becomes untargetable for an instant while jumping to one side of the arena after Hot Iron - don't forget to retarget!
+- The outer damage zone deals ~90k unique damage (unaffected by Steel) every 3 seconds while standing in it, changing to a 15-second DoT for ~35k/tick after leaving
+- Feo Ul will defeat the boss in about 9m30s using barkbalm incense with no player assistance
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_4562_685" xml:space="preserve">
+    <value>4 circle AoEs, targeting player positions when the cast FINISHES (like Twister) - wait for the cast to complete, then move away. Inflicts suppuration (max HP -10% and damage taken +20%, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_4562_44063" xml:space="preserve">
+    <value>inflicts Chains of Condemnation (3s) on all players; moving while the debuff is active inflicts an additional 375 potency magic damage every half-second</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_4562_44085" xml:space="preserve">
+    <value>line AoE with late telegraph on randomly targeted player; inflicts knockback. If the AoE hits a window behind the arena, a Vodoriga Minion add will spawn (up to 2 adds per window)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_4562_44074" xml:space="preserve">
+    <value>inflicts vulnerability up (30% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_4562_44065" xml:space="preserve">
+    <value>either a wide line AoE down the center of the arena, or two wide AoEs down the sides of the arena, depending on whether the boss is holding one or two swords; inflicts vulnerability up (30% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_4562_44081" xml:space="preserve">
+    <value>pulls players to the center of the arena, inflicts bind (3s), then summons ice pillars to enclose the center - get out as soon as bind expires. Players caught in the middle are hit with a follow-up AoE which also inflicts vulnerability up (30% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_4562_44088" xml:space="preserve">
+    <value>drains HP (healing the boss) from all players. Can be blocked by having the opposite color debuff of the boss using the ability - light debuff for Eminent Grief, dark debuff for Devoured Eater</value>
+  </data>
+  <data name="FloorsetNote_PilgrimsTraverse_091" xml:space="preserve">
+    <value>- Initial actions:
+  - Fire/Blade combo
+    - Eminent Grief will start casting either Ball of Fire or Chains of Condemnation, and Devoured Eater will start casting Blade of First Light
+    - These two casts start at the same time, but one will finish more quickly. Check the cast speeds as well as the ability names and boss tells, and dodge appropriately
+- Rotation after opening (3m30s per cycle):
+  - Bounds of Sin
+  - Spinelash
+  - Abyssal Blaze
+    - The direction in which the boss pulls open the hole (horizontal or vertical) indicates the direction the exaflare explosions will move later
+  - Drain Aether
+    - Both bosses will cast Drain Aether, but one cast will be quicker than the other. Change your light/dark debuff to match them in the proper order
+  - Abyssal Blaze resolves
+  - Bounds of Sin
+  - Fire/Blade combo
+  - Abyssal Blaze
+  - Spinelash
+  - Bounds of Sin
+  - Fire/Blade combo
+  - Drain Aether
+  - Abyssal Blaze resolves
+- There are several light and dark puddles on the arena floor. Stepping in one of these applies a 3-minute debuff of that color, which inflicts a tiny DoT but also allows you to damage the boss of the opposite color: Light Vengeance lets you hit Eminent Grief, and Dark Vengeance lets you hit Devoured Eater
+  - If you let the debuff expire, you're penalized with a short loss-of-control debuff, but since you have to switch colors for Drain Aether anyway, this should never be a problem. This mechanic is intended more for the Quantum version of the fight, where the debuff timer is shorter
+- If the bosses' health levels get more than 25% apart, the one with lower health gains a regeneration buff (0.1%/3s per stack) and the other gains a damage-up buff (+30% per stack), stacking once for each percent past 25%, so don't focus all your damage on a single boss
+  - Feo Ul can help here - she'll always attack whichever boss you hit first, letting you then focus on the other one. Most jobs will still outdamage her and need to switch target occasionally, but she makes it less of a chore
+- Aim Spinelash down the gold lines on the floor to avoid hitting windows. If an add does spawn, make sure to kill it quickly or it can hit you with Terror Eye while you're trapped by Bounds of Sin
+- To find the safe corner for Abyssal Blaze, check the boss hands direction and crystal layout for the first set of crystals:
+  - The crystals will be in a diagonal line - neither of the corners on that line is safe
+  - If the direction is horizontal, the remaining corner on the north is safe
+  - If the direction is vertical, the remaining corner on the south is safe
+- Don't fall off the edge!
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14264_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_14264_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_1_14264" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14264_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14264_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_11_14264" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_2566_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_21_2566" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14149_4538" xml:space="preserve">
+    <value>telegraphed wide but short conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_2566_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_31_2566" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_2566_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_41_2566" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_2566_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_51_2566" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_2566_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_61_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14178_22368" xml:space="preserve">
+    <value>untelegraphed huge 180 degree AoE to both sides - first  left side, then right side immediately after</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14178_22368" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14178_22369" xml:space="preserve">
+    <value>untelegraphed huge 180 degree AoE to both sides - first  right side, then left side immediately after</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14178_22369" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_2566_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_71_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14200_936" xml:space="preserve">
+    <value>instant; used with every auto-attack when below 33% HP</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14200_936" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_2566_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_81_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14218_44347" xml:space="preserve">
+    <value>untelegraphed huge 180 degree AoE to both sides - first  left side, then right side immediately after</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14218_44347" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14218_44345" xml:space="preserve">
+    <value>untelegraphed huge 180 degree AoE to both sides - first  right side, then left side immediately after</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14218_44345" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_2566_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_91_2566" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_13979_7" xml:space="preserve">
+    <value>no special effects</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14263_21169" xml:space="preserve">
+    <value>6 telegraphed circle AoEs on random points; inflicts vulnerability up (20% per stack, 1m). Has no cast bar, and is mostly used alongside Windraiser and Biting Wind</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_13971_43418" xml:space="preserve">
+    <value>untelegraphed donut AoE, starting to the boss's left or right and moving in a circle</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_13971_19285" xml:space="preserve">
+    <value>large pointblank AoE with late telegraph</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_2566_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_1_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_1_2566" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14116_2183" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14113_510" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14119_4514" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14118_520" xml:space="preserve">
+    <value>telegraphed line AoE charge attack</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14115_697" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14114_701" xml:space="preserve">
+    <value>telegraphed line AoE; inflicts knockback</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_11_14114_701" xml:space="preserve">
+    <value>movement</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_2566_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_2566_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_11_2566" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14117_2205" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_11_14117_2206" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14130_2310" xml:space="preserve">
+    <value>untelegraphed conal AoE - don't stand in front! Unlike other manticores, this one has a prominent visual effect while casting.</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_21_14130_2310" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14136_8496" xml:space="preserve">
+    <value>telegraphed line AoE on random player</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_21_14136" xml:space="preserve">
+    <value>- Can only be slowed with Arm's Length if transfigured via Pomander of Witching since it doesn't normally do melee auto-attacks
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14129_901" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14129_16818" xml:space="preserve">
+    <value>telegraphed line AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14128_44666" xml:space="preserve">
+    <value>telegraphed conal AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14126_739" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14126_740" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14127_17093" xml:space="preserve">
+    <value>telegraphed circle AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14127_17039" xml:space="preserve">
+    <value>telegraphed circle AoE used out of combat; chases target until in line-of-sight</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_21_14127_17039" xml:space="preserve">
+    <value>idle</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_21_14127" xml:space="preserve">
+    <value>- If a Venery targets you for Sanctified Flare, it will chase you until it gets into line-of-sight for the cast, even into hallways and other rooms. Flare can target even through walls between unconnected adjacent rooms, turning the enemy into a pseudo-patrol.
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14144_15815" xml:space="preserve">
+    <value>telegraphed huge conal AoE - get to the side or behind, or LoS</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14144_15815" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14144_15816" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14143_3977" xml:space="preserve">
+    <value>telegraphed conal AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14143_40741" xml:space="preserve">
+    <value>huge pointblank AoE gaze - look away! Inflicts petrify (15s, uncurable)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_31_14143_40741" xml:space="preserve">
+    <value>gaze</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14181_12692" xml:space="preserve">
+    <value>long line AoE with late telegraph</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14181_12692" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14181_24077" xml:space="preserve">
+    <value>telegraphed huge pointblank AoE enrage; used at 30% HP</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_61_14181_24077" xml:space="preserve">
+    <value>explosion</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14197_31447" xml:space="preserve">
+    <value>telegraphed huge donut AoE</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_71_14197_31447" xml:space="preserve">
+    <value>donut</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14197_31448" xml:space="preserve">
+    <value>telegraphed huge cross-shaped AoE - get to the corners of the triangle telegraphs</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_71_14197" xml:space="preserve">
+    <value>- The abilities and telegraphs are the same as those used by the EO floor 90 boss
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14142_5196" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_13863_39642" xml:space="preserve">
+    <value>ring AoEs spawned by Liturgy of Light</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_13863_39876" xml:space="preserve">
+    <value>spinning circle AoEs spawned by Liturgy of Light</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_14264_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_21_14264_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_21_14264" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_14265_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_31_14265_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_31_14265" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_14265_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_41_14265_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_41_14265" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_14265_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_51_14265_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_51_14265" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_14266_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_61_14266_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_61_14266" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_14266_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_71_14266_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_71_14266" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_14266_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_81_14266_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_81_14266" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_14266_2619" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_EurekaOrthos_91_14266_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_EurekaOrthos_91_14266" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Protomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14264_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_21_14264_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_21_14264" xml:space="preserve">
+    <value>- Sometimes found in bronze chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14265_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_31_14265_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_31_14265" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14265_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14265_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_41_14265" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14265_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_51_14265_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_51_14265" xml:space="preserve">
+    <value>- Sometimes found in silver chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14266_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_61_14266_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_61_14266" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14266_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_71_14266_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_71_14266" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14266_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_81_14266_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_81_14266" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14266_586" xml:space="preserve">
+    <value>inflicts pox (magic DoT potency 5, 10m); can be interrupted</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14266_1886" xml:space="preserve">
+    <value>telegraphed pointblank AoE</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_91_14266" xml:space="preserve">
+    <value>- Sometimes found in gold chests
+- Pomander of Alteration transforms all enemies in a random room on the next floor into either mimics or mandragoras
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14153_7" xml:space="preserve">
+    <value>inflicts vulnerability up (20% per stack, 20s)</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_41_14153_7" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14153_417" xml:space="preserve">
+    <value>small pointblank AoE with long cast time and very late telegraph; will one-shot DPS and healers without Steel</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_41_14153_417" xml:space="preserve">
+    <value>pointblank</value>
+  </data>
+  <data name="EnemyNote_PilgrimsTraverse_41_14153" xml:space="preserve">
+    <value>- Moves very slowly, but its attacks hurt. Keep your distance when possible
+- Be careful fighting other enemies alongside one of these - it's easy to forget about the Tortoise Stomp cast until the telegraph flashes under you and you die
+- Easy to deaggro by just running away
+</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_41_14263_6624" xml:space="preserve">
+    <value>6 telegraphed circle AoEs on random points; inflicts vulnerability up (20% per stack, 1m). Has no cast bar, and is mostly used alongside Windraiser and Biting Wind</value>
+  </data>
+  <data name="AbilityNote_PalaceOfTheDead_11_4987_5829" xml:space="preserve">
+    <value>instant</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14223_8666" xml:space="preserve">
+    <value>telegraphed circle AoE on random player</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14223_8665" xml:space="preserve">
+    <value>conal AoE with late telegraph on random player</value>
+  </data>
+  <data name="AbilityWarning_PilgrimsTraverse_91_14223_8665" xml:space="preserve">
+    <value>directional</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14037_685" xml:space="preserve">
+    <value>4 circle AoEs, targeting player positions when the cast FINISHES (like Twister) - wait for the cast to complete, then move away. Inflicts suppuration (max HP -10% and damage taken +20%, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14037_44063" xml:space="preserve">
+    <value>inflicts Chains of Condemnation (3s) on all players; moving while the debuff is active inflicts an additional 375 potency magic damage every half-second</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14037_44085" xml:space="preserve">
+    <value>line AoE with late telegraph on randomly targeted player; inflicts knockback. If the AoE hits a window behind the arena, a Vodoriga Minion add will spawn (up to 2 adds per window)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14037_44074" xml:space="preserve">
+    <value>inflicts vulnerability up (30% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14037_44065" xml:space="preserve">
+    <value>either a wide line AoE down the center of the arena, or two wide AoEs down the sides of the arena, depending on whether the boss is holding one or two swords; inflicts vulnerability up (30% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14037_44081" xml:space="preserve">
+    <value>pulls players to the center of the arena, inflicts bind (3s), then summons ice pillars to enclose the center - get out as soon as bind expires. Players caught in the middle are hit with a follow-up AoE which also inflicts vulnerability up (30% per stack, 1m)</value>
+  </data>
+  <data name="AbilityNote_PilgrimsTraverse_91_14037_44088" xml:space="preserve">
+    <value>drains HP (healing the boss) from all players. Can be blocked by having the opposite color debuff of the boss using the ability - light debuff for Eminent Grief, dark debuff for Devoured Eater</value>
   </data>
 </root>
