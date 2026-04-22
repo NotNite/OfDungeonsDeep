@@ -19,9 +19,10 @@ public class Ability {
         
         if (!abilities.Any()) {
             ImGui.TextUnformatted("No Special Abilities");
+            return;
         }
             
-        if (ImGui.BeginTable("###AbilityInfoTable", 3, ImGuiTableFlags.Resizable | ImGuiTableFlags.RowBg)) {
+        if (ImGui.BeginTable("###AbilityInfoTable", 3, ImGuiTableFlags.Resizable | ImGuiTableFlags.RowBg | ImGuiTableFlags.SizingStretchProp)) {
             ImGui.TableSetupColumn("##AbilityName", ImGuiTableColumnFlags.WidthFixed, 100.0f * ImGuiHelpers.GlobalScale);
             ImGui.TableSetupColumn("##Potency", ImGuiTableColumnFlags.WidthFixed, 75.0f * ImGuiHelpers.GlobalScale);
             ImGui.TableSetupColumn("##Description", ImGuiTableColumnFlags.WidthStretch);
@@ -42,6 +43,8 @@ public class Ability {
         var titleCaseName = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(ability.Name.ExtractText());
         var titleCaseNameEn = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(abilityEn.Name.ExtractText());
         
+        ImGui.TableNextRow();
+
         ImGui.TableNextColumn();
         ImGui.TextUnformatted(titleCaseName);
         if (ImGui.IsItemHovered()) {
@@ -57,7 +60,10 @@ public class Ability {
         }
         
         ImGui.TableNextColumn();
+        ImGui.PushTextWrapPos(0.0f);
         ImGui.TextUnformatted(description);
+        ImGui.PopTextWrapPos();
+
         if (ImGui.IsItemHovered()) {
             ImGui.SetTooltip(description.Replace("; ", "\n").Replace("%", "%%"));
         }
