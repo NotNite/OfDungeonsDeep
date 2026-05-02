@@ -6144,7 +6144,7 @@
     <value>instant conal AoE</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_21_5012_685" xml:space="preserve">
-    <value>instant circle AoE on random player; leaves burn puddle (unique DoT potency 350)</value>
+    <value>instant circle AoE on random player; leaves burn puddle (unique DoT for ~700 damage/tick, pierces Steel)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_21_5012_687" xml:space="preserve">
     <value>instant circle AoE on random player; leaves heavy puddle</value>
@@ -6171,7 +6171,7 @@
     <value>instant</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_51_5309_782" xml:space="preserve">
-    <value>instant large circle AoE leaving bleed puddle (unique DoT potency 70)</value>
+    <value>instant large circle AoE leaving bleed puddle (unique DoT for ~500 damage/tick, pierces Steel)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_51_5309_3167" xml:space="preserve">
     <value>telegraphed charge AoE; inflicts knockback'</value>
@@ -6267,7 +6267,7 @@
     <value>instant conal AoE</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_121_5397_685" xml:space="preserve">
-    <value>instant circle AoE on random player; leaves burn puddle (unique DoT potency 450)</value>
+    <value>instant circle AoE on random player; leaves burn puddle (unique DoT for ~3000 damage/tick, pierces Steel)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_121_5397_687" xml:space="preserve">
     <value>instant circle AoE on random player; leaves heavy puddle</value>
@@ -6276,7 +6276,7 @@
     <value>roomwide donut AoE; inflicts hysteria (10s); must be inside/near boss's target circle to avoid</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_131_5410_4355" xml:space="preserve">
-    <value>telegraphed circle AoE; leaves a bleed puddle (unique DoT potency 1300)</value>
+    <value>telegraphed circle AoE; leaves a bleed puddle (unique DoT for ~10k damage/tick, pierces Steel)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_131_5410_4359" xml:space="preserve">
     <value>telegraphed wide line AoE</value>
@@ -6321,7 +6321,7 @@
     <value>instant</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_151_5438_782" xml:space="preserve">
-    <value>instant large circle AoE leaving bleed puddle (unique DoT potency 100)</value>
+    <value>instant large circle AoE leaving bleed puddle (unique DoT for ~3000 damage/tick, pierces Steel)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_151_5438_3167" xml:space="preserve">
     <value>telegraphed charge AoE; inflicts knockback'</value>
@@ -6402,7 +6402,7 @@
     <value>instant pointblank AoE; inflicts heavy (30s) and knockback</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_31_5025_4355" xml:space="preserve">
-    <value>telegraphed circle AoE; leaves a bleed puddle (unique DoT potency 40)</value>
+    <value>telegraphed circle AoE; leaves a bleed puddle (unique DoT for ~200 damage/tick)</value>
   </data>
   <data name="AbilityNote_PalaceOfTheDead_31_5025_4359" xml:space="preserve">
     <value>telegraphed wide line AoE</value>

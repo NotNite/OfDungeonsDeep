@@ -2,6 +2,7 @@ using System.Numerics;
 using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.Bindings.ImGui;
+using Dalamud.Interface.Windowing;
 using OfDungeonsDeep.Components;
 
 namespace OfDungeonsDeep.Controllers;
@@ -25,7 +26,7 @@ public class TargetDataWindow : DeepDungeonWindow {
         if (!Plugin.InDeepDungeon()) return false;
         if (!Plugin.StorageManager.DataReady) return false;
         if (Services.TargetManager.Target is null) return false;
-        if (Services.TargetManager.Target is not IBattleNpc { BattleNpcKind: BattleNpcSubKind.Enemy }) return false;
+        if (Services.TargetManager.Target is not IBattleNpc { BattleNpcKind: BattleNpcSubKind.Combatant }) return false;
         if (Plugin.Configuration is { EnableDeadTargetWindow: false } && Services.ObjectTable.LocalPlayer is {IsDead: true}) return false;
 
         return true;

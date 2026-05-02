@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.ClientState.Objects.Types;
+using Dalamud.Game.DutyState;
 using Dalamud.Plugin.Services;
 using OfDungeonsDeep.Storage;
 
@@ -22,7 +23,7 @@ public class OfDungeonsDeepController : IDisposable {
         Services.Framework.Update += OnFrameworkUpdate;
 
         if (Plugin.InDeepDungeon()) {
-            OnDutyStarted(this, Services.ClientState.TerritoryType);
+            HandleDutyStarted();
         }
     }
 
@@ -41,7 +42,11 @@ public class OfDungeonsDeepController : IDisposable {
         TryShowFloorInfo();
     }
     
-    private void OnDutyStarted(object? sender, ushort e) {
+    private void OnDutyStarted(IDutyStateEventArgs args) {
+        HandleDutyStarted();
+    }
+
+    private void HandleDutyStarted() {
         if (!Plugin.InDeepDungeon()) return;
         if (!Plugin.StorageManager.DataReady) return;
 
@@ -68,7 +73,7 @@ public class OfDungeonsDeepController : IDisposable {
 
         UpdateData();
 
-        if (Services.TargetManager.Target is IBattleNpc { BattleNpcKind: BattleNpcSubKind.Enemy } currentTarget) {
+        if (Services.TargetManager.Target is IBattleNpc { BattleNpcKind: BattleNpcSubKind.Combatant } currentTarget) {
             if (lastFrameGameObject is null || (lastFrameGameObject is not null && currentTarget.EntityId != lastFrameGameObject.EntityId)) {
                 UpdateTarget(currentTarget);
             }

@@ -12,6 +12,7 @@ public class Services {
     [PluginService] public static ITargetManager TargetManager { get; private set; } = null!;
     [PluginService] public static IPluginLog PluginLog { get; private set; } = null!;
     [PluginService] public static IClientState ClientState { get; private set; } = null!;
+    [PluginService] public static IPlayerState PlayerState { get; private set; } = null!;
     [PluginService] public static IObjectTable ObjectTable { get; private set; } = null!;
     [PluginService] public static IDutyState DutyState { get; private set; } = null!;
     [PluginService] public static IDataManager DataManager { get; private set; } = null!;
